@@ -3,13 +3,16 @@ import requests
 from bs4 import BeautifulSoup
 from soupselect import select
 
-episode_guide = open("Episode_Guide", 'r')
+import time
+import datetime
+
+episode_guide = open("data/Episode_Guide", 'r')
 
 soup = BeautifulSoup(episode_guide.read())
 
-with open('data/episodes.txt', 'w') as episodes:
+with open('data/episodes.csv', 'w') as episodes:
     writer = csv.writer(episodes, delimiter=',')
-    writer.writerow(["NumberOverall", "NumberInSeason", "Episode", "Season", "DateAired"])
+    writer.writerow(["NumberOverall", "NumberInSeason", "Episode", "Season", "DateAired", "Timestamp"])
 
     for row in select(soup, 'tr'):
         link_to_episode = select(row.contents[3], "a")
@@ -17,7 +20,10 @@ with open('data/episodes.txt', 'w') as episodes:
             number_overall = row.contents[1].text.strip()
             number_in_season = row.contents[2].text.strip()
             episode = link_to_episode[0].get("href").replace('"', '').strip()
+
             date_aired = row.contents[4].text.strip()
+            timestamp = int(time.mktime(datetime.datetime.strptime(date_aired, "%B %d, %Y").timetuple()))
+
 
             if int(number_overall) < 23:
                 season = 1
@@ -41,4 +47,4 @@ with open('data/episodes.txt', 'w') as episodes:
             if number_overall == "216":
                 number_overall = "180"
 
-            writer.writerow([number_overall, number_in_season, episode, season, date_aired])
+            writer.writerow([number_overall, number_in_season, episode, season, date_aired, timestamp])

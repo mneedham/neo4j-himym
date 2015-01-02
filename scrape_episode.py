@@ -25,9 +25,9 @@ with open('data/episodes.csv', 'r') as episodes:
     reader = csv.reader(episodes, delimiter=',')
     reader.next()
 
-    with open('data/episodes_full.txt', 'w') as fullepisodes:
+    with open('data/episodes_full.csv', 'w') as fullepisodes:
         writer = csv.writer(fullepisodes, delimiter=',')
-        writer.writerow(["NumberOverall", "NumberInSeason", "Episode", "Season", "DateAired", "Title", "Director", "Viewers", "Writers"])
+        writer.writerow(["NumberOverall", "NumberInSeason", "Episode", "Season", "DateAired", "Timestamp", "Title", "Director", "Viewers", "Writers"])
 
         for row in reader:
             row.append(episode_dict[row[0]]['title'].encode('utf-8'))
