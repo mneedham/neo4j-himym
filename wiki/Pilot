@@ -1,0 +1,2094 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="generator" content="MediaWiki 1.19.20" />
+<meta name="keywords" content="How I Met Your Mother Wiki,himym,Pilot,How I Met Your Mother,Season 1,Purple Giraffe,Pamela Fryman,Carter Bays,Craig Thomas,Future Ted,The Mother,Marshall,Lily" />
+<meta name="description" content="Future Ted begins telling his two kids the story of how he met their mother. He introduces..." />
+<meta name="google-site-verification" content="FWDIEKdYsseJudHwDCmJdPHBH4nEW4f-WqzSI7xiwnw" />
+<link rel="canonical" href="http://how-i-met-your-mother.wikia.com/wiki/Pilot" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/wiki/Pilot?action=edit" />
+<link rel="edit" title="Edit this page" href="/wiki/Pilot?action=edit" />
+<link rel="apple-touch-icon" href="http://img2.wikia.nocookie.net/__cb56/himym/images/b/bc/Wiki.png" />
+<link rel="shortcut icon" href="http://vignette3.wikia.nocookie.net/himym/images/6/64/Favicon.ico/revision/latest?cb=20100203091416" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="How I Met Your Mother Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://how-i-met-your-mother.wikia.com/api.php?action=rsd" />
+<link rel="copyright" href="http://www.wikia.com/Licensing" />
+<link rel="alternate" type="application/atom+xml" title="How I Met Your Mother Wiki Atom feed" href="/wiki/Special:RecentChanges?feed=atom" />
+<title>Pilot - How I Met Your Mother Wiki</title>
+
+<!-- CSS injected by skin and extensions -->
+<link rel="stylesheet" href="http://slot1.images1.wikia.nocookie.net/__am/1419252955/sasses/background-dynamic%3Dtrue%26background-image%3Dhttp%253A%252F%252Fimg1.wikia.nocookie.net%252F__cb56%252Fhimym%252Fimages%252F5%252F50%252FWiki-background%26background-image-height%3D800%26background-image-width%3D2000%26color-body%3D%2523f0db28%26color-body-middle%3D%2523f0db28%26color-buttons%3D%2523ffaa00%26color-header%3D%2523d62c04%26color-links%3D%252300008b%26color-page%3D%2523ebebeb%26page-opacity%3D100%26widthType%3D2/skins/oasis/css/oasis.scss,extensions/wikia/Forum/css/ForumTag.scss,extensions/wikia/MonetizationModule/styles/MonetizationModule.scss,extensions/wikia/GlobalNavigation/styles/GlobalNavigation.scss,extensions/wikia/GlobalNavigation/styles/GlobalNavigationSearch.scss,extensions/wikia/GlobalNavigation/styles/GlobalNavigationAccountNavigation.scss,extensions/wikia/GlobalNavigation/styles/GlobalNavigationHubsMenu.scss,extensions/wikia/UserLogin/css/UserLoginDropdown.globalNavigation.scss,extensions/wikia/WallNotifications/styles/WallNotifications.globalNavigation.scss,extensions/wikia/GlobalNavigation/styles/GlobalNavigationOasis.scss,extensions/wikia/GlobalNavigation/styles/GlobalNavigationSearchOasis.scss,extensions/wikia/Qualaroo/css/Qualaroo.scss" /><link rel="stylesheet" href="http://how-i-met-your-mother.wikia.com/__load/-/cb%3D1419252955%26debug%3Dfalse%26lang%3Den%26only%3Dstyles%26skin%3Doasis/site" /><style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: himym:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */</style>
+
+
+<script>
+var Wikia={},
+wgWikiVertical="tv",
+wgWikiCategories=[],
+wgMessages={"categoryselect-button-save":"Save","categoryselect-category-add":"Add category...","categoryselect-category-edit":"Edit category","categoryselect-category-remove":"Remove category","categoryselect-error-category-name-length":"The maximum length for a category name has been reached.","categoryselect-error-duplicate-category-name":"Category \"$1\" already exists.","categoryselect-error-empty-category-name":"Please provide a category name.","categoryselect-modal-category-name":"Provide the name of the category:","categoryselect-modal-category-sortkey":"Optionally, you may alphabetize this page on the \"$1\" category page under the name:","categoryselect-tooltip-add":"Press the Enter or Return key when done.","wikiarelatedpages-heading":"Read more","chat-join-the-chat":"Join the Chat","chat-start-a-chat":"Start a Chat","chat-user-menu-message-wall":"Message Wall","chat-user-menu-talk-page":"Talk Page","chat-user-menu-contribs":"Contributions","chat-live2":"Live! Chat","chat-edit-count":"$1 edits","chat-member-since":"Member since $1"},
+JSSnippetsStack=[],
+ads={"context":{"opts":{"adsInContent":true,"enableAdsInMaps":true,"pageType":"all_ads","showAds":true},"targeting":{"enableKruxTargeting":true,"enablePageCategories":true,"pageArticleId":1977,"pageIsArticle":true,"pageName":"Pilot","pageType":"article","skin":"oasis","wikiCategory":"ent","wikiDbName":"himym","wikiIsTop1000":true,"wikiLanguage":"en","wikiVertical":"Entertainment"},"providers":[],"slots":[],"forceProviders":[]}},
+adslots2=[],
+adDriverLastDARTCallNoAds=[],
+adDriver2ForcedStatus=[],
+wgGaHasAds=true,
+wgEnableOpenXSPC=true,
+wgAfterContentAndJS=[],
+wgWikiFactoryTagIds=[129,100056,100057,100058,100059,100428],
+wgWikiFactoryTagNames=["entertainment","wow","t9","skyscraper","skyscrapperwow","apertureenabled"],
+wgCdnRootUrl="http://slot1.images.wikia.nocookie.net",
+wgCdnApiUrl="http://api.wikia.nocookie.net/__cb1419252955",
+wgDBname="himym",
+wgCityId="8221",
+wgContentLanguage="en",
+wgUserName=null,
+wgArticleId=1977,
+wgCategories=["Season 1","Episodes","Old episodes"],
+wgPageName="Pilot",
+wikiaPageType="article",
+skin="oasis",
+_gaq=[],
+wgIsGASpecialWiki=null,
+wgStyleVersion="1419252955",
+wgTransactionContext={"type":"page/main/view/oasis/no_parser/average","env":"prod","wiki":"himym","entry_point":"page","namespace":0,"logged_in":false,"action":"view","skin":"oasis","parser_cache_used":true,"size_category":"average"};
+</script><script>window.mw||(mw={fk:1,loader:{state:function(s){preMwLdrStA=window.preMwLdrStA||[];preMwLdrStA.push(s)}}});</script>
+<script>
+function syslogReport(priority,message,context){context=context||null;var url='//jserrorslog.wikia.com/',i=new Image(),data={'@message':message,'syslog_pri':priority};if(context){data['@context']=context;}
+try{data['@fields']={server:document.cookie.match(/server.([A-Z]*).cache/)[1]};}catch(e){}
+try{i.src=url+'l?'+JSON.stringify(data);}catch(e){i.src=url+'e?'+e;}}</script><script>var wgNow = new Date();</script>
+<!-- Wikia Beacon Tracking -->
+<noscript><img src="http://a.wikia-beacon.com/__track/view?cb=1419252955&amp;c=8221&amp;lc=en&amp;lid=75&amp;x=himym&amp;y=c1&amp;u=0&amp;a=1977&amp;s=oasis&amp;n=0&amp;nojs=1" width="1" height="1" border="0" alt="" /></noscript>
+<script>
+(function() {
+	var result = RegExp("wikia_beacon_id=([A-Za-z0-9_-]{10})").exec(document.cookie);
+	if(result) {
+		window.beacon_id = result[1];
+	} else {
+		// something went terribly wrong
+	}
+
+	var utma = RegExp("__utma=([0-9\.]+)").exec(document.cookie);
+	var utmb = RegExp("__utmb=([0-9\.]+)").exec(document.cookie);
+
+	var trackUrl = "http://a.wikia-beacon.com/__track/view?cb=1419252955&amp;c=8221&amp;lc=en&amp;lid=75&amp;x=himym&amp;y=c1&amp;u=0&amp;a=1977&amp;s=oasis&amp;n=0" + ((typeof document.referrer != "undefined") ? "&amp;r=" + escape(document.referrer) : "") + "&amp;rand=" + (new Date).valueOf() + (window.beacon_id ? "&amp;beacon=" + window.beacon_id : "") + (utma && utma[1] ? "&amp;utma=" + utma[1] : "") + (utmb && utmb[1] ? "&amp;utmb=" + utmb[1] : "");
+	document.write('<'+'script type="text/javascript" src="' + trackUrl + '"><'+'/script>');
+})();
+</script><script src="http://community.wikia.com/wikia.php?controller=Optimizely&method=getCode"></script><script src="http://slot1.images4.wikia.nocookie.net/__load/-/cb%3D1419252955%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/wikia.ext.instantGlobals,abtesting"></script>
+<script src="http://slot1.images1.wikia.nocookie.net/__load/-/cb%3D1419252955%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/amd|wikia.tracker.stub,stub|wikia.abTest,cache,cookies,document,geo,instantGlobals,localStorage,location,log,querystring,window"></script>
+<script>/*<![CDATA[*/window.mw.fk&&delete mw;/*]]>*/</script>
+<script type="text/javascript" src="http://slot1.images.wikia.nocookie.net/__am/1419252955/groups/-/abtesting,oasis_blocking,analytics_gas_js,adengine2_tracking_js,adengine2_rubicon_rtp_js,adengine2_amazon_match_js,optimizely_blocking_js,qualaroo_blocking_js,monetization_module_top_script_js"></script>
+<!-- Make IE recognize HTML5 tags. -->
+<!--[if IE]>
+	<script>/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/</script>
+<![endif]-->
+
+
+
+	<meta property="fb:app_id" content="112328095453510" prefix="fb: http://www.facebook.com/2008/fbml" />
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="How I Met Your Mother Wiki" />
+	<meta property="og:title" content="Pilot" />
+	<meta property="og:description" content="Future Ted begins telling his two kids the story of how he met their mother. He introduces Barney, Lily, Marshall and Robin, telling his kids how Lily and Marshall got engaged and how he met Robin. The episode (and series) begins with a future Ted explaining to his children the story of how he met their mother." />
+	<meta property="og:url" content="http://how-i-met-your-mother.wikia.com/wiki/Pilot" />
+	<meta property="og:image" content="http://img1.wikia.nocookie.net/__cb20120512182622/himym/images/8/89/Wiki-wordmark.png" />
+<meta name="apple-itunes-app" content="app-id=623705389">
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Pilot  TOC_hide MiniEditor wikinav2 skin-oasis background-fixed background-not-tiled background-dynamic">
+	<div class="background-image-gradient"></div>
+
+
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6177433",
+	options: {
+		url_append: "comscorekw=wikiacsid_entertainment"
+	}
+});
+
+(function() {
+	var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6177433&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c7=http%3A%2F%2Fhow-i-met-your-mother.wikia.com%2Fwiki%2FPilot%3Fcomscorekw%3Dwikiacsid_entertainment&amp;c15=&amp;cv=2.0&amp;cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<!-- Start for QuantServe, page_view -->
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+
+  (function() {
+   var elem = document.createElement('script');
+
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);
+  })();
+</script>
+<script type="text/javascript">
+var quantcastLabels = "";
+if (window.wgWikiVertical) {
+	quantcastLabels += wgWikiVertical;
+	if (window.wgDartCustomKeyValues) {
+		var keyValues = wgDartCustomKeyValues.split(';');
+		for (var i=0; i<keyValues.length; i++) {
+			var keyValue = keyValues[i].split('=');
+			if (keyValue.length >= 2) {
+				quantcastLabels += ',' + wgWikiVertical + '.' + keyValue[1];
+			}
+		}
+	}
+}
+_qevents.push( { qacct:"p-8bG6eLqkH6Avk", labels:quantcastLabels } );
+</script>
+<noscript>
+<div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-8bG6eLqkH6Avk.gif" height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+<!-- Start for AmazonMatch, page_view -->
+<script id="analytics-provider-amazon-match">
+	require(["ext.wikia.adEngine.amazonMatchOld", "wikia.geo", "wikia.instantGlobals"], function (amazon, geo, globals) {
+		var ac = globals["wgAmazonMatchOldCountries"];
+
+		if (ac && ac.indexOf && ac.indexOf(geo.getCountryCode()) > -1) {
+			amazon.call();
+		}
+	});
+	require(["ext.wikia.adEngine.amazonMatch", "wikia.geo", "wikia.instantGlobals"], function (amazon, geo, globals) {
+		var ac = globals["wgAmazonMatchCountries"];
+
+		if (ac && ac.indexOf && ac.indexOf(geo.getCountryCode()) > -1) {
+			amazon.call();
+		}
+	});
+</script>
+<!-- Unsupported language for AnalyticsProviderIVW2 -->
+<!-- Start for RubiconRTP, page_view -->
+<script>
+	require(['wikia.geo', 'wikia.instantGlobals', 'ext.wikia.adEngine.rubiconRtp'], function (geo, instantGlobals, rtp) {
+		var rtpCountries = ["US","GB","BR"], country = geo.getCountryCode();
+
+		if (rtpCountries.indexOf(country) !== -1 && !instantGlobals.wgSitewideDisableRubiconRTP) {
+			rtp.call({"disabled":false,"oz_site":"7450\/11979","oz_zone":"145168","oz_ad_slot_size":"728x90","skin":["oasis"],"oz_cached_only":false,"slotname":["BOTTOM_LEADERBOARD","CORP_TOP_LEADERBOARD","HOME_TOP_LEADERBOARD","HUB_TOP_LEADERBOARD","TOP_LEADERBOARD"]});
+		}
+	});
+</script><div class="WikiaSiteWrapper">
+	<h1>Wikia</h1>
+<div class="skiplinkcontainer">
+<a class="skiplink" rel="nofollow" href="#WikiaArticle">Skip to Content</a>
+<a class="skiplink wikinav" rel="nofollow" href="#WikiHeader">Skip to Wiki Navigation</a>
+<a class="skiplink sitenav" rel="nofollow" href="#GlobalNavigation">Skip to Site Navigation</a>
+</div>
+
+<div id="ad-skin" class="wikia-ad noprint"></div>
+
+	<nav class="global-navigation" id="globalNavigation">
+	<div class="page-width">
+		<div class="global-navigation-item wikia-logo-container" id="hubsEntryPoint">
+			<a href="http://www.wikia.com" class="global-navigation-link wikia-logo" rel="nofollow"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" height="24" width="91" alt="Wikia" title="Wikia"></a>
+			<a class="hubs-entry-point global-navigation-link"></a>
+<nav id="hubs" class="hubs-menu">
+	<ul class="hub-list">
+					<li>
+								<a data-vertical="comics" href="http://comicshub.wikia.com/wiki/Comics_Hub" class="comics hub-link ">
+					<span class="icon"></span>
+					<span class="label">Comics</span>
+				</a>
+							</li>
+					<li>
+								<a data-vertical="tv" href="http://tvhub.wikia.com/wiki/TV_Hub" class="tv hub-link  active">
+					<span class="icon"></span>
+					<span class="label">TV</span>
+				</a>
+							</li>
+					<li>
+								<a data-vertical="movies" href="http://movieshub.wikia.com/wiki/Movies_Hub" class="movies hub-link ">
+					<span class="icon"></span>
+					<span class="label">Movies</span>
+				</a>
+							</li>
+					<li>
+								<a data-vertical="music" href="http://musichub.wikia.com/wiki/Music_Hub" class="music hub-link ">
+					<span class="icon"></span>
+					<span class="label">Music</span>
+				</a>
+							</li>
+					<li>
+								<a data-vertical="books" href="http://bookshub.wikia.com/wiki/Books_Hub" class="books hub-link ">
+					<span class="icon"></span>
+					<span class="label">Books</span>
+				</a>
+							</li>
+					<li>
+								<a data-vertical="games" href="http://gameshub.wikia.com/wiki/Games_Hub" class="games hub-link ">
+					<span class="icon"></span>
+					<span class="label">Games</span>
+				</a>
+							</li>
+					<li>
+								<a data-vertical="lifestyle" href="http://lifestylehub.wikia.com/wiki/Lifestyle_Hub" class="lifestyle hub-link ">
+					<span class="icon"></span>
+					<span class="label">Lifestyle</span>
+				</a>
+							</li>
+			</ul>
+	<div class="hub-links">
+		<div class="hub-menu-section tv-links active">
+			<ul>
+			<strong>TOP SHOWS</strong>
+							<li>
+					<a href="http://ow.ly/Fo94I">The Walking Dead</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/GjDjo">Agents of S.H.I.E.L.D.</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/GjDmu">Arrow</a>
+				</li>
+					</ul>
+			<ul>
+			<strong>GAME OF THRONES</strong>
+							<li>
+					<a href="http://ow.ly/Fo9L1">Personality Quiz</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/FOSOv">Arya Stark vs. Tyrion Lannister</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/Fo9v1">Iron From Ice Fannotation</a>
+				</li>
+					</ul>
+			<ul>
+			<strong>GET YOUR GEEK ON</strong>
+							<li>
+					<a href="http://ow.ly/Foa9e">Star Wars Rebels</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/FoacT">Star Trek Fan Census</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/FP4A8">Create Your Marvel Team with Captain America</a>
+				</li>
+							<li>
+					<a href="http://tvhub.wikia.com/wiki/TV_Hub">More...</a>
+				</li>
+					</ul>
+			<ul>
+			<strong>YEAR IN FANDOM</strong>
+							<li>
+					<a href="http://ow.ly/Foaoc">GOT’s Purple Wedding Pleases</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/Foast">Disney Picks its Star Wars Canon</a>
+				</li>
+							<li>
+					<a href="http://ow.ly/FoawG">Share Your Favorite Moment in 2014</a>
+				</li>
+							<li>
+					<a href="http://tvhub.wikia.com/wiki/TV_Hub">More...</a>
+				</li>
+					</ul>
+		<a class="more" href="http://tvhub.wikia.com/wiki/TV_Hub">More TV</a>
+</div>
+	</div>
+</nav>
+		</div>
+		<div class="global-navigation-item search-container">
+			<div class="search-form-wrapper">
+	<form action="http://how-i-met-your-mother.wikia.com/wiki/Special:Search" class="search-form" id="searchForm" method="get">
+		<span class="search-label-bold table-cell">Search</span>
+		<div class="search-select-wrapper table-cell">
+					<div class="search-select-underlay">
+				<span class="search-label-inline" id="searchLabelInline">this wikia</span>
+				<img class="chevron" id="searchFormChevron" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"/>
+				<select class="search-select" id="searchSelect">
+					<option value="local" selected="selected" data-search-url="http://how-i-met-your-mother.wikia.com/wiki/Special:Search">this wikia</option>
+					<option value="global" data-search-url="http://www.wikia.com/wiki/Special:Search">all of Wikia</option>
+				</select>
+			</div>
+				</div>
+		<div class="global-nav-search-input-wrapper table-cell">
+			<input id="searchInput" accesskey="f" autocomplete="off" class="search-input" name="search" type="text" value=""/>
+			<input name="fulltext" type="hidden" value="Search"/>
+			<input disabled id="searchInputResultLang" type="hidden" name="resultsLang" value="en"/>
+			<button class="search-submit" type="submit"></button>
+		</div>
+	</form>
+</div>
+		</div>
+		<div class="global-navigation-item start-wikia-container">
+			<a href="http://www.wikia.com/Special:CreateNewWiki" class="global-navigation-link start-wikia" title="Start a wikia"><span>Start a wikia</span></a>
+		</div>
+		<div class="global-navigation-item account-navigation-container">
+			<ul id="AccountNavigation" class="AccountNavigation">
+	<li>
+		<a data-id="login" href="/wiki/Special:UserLogin?returnto=Pilot" rel="nofollow" title="Log in" class="ajaxLogin global-navigation-link" accesskey="o">			<div class="bubbles">
+				<div class="bubbles-count notifications-count"></div>
+			</div>
+			<div class="avatar-container anon-avatar-placeholder">
+							</div>
+		</a>
+		<div id="UserLoginDropdown" class="UserLoginDropdown">
+	<div class="ajaxRegisterContainer"><a data-id="register" href="/wiki/Special:UserSignup" rel="nofollow" class="ajaxRegister">Sign up</a></div>
+	
+<form action="/wiki/Special:UserLogin" method="post" class="WikiaForm">
+	<fieldset>
+		
+					<div class="input-group error general-errors">
+				<div class="error-msg"></div>
+			</div>
+		
+		
+									
+									<input type="hidden" name="loginToken" value="">
+											
+									<input type="hidden" name="returnto" value="Pilot">
+											
+									<input type="hidden" name="returntoquery" value="title=Pilot">
+											
+															<div class="input-group hide-label required">
+					
+													<label>Username</label>
+						
+						
+																												<input type="text" class="hide-label" id="usernameInput" name="username" tabindex="1" placeholder="Username">
+							
+						
+						
+											</div>
+					
+											
+															<div class="input-group hide-label required">
+					
+													<label>Password</label>
+						
+						
+														<input type="password" class="hide-label" id="passwordInput" name="password" tabindex="2" placeholder="Password">
+							
+						
+						
+											</div>
+					
+											
+															<div class="input-group">
+					
+						
+						
+														<a href="#" class="forgot-password" tabindex="0">Forgot your password?</a>							
+						
+						
+											</div>
+					
+											
+															<div class="input-group keep-logged-in">
+					
+						
+													<label>
+						
+														<input type="checkbox" class="keep-logged-in" name="keeploggedin" value="1" tabindex="3">
+								
+						
+													Stay logged in</label>
+						
+											</div>
+					
+											
+															<div class="input-group login-button">
+					
+						
+						
+														<input type="submit" class="login-button" value="Log in" tabindex="4">
+							
+						
+						
+											</div>
+					
+										</fieldset>
+
+	</form>
+	<div class="sso-login">
+		<div class="sso-login-divider">
+			<span>Or</span>
+		</div>
+
+					<a href="#" class="wikia-button wikia-button-facebook sso-login-facebook"  data-id="facebook" tabindex="5" ><img alt="" class="sprite facebook" height="14" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" width="15" /> Connect</a>
+	</div>
+</div>
+	</li>
+</ul>
+		</div>
+			</div>
+</nav>
+<div class="WikiaTopAds" id="WikiaTopAds">
+
+	<div class="WikiaTopAdsInner">
+
+
+		<!-- BEGIN SLOTNAME: TOP_LEADERBOARD -->
+<div id="TOP_LEADERBOARD" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["TOP_LEADERBOARD"]);
+</script>
+</div>
+<!-- END SLOTNAME: TOP_LEADERBOARD -->
+
+		<!-- BEGIN SLOTNAME: TOP_BUTTON_WIDE -->
+<div id="TOP_BUTTON_WIDE" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["TOP_BUTTON_WIDE"]);
+</script>
+</div>
+<!-- END SLOTNAME: TOP_BUTTON_WIDE -->
+
+	</div>
+
+	<!-- BEGIN SLOTNAME: INVISIBLE_SKIN -->
+<div id="INVISIBLE_SKIN" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["INVISIBLE_SKIN"]);
+</script>
+</div>
+<!-- END SLOTNAME: INVISIBLE_SKIN -->
+
+</div>
+
+
+<section id="WikiaPage" class="WikiaPage V2">
+	<div id="WikiaPageBackground" class="WikiaPageBackground"></div>
+	<div class="WikiaPageContentWrapper">
+				<header id="WikiHeader" class="WikiHeader">
+	<h1 class="wordmark medium graphic ">
+	<a accesskey="z" href="/wiki/How_I_Met_Your_Mother_Wiki">
+					<img src="http://img1.wikia.nocookie.net/__cb56/himym/images/8/89/Wiki-wordmark.png" alt="How I Met Your Mother Wiki"  width="250" height="65" >
+			</a>
+</h1>
+        <nav class="WikiNav">
+    	        <h1>How I Met Your Mother Wiki Navigation</h1>
+        		<ul class="nav">
+																				<li class="nav-item marked">
+						<a href="#">On the Wiki</a>
+
+													<ul class="subnav-2 accent firstChild">
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Special:WikiActivity" data-canonical="wikiactivity">Wiki Activity</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Special:Random" data-canonical="random">Random page</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Special:Videos" data-canonical="videos">Videos</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Special:NewFiles" data-canonical="newfiles">Photos</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Special:Chat" data-canonical="chat">Chat</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Special:Forum" data-canonical="forum">Forum</a>
+
+																			</li>
+																							</ul>
+											</li>
+																												<li class="nav-item">
+						<a href="/wiki/Character_List">Characters</a>
+
+													<ul class="subnav-2 accent">
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Ted_Mosby">Ted Mosby</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Robin_Scherbatsky">Robin Scherbatsky</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Barney_Stinson">Barney Stinson</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Marshall_Eriksen">Marshall Eriksen</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Lily_Aldrin">Lily Aldrin</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/The_Mother">The Mother</a>
+
+																			</li>
+																							</ul>
+											</li>
+																				<li class="nav-item">
+						<a href="/wiki/Episode_Guide">Seasons</a>
+
+													<ul class="subnav-2 accent">
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_1">1<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Pilot">Pilot</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Purple_Giraffe">Purple Giraffe</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Sweet_Taste_of_Liberty">Sweet Taste of Liberty</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Return_of_the_Shirt">Return of the Shirt</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Okay_Awesome">Okay Awesome</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Slutty_Pumpkin">Slutty Pumpkin</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Matchmaker">Matchmaker</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Duel">The Duel</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Belly_Full_of_Turkey">Belly Full of Turkey</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Pineapple_Incident">The Pineapple Incident</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Limo">The Limo</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Wedding">The Wedding</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Drumroll,_Please">Drumroll, Please</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Zip,_Zip,_Zip">Zip, Zip, Zip</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Game_Night">Game Night</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Cupcake">Cupcake</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Life_Among_Gorillas">Life Among Gorillas</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Nothing_Good_Happens_After_2_A.M.">Nothing Good Happens After 2 A.M.</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Mary_the_Paralegal">Mary the Paralegal</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Best_Prom_Ever">Best Prom Ever</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Milk">Milk</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Come_On">Come On</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_2">2<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Where_Were_We%3F">Where Were We?</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Scorpion_and_the_Toad">The Scorpion and the Toad</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Brunch">Brunch</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Ted_Mosby:_Architect">Ted Mosby: Architect</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/World%27s_Greatest_Couple">World's Greatest Couple</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Aldrin_Justice">Aldrin Justice</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Swarley">Swarley</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Atlantic_City">Atlantic City</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Slap_Bet">Slap Bet</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Single_Stamina">Single Stamina</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/How_Lily_Stole_Christmas">How Lily Stole Christmas</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/First_Time_In_New_York">First Time In New York</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Columns">Columns</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Monday_Night_Football">Monday Night Football</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Lucky_Penny">Lucky Penny</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Stuff">Stuff</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Arrivederci,_Fiero">Arrivederci, Fiero</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Moving_Day">Moving Day</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Bachelor_Party">Bachelor Party</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Showdown">Showdown</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Something_Borrowed">Something Borrowed</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Something_Blue">Something Blue</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_3">3<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Wait_For_It">Wait For It</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/We%27re_Not_From_Here">We're Not From Here</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Third_Wheel">Third Wheel</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Little_Boys">Little Boys</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/How_I_Met_Everyone_Else">How I Met Everyone Else</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/I%27m_Not_That_Guy">I'm Not That Guy</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Dowisetrepla">Dowisetrepla</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Spoiler_Alert">Spoiler Alert</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Slapsgiving">Slapsgiving</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Yips">The Yips</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Platinum_Rule">The Platinum Rule</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/No_Tomorrow">No Tomorrow</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Ten_Sessions">Ten Sessions</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Bracket">The Bracket</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Chain_of_Screaming">The Chain of Screaming</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Sandcastles_In_The_Sand">Sandcastles In The Sand</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Goat">The Goat</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Rebound_Bro">Rebound Bro</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Everything_Must_Go">Everything Must Go</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Miracles">Miracles</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_4">4<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Do_I_Know_You%3F">Do I Know You?</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Best_Burger_in_New_York">The Best Burger in New York</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/I_Heart_NJ">I Heart NJ</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Intervention">Intervention</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Shelter_Island">Shelter Island</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Happily_Ever_After">Happily Ever After</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Not_A_Father%27s_Day">Not A Father's Day</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Woooo!">Woooo!</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Naked_Man">The Naked Man</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Fight">The Fight</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Little_Minnesota">Little Minnesota</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Benefits">Benefits</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Three_Days_Of_Snow">Three Days Of Snow</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Possimpible">The Possimpible</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Stinsons">The Stinsons</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Sorry,_Bro">Sorry, Bro</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Front_Porch">The Front Porch</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Old_King_Clancy">Old King Clancy</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Murtaugh">Murtaugh</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Mosbius_Designs">Mosbius Designs</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Three_Days_Rule">The Three Days Rule</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Right_Place_Right_Time">Right Place Right Time</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/As_Fast_As_She_Can">As Fast As She Can</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Leap">The Leap</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_5">5<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Definitions">Definitions</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Double_Date">Double Date</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Robin_101">Robin 101</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Sexless_Innkeeper">The Sexless Innkeeper</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Duel_Citizenship">Duel Citizenship</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Bagpipes">Bagpipes</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Rough_Patch">The Rough Patch</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Playbook">The Playbook</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Slapsgiving_2:_Revenge_Of_The_Slap">Slapsgiving 2: Revenge Of The Slap</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Window">The Window</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Last_Cigarette_Ever">Last Cigarette Ever</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Girls_Versus_Suits">Girls Versus Suits</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Jenkins">Jenkins</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Perfect_Week">Perfect Week</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Rabbit_or_Duck">Rabbit or Duck</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Hooked">Hooked</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Of_Course">Of Course</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Say_Cheese">Say Cheese</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Zoo_or_False">Zoo or False</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Home_Wreckers">Home Wreckers</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Twin_Beds">Twin Beds</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Robots_Versus_Wrestlers">Robots Versus Wrestlers</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Wedding_Bride">The Wedding Bride</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Doppelgangers">Doppelgangers</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_6">6<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Big_Days">Big Days</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Cleaning_House">Cleaning House</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Unfinished">Unfinished</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Subway_Wars">Subway Wars</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Architect_of_Destruction">Architect of Destruction</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Baby_Talk">Baby Talk</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Canning_Randy">Canning Randy</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Natural_History">Natural History</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Glitter">Glitter</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Blitzgiving">Blitzgiving</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Mermaid_Theory">The Mermaid Theory</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/False_Positive">False Positive</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Bad_News">Bad News</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Last_Words">Last Words</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Oh_Honey">Oh Honey</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Desperation_Day">Desperation Day</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Garbage_Island">Garbage Island</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/A_Change_of_Heart">A Change of Heart</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Legendaddy">Legendaddy</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Exploding_Meatball_Sub">The Exploding Meatball Sub</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Hopeless">Hopeless</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Perfect_Cocktail">The Perfect Cocktail</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Landmarks">Landmarks</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Challenge_Accepted">Challenge Accepted</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_7">7<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Best_Man">The Best Man</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Naked_Truth">The Naked Truth</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Ducky_Tie">Ducky Tie</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Stinson_Missile_Crisis">The Stinson Missile Crisis</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Field_Trip">Field Trip</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Mystery_vs._History">Mystery vs. History</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Noretta">Noretta</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Slutty_Pumpkin_Returns">The Slutty Pumpkin Returns</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Disaster_Averted">Disaster Averted</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Tick_Tick_Tick">Tick Tick Tick</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Rebound_Girl">The Rebound Girl</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Symphony_of_Illumination">Symphony of Illumination</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Tailgate">Tailgate</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/46_Minutes">46 Minutes</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Burning_Beekeeper">The Burning Beekeeper</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Drunk_Train">The Drunk Train</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/No_Pressure">No Pressure</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Karma">Karma</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Broath">The Broath</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Trilogy_Time">Trilogy Time</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Now_We%27re_Even">Now We're Even</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Good_Crazy">Good Crazy</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Magician%27s_Code_-_Part_One">The Magician's Code - Part One</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Magician%27s_Code_-_Part_Two">The Magician's Code - Part Two</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_8">8<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Farhampton">Farhampton</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Pre-Nup">The Pre-Nup</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Nannies">Nannies</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Who_Wants_to_Be_a_Godparent%3F">Who Wants to Be a Godparent?</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Autumn_of_Break-Ups">The Autumn of Break-Ups</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Splitsville">Splitsville</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Stamp_Tramp">The Stamp Tramp</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Twelve_Horny_Women">Twelve Horny Women</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Lobster_Crawl">Lobster Crawl</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Over-Correction">The Over-Correction</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Final_Page_-_Part_One">The Final Page - Part One</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Final_Page_-_Part_Two">The Final Page - Part Two</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Band_or_DJ%3F">Band or DJ?</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Ring_Up">Ring Up</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/P.S._I_Love_You">P.S. I Love You</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Bad_Crazy">Bad Crazy</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Ashtray">The Ashtray</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Weekend_at_Barney%27s">Weekend at Barney's</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Fortress">The Fortress</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Time_Travelers">The Time Travelers</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Romeward_Bound">Romeward Bound</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Bro_Mitzvah">The Bro Mitzvah</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Something_Old">Something Old</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Something_New">Something New</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_9">9<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Locket">The Locket</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Coming_Back">Coming Back</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Last_Time_in_New_York">Last Time in New York</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Broken_Code">The Broken Code</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Poker_Game">The Poker Game</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Knight_Vision">Knight Vision</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/No_Questions_Asked">No Questions Asked</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Lighthouse">The Lighthouse</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Platonish">Platonish</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Mom_and_Dad">Mom and Dad</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Bedtime_Stories">Bedtime Stories</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_Rehearsal_Dinner">The Rehearsal Dinner</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Bass_Player_Wanted">Bass Player Wanted</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Slapsgiving_3:_Slappointment_in_Slapmarra">Slapsgiving 3: Slappointment in Slapmarra</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Unpause">Unpause</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/How_Your_Mother_Met_Me">How Your Mother Met Me</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Sunrise">Sunrise</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Rally">Rally</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Vesuvius">Vesuvius</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Daisy">Daisy</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Gary_Blauman">Gary Blauman</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/The_End_of_the_Aisle">The End of the Aisle</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Last_Forever_-_Part_One">Last Forever - Part One</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Last_Forever_-_Part_Two">Last Forever - Part Two</a>
+													</li>
+																							</ul>
+																			</li>
+																							</ul>
+											</li>
+																				<li class="nav-item">
+						<a href="/wiki/Blogs">Blogs</a>
+
+													<ul class="subnav-2 accent">
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Barney%27s_Blog">Barney's Blog</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Blog:Recent_posts">User Blogs</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Blog:Site_News">Site News</a>
+
+																			</li>
+																							</ul>
+											</li>
+																				<li class="nav-item">
+						<a href="/wiki/How_I_Met_Your_Mother_Wiki:Community_Portal">Community</a>
+
+													<ul class="subnav-2 accent">
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/How_I_Met_Your_Mother_Wiki:Current_Projects">Current Projects</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/How_I_Met_Your_Mother_Wiki:Community_Portal">Community Portal</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/How_I_Met_Your_Mother_Wiki:Site_news">Site News</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Special:Forum">Forums<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron"></a>
+
+																					<ul class="subnav-3 subnav">
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Board:Episode_Discussions">Episode Discussions</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Board:Season_9_News">Season 9 News</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Board:Questions_and_Answers">Questions and Answers</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Board:New_on_How_I_Met_Your_Mother_Wiki">New on How I Met Your Mother Wiki</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Board:News_and_Announcements">News and Announcements</a>
+													</li>
+																																						<li class="subnav-3-item">
+														<a class="subnav-3a" href="/wiki/Board:General_Discussion">General Discussion</a>
+													</li>
+																							</ul>
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Season_9_News">Season 9 News</a>
+
+																			</li>
+																										<li class="subnav-2-item">
+										<a class="subnav-2a" href="/wiki/Talk:Wiki_Talk">Wiki Talk</a>
+
+																			</li>
+																							</ul>
+											</li>
+										</ul>
+
+<div class="navbackground">
+	<div></div>
+	<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron">
+</div>    </nav>
+	    <div class="buttons">
+		<nav class="wikia-menu-button contribute secondary combined" >
+	<img alt="" class="sprite contribute" height="16" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" width="22" /> Contribute
+	<span class="drop">
+		<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron">
+	</span>
+	<ul class="WikiaMenuElement">
+		<li>
+			<a href="/wiki/Pilot?action=edit"  data-id="edit"  >Edit this Page</a>
+		</li>
+		<li>
+			<a href="/wiki/Special:WikiaVideoAdd"  data-id="wikiavideoadd"  >Add a Video</a>
+		</li>
+		<li>
+			<a href="/wiki/Special:Upload"  data-id="upload"  >Add a Photo</a>
+		</li>
+		<li>
+			<a href="/wiki/Special:CreatePage"  data-id="createpage"   class="createpage">Add a Page</a>
+		</li>
+		<li>
+			<a href="/wiki/Special:WikiActivity"  accesskey="g" data-id="wikiactivity"  >Wiki Activity</a>
+		</li>
+	</ul>
+</nav>
+					<a href="#" class="wikia-button share-button secondary"  data-id="shareButton"> Share<span class="share-dot"></span><span class="share-pixel"></span></a>
+    </div>
+	    <div class="hiddenLinks">
+		<a href="/wiki/Special:Watchlist" title="Special:Watchlist" accesskey="l">Watchlist</a>		<a href="/wiki/Special:Random" title="Special:Random" accesskey="x">Random page</a>		<a href="/wiki/Special:RecentChanges" title="Special:RecentChanges" accesskey="r">Recent changes</a>    </div>
+</header>
+
+				
+		
+		
+		
+		<article id="WikiaMainContent" class="WikiaMainContent">
+						<div id="WikiaMainContentContainer" class="WikiaMainContentContainer">
+				<header id="WikiaPageHeader" class="WikiaPageHeader">
+    <h1>Pilot</h1>
+
+	<nav class="wikia-menu-button" >
+	<a accesskey="e"  href="/wiki/Pilot?veaction=edit" data-id="ve-edit" id="ca-ve-edit">
+		<img alt="" class="sprite edit-pencil" height="16" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" width="22" /> Edit this page	</a>
+
+	<span class="drop">
+		<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="chevron">
+	</span>
+	<ul class="WikiaMenuElement">
+		<li>
+			<a href="/wiki/Pilot?action=edit"  accesskey="s" data-id="edit"   id="ca-edit">Classic editor</a>
+		</li>
+		<li>
+			<a href="/wiki/Pilot?action=history"  accesskey="h" data-id="history"   id="ca-history">History</a>
+		</li>
+	</ul>
+</nav>
+			<a accesskey="t" href="#WikiaArticleComments" class="wikia-button comments secondary" rel="nofollow" data-id="comment"> Comments<span class="commentsbubble">18</span></a>
+        <div class="tally">
+			<em>1,011</em><span class="$2">legendary pages on this wiki</span>        </div>
+		</header>
+<script>
+    
+
+
+
+
+if (window.fromsearch 
+&& typeof(Wikia.geo) !== 'undefined' && ['AU','CA','DE','GB','JP','UK','US'].indexOf(Wikia.geo.getCountryCode()) < 0
+) {
+    document.write(
+        '<div id="monetization-adunit-below_title" class="monetization-module adunit hide-for-edit" ' +
+        'data-mon-type="adunit" data-mon-slot="below_title"><div class="ad-header">Advertisement</div><div>' +
+        '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' +
+        '</scr' + 'ipt><ins class="adsbygoogle ad-responsive" style="display:inline-block;" ' +
+        'data-ad-client="ca-pub-4086838842346968" data-ad-channel="mon_pl_bc_bt_ic_fss_ffa mon_hub_tv mon_sl_bt" ' +
+        'data-ad-type="text" ' + 
+'data-font-size="small" ' +
+
+
+
+'data-font-face="arial" ' +
+
+        ' data-color-bg="#ebebeb" data-color-border="#ebebeb" data-color-link="#00008b" data-color-url="#00008b" data-color-text="#3a3a3a" ></ins>' +
+        '<script>(adsbygoogle = window.adsbygoogle || []).push({});</scr' + 'ipt></div></div>'
+    );
+}
+</script>
+
+				
+				<div id="WikiaArticle" class="WikiaArticle">
+					
+					<div class="home-top-right-ads">
+					<!-- BEGIN SLOTNAME: TOP_INCONTENT_BOXAD -->
+<div id="TOP_INCONTENT_BOXAD" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["TOP_INCONTENT_BOXAD"]);
+</script>
+</div>
+<!-- END SLOTNAME: TOP_INCONTENT_BOXAD -->
+					</div>
+
+					
+					<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr mw-content-text"><div style="float:right; margin-top:0px; line-height:.9em;"><small><a  class="text" href="http://how-i-met-your-mother.wikia.com/wiki/Template:Pilot?action=edit">edit info</a></small></div><div style="clear:both; margin: 0; padding: 0"></div>
+<table class="toccolours" style="background: #FFF6E5; border:1px solid #FFC34D; float:right; clear:right; width: 225px; text-align: left; font-size: 90%; margin-left: 7px; border-radius:5px; -webkit-border-radius:5px;" cellspacing="0" cellpadding="2px">
+
+<tr>
+<td style="text-align: center; font-size: 130%; background: #FFAA00; color: #FFF6E5; border-radius:5px; -webkit-border-radius:5px;" colspan="3"> <b>“<i>Pilot</i>”</b>
+</td></tr>
+<tr>
+<td style="text-align:left;">
+</td><td style="text-align:center; border-bottom:1px solid #FFC34D;">
+<p><a href="/wiki/How_I_Met_Your_Mother" title="How I Met Your Mother">HIMYM</a> episode <a href="/wiki/Season_1" title="Season 1">1x01</a> (1) 
+</p>
+</td><td style="text-align:right;"><a href="/wiki/Purple_Giraffe" title="Purple Giraffe">&#8594;</a>
+</td></tr>
+<tr>
+<td style="text-align: center; font-size: 100%; border-bottom:1px solid #FFC34D" colspan="3"> <a href="http://vignette4.wikia.nocookie.net/himym/images/8/8f/Pilot.png/revision/latest?cb=20090926012808" 	class="image image-thumbnail" 	 	 	><img src="http://vignette4.wikia.nocookie.net/himym/images/8/8f/Pilot.png/revision/latest/scale-to-width/220?cb=20090926012808" 	 alt="Pilot"  	class="" 	 	data-image-key="Pilot.png" 	data-image-name="Pilot.png" 	 	 width="220"  	 height="165"  	 	 	 	></a>
+</td></tr>
+<tr>
+<td style="text-align:center; border-bottom:1px solid #FFC34D" colspan="3"> <small><i>First aired:</i><br /></small>September 19, 2005
+</td></tr>
+<tr>
+<td style="text-align:center; border-bottom:1px solid #FFC34D" colspan="3"> <small><i>Director:</i><br /></small><a href="/wiki/Pamela_Fryman" title="Pamela Fryman">Pamela Fryman</a>
+</td></tr>
+<tr>
+<td style="text-align:center; border-bottom:1px solid #FFC34D" colspan="3"> <small><i>Writer:</i><br /></small><a href="/wiki/Carter_Bays" title="Carter Bays">Carter Bays</a> <br /> <a href="/wiki/Craig_Thomas" title="Craig Thomas">Craig Thomas</a>
+</td></tr>
+<tr>
+<td style="text-align: center; font-size: 100%;" colspan="3"> <a href="/wiki/Barney%27s_Blog:_Ted_Suits_Up" title="Barney&#39;s Blog: Ted Suits Up">Barney's Blog</a>
+</td></tr>
+<tr>
+<td style="text-align: center; font-size: 80%; background: #FFAA00; color: #000000; line-height:100%;" colspan="3">
+<p><b><a href="/wiki/Category:Pilot_images" title="Category:Pilot images">Images (18)</a></b>
+</p>
+</td></tr></table>
+<p>Future Ted begins telling his two kids the story of how he met their mother. He introduces Barney, Lily, Marshall and Robin, telling his kids how Lily and Marshall got engaged and how he met Robin.
+</p><p><br />
+</p>
+<nav id="toc" class="toc"><div id="toctitle"><h2>Contents</h2><span class="toctoggle">[<a href="#" class="internal" id="togglelink" data-show="show" data-hide="hide">show</a>]</span></div><ol></ol></nav>
+<h2><span class="mw-headline" id="Recap">Recap</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=1" title="Edit Recap section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<p>The episode (and series) begins with a <a href="/wiki/Future_Ted" title="Future Ted">future Ted</a> explaining to his children the story of how he met their <a href="/wiki/The_Mother" title="The Mother" class="mw-redirect">mother</a>.
+</p><p>The story begins in 2005, with <a href="/wiki/Marshall" title="Marshall" class="mw-redirect">Marshall</a> proposing to <a href="/wiki/Lily" title="Lily" class="mw-redirect">Lily</a>, prompting <a href="/wiki/Ted_Mosby" title="Ted Mosby">Ted</a> to begin a search to find his own soul-mate. At <a href="/wiki/MacLaren%27s" title="MacLaren&#39;s" class="mw-redirect">MacLaren's</a>, alongside <a href="/wiki/Barney" title="Barney" class="mw-redirect">Barney</a>, Ted meets budding news anchor <a href="/wiki/Robin" title="Robin" class="mw-redirect">Robin</a>, with whom he is instantly smitten. After hitting it off, and after a successful date which concludes with Robin being called away for a news story, Ted decides to take the plunge and make his move.
+</p><p>He symbolically steals the <a href="/wiki/Blue_French_Horn" title="Blue French Horn">Blue French Horn</a> from the restaurant of their first date, and heads to Robin's apartment with the gang ("Suited up", much to Barney's delight). Things are going great until he inexplicably tells Robin that he loves her, prematurely destroying his chances with her.
+</p><p>After a lingering goodbye, and with the afterthought that he may or may not have missed "the signal" (missing out for the second time on his first kiss with her and everyone in the group agrees with that), we then return to the future Ted telling his children that that's how he met their Aunt Robin.
+</p>
+<script>
+    if (window.fromsearch && typeof(Wikia.geo) !== 'undefined' && ['US'].indexOf(Wikia.geo.getCountryCode()) >= 0) {
+        document.write(
+                '<div id="monetization-sharethrough-in_content" class="monetization-module sharethrough hide-for-edit" ' +
+                'data-mon-type="sharethrough" data-mon-slot="in_content">' +
+                '<div data-str-native-key="de6769e6" style="display: none;"></div>' +
+                '<script type="text/javascript" src="//native.sharethrough.com/assets/tag.js" async></scr' + 'ipt>' +
+                '</div>'
+        );
+    } else 
+
+
+
+
+if (window.fromsearch 
+&& typeof(Wikia.geo) !== 'undefined' && ['GB','JP','UK','US'].indexOf(Wikia.geo.getCountryCode()) < 0
+) {
+    document.write(
+        '<div id="monetization-adunit-in_content" class="monetization-module adunit hide-for-edit" ' +
+        'data-mon-type="adunit" data-mon-slot="in_content"><div class="ad-header">Advertisement</div><div>' +
+        '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' +
+        '</scr' + 'ipt><ins class="adsbygoogle ad-responsive-ic" style="display:inline-block;" ' +
+        'data-ad-client="ca-pub-4086838842346968" data-ad-channel="mon_pl_bc_bt_ic_fss_ffa mon_hub_tv mon_sl_ic" ' +
+        'data-ad-type="text" ' + 
+'data-font-size="small" ' +
+
+
+
+'data-font-face="arial" ' +
+
+        ' data-color-bg="#ebebeb" data-color-border="#ebebeb" data-color-link="#00008b" data-color-url="#00008b" data-color-text="#3a3a3a" ></ins>' +
+        '<script>(adsbygoogle = window.adsbygoogle || []).push({});</scr' + 'ipt></div></div>'
+    );
+}
+</script><h2><span class="mw-headline" id="Continuity">Continuity</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=2" title="Edit Continuity section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<ul><li> Barney begins insisting that he is <a href="/wiki/Ted%27s_best_friend" title="Ted&#39;s best friend" class="mw-redirect">Ted's best friend</a> in this episode.
+</li><li> Barney breaks up words by saying "<a href="/wiki/Wait_for_it" title="Wait for it" class="mw-redirect">wait for it</a>" in between syllables for the first time.
+</li><li> Barney first mentions his <a href="/wiki/Barney%27s_Blog" title="Barney&#39;s Blog">blog</a> for the first time.
+</li><li> Barney's love of <a href="/wiki/Laser_tag" title="Laser tag" class="mw-redirect">Laser tag</a> is introduced.
+</li><li> Marshall is the first character in the show referred to as "Uncle". 
+</li><li> Barney plays his "<a href="/wiki/Have_you_met" title="Have you met">Have you met&#160;Ted?</a>" game for the first time, to introduce Ted to Yasmeen, <a href="/wiki/Carl_MacLaren" title="Carl MacLaren">Carl</a>'s Lebanese girlfriend, and Robin.
+</li><li> Ted's architecture career, Lily's job as a kindergarten teacher, Marshall studying law, and Robin's <a href="/wiki/Metro_News_1" title="Metro News 1">news show</a> are all introduced.
+</li><li> Marshall and Lily getting together in their freshman year of college is first mentioned.
+</li></ul>
+<h2><span class="mw-headline" id="Future_References_.28Contains_Spoilers.29"> Future References (Contains Spoilers)</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=3" title="Edit Future References (Contains Spoilers) section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<ul><li> Ted saying "I love you" to Robin on the first date is referenced repeatedly in future episodes, including <i><a href="/wiki/Purple_Giraffe" title="Purple Giraffe"><span style="cursor: help;" title="Purple Giraffe (1x02) - Ted continues to try and impress Robin, by throwing three parties to make himself seem more casual. Marshall cannot return Lily&#39;s heightened affections, as he stresses over an essay. Barney needs to get rid of a girl, who keeps showing up at all of the parties.">Purple Giraffe</span></a></i>, <i><a href="/wiki/Game_Night" title="Game Night"><span style="cursor: help;" title="Game Night (1x15) - Marshall plans a game night with the gang and Victoria, which leads to each person revealing the most embarassing moment of their lives.">Game Night</span></a></i>, and <i><a href="/wiki/First_Time_In_New_York" title="First Time In New York"><span style="cursor: help;" title="First Time In New York (2x12) - Robin tries to talk her younger sister, who is visiting NYC, not to lose her virginity. The gang all recount tales of their own first times.">First Time In New York</span></a></i>.
+</li><li> Marshall does the robot, a dance move that he uses on several other occasions, including in <i><a href="/wiki/Okay_Awesome" title="Okay Awesome"><span style="cursor: help;" title="Okay Awesome (1x05) - Ted and Barney join Robin at a nightclub where she is on the VIP list. Meanwhile, Lily and Marshall host a wine and cheese tasting night with other couples at the apartment.">Okay Awesome</span></a></i> and <i><a href="/wiki/The_Limo" title="The Limo"><span style="cursor: help;" title="The Limo (1x11) - It&#39;s New Year&#39;s Eve 2005 and Ted rents a limo for him and the gang and plans out the ideal way to ring in the New Year. Unfortunately, things don&#39;t go as planned.">The Limo</span></a></i>.
+</li><li> Barney's "Have you met Ted?" game is adapted for other people in future episodes, including Robin in <i><a href="/wiki/The_Duel" title="The Duel"><span style="cursor: help;" title="The Duel (1x08) - Ted reconsiders his offer to let Lily move in with him and Marshall. Barney attempts to revolutionize the first date.">The Duel</span></a></i> and Marshall in <i><a href="/wiki/The_Scorpion_and_the_Toad" title="The Scorpion and the Toad"><span style="cursor: help;" title="The Scorpion and the Toad (2x02) - Barney helps Marshall get back into the singles&#39; scene. Lily is back in town and Ted and Robin try to learn the truth about how she feels about the breakup.">The Scorpion and the Toad</span></a></i>; Barney is also seen using it on himself ("Have you met me?") and simultaneously with his brother <a href="/wiki/James_Stinson" title="James Stinson">James</a> ("Have you met my brother?") in <i><a href="/wiki/Single_Stamina" title="Single Stamina"><span style="cursor: help;" title="Single Stamina (2x10) - Barney&#39;s gay, black brother comes to town to serve as a wingman and the gang discovers a secret he is keeping from Barney.">Single Stamina</span></a></i>, and he teaches it to Justin and Kyle in <i><a href="/wiki/Sunrise" title="Sunrise"><span style="cursor: help;" title="Sunrise (9x17) - While out looking for an inebriated Barney on the day of the wedding, Robin and Ted reminisce about past relationships. Meanwhile, Marshall and Lily finally resolve their issues and Barney befriends two young guys eager to meet women.">Sunrise</span></a></i>.
+</li><li><a href="/wiki/Robin%27s_Friend" title="Robin&#39;s Friend">Robin's recently dumped friend</a> reappears in <i><a href="/wiki/Zip,_Zip,_Zip" title="Zip, Zip, Zip"><span style="cursor: help;" title="Zip, Zip, Zip (1x14) - Ted and Victoria change their mind about waiting to have sex. Marshall and Lily celebrate their nine year anniversary at home. Robin and Barney have a bro&#39;s night out.">Zip, Zip, Zip</span></a></i>, where her only line ("What's taking so long?") is the same as it is here.
+</li><li> Barney's catchphrase <a href="/wiki/Suit_Up" title="Suit Up">Suit Up</a>! is introduced. The origin of the phrase is explained in <i>Game Night</i>.
+</li><li>Marshall says that Ted has always described his perfect woman as liking dogs, and in <i><a href="/wiki/Cupcake" title="Cupcake"><span style="cursor: help;" title="Cupcake (1x16) - Ted and Victoria must decide the future of their relationship when she is offered a fellowship in Germany. Barney takes Marshall to buy a new suit. Robin and Victoria accompany Lily to try on wedding dresses.">Cupcake</span></a></i>, Ted claims that he's only attracted to "dog people" when Barney quizzes him on how well he knows <a href="/wiki/Victoria" title="Victoria">Victoria</a>.
+</li><li> Ted stealing the <a href="/wiki/Blue_French_Horn" title="Blue French Horn">Blue French Horn</a> is referred to throughout the series, as seen in <i><a href="/wiki/Come_On" title="Come On"><span style="cursor: help;" title="Come On (1x22) - Ted makes a final attempt to win Robin&#39;s heart. Marshall and Lily&#39;s relationship is in jeopardy.">Come On</span></a></i>, <i><a href="/wiki/Something_Blue" title="Something Blue"><span style="cursor: help;" title="Something Blue (2x22) - At Marshall and Lily&#39;s wedding reception, Robin and Ted unveil a shocking secret.">Something Blue</span></a></i>, and <i><a href="/wiki/Shelter_Island" title="Shelter Island"><span style="cursor: help;" title="Shelter Island (4x05) - The gang all attend Ted&#39;s wedding on Shelter Island, where Barney plans to get Robin drunk so he can have sex with her.">Shelter Island</span></a></i>.
+</li><li> Lily and Marshall have sex on the kitchen floor again after the second time they get engaged in <i><a href="/wiki/Atlantic_City" title="Atlantic City"><span style="cursor: help;" title="Atlantic City (2x08) - Marshall and Lily elope to Atlantic City, but they discover that getting married in Atlantic City isn&#39;t as easy as getting married in Las Vegas.">Atlantic City</span></a></i>, and while testing their new carpet samples in <i><a href="/wiki/The_Chain_of_Screaming" title="The Chain of Screaming"><span style="cursor: help;" title="The Chain of Screaming (3x15) - Marshall doesn&#39;t know what to do when his new boss yells at him at work. The whole gang has advice to offer. Ted buys a new car.">The Chain of Screaming</span></a></i>.
+</li><li>Marshall popping the champagne cork into Lily's eye is referenced again in <i>Atlantic City</i> and <i><a href="/wiki/Zoo_or_False" title="Zoo or False"><span style="cursor: help;" title="Zoo or False (5x19) - Marshall comes up with a number of different outrageous and embarrassing stories to explain how he was mugged in Central Park, but which of his stories is the truth?">Zoo or False</span></a></i>.
+</li><li> Ted implies having been in the top bunk when Lily and Marshall had sex for the first time, as confirmed in <i>First Time In New York</i>.
+</li><li> In <i><a href="/wiki/Monday_Night_Football" title="Monday Night Football"><span style="cursor: help;" title="Monday Night Football (2x14) - The gang must postpone their viewing of the Super Bowl and must avoid hearing about the game until then.">Monday Night Football</span></a></i>, Robin is only seen joining in on the gang's annual tradition of watching the Super Bowl together in 2006, as they only met her here, in the fall of 2005, after the Super Bowl.
+</li><li>Ted's first meeting with Barney is expanded upon in <i><a href="/wiki/How_I_Met_Everyone_Else" title="How I Met Everyone Else"><span style="cursor: help;" title="How I Met Everyone Else (3x05) - Ted brings his new girlfriend to meet the group. Barney tries to prove she&#39;s on the wrong side of the line on his Hot/Crazy Scale. In the meantime, the gang tell stories about how they all met.">How I Met Everyone Else</span></a></i>, where they do indeed meet at the urinal.
+</li><li>The story of how Robin met Barney and Ted, particularly Barney saying "Oh yeah, you just know she likes it dirty", is referenced again in <i>How I Met Everyone Else</i>, <i><a href="/wiki/Farhampton" title="Farhampton"><span style="cursor: help;" title="Farhampton (8x01) - Robin’s anxiety on her wedding day to Barney prompts Ted to recount the time he insisted on leaving Victoria’s jilted fiancé a note before they drove off into the sunset together.">Farhampton</span></a></i>, and <i><a href="/wiki/Knight_Vision" title="Knight Vision"><span style="cursor: help;" title="Knight Vision (9x06) - When Ted finds himself with three prospects to be his date for the wedding weekend, he chooses poorly. Meanwhile, Barney and Robin have a confrontation with their minister, and Marshall learns more about his driving companion, Daphne.">Knight Vision</span></a></i>.
+</li><li>When Ted and Barney first met, Barney says "Ted, I'm going to teach you how to live." He told Marshall about this when they first met, as revealed in <i>How I Met Everyone Else</i>. Barney also tells Ted that he is going to "re-teach" him how to live in <i><a href="/wiki/Wait_For_It" title="Wait For It"><span style="cursor: help;" title="Wait For It (3x01) - Ted is in a slump after breaking up with Robin until she returns from Argentina with her new boyfriend, Gael. While Gael impresses Lily and Marshall, Ted hooks up with a wild girl who suggests he get a tattoo.">Wait For It</span></a></i>, and says it to Justin and Kyle in <i>Sunrise</i>.
+</li><li>Marshall injures someone by popping a champagne cork in their eye again in <i><a href="/wiki/Dowisetrepla" title="Dowisetrepla"><span style="cursor: help;" title="Dowisetrepla (3x07) - Marshall and Lily go apartment hunting and Barney uses the opportunity to hook up with a girl without giving away his own address. Marshall learns Lily&#39;s secret.">Dowisetrepla</span></a></i>, where he does so to <a href="/wiki/Wendy_the_Waitress" title="Wendy the Waitress">Wendy the Waitress</a> with the "comically-large champagne bottle".
+</li><li>Ted has a beard and moustache in the flashback to him meeting Barney for the first time. He is shown with a goatee in the flashback to 2002 in <i><a href="/wiki/Double_Date" title="Double Date"><span style="cursor: help;" title="Double Date (5x02) - Ted has a blind date, and discovers its the same date he was on seven years ago. They retrace their steps from their first date to see where they went wrong. Meanwhile, Marshall and Barney go to a strip club and find a stripper who looks exactly like Lily.">Double Date</span></a></i>, and with similar facial hair in the flashback to Barney's days as <a href="/wiki/Insane_Duane" title="Insane Duane">Insane Duane</a>'s best friend in <i><a href="/wiki/Symphony_of_Illumination" title="Symphony of Illumination"><span style="cursor: help;" title="Symphony of Illumination (7x12) - When Robin receives bad news, she decides to lie about it to the gang. Meanwhile, Marshall hangs Christmas decorations on the house in the ‘burbs with help from his neighbor.">Symphony of Illumination</span></a></i>.
+</li><li> Barney says "This just in..." as a double entendre for sex. Lily imagines Robin doing the same thing when convincing Marshall not to tell the gang about their decision to start a family in <i><a href="/wiki/Doppelgangers" title="Doppelgangers"><span style="cursor: help;" title="Doppelgangers (5x24) - Marshall and Lily spot Barney&#39;s doppelganger, fulfilling the requirements they set to start trying to have a baby. Robin is offered a better job in Chicago, and is in a dilemma about what to do.">Doppelgangers</span></a></i>.
+</li><li>A similar opening sequence appears in <i>Symphony of Illumination</i>, when Robin is talking to her imaginary children.
+</li><li>Ted tells Yasmeen he wants a band and not a DJ for his future wedding. In <i><a href="/wiki/Band_or_DJ%3F" title="Band or DJ?"><span style="cursor: help;" title="Band or DJ? (8x13) - When Robin learns that Barney never asked her father’s permission before proposing, she insists that he seek his approval before announcing their engagement. Meanwhile, Ted keeps his feelings concealed by throwing himself into planning their wedding.">Band or DJ?</span></a></i>, however, he attempts to convince Robin to get a DJ instead of a band for her wedding, apparently because he is having trouble with the idea of Robin marrying Barney, and is equating the two decisions.
+</li><li>Robin says she hates olives here, but changes her mind about them by <i><a href="/wiki/Platonish" title="Platonish"><span style="cursor: help;">Platonish</span></a></i>, as a flashback shows her eating some and explaining as much, making Ted hopeful that she might also change her mind about being with him. This implies Ted no longer believes in the "<a href="/wiki/Olive_Theory" title="Olive Theory">Olive Theory</a>" he explains to Robin here; indeed, it is proven false here itself when it is revealed that Marshall and Lily both like olives.
+</li><li>As revealed in <i><a href="/wiki/How_Your_Mother_Met_Me" title="How Your Mother Met Me"><span style="cursor: help;" title="How Your Mother Met Me (9x16) - On the 200th episode, Ted recounts how The Mother met him and what she’s been up to for the past eight years.">How Your Mother Met Me</span></a></i>, the Mother turns 21 the day Lily and Marshall get engaged and Barney and Ted meet Robin; she celebrates it at another bar called MacLaren's, and her friend <a href="/wiki/Kelly_(The_Mother%27s_friend)" title="Kelly (The Mother&#39;s friend)">Kelly</a> gets the two confused, running out of the gang's pub just as Barney gets ready to play "Have you met Ted?"
+</li><li>Future Ted mentions that he found out years later that he could have kissed Robin after their first date, as seen in <i><a href="/wiki/Sunrise" title="Sunrise"><span style="cursor: help;" title="Sunrise (9x17) - While out looking for an inebriated Barney on the day of the wedding, Robin and Ted reminisce about past relationships. Meanwhile, Marshall and Lily finally resolve their issues and Barney befriends two young guys eager to meet women.">Sunrise</span></a></i>.
+</li></ul>
+<h2><span class="mw-headline" id="Gallery">Gallery</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=4" title="Edit Gallery section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<div class="wikia-slideshow clearfix slideshow-center" data-hash="abaa39ea765f07bd76fa5dca6d1a2c08" data-crop="" id="slideshow-0"><div class="wikia-slideshow-wrapper" style="width: 310px"><div class="wikia-slideshow-images-wrapper accent"><ul class="wikia-slideshow-images neutral" style="height: 225px; width: 300px"><li title="" class="wikia-slideshow-first-image"><img data-src="http://vignette3.wikia.nocookie.net/himym/images/1/13/HowImetyourmother_kids.jpg/revision/latest/scale-to-width/258?cb=20101230234737" class="thumbimage" width="258" height="225" style="border: 0px;" data-image-name="HowImetyourmother kids.jpg" data-image-key="HowImetyourmother_kids.jpg" data-caption="Ted&#39;s kids in the future." /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-0" style="width: 220px"> </a><span class="wikia-slideshow-image-caption"><span class="wikia-slideshow-image-caption-inner">Ted's kids in the future.</span></span></li><li title=""><img data-src="http://vignette3.wikia.nocookie.net/himym/images/c/c9/TheOliveTheory.png/revision/latest/scale-to-width/300?cb=20101211051949" class="thumbimage" width="300" height="169" style="border: 0px;" data-image-name="TheOliveTheory.png" data-image-key="TheOliveTheory.png" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-1" style="width: 220px"> </a></li><li title=""><img data-src="http://vignette3.wikia.nocookie.net/himym/images/9/92/Pilot.jpg/revision/latest/scale-to-width/300?cb=20090926012258" class="thumbimage" width="300" height="225" style="border: 0px;" data-image-name="Pilot.jpg" data-image-key="Pilot.jpg" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-2" style="width: 220px"> </a></li><li title=""><img data-src="http://vignette2.wikia.nocookie.net/himym/images/6/67/BFH.jpg/revision/latest/scale-to-width/300?cb=20120203144149" class="thumbimage" width="300" height="225" style="border: 0px;" data-image-name="BFH.jpg" data-image-key="BFH.jpg" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-3" style="width: 220px"> </a></li><li title=""><img data-src="http://vignette2.wikia.nocookie.net/himym/images/4/4a/Vlcsnap-2013-09-05-19h03m29s91.png/revision/latest/scale-to-width/300?cb=20130905230743" class="thumbimage" width="300" height="170" style="border: 0px;" data-image-name="Vlcsnap-2013-09-05-19h03m29s91.png" data-image-key="Vlcsnap-2013-09-05-19h03m29s91.png" data-caption="Lily after finger painting day at school" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-4" style="width: 220px"> </a><span class="wikia-slideshow-image-caption"><span class="wikia-slideshow-image-caption-inner">Lily after finger painting day at school</span></span></li><li title=""><img data-src="http://vignette4.wikia.nocookie.net/himym/images/4/4f/Vlcsnap-2013-09-05-19h04m27s228.png/revision/latest/scale-to-width/300?cb=20130905230811" class="thumbimage" width="300" height="170" style="border: 0px;" data-image-name="Vlcsnap-2013-09-05-19h04m27s228.png" data-image-key="Vlcsnap-2013-09-05-19h04m27s228.png" data-caption="Marshall and Lily celebrate their engagement" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-5" style="width: 220px"> </a><span class="wikia-slideshow-image-caption"><span class="wikia-slideshow-image-caption-inner">Marshall and Lily celebrate their engagement</span></span></li><li title=""><img data-src="http://vignette1.wikia.nocookie.net/himym/images/5/50/Vlcsnap-2013-09-05-19h05m14s210.png/revision/latest/scale-to-width/300?cb=20130905230844" class="thumbimage" width="300" height="170" style="border: 0px;" data-image-name="Vlcsnap-2013-09-05-19h05m14s210.png" data-image-key="Vlcsnap-2013-09-05-19h05m14s210.png" data-caption="The result of an accident with the champagne" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-6" style="width: 220px"> </a><span class="wikia-slideshow-image-caption"><span class="wikia-slideshow-image-caption-inner">The result of an accident with the champagne</span></span></li><li title=""><img data-src="http://vignette1.wikia.nocookie.net/himym/images/6/6b/Vlcsnap-2013-09-05-19h06m14s44.png/revision/latest/scale-to-width/300?cb=20130905230906" class="thumbimage" width="300" height="170" style="border: 0px;" data-image-name="Vlcsnap-2013-09-05-19h06m14s44.png" data-image-key="Vlcsnap-2013-09-05-19h06m14s44.png" data-caption="Ted sees Robin for the first time" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-7" style="width: 220px"> </a><span class="wikia-slideshow-image-caption"><span class="wikia-slideshow-image-caption-inner">Ted sees Robin for the first time</span></span></li><li title=""><img data-src="http://vignette3.wikia.nocookie.net/himym/images/d/d8/Vlcsnap-2013-09-05-19h07m12s104.png/revision/latest/scale-to-width/300?cb=20130905230927" class="thumbimage" width="300" height="170" style="border: 0px;" data-image-name="Vlcsnap-2013-09-05-19h07m12s104.png" data-image-key="Vlcsnap-2013-09-05-19h07m12s104.png" data-caption="Ted and Robin after their first date" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-8" style="width: 220px"> </a><span class="wikia-slideshow-image-caption"><span class="wikia-slideshow-image-caption-inner">Ted and Robin after their first date</span></span></li><li title=""><img data-src="http://vignette2.wikia.nocookie.net/himym/images/7/71/Sk%C3%A4rmavbild_2013-12-21_kl._10.34.08.png/revision/latest/scale-to-width/259?cb=20131221093434" class="thumbimage" width="259" height="225" style="border: 0px;" data-image-name="Skärmavbild 2013-12-21 kl. 10.34.08.png" data-image-key="Skärmavbild_2013-12-21_kl._10.34.08.png" data-caption="Robin gives Ted the &#39;signal&#39; when they shake hands" /><a class="wikia-slideshow-image" title="Expand slideshow" id="slideshow-0-9" style="width: 220px"> </a><span class="wikia-slideshow-image-caption"><span class="wikia-slideshow-image-caption-inner">Robin gives Ted the 'signal' when they shake hands</span></span></li></ul></div><div class="wikia-slideshow-prev-next"><a class="wikia-slideshow-sprite wikia-slideshow-prev" style="top: 87px" title="Previous photo"><span><img class="chevron" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" /></span></a><a class="wikia-slideshow-sprite wikia-slideshow-next" style="top: 87px" title="Next photo"><span><img class="chevron" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" /></span></a></div><div class="wikia-slideshow-toolbar clearfix" style="display: none"><div style="float: left"><img class="wikia-slideshow-popout lightbox" height="11" src="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/skins/common/images/magnify-clip.png" title="Expand slideshow" width="15" /><span class="wikia-slideshow-toolbar-counter" data-counter="$1 of 10">1 of 10</span></div><a class="wikia-slideshow-addimage wikia-button secondary" style="float: right">Add photo</a></div></div></div><script>JSSnippetsStack.push({dependencies:[{"url":"http://slot1.images4.wikia.nocookie.net/__am/1419252955/group/-/wikia_photo_gallery_slideshow_js","type":"js"},{"url":"http://slot1.images1.wikia.nocookie.net/__am/1419252955/sass/background-dynamic%3Dtrue%26background-image%3Dhttp%253A%252F%252Fimg1.wikia.nocookie.net%252F__cb56%252Fhimym%252Fimages%252F5%252F50%252FWiki-background%26background-image-height%3D800%26background-image-width%3D2000%26color-body%3D%2523f0db28%26color-body-middle%3D%2523f0db28%26color-buttons%3D%2523ffaa00%26color-header%3D%2523d62c04%26color-links%3D%252300008b%26color-page%3D%2523ebebeb%26page-opacity%3D100%26widthType%3D2/extensions/wikia/WikiaPhotoGallery/css/slideshow.scss","type":"css"}],callback:function(json){WikiaPhotoGallerySlideshow.init(json)},id:"WikiaPhotoGallerySlideshow.init",options:{"id":"slideshow-0","width":"300px","height":"225px"}})</script><script>JSSnippetsStack.push({dependencies:[{"url":"http://slot1.images2.wikia.nocookie.net/__am/1419252955/group/-/wikia_photo_gallery_js","type":"js"},{"url":"http://slot1.images4.wikia.nocookie.net/__am/1419252955/sass/background-dynamic%3Dtrue%26background-image%3Dhttp%253A%252F%252Fimg1.wikia.nocookie.net%252F__cb56%252Fhimym%252Fimages%252F5%252F50%252FWiki-background%26background-image-height%3D800%26background-image-width%3D2000%26color-body%3D%2523f0db28%26color-body-middle%3D%2523f0db28%26color-buttons%3D%2523ffaa00%26color-header%3D%2523d62c04%26color-links%3D%252300008b%26color-page%3D%2523ebebeb%26page-opacity%3D100%26widthType%3D2/extensions/wikia/WikiaPhotoGallery/css/gallery.scss","type":"css"}],callback:function(json){WikiaPhotoGalleryView.init(json)},id:"WikiaPhotoGalleryView.init"})</script>
+<dl><dd><span class="dablink"><i>For a listing of all images on the wiki tagged as being from this episode, see <a href="/wiki/Category:Pilot_images" title="Category:Pilot images">Category:Pilot images</a>.</i></span>
+</dd></dl>
+<h2><span class="mw-headline" id="Memorable_Quotes">Memorable Quotes</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=5" title="Edit Memorable Quotes section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td style="min-width:50px; font-weight:bold; text-align:right; vertical-align:text-top; padding-right:5px;"><span style="white-space: nowrap;">Future Ted</span>:</td>
+<td>Kids, I'm gonna' tell you an incredible story - the story of how I met your mother.</td>
+</tr>
+
+<tr>
+<td style="min-width:50px; font-weight:bold; text-align:right; vertical-align:text-top; padding-right:5px;"><span style="white-space: nowrap;">Son</span>:</td>
+<td>Are we being punished for something?</td>
+</tr>
+
+<tr>
+<td style="min-width:50px; font-weight:bold; text-align:right; vertical-align:text-top; padding-right:5px;"><span style="white-space: nowrap;">Future Ted</span>:</td>
+<td>No.</td>
+</tr>
+
+<tr>
+<td style="min-width:50px; font-weight:bold; text-align:right; vertical-align:text-top; padding-right:5px;"><span style="white-space: nowrap;">Daughter</span>:</td>
+<td>Yeah, is this going to take a while?</td>
+</tr>
+
+<tr>
+<td style="min-width:50px; font-weight:bold; text-align:right; vertical-align:text-top; padding-right:5px;"><span style="white-space: nowrap;">Future Ted</span>:</td>
+<td>Yes.</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+<hr />
+<p><b>Lily</b>: Wow, you're cooking?<br />
+<b>Marshall</b>: Yes, I am.<br />
+<b>Lily</b>: Awww. Are you sure that's a good idea after last time? You looked really creepy without eyebrows.
+</p>
+<hr />
+<p><b>Marshall</b>: Oh, hey, look what I got?<br />
+<i>(brings out bottle of champagne and hands it to Lily)</i><b><br /></b>
+<b>Lily:</b> Aww, honey. Champagne.<br />
+<i>(hands bottle back to Marshall)</i><br />
+<b>Marshall:</b> Yeah.<br />
+<i>(hands bottle back to Lily)</i><br />
+<b>Lily:</b> No, you are too old to be scared to open a bottle of champagne.
+</p>
+<hr />
+<p><b>Robin</b>: I'm going to Orlando for a week on Friday. Some guy is attempting to make the world's biggest pancake. Guess who's covering it?<br /><b>Ted</b>: That's gonna' take a week?<br /><b>Robin</b>: Yeah, he's gonna eat it too. It's another record.
+</p>
+<hr />
+<p>"<i>Why are we still sitting here? Let's go, we can still make last call. What do you say, Lil? Yo-ho-ho and a bottle of rum? 'Cause you're a pirate?</i>"
+</p>
+<dl><dd>&#8212;<b>Barney</b> can't resist joking about Lily's eye-patch.
+</dd></dl>
+<hr />
+<p><b>Robin</b>: Hold on, wait a minute. Promised you these.<br /><b>Ted</b>: Olives, thanks. I love you. What is wrong with me?
+</p>
+<hr />
+<p><b>Ted</b>: So, you're a reporter?<br />
+<b>Robin</b>: Well, kind of a reporter. I do those dumb little fluff pieces at the end of the news, like... Monkey can play a ukulele. I'm hoping for some bigger stories.<br /><b>Ted</b>: Bigger... Like, a gorilla with an upright bass? Sorry, you're very pretty.
+</p>
+<hr />
+<p><b>Ted</b>: She didn't even give me the signal!<br /><b>Barney</b>: What, is she gonna... is she gonna bat her eyes at you in morse code? <i>(bats eyes)</i> Ted... kiss me. No! You just kiss her!<br /><b>Ted</b>: Not if you don't get the signal!<br /><i>(Barney spontaneously kisses Marshall)</i><br />
+<b>Barney</b>: Did Marshall give me the signal?<br /><b>Marshall</b>: No! <i>(to Lily)</i> I didn't, I swear!
+</p>
+<hr />
+<p><b>Barney</b>: So, Ranjit, you must have done it with a Lebanese girl...<br />
+<b>Lily</b>: Ok, that's my Barney limit.
+</p>
+<hr />
+<p><b>Barney</b>: ...Just once, when I say "suit up", I'd wish you'd put on a suit!<br />
+<b>Ted</b>: I did, that one time.<br />
+<b>Barney</b>: It was a blazer!
+</p>
+<hr />
+<p><i>(giving a toast)</i><br />
+<b>Marshall</b>: To my fiance!<br />
+<b>Lily</b>: To the future!<br />
+<b>Ranjit</b>: To one hell of a night!
+</p>
+<hr />
+<p><b>Future Ted</b>: <i>(voice over about seeing Robin for the first time)</i> It was like something from an old movie. Where the sailor sees the girl across the crowded dance floor and turns to his buddy, and says, "See that girl? I'm gonna marry her someday."<br />
+<b>Ted</b>: Hey, Barney. See that girl?<br />
+<b>Barney</b>: Oh, yeah, you just know she likes it dirty.
+</p>
+<hr />
+<p><b>Ted</b>: I'm so happy for Marshall, I really am. I just can't imagine settling down right now.<br /><b>Yasmin</b>: So, do you think you'll ever get married?<br /><b>Ted</b>: Well, maybe eventually... some fall day, possibly in Central Park... simple ceremony, we'll write our own vows... band, no DJ, people will dance, I'm not gonna worry about it!
+</p>
+<hr />
+<p><b>Marshall</b>: <i>(rehearsing with Ted)</i> Will you marry me?<br /><b>Ted</b>: Yes, perfect! And then you're engaged, you pop the champagne, you do your toast, you have sex on the kitchen floor! Don't have sex on our kitchen floor.
+</p>
+<hr />
+<p><b>Barney</b>: <i>(after Robin throws a drink in Ted's face)</i> De -wait for it- Nied! Denied!
+</p>
+<hr />
+<p><b>Barney</b>: There's no such thing as the signal! But yeah, that was the signal.
+</p>
+<hr />
+<p><b>Future Ted</b>: That, kids, is the true story of how I met your Aunt Robin.<br /><b>Son</b>: Aunt Robin?<br />
+<b>Daughter</b>: I thought this was how you met Mom?<br />
+<b>Future Ted</b>: Will you relax? I'm getting to it. Like I said, it's a long story.
+</p>
+<hr />
+<p><b>Ted</b>: You know what? I'm done being single, I'm not good at it. Look, obviously you can't tell a woman you just met that you love her, but it sucks that you can't. I'll tell you something though, if a woman, not you, just some hypothetical woman, were to bear with me through all this, I think I'd make a damn good husband, because that's the stuff I'd be good at. Stuff like making her laugh and being a good father and walking her five hypothetical dogs. Being a good kisser...<br /><b>Robin</b>: Everyone thinks they're a good kisser.<br />
+<b>Ted</b>: Oh, I've got references.
+</p>
+<hr />
+<p><b>Ranjit</b>: Actually, I'm from Bangladesh.<br />
+<b>Barney</b>: The women hot there?<br />
+<b>Ranjit</b>: Here's a picture of my wife.<br /><b>Barney</b>: <i>(whispering)</i> A simple no would've sufficed.
+</p>
+<hr />
+<p><b>Robin</b>: I love a Scotch that's old enough to order its own Scotch
+</p>
+<hr />
+<p><b>Robin</b>: I think I like your olive theory.<br />
+<b>Ted</b>: I think I like your new French horn.<br />
+<b>Robin</b>: I think I like your nose.<br />
+<b>Ted</b>: I think I'm in love with you.
+</p>
+<hr />
+<p><b>Ted</b>: I gotta do what that guy couldn't, I gotta take the leap!...Okay, not a perfect metaphor, cause for me it's fall in love and get married, and for him it's...death.<br />
+<b>Barney</b>: Actually, that is a perfect metaphor...(<i>to Marshall and Lily who just got engaged</i>) By the way, did I congratulate you two?
+</p>
+<hr />
+<p><b>Barney</b>: Hi, <a href="/wiki/Have_you_met" title="Have you met">have you met</a> Ted?<br />
+<i>(Barney's classic wingman line)</i>
+</p>
+<hr />
+<p><b>Marshall</b>: I'm full of surprises tonight.<br />
+<b>Lily</b>: So there's more surprises?! Like what?<br /><b>Marshall</b> <i>(screaming)</i>: BOOGADABOO!!! And that's all of em!!
+</p>
+<hr />
+<p><b>Barney</b>: <i>(answering the phone)</i> Hey, so you know how I've always had a thing for half-Asians? Well, now I have a new favorite: Lebanese girls. Lebanese girls are the new half-Asians.
+</p>
+<hr />
+<p><b>Ted</b>: I've been there for all the big moments of you and Lily: the night you met, your first date, other first things...<br />
+<b>Marshall</b>: Huh-uh-uh, yeah, sorry, we thought you were asleep.<br />
+<b>Ted</b>: It's physics Marshall, if the bottom bunk moves the top bunk moves too.
+</p>
+<hr />
+<p><b>Barney</b>: You suited up! This is totally going in my <a href="/wiki/Barney%27s_Blog" title="Barney&#39;s Blog">blog</a>!<br />
+<i>-Barney to Ted</i>
+</p>
+<hr />
+<p><b>Cab Driver</b>: Woah woah woah. Did you hit her?<br />
+<b>Lily</b> <i>(laughs)</i>: Hit me? Please! This guy can barely spank me in bed for fun. He's all like "Oh honey did that hurt?" and I'm all like "C'mon let me have it ya pansy!" Wow, complete stranger.<br />
+<b>Cab Driver</b>: No, no, no, no! It's OK! Go on. So, these spankings, you in pajamas or au naturale?
+</p>
+<hr />
+<p><b>Barney</b> <i>(on the phone)</i>: Hey, loser. How is not playing laser tag? Because playing laser tag is awesome! <i>(to a kid)</i> Oh, I killed you, Conner! Don't make me get your mom!<br />
+<b>Ted</b>: Hey, listen, I need your help on something.<br />
+<b>Barney</b>: Okay, meet me at the bar in 15 minutes. And suit up!
+</p>
+<hr />
+<p><b>Ted</b>: I could end up marrying this woman; I want our first kiss to be special.<br />
+<b>Lily</b>: Aw, that's sweet. So you chickened out like a little bitch?
+</p>
+<hr />
+<p><b>Future Ted</b>: Son, a piece of advice: when you go on a first date, you really don't want to say "smurf penis." Girls don't ordinarily like that.
+</p>
+<hr />
+<p><b>Ted</b>: That was not the signal!<br /><b>Ted's Voice-Over</b>: I asked her about it years later, and, yes, that was the signal.
+</p>
+<hr />
+<p><b>Robin</b>: My friend just got dumped, so tonight all men are "the Enemy".<br />
+<b>Ted</b>: If it would make your friend feel better, you can throw a drink in my face.<br />
+<b>Robin</b>: She would love that!
+</p>
+<hr />
+<p><b>Ted</b>: Marshall, remember this night. When you're the best man at our wedding and you give a speech, you're gonna tell this story.<br />
+<b>Barney</b>:Why does he get to be the best man&#160;? I'm your best friend!<br />
+</p>
+<h2><span class="mw-headline" id="Notes_and_Trivia">Notes and Trivia</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=6" title="Edit Notes and Trivia section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<h3><span class="mw-headline" id="Goofs_and_Errors">Goofs and Errors</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=7" title="Edit Goofs and Errors section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h3>
+<ul><li>In the scene where Ted meets Robin, Robin first has her hair covering her ears, but in the next shot, she has her hair behind her ears.
+</li><li>In the scene where Robin was covering the "jumper story", instead of saying <a href="/wiki/Metro_News_1" title="Metro News 1">Metro News 1</a> she says Metro 1 News.
+</li></ul>
+<h3><span class="mw-headline" id="Allusions_and_Outside_References">Allusions and Outside References</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=8" title="Edit Allusions and Outside References section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h3>
+<ul><li>When Ted sees the blue french horn, he calls it a "Smurf Penis," which he tells his son is typically a bad idea on a first date. The Smurfs were a fictional group of small sky blue creatures who live somewhere in the forests of medieval Europe. They began in a Belgian comic strip in 1958, but gained the most popularity from the Hanna-Barbera television series, which ran from 1981 to 1989.
+<ul><li>Intrestingly, Neil Patrick Harris (Barney) starred in The Smurfs movie, only 6 years later.
+</li></ul>
+</li></ul>
+<h3><span class="mw-headline" id="Music">Music</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=9" title="Edit Music section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h3>
+<ul><li>Otis Redding - Cigarettes and Coffee
+</li><li>The Pretenders - Back on the Chain Gang
+</li></ul>
+<ul><li>The <a href="/wiki/Theme_song" title="Theme song" class="mw-redirect">theme song</a> for the show is 'Hey Beautiful' by <i><a href="http://en.wikipedia.org/wiki/The_Solids" class="extiw exitstitial" title="wikipedia:The Solids">The Solids</a></i>, which includes writers/producers/co-creators <a href="/wiki/Carter_Bays" title="Carter Bays">Carter Bays</a> and <a href="/wiki/Craig_Thomas" title="Craig Thomas">Craig Thomas</a>.
+</li></ul>
+<h3><span class="mw-headline" id="Other_Notes">Other Notes</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=10" title="Edit Other Notes section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h3>
+<ul><li>In his audition, which included the laser tag scene, <a href="/wiki/Neil_Patrick_Harris" title="Neil Patrick Harris">Neil Patrick Harris</a> did the dive roll that he does in this episode. <a href="/wiki/Alyson_Hannigan" title="Alyson Hannigan">Alyson Hannigan</a>, who was in the next room during Harris's audition, asked Harris to bump the wall when he did the dive so that she knew that he had done it. Harris misjudged the space and he hit the wall harder than he intended knocking himself out.
+</li><li>The champagne that the group drinks at the end of the episode was real champagne, but the actors (including Marshall Manesh, who plays Ranjit, who doesn't drink alcohol because of religious reasons) didn't know that fact until they drank it.
+</li><li>This is the only episode (except for <a href="/wiki/Game_Night" title="Game Night">Game Night</a>, <a href="/wiki/Last_Words" title="Last Words">Last Words</a>, <i><a href="/wiki/Hopeless" title="Hopeless"><span style="cursor: help;" title="Hopeless (6x21) - When Barney tries to bond with his father, he asks the gang to help make his life seem more exciting by lying about their own lives. Meanwhile, Robin runs into a guy she has a crush on.">Hopeless</span></a></i>, <i><a href="/wiki/46_Minutes" title="46 Minutes">46 Minutes</a> and <a href="/wiki/How_Your_Mother_Met_Me" title="How Your Mother Met Me">How Your Mother Met Me</a></i>) to forgo the traditional opening (the yellow-tinted montage of the photographs containing all five main characters). Instead, you see a series of non-tinted photographs of Ted, Marshall, and some unnamed female friends.
+</li><li>This episode features an audio commentary by show creators <a href="/wiki/Carter_Bays" title="Carter Bays">Carter Bays</a> and <a href="/wiki/Craig_Thomas" title="Craig Thomas">Craig Thomas</a> , Director <a href="/wiki/Pamela_Fryman" title="Pamela Fryman">Pamela Fryman</a> and cast members <a href="/wiki/Josh_Radnor" title="Josh Radnor">Josh Radnor</a> , <a href="/wiki/Jason_Segel" title="Jason Segel">Jason Segel</a> , <a href="/wiki/Cobie_Smulders" title="Cobie Smulders">Cobie Smulders</a> , <a href="/wiki/Alyson_Hannigan" title="Alyson Hannigan">Alyson Hannigan</a> and <a href="/wiki/Neil_Patrick_Harris" title="Neil Patrick Harris">Neil Patrick Harris</a> .
+</li><li> It is revealed that in college, the bottom bunk was Marshall's and the top - Ted's.
+</li></ul>
+<h2><span class="mw-headline" id="Awards">Awards</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=11" title="Edit Awards section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<ul><li>This episode was nominated for the 2006 Excellence in Production Design Award for Television - Multi-Camera Television Series.
+</li><li>This episode won the 2006 <i><a href="http://en.wikipedia.org/wiki/Emmy_Award" class="extiw exitstitial" title="wikipedia:Emmy Award">Emmy Award</a></i> for Outstanding Art Direction for a Multi-Camera Series.
+</li></ul>
+<h2><span class="mw-headline" id="Guests">Guests</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=12" title="Edit Guests section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<ul><li><a href="/wiki/Saba_Homayoon" title="Saba Homayoon">Saba Homayoon</a> - <a href="/wiki/Yasmin" title="Yasmin">Yasmin</a>
+</li><li><a href="/wiki/Marshall_Manesh" title="Marshall Manesh">Marshall Manesh</a> - <a href="/wiki/Ranjit" title="Ranjit" class="mw-redirect">Ranjit</a>
+</li><li><a href="/wiki/Joe_Nieves" title="Joe Nieves">Joe Nieves</a> - <a href="/wiki/Carl" title="Carl" class="mw-redirect">Carl</a>
+</li><li>Jack Shearer - Cab Driver
+</li><li><i><a href="http://en.wikipedia.org/wiki/Monique_Edwards" class="extiw exitstitial" title="wikipedia:Monique Edwards">Monique Edwards</a></i> - Producer
+</li><li>Sarah Loew - <a href="/wiki/Robin%27s_Friend" title="Robin&#39;s Friend">Dumped Friend</a>
+</li><li>Gary Riotto - Waiter #1
+</li><li>Tony Rossi - Waiter #2
+</li><li>Randy Spire - Boyfriend <small>(uncredited)</small>
+</li></ul>
+<h2><span class="mw-headline" id="Reception">Reception</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=13" title="Edit Reception section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<ul><li> The episode received generally favorable reviews, garnering a score of 69 from Metacritic.<sup id="cite_ref-0" class="reference"><a href="#cite_note-0">[1]</a></sup>
+</li><li> Nielsen Media gave it a viewership rating of 5.2/8 for households with 3.3 rating for adults age 18-49.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[2]</a></sup>
+</li><li> The <i>St. Petersburg Comic Review</i> gave this episode 8 out of 10 stars.  "Based on this great first episode, we see a lot of potential for this series!"
+</li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=14" title="Edit References section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<div class="references-small">
+<ol class="references"><li id="cite_note-0"><a href="#cite_ref-0">↑</a> <span class="reference-text"><a rel="nofollow" class="external free exitstitial" href="http://www.metacritic.com/tv/shows/howimetyourmother?q=how%20i%20met%20your%20mother">http://www.metacritic.com/tv/shows/howimetyourmother?q=how%20i%20met%20your%20mother</a></span>
+</li>
+<li id="cite_note-1"><a href="#cite_ref-1">↑</a> <span class="reference-text"><a rel="nofollow" class="external free exitstitial" href="http://www.tvweek.com/ratings/092407.pdf">http://www.tvweek.com/ratings/092407.pdf</a></span>
+</li></ol></div>
+<h2><span class="mw-headline" id="External_Links">External Links</span><span class="editsection"><a href="/wiki/Pilot?action=edit&amp;section=15" title="Edit External Links section"><img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="sprite edit-pencil" />Edit</a></span></h2>
+<ul><li><a href="http://en.wikipedia.org/wiki/Pilot_(How_I_Met_Your_Mother)" class="extiw exitstitial" title="wikipedia:Pilot (How I Met Your Mother)"><i>Pilot</i></a> at the English Wikipedia
+</li><li><a rel="nofollow" class="external text exitstitial" href="http://www.imdb.com/title/tt0606110/"><i>Pilot</i></a> at the <a href="http://en.wikipedia.org/wiki/Internet_Movie_Database" class="extiw exitstitial" title="wikipedia:Internet Movie Database">Internet Movie Database</a>
+</li><li><a rel="nofollow" class="external text exitstitial" href="http://www.tv.com/how-i-met-your-mother/pilot/episode/423465/summary.html"><i>Pilot</i></a> at <a  class="external text exitstitial" href="http://en.wikipedia.org/wiki/TV.com">TV.com</a>
+</li><li><i><a rel="nofollow" class="external text exitstitial" href="http://www.tvtdb.com/howimetyourmother/transcripts/1x01.php">Pilot Transcript</a></i> at <i><a rel="nofollow" class="external text exitstitial" href="http://www.tvtdb.com/index.php">TV Transcripts DB</a></i>
+</li></ul>
+<p><br style="clear: both;" />
+</p>
+<table style="margin: 0 auto; width: 500px;">
+
+<tr>
+<td style="text-align: center; width: 33%; vertical-align: top;background-color:#FFC34D; border-bottom-left-radius:10px; border-top-left-radius:10px;">  <div style="vertical-align: top;background: #FFAA00;border-radius:5px 0px 0px 0px; -webkit-border-radius:5px 0px 0px 0px;">&#8592; <b>Previous episode</b></div><b>&#8212;</b>  </td><td style="text-align: center; width: 33%; vertical-align: top;background:#FFAA00"><b>Pilot</b> <br /> <small><a href="/wiki/Episode_Guide" title="Episode Guide"><i>(all&#160;episodes)</i></a></small></td><td style="text-align: center; width: 33%; vertical-align: top;background-color:#FFC34D; border-top-right-radius:10px; border-bottom-right-radius:10px;"> <div style="vertical-align: top; background: #FFAA00;border-radius:0px 5px 0px 0px; -webkit-border-radius:0px 5px 0px 0px;"><b>Next episode  &#8594;</b></div><i><b><a href="/wiki/Purple_Giraffe" title="Purple Giraffe"><span style="cursor: help;" title="Purple Giraffe (1x02) - Ted continues to try and impress Robin, by throwing three parties to make himself seem more casual. Marshall cannot return Lily&#39;s heightened affections, as he stresses over an essay. Barney needs to get rid of a girl, who keeps showing up at all of the parties.">Purple Giraffe</span></a></b></i>
+</td></tr></table>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 2049/300000
+Post‐expand include size: 35915/2097152 bytes
+Template argument size: 14093/2097152 bytes
+Expensive parser function count: 1/100
+-->
+
+<!-- Saved in parser cache with key himym:pcache:idhash:1977-0!*!0!!en!2!* -->
+<noscript><link rel="stylesheet" href="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/extensions/wikia/ImageLazyLoad/css/ImageLazyLoadNoScript.css" /></noscript><noscript><link rel="stylesheet" href="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/extensions/wikia/TOCimprovements/TOCNoScript.css" /></noscript></div><div class="printfooter">
+Retrieved from "<a href="http://how-i-met-your-mother.wikia.com/wiki/Pilot?oldid=149819">http://how-i-met-your-mother.wikia.com/wiki/Pilot?oldid=149819</a>"</div>
+
+				</div>
+
+															<nav class="article-categories CategorySelect articlePage userCanEdit" id="articleCategories">
+	<div class="container">
+		<div class="special-categories"><a href="/wiki/Special:Categories" title="Special:Categories" class="categoriesLink" rel="nofollow">Categories</a>:</div>
+		<ul class="categories">
+				<li class="category normal" data-name="Season 1" data-namespace="" data-outertag="" data-sortkey="" data-type="normal">
+	<span class="name"><a href="/wiki/Category:Season_1" title="Category:Season 1">Season 1</a></span>
+	<ul class="toolbar">
+		<li class="tool editCategory venus-icon-edit-large sprite-small edit" title=""></li>
+		<li class="tool removeCategory venus-icon-cross-negative sprite-small delete" title=""></li>
+	</ul>
+</li>
+	<li class="category normal" data-name="Episodes" data-namespace="" data-outertag="" data-sortkey="" data-type="normal">
+	<span class="name"><a href="/wiki/Category:Episodes" title="Category:Episodes">Episodes</a></span>
+	<ul class="toolbar">
+		<li class="tool editCategory venus-icon-edit-large sprite-small edit" title=""></li>
+		<li class="tool removeCategory venus-icon-cross-negative sprite-small delete" title=""></li>
+	</ul>
+</li>
+	<li class="category hidden" data-name="Old episodes" data-namespace="" data-outertag="" data-sortkey="" data-type="hidden">
+	<span class="name"><a href="/wiki/Category:Old_episodes" title="Category:Old episodes">Old episodes</a></span>
+	<ul class="toolbar">
+		<li class="tool editCategory venus-icon-edit-large sprite-small edit" title=""></li>
+		<li class="tool removeCategory venus-icon-cross-negative sprite-small delete" title=""></li>
+	</ul>
+</li>
+							<li class="last">
+					<button class="wikia-button secondary add" id="CategorySelectAdd" type="button">Add category</button>
+					<input autocomplete="off" class="input" id="CategorySelectInput" name="CategorySelectInput" placeholder="Add category..." type="text">				</li>
+					</ul>
+	</div>
+			<div class="toolbar">
+			<button class="wikia-button secondary cancel" id="CategorySelectCancel" type="button">Cancel</button>
+			<button class="wikia-button save" id="CategorySelectSave" type="button" disabled="disabled">Save</button>
+		</div>
+	</nav>									
+				<nav class="WikiaArticleInterlang">
+	<h3>Languages: </h3>
+	<ul>
+			<li><a href="http://de.how-i-met-your-mother.wikia.com/wiki/Verliebt,_Verlobt,_Versagt">Deutsch</a></li>
+			<li><a href="http://comoconociavuestramadre.wikia.com/wiki/Piloto">Español</a></li>
+			<li><a href="http://it.eallafinearrivamamma.wikia.com/wiki/Una_Lunga_Storia">Italiano</a></li>
+			<li><a href="http://pt.how-i-met-your-mother.wikia.com/wiki/Pilot">Português</a></li>
+			<li><a href="http://uk.how-i-met-your-mother.wikia.com/wiki/Pilot">Українська</a></li>
+		</ul>
+</nav>
+
+				<script>
+    
+
+
+
+
+if (window.fromsearch 
+&& typeof(Wikia.geo) !== 'undefined' && ['GB','JP','UK','US'].indexOf(Wikia.geo.getCountryCode()) < 0
+) {
+    document.write(
+        '<div id="monetization-adunit-below_category" class="monetization-module adunit hide-for-edit" ' +
+        'data-mon-type="adunit" data-mon-slot="below_category"><div class="ad-header">Advertisement</div><div>' +
+        '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' +
+        '</scr' + 'ipt><ins class="adsbygoogle ad-responsive" style="display:inline-block;" ' +
+        'data-ad-client="ca-pub-4086838842346968" data-ad-channel="mon_pl_bc_bt_ic_fss_ffa mon_hub_tv mon_sl_bc" ' +
+        'data-ad-type="text" ' + 
+'data-font-size="small" ' +
+
+
+
+'data-font-face="arial" ' +
+
+        ' data-color-bg="#ebebeb" data-color-border="#ebebeb" data-color-link="#00008b" data-color-url="#00008b" data-color-text="#3a3a3a" ></ins>' +
+        '<script>(adsbygoogle = window.adsbygoogle || []).push({});</scr' + 'ipt></div></div>'
+    );
+}
+</script>
+									<div id="WikiaArticleFooter" class="WikiaArticleFooter">
+							<form id='RTEFakeForm'></form><section id="WikiaArticleComments" class="WikiaArticleComments noprint" data-page="1">
+	</section><div id="RelatedPagesModuleWrapper"></div>					</div>
+				
+								<div id="WikiaArticleBottomAd" class="noprint">
+					<!-- BEGIN SLOTNAME: PREFOOTER_LEFT_BOXAD -->
+<div id="PREFOOTER_LEFT_BOXAD" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["PREFOOTER_LEFT_BOXAD"]);
+</script>
+</div>
+<!-- END SLOTNAME: PREFOOTER_LEFT_BOXAD -->
+					<!-- BEGIN SLOTNAME: PREFOOTER_RIGHT_BOXAD -->
+<div id="PREFOOTER_RIGHT_BOXAD" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["PREFOOTER_RIGHT_BOXAD"]);
+</script>
+</div>
+<!-- END SLOTNAME: PREFOOTER_RIGHT_BOXAD -->
+				</div>
+			</div>
+		</article><!-- WikiaMainContent -->
+
+					<div id="WikiaRail" class="WikiaRail">
+
+	<!-- BEGIN SLOTNAME: TOP_RIGHT_BOXAD -->
+<div id="TOP_RIGHT_BOXAD" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["TOP_RIGHT_BOXAD"]);
+</script>
+</div>
+<!-- END SLOTNAME: TOP_RIGHT_BOXAD -->
+			<div class="loading"></div>
+	
+</div>
+		
+		
+		<footer id="WikiaFooter" class="WikiaFooter notoolbar">
+	<!-- BEGIN SLOTNAME: LEFT_SKYSCRAPER_3 -->
+<div id="LEFT_SKYSCRAPER_3" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["LEFT_SKYSCRAPER_3"]);
+</script>
+</div>
+<!-- END SLOTNAME: LEFT_SKYSCRAPER_3 -->
+	
+	<section>
+	<div class="header-container">
+		<h1>Around Wikia's network</h1>
+		<a id="WikiaRandomWiki" href="http://community.wikia.com/wiki/Special:RandomWiki/8221" class="wikia-button">Random Wiki</a>
+	</div>
+	<script type='text/javascript'>
+		wgAfterContentAndJS.push(function() {
+			window.OpenXSPC = {};
+			window.OpenXSPC[ 'fillElem_SPOTLIGHT_FOOTER' ] = function() {
+				var output = window.OA_output || [];
+				( 14 in output ) && $( '#SPOTLIGHT_FOOTER_1' ).html( output[ 14 ] );
+				( 15 in output ) && $( '#SPOTLIGHT_FOOTER_2' ).html( output[ 15 ] );
+				( 16 in output ) && $( '#SPOTLIGHT_FOOTER_3' ).html( output[ 16 ] );
+			};
+		});
+	</script>
+	<ul id="SPOTLIGHT_FOOTER" class="LazyLoadAd SPOTLIGHT_FOOTER">
+		<li class="WikiaSpotlight item-1" id="SPOTLIGHT_FOOTER_1"></li>
+		<li class="WikiaSpotlight item-2" id="SPOTLIGHT_FOOTER_2"></li>
+		<li class="WikiaSpotlight item-3" id="SPOTLIGHT_FOOTER_3"></li>
+	</ul>
+</section>
+</footer>
+				<footer class="global-footer row">
+	<nav>
+		<h1>Wikia Inc Navigation</h1>
+		<div class="branding black">
+			<div class="wordmark">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" class="wordmark3">
+			</div>
+							<div class="hub"><a class="hub3" href="http://www.wikia.com/Entertainment">[ Entertainment ]</a></div>
+					</div>
+		<ul>
+							<li>
+											<a href="http://www.wikia.com/About"><span>About</span></a>
+									</li>
+							<li>
+											<a href="http://community.wikia.com"><span>Community Central</span></a>
+									</li>
+							<li>
+											<a href="http://www.wikia.com/Careers">Careers</a>
+									</li>
+							<li>
+											<a href="http://www.wikia.com/Advertising">Advertise</a>
+									</li>
+							<li>
+											<a href="http://api.wikia.com/"><span>API</span></a>
+									</li>
+							<li>
+											<a href="/wiki/Special:Contact">Contact Wikia</a>
+									</li>
+							<li>
+											<a href="http://www.wikia.com/Terms_of_Use">Terms of Use</a>
+									</li>
+							<li>
+											<a href="http://www.wikia.com/Privacy_Policy">Privacy Policy</a>
+									</li>
+							<li>
+					Content is available under <a href="http://www.wikia.com/Licensing" title="homepage:Licensing">CC-BY-SA</a>.				</li>
+					</ul>
+	</nav>
+</footer>
+	</div>
+</section><!--WikiaPage-->
+
+	<div id="WikiaBar">
+		<div id="WikiaBarWrapper" class="WikiaBarWrapper hidden">
+				<div class="wikia-bar wikia-bar-anon">
+			<a href="#" class="arrow" data-tooltip="Collapse" data-tooltipshow="Show"></a>
+			<div class="ad">
+		<div id="WIKIA_BAR_BOXAD_1" class="noprint" style="width: 300px; position: relative;"></div>
+</div>
+<div
+	class="message"
+	data-messagetooltip="Click here for more information!"
+	data-wikiabarcontent="[{&quot;text&quot;:&quot;Which Warrior Woman Are You? Take Our Quiz&quot;,&quot;href&quot;:&quot;http:\/\/ow.ly\/GjAT9&quot;},{&quot;text&quot;:&quot;Which Warrior Woman Are You? Take Our Quiz&quot;,&quot;href&quot;:&quot;http:\/\/ow.ly\/GjAT9&quot;},{&quot;text&quot;:&quot;Which Warrior Woman Are You? Take Our Quiz&quot;,&quot;href&quot;:&quot;http:\/\/ow.ly\/GjAT9&quot;},{&quot;text&quot;:&quot;Which Warrior Woman Are You? Take Our Quiz&quot;,&quot;href&quot;:&quot;http:\/\/ow.ly\/GjAT9&quot;},{&quot;text&quot;:&quot;Which Warrior Woman Are You? Take Our Quiz&quot;,&quot;href&quot;:&quot;http:\/\/ow.ly\/GjAT9&quot;}]"
+></div>
+	<a class="wikiabar-button" href="http://www.wikia.com/Entertainment" data-index="0">
+		<img src="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/extensions/wikia/WikiaBar/images/wikiabarIcon.png" class="icon cup" />
+		<span>Entertainment</span>
+	</a>
+	<a class="wikiabar-button" href="http://www.wikia.com/Video_Games" data-index="1">
+		<img src="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/extensions/wikia/WikiaBar/images/wikiabarIcon.png" class="icon cup" />
+		<span>Video Games</span>
+	</a>
+	<a class="wikiabar-button" href="http://www.wikia.com/Lifestyle" data-index="2">
+		<img src="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/extensions/wikia/WikiaBar/images/wikiabarIcon.png" class="icon cup" />
+		<span>Lifestyle</span>
+	</a>
+		</div>
+			</div>
+	<div class="WikiaBarCollapseWrapper">
+		<a href="#" class="wikia-bar-collapse" data-tooltip="Collapse"></a>
+	</div>
+</div>
+
+	<!-- BEGIN SLOTNAME: GPT_FLUSH -->
+<div id="GPT_FLUSH" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["GPT_FLUSH"]);
+</script>
+</div>
+<!-- END SLOTNAME: GPT_FLUSH -->
+<!-- BEGIN SLOTNAME: INVISIBLE_1 -->
+<div id="INVISIBLE_1" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["INVISIBLE_1"]);
+</script>
+</div>
+<!-- END SLOTNAME: INVISIBLE_1 -->
+<!-- BEGIN SLOTNAME: INVISIBLE_2 -->
+<div id="INVISIBLE_2" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["INVISIBLE_2"]);
+</script>
+</div>
+<!-- END SLOTNAME: INVISIBLE_2 -->
+<!-- BEGIN SLOTNAME: SEVENONEMEDIA_FLUSH -->
+<div id="SEVENONEMEDIA_FLUSH" class="wikia-ad noprint default-height">
+	<script>
+	window.adslots2.push(["SEVENONEMEDIA_FLUSH"]);
+</script>
+</div>
+<!-- END SLOTNAME: SEVENONEMEDIA_FLUSH -->
+</div>
+	<!--[if lt IE 8]>
+		<script src="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/resources/wikia/libraries/json2/json2.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="http://slot1.images.wikia.nocookie.net/__cb1419252955/common/resources/wikia/libraries/html5/html5.min.js"></script>
+	<![endif]-->
+
+	<!-- Combined JS files and head scripts -->
+	
+<!-- Liftium options -->
+<script>LiftiumOptions = {"pubid":999,"baseUrl":"\/__varnish_liftium\/","kv_wgDBname":"himym","kv_article_id":1977,"kv_wpage":"Pilot","kv_Hub":"Entertainment","kv_skin":"oasis","kv_user_lang":"en","kv_cont_lang":"en","kv_isMainPage":false,"kv_page_type":"article","geoUrl":"http:\/\/geoiplookup.wikia.com\/","kv_domain":"how-i-met-your-mother.wikia.com","hasMoreCalls":true,"isCalledAfterOnload":true,"maxLoadDelay":6000};
+</script>
+<script src="http://how-i-met-your-mother.wikia.com/__load/-/cb%3D1419252955%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis%26ve%3D1/startup"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Pilot","wgTitle":"Pilot","wgCurRevisionId":149819,"wgArticleId":1977,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Season 1","Episodes","Old episodes"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Pilot","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgTimeAgoi18n":{"year":"a year ago","years":"%d years ago","month":"a month ago","months":"%d months ago","day":"a day ago","days":"%d days ago","hour":"an hour ago","hours":"%d hours ago","minute":"a minute ago","minutes":"%d minutes ago","seconds":"a minute ago","year-from-now":"\x26lt;timeago-year-from-now\x26gt;","years-from-now":"\x26lt;timeago-year-from-now\x26gt;","month-from-now":"a month from now","months-from-now":"%d months from now","day-from-now":"a day from now","days-from-now":"%d days from now","hour-from-now":"an hour from now","hours-from-now":"%d hours from now","minute-from-now":"a minute from now","minutes-from-now":"%d minutes from now","second-from-now":"a minute from now","seconds-from-now":"a minute from now"},"sassParams":{"background-dynamic":"true","background-image":"http://img1.wikia.nocookie.net/__cb56/himym/images/5/50/Wiki-background","background-image-height":"800","background-image-width":"2000","color-body":"#f0db28","color-body-middle":"#f0db28","color-buttons":"#ffaa00","color-header":"#d62c04","color-links":"#00008b","color-page":"#ebebeb","page-opacity":"100","widthType":2},"wgAssetsManagerQuery":"/__am/%4$d/%1$s/%3$s/%2$s","wgEnableOutboundScreenExt":true,"wgCatId":"3","wgBlankImgUrl":"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D","wgMainpage":"How I Met Your Mother Wiki","wgIsContentNamespace":true,"wgExtensionsPath":"http://slot1.images.wikia.nocookie.net/__cb1419252955/common/extensions","wgResourceBasePath":"http://slot1.images.wikia.nocookie.net/__cb1419252955/common","wgSitename":"How I Met Your Mother Wiki","wgMWrevId":false,"wgRevisionId":149819,"wgCookieDomain":".wikia.com","wgCookiePath":"/","wgEnableWikiaPhotoGalleryExt":true,"wgOasisGrid":true,"wgEnableMediaGalleryExt":false,"wgEnableLightboxExt":true,"wgShowAdModalInterstitialTimes":3,"wgEnableWebPThumbnails":true,"fbAppId":"112328095453510","fbScript":null,"fbLogo":false,"fbLogoutURL":"/wiki/Special:UserLogout?returnto=Pilot","fbReturnToTitle":"Pilot","fbScriptLangCode":"en_US","wgEnableFacebookClientExt":true,"wgEnableWikiaFollowedPages":true,"wgFollowedPagesPagerLimit":15,"wgFollowedPagesPagerLimitAjax":600,"wgWikiaChatUsers":"","wgWikiaChatWindowFeatures":"width=600,height=600,menubar=no,status=no,location=no,toolbar=no,scrollbars=no,resizable=yes","wgEnableWikiaBarExt":true,"wgEnableWikiaBarAds":true,"wgWikiaBarMainLanguages":["en","de","es","fr"],"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"http://slot1.images.wikia.nocookie.net/__cb1419252955/common/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048,"namespacesWithSubpages":{"1":true,"2":true,"3":true,"5":true,"7":true,"8":true,"9":true,"11":true,"13":true,"15":true,"0":true,"4":true,"6":true,"10":true,"12":true,"14":true,"110":true,"111":true,"1200":true,"500":true,"501":true,"502":true,"503":true,"828":true,"829":true}},"wgMaxUploadSize":10485760,"wgEnableVisualEditorUI":false,"wgEnableWikiaInteractiveMaps":false,"VignettePathPrefix":null,"wgQualarooUrl":"//s3.amazonaws.com/ki.js/52510/bgJ.js","wgVisualEditorPreferred":true,"wgBuckyConfig":{"host":"//speed.wikia.net/__rum","sample":0.1,"aggregationInterval":1000,"protocol":2},"wgOasisResponsive":true,"verticalName":"Entertainment","WikiaEnableNewCreatepage":true,"ContentNamespacesText":[""],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgCategorySelect":{"defaultNamespace":"Category","defaultNamespaces":"Category","defaultSeparator":":","defaultSortKey":"Pilot"},"wgArticleCommentsLoadOnDemand":true,"wgEnableMiniEditorExt":true,"wgMiniEditorLoadOnDemand":true,"wgMiniEditorAssets":["/extensions/wikia/MiniEditor/js/Wall/Wall.Animations.js"]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":1,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":1,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"oasis","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":1,"watchdefault":1,"watchdeletion":1,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"htmlemails":1,"watchlistdigest":1,"enablerichtext":1,"editor":0,"enotifwallthread":2,"wallshowsource":false,"walldelete":false,"visualeditor-enable":1,"visualeditor-betatempdisable":0,"visualeditor-enable-experimental":0,"visualeditor-enable-language":0,"visualeditor-hidebetawelcome":0,"useeditwarning":true,"founderemails-joins-8221":0,"founderemails-edits-8221":0,"founderemails-views-digest-8221":0,"founderemails-complete-digest-8221":0,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":true,"searchNs15":false,"searchNs110":false,"searchNs111":false,
+"searchNs500":false,"searchNs501":false,"searchNs502":false,"searchNs503":false,"searchNs828":false,"searchNs829":false,"searchNs1000":false,"searchNs1010":false,"searchNs1020":false,"searchNs1200":false,"searchNs1201":false,"searchNs1202":false,"searchNs2000":false,"searchNs2001":false,"searchNs2002":false,"userlandingpage":1});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: himym:resourceloader:filter:minify-js:7:520fb282c275018a676566125dc40884 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","amd.shared","ext.visualEditor.wikiaViewPageTarget.init","mediawiki.user","mediawiki.page.ready","ext.wikiaInYourLang"]);
+}</script><script src="http://slot1.images.wikia.nocookie.net/__am/1419252955/groups/-/oasis_shared_core_js,adengine2_js,adengine2_late_js,adengine2_spotlights_js,oasis_shared_js,oasis_anon_with_new_global_nav_js,liftium_ads_js,liftium_ads_extra_js,adengine2_top_in_content_boxad_js,adengine2_interactive_maps_js,toc_js,qualaroo_js,global_footer_js,relatedpages_js"></script>
+<script src="http://slot1.images2.wikia.nocookie.net/__am/1419252955/group/-/videos_module_js"></script>
+<script src="/wikia.php?controller=JSMessages&amp;method=getMessages&amp;format=html&amp;packages=ConfirmModal%2CEditPageLayout%2CImagePlaceholder%2COasis-generic%2CVideosModule&amp;uselang=en&amp;cb=1419252955.0.75172"></script>
+<script src="http://slot1.images3.wikia.nocookie.net/__am/1419252955/group/-/monetization_module_js"></script>
+<script src="http://slot1.images3.wikia.nocookie.net/__am/1419252955/group/-/global_navigation_js"></script>
+
+<script type="text/javascript">/*<![CDATA[*/ Wikia.LazyQueue.makeQueue(wgAfterContentAndJS, function(fn) {fn();}); wgAfterContentAndJS.start(); /*]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/ if (typeof AdEngine_trackPageInteractive === 'function') {wgAfterContentAndJS.push(AdEngine_trackPageInteractive);} /*]]>*/</script>
+<script src="http://how-i-met-your-mother.wikia.com/__load/-/cb%3D1419252955%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/ext.siteWideMessages.anon"></script>
+
+<script src="http://how-i-met-your-mother.wikia.com/__load/-/cb%3D1419252955%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/site"></script>
+<script type='text/javascript'>
+var agllGroup = "Entertainment";
+!function(){
+var a=document.createElement("script");a.type="text/javascript";a.async=!0;var b=["http://a98dc034c7781a941eba-bac02262202668bbe918ea9fb5289cd2.r58.cf2.rackcdn.com","https://52e473ee9859b886964f-bac02262202668bbe918ea9fb5289cd2.ssl.cf2.rackcdn.com"];a.src=("https:"==document.location.protocol?b[1]:b[0])+"/c59hk50tip94.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c)
+}();</script><script>var wgSassLoadedScss = ["skins\/oasis\/css\/oasis.scss","extensions\/wikia\/Forum\/css\/ForumTag.scss","extensions\/wikia\/MonetizationModule\/styles\/MonetizationModule.scss","extensions\/wikia\/GlobalNavigation\/styles\/GlobalNavigation.scss","extensions\/wikia\/GlobalNavigation\/styles\/GlobalNavigationSearch.scss","extensions\/wikia\/GlobalNavigation\/styles\/GlobalNavigationAccountNavigation.scss","extensions\/wikia\/GlobalNavigation\/styles\/GlobalNavigationHubsMenu.scss","extensions\/wikia\/UserLogin\/css\/UserLoginDropdown.globalNavigation.scss","extensions\/wikia\/WallNotifications\/styles\/WallNotifications.globalNavigation.scss","extensions\/wikia\/GlobalNavigation\/styles\/GlobalNavigationOasis.scss","extensions\/wikia\/GlobalNavigation\/styles\/GlobalNavigationSearchOasis.scss","extensions\/wikia\/Qualaroo\/css\/Qualaroo.scss"];</script>
+</body>
+
+
+
+</html>
