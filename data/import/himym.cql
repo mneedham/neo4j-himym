@@ -4,7 +4,7 @@ MERGE (episode:Episode {id: TOINT(row.NumberOverall)})
 SET episode.title = row.Title,
     episode.viewers = toFloat(row.Viewers),
     episode.dateAired = row.DateAired,
-    episode.timestamp = row.Timestamp;
+    episode.timestamp = TOINT(row.Timestamp);
 
 // directors
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/episodes_full.csv" AS row

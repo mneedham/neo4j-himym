@@ -24,6 +24,8 @@ with open('data/episodes.csv', 'w') as episodes:
             date_aired = row.contents[4].text.strip()
             timestamp = int(time.mktime(datetime.datetime.strptime(date_aired, "%B %d, %Y").timetuple()))
 
+            if number_overall == "216":
+                number_overall = "180"
 
             if int(number_overall) < 23:
                 season = 1
@@ -43,8 +45,5 @@ with open('data/episodes.csv', 'w') as episodes:
                 season = 8
             else:
                 season = 9
-
-            if number_overall == "216":
-                number_overall = "180"
 
             writer.writerow([number_overall, number_in_season, episode, season, date_aired, timestamp])
