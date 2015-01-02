@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from soupselect import select
 
-episode_guide = open("Episode_Guide", 'r')
+episode_guide = open("data/Episode_Guide", 'r')
 
 soup = BeautifulSoup(episode_guide.read())
 

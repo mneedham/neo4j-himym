@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from soupselect import select
 import csv
 
-episodes = open("List_of_How_I_Met_Your_Mother_episodes", 'r').read()
+episodes = open("data/List_of_How_I_Met_Your_Mother_episodes", 'r').read()
 soup = BeautifulSoup(episodes)
 rows = select(soup, 'tr.vevent')
 
