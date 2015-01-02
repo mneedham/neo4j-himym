@@ -21,7 +21,7 @@ for row in rows:
 
 print episode_dict
 
-with open('data/episodes.txt', 'r') as episodes:
+with open('data/episodes.csv', 'r') as episodes:
     reader = csv.reader(episodes, delimiter=',')
     reader.next()
 
