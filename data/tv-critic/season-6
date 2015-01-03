@@ -1,0 +1,764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta name="verify-v1" content="sKUjov6Pa/cI4tQyOUZbTLorxZlMRnuQ3EF5QRjsHjM=" />
+	<base href="http://www.thetvcritic.org/"><!--[if lte IE 6]></base><![endif]-->
+	<title>The TV Critic.org - How I Met Your Mother, Season 6</title>
+<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+
+	
+    
+    
+    
+    
+
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/layout.css?m=1332506754" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/typography.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/form.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/Forum.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider-ie.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider.css?m=1331828436" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/theme-homepage.css?m=1331828414" />
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery-1.7.1.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.fx.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.easing.1.2.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/custom.js?m=1361360386"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/prototype/prototype.js?m=1330603700"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/behaviour/behaviour.js?m=1330603692"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/prototype_improvements.js?m=1330603626"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/i18n.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/lang/en_US.js?m=1330603728"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/Validator.js?m=1330603624"></script>
+<script type="text/javascript">
+//<![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7363433-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#SearchForm_searchresults': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+			
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#SearchForm_searchresults input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('SearchForm_searchresults').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#SearchForm_searchresults textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this);
+			}
+		}
+	},
+	'#SearchForm_searchresults select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+</head>
+<body>
+<div id="Crumbs"><b>Crumbs:</b> <a href="/reviews/">Reviews</a> &raquo; <a href="/reviews/comedies/">Comedies</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a> &raquo; Season 6</div>
+	   <div align="center">
+		<table id="PageLayout">
+		<tr>
+			<td></td>
+			<td id="LogoContainer">
+                <div id="mainLogo"><a href="/" title="The TV Critic Home"><img src="themes/tvcritic/images/the_tv_critic_logo.jpg" alt="The TV Critic"/></a></div>
+                <div id="strapline">Critical reviews of U.S. TV shows <br/> and analysis of what makes them <br/> good, bad, irritating and enlightening.</div>                  
+			</td>
+			<td id="MemberContainer">
+				<div class="headerTop">
+					
+						
+					
+					<form  id="SearchForm_searchresults" action="/reviews/comedies/how-i-met-your-mother/season-54/searchresults" method="get" enctype="application/x-www-form-urlencoded">
+	<fieldset>
+		<legend></legend>
+		
+			<div id="q" class="field text "><label class="left" for="SearchForm_searchresults_q">Search: </label><div class="middleColumn"><input type="text" class="text" id="SearchForm_searchresults_q" name="q" value="" /></div></div>
+		
+		
+			<input class="action " id="SearchForm_searchresults_action_searchresults" type="submit" name="action_searchresults" value="Go" title="Go" />
+		
+	</fieldset>
+</form>
+
+				</div>
+                
+                	
+                        <div class="ad-banner size468x60">
+    
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-9835826809205228";
+/* Header Banner */
+google_ad_slot = "5938664980";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+                    
+                
+                
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutTopLeft" rowspan="3"><img src="themes/tvcritic/images/pg_tl.gif" /></td>
+			<td id="PageLayoutTop" colspan="2" height="4"></td>
+			<td id="PageLayoutTopRight" rowspan="3"><img src="themes/tvcritic/images/pg_tr.gif" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" height="34">
+			<div id="MenuBar"><ul>
+					   
+					      <li class="link"><a href="/" title="Go to the &quot;Home&quot; page">Home</a></li>
+					   
+					      <li class="section"><a href="/reviews/" title="Go to the &quot;Reviews&quot; page">Reviews</a></li>
+					   
+					      <li class="link"><a href="/scores/" title="Go to the &quot;Scores&quot; page">Scores</a></li>
+					   
+					      <li class="link"><a href="/podcasts/" title="Go to the &quot;Podcasts&quot; page">Podcasts</a></li>
+					   
+					      <li class="link"><a href="/donate/" title="Go to the &quot;Donate&quot; page">Donate</a></li>
+					   
+					      <li class="link"><a href="/blog/" title="Go to the &quot;Blog&quot; page">Blog</a></li>
+					   
+					      <li class="link"><a href="/forums/" title="Go to the &quot;Forums&quot; page">Forums</a></li>
+					   
+					      <li class="link"><a href="/about/" title="Go to the &quot;About&quot; page">About</a></li>
+					   
+					      <li class="link"><a href="/contact/" title="Go to the &quot;Contact&quot; page">Contact</a></li>
+					   
+			</ul></div></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="menuGapBottom"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutLeftColumn"></td>
+			<td colspan="2" id="ContentContainer"><div class="clear"></div>
+				<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs">
+		<div class="ShowMenuBar ">
+
+    <div class="showListNav">
+        <h3><a href="/reviews/">Comedies</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/comedies/30-rock/">30 Rock</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/community/">Community</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/entourage/">Entourage</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/family-guy/">Family Guy</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/friends/">Friends</a></li>
+            
+            	<li class="section"><a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/parks-and-recreation/">Parks and Recreation</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/scrubs/">Scrubs</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-big-bang-theory/">The Big Bang Theory</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-office/">The Office</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-simpsons/">The Simpsons</a></li>
+            
+        </ul>
+    </div>
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/">Dramas</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/dramas/boardwalk-empire/">Boardwalk Empire</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/breaking-bad/">Breaking Bad</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/buffy-the-vampire-slayer/">Buffy the Vampire Slayer</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/deadwood/">Deadwood</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dexter/">Dexter</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dollhouse/">Dollhouse</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/flashforward/">FlashForward</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/game-of-thrones/">Game of Thrones</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/heroes/">Heroes</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/homeland/">Homeland</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/lost/">Lost</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/mad-men/">Mad Men</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/prison-break/">Prison Break</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/shameless/">Shameless</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/spartacus/">Spartacus</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-walking-dead-2/">The Walking Dead</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-wire/">The Wire</a></li>
+            
+        </ul>
+    </div> 
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/other-reviews/">Other reviews</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/other-reviews/californication/">Californication</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/episodes/">Episodes</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/fringe/">Fringe</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/glee/">Glee</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/legend-of-the-seeker/">Legend of the Seeker</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lights-out/">Lights Out</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lone-star/">Lone Star</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/mike-and-molly/">Mike and Molly</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/modern-family/">Modern Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/no-ordinary-family/">No Ordinary Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/rubicon/">Rubicon</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-event/">The Event</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-middle/">The Middle</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/treme/">Treme</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/twin-peaks/">Twin Peaks</a></li>
+            
+        </ul>
+    </div>        
+    
+</div>
+	</td>
+<td class="SL_M Content">
+
+	<style type="text/css">
+.notbody {
+  background:url('mysite/images/how-i-met-your-mother/banner.jpg') no-repeat top center;
+}
+</style>
+
+
+
+    <div class="score">50<div class="outof">/100</div></div>
+
+    <div class="score viewer"><div class="title">Viewer</div>46<div class="outof">/100</div></div>
+
+
+
+
+
+<div class="typography">
+<h1>How I Met Your Mother</h1>
+
+<p>How I Met Your Mother is a comedy about Ted Mosby, a New York architect who wants to get married and start a family. Future Ted is telling the story of how he met their mother and we see his past story set in the present day and the adventures he has with friends Marshall, Lily, Barney and Robin. CBS 2005-???</p>
+</div>
+
+	<table class="clear">
+<tr>
+	<td class="SL2_TL"></td>
+	<td colspan="2" class="SL2_TR"></td>
+</tr>
+<tr>
+	<td class="SL2_Tabs">
+	
+    	
+            <div class="SeasonMenuBar">
+            	<ul>
+                	<li><h1>S</h1></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-37/">1</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-69/">2</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-19/">3</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-20/">4</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-43/">5</a></li>
+                    
+                    <li class="current"><a href="/reviews/comedies/how-i-met-your-mother/season-54/">6</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/">7</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/">8</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-9/">9</a></li>
+                    
+				</ul>
+			</div>
+		            
+	</td>
+	<td class="SL2_M Content">
+		<table class="WOGPanel">
+<tr>
+	<td class="WOGPanel_TL"><div style="height:12px;"/></td>
+	<td class="WOGPanel_TR" colspan="2"></td>
+</tr>
+<tr>
+	<td class="WOGPanel_L"></td>
+	<td class="WOGPanel_M Content">
+			<div class="score">51<div class="outof">/100</div></div>
+
+<div class="typography">
+<h1>Season 6</h1>
+</div>
+			<script type="text/javascript">
+	function ShowPopup(hoveritem,hoverpop){
+		hp = document.getElementById(hoverpop);
+		// Set position of hover-over popup
+		// hp.style.top = hoveritem.offsetTop + 18;
+		// hp.style.left = hoveritem.offsetLeft + 20;
+		// Set popup to visible
+		hp.style.visibility = "Visible";
+	}
+	function HidePopup(hoverpop){
+		hp = document.getElementById(hoverpop);
+		hp.style.visibility = "Hidden";
+	}
+</script>
+
+<div class="typography">
+<table class="basicTable clear">
+<tr>
+	<th>#</th>
+	<th>Episode</th>
+	<th>Overview</th>
+	<th>Score</th>
+	<th>Viewer score</th>
+	<th>Podcast</th>
+</tr>
+
+<tr>
+	<td>1</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/big-days/" title="Big Days">Big Days</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1328');" onMouseOut="HidePopup('pop1328');">We catch a glimpse of Ted at someone's wedding whi...</a>
+  	<div id="pop1328" class="popupDiv">We catch a glimpse of Ted at someone&#39;s wedding which seems to be the day he will meet the mother. In the present he and Barney argue over who can approach a girl at the bar. She is friends with Cindy (512) who is the mother&#39;s roommate. Robin is still getting over her breakup with Don and has let herself go. Lily and Marshall are preparing to conceive and she is upset to learn that he told his father that they were trying.</div></td>
+  	<td>41</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>2</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/cleaning-house/" title="Cleaning House">Cleaning House</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1362');" onMouseOut="HidePopup('pop1362');">Barney asks his friends to come help him move his ...</a>
+  	<div id="pop1362" class="popupDiv">Barney asks his friends to come help him move his stuff out of his childhood home. Once there they discover the extent of the lies his mother fed him. His brother James tries to convince him not to believe the lies when they discover a letter which might lead them to their real father.</div></td>
+  	<td>64</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>3</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/unfinished/" title="Unfinished  ">Unfinished  </a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1375');" onMouseOut="HidePopup('pop1375');">Barney offers Ted the chance to once again bid to ...</a>
+  	<div id="pop1375" class="popupDiv">Barney offers Ted the chance to once again bid to build the GNB a new building. Ted says no and so Barney puts the moves on him, as he would a woman, to try and get him to say yes. Meanwhile Robin struggles to get over Don.</div></td>
+  	<td>59</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>4</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/subway-wars/" title="Subway Wars  ">Subway Wars  </a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1376');" onMouseOut="HidePopup('pop1376');">Marshall's friend Max is eating near Woody Allen d...</a>
+  	<div id="pop1376" class="popupDiv">Marshall&#39;s friend Max is eating near Woody Allen downtown and texts Marshall to come and see him. Only Robin thinks this would be a cool experience and the others argue over what would be the quickest way to get there. Soon a race begins and we discover that each of the characters has a reason to really want to win.</div></td>
+  	<td>54</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>5</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/architect-of-destruction/" title="Architect of Destruction">Architect of Destruction</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1398');" onMouseOut="HidePopup('pop1398');">GNB choose the old Arcadian Hotel for their new si...</a>
+  	<div id="pop1398" class="popupDiv">GNB choose the old Arcadian Hotel for their new site and Ted doesn&#39;t want to destroy it. What&#39;s really driving him is a girl he met called Zoey and Barney is determined to sabotage it. Lily tells Marshall that his friend Max (who is dating Robin) has a small penis and it freaks him out.</div></td>
+  	<td>49</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>6</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/baby-talk/" title="Baby Talk">Baby Talk</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1407');" onMouseOut="HidePopup('pop1407');">Lily and Marshall begin to see the problems of par...</a>
+  	<div id="pop1407" class="popupDiv">Lily and Marshall begin to see the problems of parenthood when they struggle to agree on a name for their child. Barney tries to pick up a woman while talking like a little boy. Ted is attracted to Robin&#39;s co-anchor Becky because she behaves like a little girl.</div></td>
+  	<td>53</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>7</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/canning-randy/" title="Canning Randy">Canning Randy</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1418');" onMouseOut="HidePopup('pop1418');">Marshall decides to fire hopeless colleague Randy ...</a>
+  	<div id="pop1418" class="popupDiv">Marshall decides to fire hopeless colleague Randy but then frets with guilt over what he has done. Ted&#39;s class love him until they discover that he is knocking down the Arcadian. Robin is jealous over the attention that Becky is getting after shooting a commercial.</div></td>
+  	<td>55</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>8</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/natural-history/" title="Natural History">Natural History</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1432');" onMouseOut="HidePopup('pop1432');">The gang head to the Natural History Museum for an...</a>
+  	<div id="pop1432" class="popupDiv">The gang head to the Natural History Museum for an evening do thanks to an invite from GNB. Ted meets Zoey&#39;s husband &quot;The Captain&quot; and mocks her for her rich lifestyle. Barney and Robin try to outdo one another over who can touch the most objects. Marshall admits to Lily that he is about to sign a contract with GNB that will keep him there for five years.</div></td>
+  	<td>51</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>9</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/glitter/" title="Glitter">Glitter</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1444');" onMouseOut="HidePopup('pop1444');">Barney finds a new Robin Sparkles video, this time...</a>
+  	<div id="pop1444" class="popupDiv">Barney finds a new Robin Sparkles video, this time a TV show where she teamed up with her former BFF Glitter. They are no longer friends and Lily fears that once she becomes a mother she too will lose Robin. Meanwhile Ted&#39;s high school friend Punchy arrives and irritates everyone.</div></td>
+  	<td>41</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>10</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/blitzgiving/" title="Blitzgiving">Blitzgiving</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1457');" onMouseOut="HidePopup('pop1457');">Occasional friend of the group Steve Henry (Jorge ...</a>
+  	<div id="pop1457" class="popupDiv">Occasional friend of the group Steve Henry (Jorge Garcia) is cursed by the &quot;blitz&quot; so that whenever he leaves a group something amazing happens. When Ted leaves early he inherits the curse as his friends have a crazy night including Zoey. They managed to break the oven during the night and so are forced to head to Zoey&#39;s to use hers. On the way Barney inherits the curse. He pouts through dinner while Ted and Zoey continue to dislike one another.</div></td>
+  	<td>60</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>11</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/the-mermaid-theory/" title="The Mermaid Theory ">The Mermaid Theory </a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1472');" onMouseOut="HidePopup('pop1472');">Ted is wary that hanging out with Zoey might turn ...</a>
+  	<div id="pop1472" class="popupDiv">Ted is wary that hanging out with Zoey might turn romantic. So he tries to spend more time with her husband the Captain. They go out on a boat ride together and Ted begins to fear that the Captain is going to kill him. Barney and Lily are arguing about something but future Ted can&#39;t remember quite what. Marshall and Robin agree to hang out together but find they have little to talk about.</div></td>
+  	<td>41</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>12</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/false-positive/" title="False Positive">False Positive</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1482');" onMouseOut="HidePopup('pop1482');">For 72 hours Marshall and Lily think they are goin...</a>
+  	<div id="pop1482" class="popupDiv">For 72 hours Marshall and Lily think they are going to have a baby. They freak out at their lack of preparedness while Barney and Robin both question the direction of their lives. Ted is getting into being Punchy&#39;s best man and soon has to look out for his other friends too.</div></td>
+  	<td>48</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>13</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/bad-news/" title="Bad News">Bad News</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1506');" onMouseOut="HidePopup('pop1506');">Marshall and Lily go to the doctor to find out why...</a>
+  	<div id="pop1506" class="popupDiv">Marshall and Lily go to the doctor to find out why they can&#39;t get pregnant. He refers them to a specialist who turns out to be Barney&#39;s doppelganger. Lily&#39;s results show that she is fertile and Marshall now has to test his sperm. He has trouble producing a specimen, particularly when his parents arrive. Meanwhile Robin begins her new job and discovers that she is working for Sandy Rivers.</div></td>
+  	<td>55</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>14</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/last-words/" title="Last Words">Last Words</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1526');" onMouseOut="HidePopup('pop1526');">The gang head to St Cloud for Marshall's father's ...</a>
+  	<div id="pop1526" class="popupDiv">The gang head to St Cloud for Marshall&#39;s father&#39;s funeral. They all do their best to comfort Marshall and his family. Ted and Barney try to make him laugh, Lily helps his mom and Robin brings alcohol, drugs and all kinds of distractions with her. The family decide to talk about the last words they shared with Marshall&#39;s father. Marshall isn&#39;t too impressed with his until he notices a voicemail on his phone.</div></td>
+  	<td>54</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>15</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/oh-honey/" title="Oh Honey">Oh Honey</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1565');" onMouseOut="HidePopup('pop1565');">Marshall stays in Minnesota after his father's fun...</a>
+  	<div id="pop1565" class="popupDiv">Marshall stays in Minnesota after his father&#39;s funeral to spend time with his mother. Through a series of phone calls he learns what is going on with Ted and Zoey. Zoey introduces the gang to her cousin (Katy Perry) but Ted says he isn&#39;t interested because he is in love with Zoey. We discover that she feels the same way and is getting divorced from the Captain.</div></td>
+  	<td>62</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>16</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/desperation-day/" title="Desperation Day">Desperation Day</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1583');" onMouseOut="HidePopup('pop1583');">Valentine's Day approaches and Lily is missing Mar...</a>
+  	<div id="pop1583" class="popupDiv">Valentine&#39;s Day approaches and Lily is missing Marshall a lot. She decides to fly out to Minnesota and try to persuade him to come home. Ted and Zoey plan to spend the day together and he freaks out at the enormity of her jumping from her marriage into a serious relationship and he flees to Minnesota. Barney stays with Robin at the bar as he dubs February 13th &quot;Desperation Day&quot; and is determined to sleep with someone before midnight hits.</div></td>
+  	<td>54</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>17</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/garbage-island/" title="Garbage Island">Garbage Island</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1595');" onMouseOut="HidePopup('pop1595');">Marshall seems withdrawn since returning and soon ...</a>
+  	<div id="pop1595" class="popupDiv">Marshall seems withdrawn since returning and soon rediscovers his passion for saving the planet. Zoey asks Ted to pick up a package for her but he runs into the Captain and has to pretend he doesn&#39;t know who Zoey is now dating. Barney is having trouble admitting that he is interested in Nora.</div></td>
+  	<td>45</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>18</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/a-change-of-heart/" title="A Change of Heart">A Change of Heart</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1605');" onMouseOut="HidePopup('pop1605');">Marshall gets his heart tested and encourages the ...</a>
+  	<div id="pop1605" class="popupDiv">Marshall gets his heart tested and encourages the gang to do the same. Barney asks Lily to go with him and has to wear a heart monitor for the next twenty four hours. Through the records on the monitor we learn about his second date with Nora where she tells him that she wants to get married. Meanwhile Robin wants to get a dog again but Ted won&#39;t let her. So she meets a guy called Scooby who acts an awful lot like a dog.</div></td>
+  	<td>59</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>19</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/legendaddy/" title="Legendaddy">Legendaddy</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1624');" onMouseOut="HidePopup('pop1624');">Barney's Dad finally appears and they go for a dri...</a>
+  	<div id="pop1624" class="popupDiv">Barney&#39;s Dad finally appears and they go for a drink together. Unfortunately they don&#39;t bond and Barney seems unimpressed with Jerry&#39;s suburban life. The gang intervenes and insist that Barney give him a second chance. Barney goes to dinner with Jerry, his wife Cheryl and their son JJ. Meanwhile the rest of the gang point out where the others have a strange gap in common knowledge.</div></td>
+  	<td>66</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>20</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/the-exploding-meatball-sub/" title="The Exploding Meatball Sub">The Exploding Meatball Sub</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1646');" onMouseOut="HidePopup('pop1646');">Marshall quits GNB and Barney is upset. Lily is to...</a>
+  	<div id="pop1646" class="popupDiv">Marshall quits GNB and Barney is upset. Lily is too because Marshall goes to work at the NRDC for free. Zoey and Ted are arguing all the time and he pretends he is ok with it.</div></td>
+  	<td>37</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>21</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/hopeless/" title="Hopeless">Hopeless</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1657');" onMouseOut="HidePopup('pop1657');">Barney invites his Dad out with the gang to try an...</a>
+  	<div id="pop1657" class="popupDiv">Barney invites his Dad out with the gang to try and reawaken the Crazy Jerry he remembers from childhood. Jerry gets drunk and goes crazy but then reveals that it was all an act to convince Barney that you can&#39;t party forever. Barney gives new identities to the gang to make them seem cooler. So Marshall and Lily switch professions and have an open marriage while Robin and Ted are dating again.</div></td>
+  	<td>46</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>22</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/the-perfect-cocktail/" title="The Perfect Cocktail">The Perfect Cocktail</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1674');" onMouseOut="HidePopup('pop1674');">Marshall can't find a new job and so ends up worki...</a>
+  	<div id="pop1674" class="popupDiv">Marshall can&#39;t find a new job and so ends up working for Zoey and helping to save the Arcadian. Barney is furious and Lily and Robin scheme to get them to makeup. They try to work out the perfect alcoholic blend which will enable them to do it. Meanwhile Ted tells Zoey that he is upset by how she has split his friendship group apart. He asks her to spend a night in the dilapidated Arcadian to show her how run down it is.</div></td>
+  	<td>43</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>23</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/landmarks/" title="Landmarks">Landmarks</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1686');" onMouseOut="HidePopup('pop1686');">The day has come for the decision on whether to aw...</a>
+  	<div id="pop1686" class="popupDiv">The day has come for the decision on whether to award the Arcadian Landmark status and Ted faces a quandary. He knows the Arcadian is an eyesore but he fears losing his relationship with Zoey. Barney is furious with Marshall and Ted and then learns that he will lose his job if Ted speaks up for the Arcadian (because he vouched for Ted as an architect). Ted chooses to speak against the Arcadian but Zoey has him on tape speaking for it. Lily comes up with a plan to get around this.</div></td>
+  	<td>44</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>24</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-54/challenge-accepted/" title="Challenge Accepted">Challenge Accepted</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1698');" onMouseOut="HidePopup('pop1698');">Lily buys Marshall some soup to cheer him up. Howe...</a>
+  	<div id="pop1698" class="popupDiv">Lily buys Marshall some soup to cheer him up. However she soon starts throwing up and he can now see what his food poisoned future will look like. He finally gets a job interview just before the sickness is likely to kick in and thoroughly prepares himself. Ted and Barney are bickering over who will get to press the button that blows up the Arcadian. Ted also reveals that Zoey wants to get back together with him. He wouldn&#39;t normally consider it but the daunting task of making the new Arcadian a success has him searching for comfort. </div></td>
+  	<td>43</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+</table>
+
+
+<br/>
+
+<p/>
+
+</div>
+		</td>
+	<td class="WOGPanel_R"></td>
+</tr>
+<tr>
+	<td class="WOGPanel_BL"></td>
+	<td class="WOGPanel_BR" colspan="2"></td>
+</tr>
+</table>
+
+	</td>
+	<td class="SL2_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL2_BL"></td>
+	<td colspan="2" class="SL2_BR"></td>
+</tr>
+</table>
+
+</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+                
+                
+                
+			</td>
+			<td id="PageLayoutRightColumn"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutBottomLeft"></td>
+			<td colspan="2" id="PageLayoutBottom"></td>
+			<td id="PageLayoutBottomRight"></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<div id="Footer">
+					<div>Copyright &copy; 2008-2015 Robin Pierson</div>
+					 
+					
+						<a href="/admin">Admin login</a>
+                                                           
+					
+				</div>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+</body>
+</html>

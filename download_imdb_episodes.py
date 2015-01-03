@@ -16,7 +16,7 @@ for season in range(1, 10):
 
 for key, value in pages.iteritems():
     key = key.replace(", ", "-")
-    filename = "imdb/" + key
+    filename = "data/imdb/" + key
     with open(filename, 'wb') as handle:
         file = "http://www.imdb.com" + value
         print(file)

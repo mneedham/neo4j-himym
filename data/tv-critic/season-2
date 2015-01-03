@@ -1,0 +1,740 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta name="verify-v1" content="sKUjov6Pa/cI4tQyOUZbTLorxZlMRnuQ3EF5QRjsHjM=" />
+	<base href="http://www.thetvcritic.org/"><!--[if lte IE 6]></base><![endif]-->
+	<title>The TV Critic.org - How I Met Your Mother, Season 2</title>
+<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+
+	
+    
+    
+    
+    
+
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/layout.css?m=1332506754" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/typography.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/form.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/Forum.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider-ie.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider.css?m=1331828436" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/theme-homepage.css?m=1331828414" />
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery-1.7.1.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.fx.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.easing.1.2.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/custom.js?m=1361360386"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/prototype/prototype.js?m=1330603700"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/behaviour/behaviour.js?m=1330603692"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/prototype_improvements.js?m=1330603626"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/i18n.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/lang/en_US.js?m=1330603728"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/Validator.js?m=1330603624"></script>
+<script type="text/javascript">
+//<![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7363433-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#SearchForm_searchresults': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+			
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#SearchForm_searchresults input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('SearchForm_searchresults').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#SearchForm_searchresults textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this);
+			}
+		}
+	},
+	'#SearchForm_searchresults select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+</head>
+<body>
+<div id="Crumbs"><b>Crumbs:</b> <a href="/reviews/">Reviews</a> &raquo; <a href="/reviews/comedies/">Comedies</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a> &raquo; Season 2</div>
+	   <div align="center">
+		<table id="PageLayout">
+		<tr>
+			<td></td>
+			<td id="LogoContainer">
+                <div id="mainLogo"><a href="/" title="The TV Critic Home"><img src="themes/tvcritic/images/the_tv_critic_logo.jpg" alt="The TV Critic"/></a></div>
+                <div id="strapline">Critical reviews of U.S. TV shows <br/> and analysis of what makes them <br/> good, bad, irritating and enlightening.</div>                  
+			</td>
+			<td id="MemberContainer">
+				<div class="headerTop">
+					
+						
+					
+					<form  id="SearchForm_searchresults" action="/reviews/comedies/how-i-met-your-mother/season-69/searchresults" method="get" enctype="application/x-www-form-urlencoded">
+	<fieldset>
+		<legend></legend>
+		
+			<div id="q" class="field text "><label class="left" for="SearchForm_searchresults_q">Search: </label><div class="middleColumn"><input type="text" class="text" id="SearchForm_searchresults_q" name="q" value="" /></div></div>
+		
+		
+			<input class="action " id="SearchForm_searchresults_action_searchresults" type="submit" name="action_searchresults" value="Go" title="Go" />
+		
+	</fieldset>
+</form>
+
+				</div>
+                
+                	
+                        <div class="ad-banner size468x60">
+    
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-9835826809205228";
+/* Header Banner */
+google_ad_slot = "5938664980";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+                    
+                
+                
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutTopLeft" rowspan="3"><img src="themes/tvcritic/images/pg_tl.gif" /></td>
+			<td id="PageLayoutTop" colspan="2" height="4"></td>
+			<td id="PageLayoutTopRight" rowspan="3"><img src="themes/tvcritic/images/pg_tr.gif" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" height="34">
+			<div id="MenuBar"><ul>
+					   
+					      <li class="link"><a href="/" title="Go to the &quot;Home&quot; page">Home</a></li>
+					   
+					      <li class="section"><a href="/reviews/" title="Go to the &quot;Reviews&quot; page">Reviews</a></li>
+					   
+					      <li class="link"><a href="/scores/" title="Go to the &quot;Scores&quot; page">Scores</a></li>
+					   
+					      <li class="link"><a href="/podcasts/" title="Go to the &quot;Podcasts&quot; page">Podcasts</a></li>
+					   
+					      <li class="link"><a href="/donate/" title="Go to the &quot;Donate&quot; page">Donate</a></li>
+					   
+					      <li class="link"><a href="/blog/" title="Go to the &quot;Blog&quot; page">Blog</a></li>
+					   
+					      <li class="link"><a href="/forums/" title="Go to the &quot;Forums&quot; page">Forums</a></li>
+					   
+					      <li class="link"><a href="/about/" title="Go to the &quot;About&quot; page">About</a></li>
+					   
+					      <li class="link"><a href="/contact/" title="Go to the &quot;Contact&quot; page">Contact</a></li>
+					   
+			</ul></div></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="menuGapBottom"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutLeftColumn"></td>
+			<td colspan="2" id="ContentContainer"><div class="clear"></div>
+				<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs">
+		<div class="ShowMenuBar ">
+
+    <div class="showListNav">
+        <h3><a href="/reviews/">Comedies</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/comedies/30-rock/">30 Rock</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/community/">Community</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/entourage/">Entourage</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/family-guy/">Family Guy</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/friends/">Friends</a></li>
+            
+            	<li class="section"><a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/parks-and-recreation/">Parks and Recreation</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/scrubs/">Scrubs</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-big-bang-theory/">The Big Bang Theory</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-office/">The Office</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-simpsons/">The Simpsons</a></li>
+            
+        </ul>
+    </div>
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/">Dramas</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/dramas/boardwalk-empire/">Boardwalk Empire</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/breaking-bad/">Breaking Bad</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/buffy-the-vampire-slayer/">Buffy the Vampire Slayer</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/deadwood/">Deadwood</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dexter/">Dexter</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dollhouse/">Dollhouse</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/flashforward/">FlashForward</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/game-of-thrones/">Game of Thrones</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/heroes/">Heroes</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/homeland/">Homeland</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/lost/">Lost</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/mad-men/">Mad Men</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/prison-break/">Prison Break</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/shameless/">Shameless</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/spartacus/">Spartacus</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-walking-dead-2/">The Walking Dead</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-wire/">The Wire</a></li>
+            
+        </ul>
+    </div> 
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/other-reviews/">Other reviews</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/other-reviews/californication/">Californication</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/episodes/">Episodes</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/fringe/">Fringe</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/glee/">Glee</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/legend-of-the-seeker/">Legend of the Seeker</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lights-out/">Lights Out</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lone-star/">Lone Star</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/mike-and-molly/">Mike and Molly</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/modern-family/">Modern Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/no-ordinary-family/">No Ordinary Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/rubicon/">Rubicon</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-event/">The Event</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-middle/">The Middle</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/treme/">Treme</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/twin-peaks/">Twin Peaks</a></li>
+            
+        </ul>
+    </div>        
+    
+</div>
+	</td>
+<td class="SL_M Content">
+
+	<style type="text/css">
+.notbody {
+  background:url('mysite/images/how-i-met-your-mother/banner.jpg') no-repeat top center;
+}
+</style>
+
+
+
+    <div class="score">50<div class="outof">/100</div></div>
+
+    <div class="score viewer"><div class="title">Viewer</div>46<div class="outof">/100</div></div>
+
+
+
+
+
+<div class="typography">
+<h1>How I Met Your Mother</h1>
+
+<p>How I Met Your Mother is a comedy about Ted Mosby, a New York architect who wants to get married and start a family. Future Ted is telling the story of how he met their mother and we see his past story set in the present day and the adventures he has with friends Marshall, Lily, Barney and Robin. CBS 2005-???</p>
+</div>
+
+	<table class="clear">
+<tr>
+	<td class="SL2_TL"></td>
+	<td colspan="2" class="SL2_TR"></td>
+</tr>
+<tr>
+	<td class="SL2_Tabs">
+	
+    	
+            <div class="SeasonMenuBar">
+            	<ul>
+                	<li><h1>S</h1></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-37/">1</a></li>
+                    
+                    <li class="current"><a href="/reviews/comedies/how-i-met-your-mother/season-69/">2</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-19/">3</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-20/">4</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-43/">5</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-54/">6</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/">7</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/">8</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-9/">9</a></li>
+                    
+				</ul>
+			</div>
+		            
+	</td>
+	<td class="SL2_M Content">
+		<table class="WOGPanel">
+<tr>
+	<td class="WOGPanel_TL"><div style="height:12px;"/></td>
+	<td class="WOGPanel_TR" colspan="2"></td>
+</tr>
+<tr>
+	<td class="WOGPanel_L"></td>
+	<td class="WOGPanel_M Content">
+			<div class="score">58<div class="outof">/100</div></div>
+
+<div class="typography">
+<h1>Season 2</h1>
+</div>
+			<script type="text/javascript">
+	function ShowPopup(hoveritem,hoverpop){
+		hp = document.getElementById(hoverpop);
+		// Set position of hover-over popup
+		// hp.style.top = hoveritem.offsetTop + 18;
+		// hp.style.left = hoveritem.offsetLeft + 20;
+		// Set popup to visible
+		hp.style.visibility = "Visible";
+	}
+	function HidePopup(hoverpop){
+		hp = document.getElementById(hoverpop);
+		hp.style.visibility = "Hidden";
+	}
+</script>
+
+<div class="typography">
+<table class="basicTable clear">
+<tr>
+	<th>#</th>
+	<th>Episode</th>
+	<th>Overview</th>
+	<th>Score</th>
+	<th>Viewer score</th>
+	<th>Podcast</th>
+</tr>
+
+<tr>
+	<td>1</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/where-were-we/" title="Where Were We">Where Were We</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1772');" onMouseOut="HidePopup('pop1772');">Marshall tries to deal with Lily's absence while R...</a>
+  	<div id="pop1772" class="popupDiv">Marshall tries to deal with Lily&#39;s absence while Robin and Ted enjoy being together. Barney suffers through both. Marshall has a really hard time moving on and when he finds Lily&#39;s credit card bill he becomes more paranoid about what she is up to. Soon he discovers that she has returned to New York and heads to her hotel to confront her.</div></td>
+  	<td>67</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>2</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/the-scorpion-and-the-toad/" title="The Scorpion and the Toad">The Scorpion and the Toad</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1773');" onMouseOut="HidePopup('pop1773');">Barney is excited to show Marshall what single lif...</a>
+  	<div id="pop1773" class="popupDiv">Barney is excited to show Marshall what single life is like. He encourages Marshall to hit on women but then steals them for himself. Lily returns and goes apartment hunting with Robin and Ted. Ted is convinced that she is miserable despite her claims that her trip to San Francisco was great. He is proven correct and she asks Marshall to get back together with her.</div></td>
+  	<td>67</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>3</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/brunch/" title="Brunch">Brunch</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1787');" onMouseOut="HidePopup('pop1787');">Three stories lead to one memorable brunch. Marsha...</a>
+  	<div id="pop1787" class="popupDiv">Three stories lead to one memorable brunch. Marshall claims that he is cool with Lily being around and that she is like a sister to him now. She responds by turning him on to prove that that isn&#39;t true. Ted&#39;s parents are visiting and Barney is determined to impress them. Robin is too but is also worried about pressure from Ted&#39;s mum about marriage and children. The pressure doesn&#39;t come and Robin assumes it&#39;s because she isn&#39;t good enough. Meanwhile Barney tells Ted that he saw Ted&#39;s Dad making out with Wendy the waitress.</div></td>
+  	<td>58</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>4</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/ted-mosby-architect/" title="Ted Mosby Architect">Ted Mosby Architect</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1796');" onMouseOut="HidePopup('pop1796');">Robin is tired of hearing Ted complain about his j...</a>
+  	<div id="pop1796" class="popupDiv">Robin is tired of hearing Ted complain about his job and tells him so. Lily is shocked to hear this and Robin begins to freak out when she discovers that Ted has gone off to a party with a girl he met at the bar. Meanwhile Barney tells Ted that his job as an architect would impress women and sets off to prove his point. Robin follows Ted&#39;s trail all the way to the girl&#39;s bedroom where she finds Barney instead.</div></td>
+  	<td>58</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>5</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/world-s-greatest-couple/" title="World&#39;s Greatest Couple">World&#39;s Greatest Couple</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1797');" onMouseOut="HidePopup('pop1797');">Marshall begins to feel annoyed by the things in l...</a>
+  	<div id="pop1797" class="popupDiv">Marshall begins to feel annoyed by the things in life he can no longer do now he is not in a couple. So he ends up spending a lot of time with his friend Brad who was also recently dumped. Lily&#39;s new apartment is a disaster and so she moves in with Barney. He is initially resistant but then learns that Lily scares off his one night stands better than any of his usual tricks.</div></td>
+  	<td>67</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>6</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/aldrin-justice/" title="Aldrin Justice">Aldrin Justice</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1798');" onMouseOut="HidePopup('pop1798');">Lily comes to work at Ted's architecture firm and ...</a>
+  	<div id="pop1798" class="popupDiv">Lily comes to work at Ted&#39;s architecture firm and meets his arrogant boss Hammond Druthers. Druthers is a bully and so Lily takes away his souvenir baseball just as she would an errant kindergartner. Although Ted is outraged, her actions do push him into finally pitching his own building designs. Meanwhile Marshall is getting low grades from his Constitutional Law Professor. She is a Cougar and Barney takes on the challenge of taming her.</div></td>
+  	<td>54</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>7</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/swarley/" title="Swarley">Swarley</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1799');" onMouseOut="HidePopup('pop1799');">A miss-written coffee order leads the gang to star...</a>
+  	<div id="pop1799" class="popupDiv">A miss-written coffee order leads the gang to start calling Barney &quot;Swarley.&quot; Marshall gets a date with Chloe, a girl who works in the coffee place and Lily tries to hide her fear and jealousy. Barney and Ted think Chloe is unstable because she has the &quot;crazy eyes&quot; and her behaviour seems to support them.</div></td>
+  	<td>50</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>8</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/atlantic-city/" title="Atlantic City">Atlantic City</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1800');" onMouseOut="HidePopup('pop1800');">Lily and Marshall agree to get reengaged but then ...</a>
+  	<div id="pop1800" class="popupDiv">Lily and Marshall agree to get reengaged but then realise that Marshall&#39;s whole family will be waiting to judge Lily. So she suggests that they rush off to Atlantic City and get married that day. They round up the gang and head out there. Unfortunately a marriage licence takes three days to process and the only way they can get married is out in International waters. Barney reveals his secret gambling addiction to help them raise the money they need.</div></td>
+  	<td>47</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>9</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/slap-bet/" title="Slap Bet">Slap Bet</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1801');" onMouseOut="HidePopup('pop1801');">Robin refuses to go to a mall and won't tell anyon...</a>
+  	<div id="pop1801" class="popupDiv">Robin refuses to go to a mall and won&#39;t tell anyone why. Marshall wonders if she used to be married. Barney thinks it was porn and takes on Marshall in a slap bet. Ted quizzes her and she reveals that she was married. Marshall looks up the records though and can&#39;t find anything. Finally Barney produces the video of &quot;Robin Sparkles&quot; and we learn that she was a teenage pop star in Canada.</div></td>
+  	<td>60</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>10</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/single-stamina/" title="Single Stamina">Single Stamina</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1823');" onMouseOut="HidePopup('pop1823');">Barney can't persuade the two couples to go out in...</a>
+  	<div id="pop1823" class="popupDiv">Barney can&#39;t persuade the two couples to go out in New York in the winter. So he brings in his equally awesome gay, black brother James to encourage them. They hit the club but Barney is shocked to learn that James has a fiancÃƒÂ©. Barney tries to tempt James back to the single life but stops when he hears they plan to adopt a baby.</div></td>
+  	<td>53</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>11</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/how-lily-stole-christmas/" title="How Lily Stole Christmas">How Lily Stole Christmas</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1824');" onMouseOut="HidePopup('pop1824');">Lily creates a Winter Wonderland for Marshall in t...</a>
+  	<div id="pop1824" class="popupDiv">Lily creates a Winter Wonderland for Marshall in the apartment. He heads off to school and doesn&#39;t want to see it till he comes home. Lily finds the old answering machine and on it is a message from Ted over the Summer calling her a &#39;Grinch.&#39; She is mad at him and takes the Winter Wonderland back to her apartment. Ted can&#39;t change her mind and ends up on Staten Island with his cousins for dinner.</div></td>
+  	<td>63</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>12</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/first-time-in-new-york/" title="First Time In New York">First Time In New York</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1825');" onMouseOut="HidePopup('pop1825');">Robin's sister Katie comes to visit just as she is...</a>
+  	<div id="pop1825" class="popupDiv">Robin&#39;s sister Katie comes to visit just as she is ready to tell Ted she loves him. Katie&#39;s boyfriend Kyle is in town too and she is ready to lose her virginity to him. Robin doesn&#39;t want her to make a mistake and tries to talk her out of it. As the gang reveals their &#39;firsts&#39; Marshall is shocked to learn that he might not have been Lily&#39;s first and Barney tries to hide the details of his.</div></td>
+  	<td>59</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>13</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/columns/" title="Columns">Columns</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1826');" onMouseOut="HidePopup('pop1826');">Ted is now Hammond's boss and wants to fire him. H...</a>
+  	<div id="pop1826" class="popupDiv">Ted is now Hammond&#39;s boss and wants to fire him. However when he tries to Hammond&#39;s pathetic life keeps getting in the way. Barney finds a nude painting of Marshall and teases him about it. He then asks Lily to paint him naked.</div></td>
+  	<td>44</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>14</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/monday-night-football/" title="Monday Night Football">Monday Night Football</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1827');" onMouseOut="HidePopup('pop1827');">The gang all plan to watch the Super Bowl together...</a>
+  	<div id="pop1827" class="popupDiv">The gang all plan to watch the Super Bowl together and continue the enjoyable tradition of wings, beer and happy memories. But then they here that one of the bar staff Mark has died and his funeral is at the same time as the game. The funeral drags on and Ted insists that they all try to make it through the next day without discovering the result.</div></td>
+  	<td>57</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>15</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/lucky-penny/" title="Lucky Penny">Lucky Penny</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1828');" onMouseOut="HidePopup('pop1828');">Ted misses a flight to Chicago for a job interview...</a>
+  	<div id="pop1828" class="popupDiv">Ted misses a flight to Chicago for a job interview and thinks about the chain of events which led him there. He found a penny which led to dinner with Robin which led to wedding shopping for Lily which led to Marshall breaking his toe which led to Barney running the Marathon and Ted being caught jumping a turnstile.</div></td>
+  	<td>51</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>16</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/stuff/" title="Stuff">Stuff</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1829');" onMouseOut="HidePopup('pop1829');">Lily is in a play and Barney begrudgingly comes to...</a>
+  	<div id="pop1829" class="popupDiv">Lily is in a play and Barney begrudgingly comes to see it. He is honest and tells her how awful it was and she thinks he is a bad friend. To prove his point he puts on his own awful play and insists that the whole gang come to see it. Meanwhile Robin is upset to learn how much stuff in Ted&#39;s apartment actually belongs to his ex-girlfriends. Ted in turn becomes jealous when he learns that Robin&#39;s dogs are all gifts from her ex-boyfriends.</div></td>
+  	<td>63</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>17</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/arrivederci-fiero/" title="Arrivederci, Fiero">Arrivederci, Fiero</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1830');" onMouseOut="HidePopup('pop1830');">Marshall's Fiero breaks down one mile short of two...</a>
+  	<div id="pop1830" class="popupDiv">Marshall&#39;s Fiero breaks down one mile short of two hundred thousand. Marshall is very attached to the car and is dismayed to be told that it will be impossible to fix. He and the gang reminisce about all the memories which the car helped create.</div></td>
+  	<td>70</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>18</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/moving-day/" title="Moving Day">Moving Day</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1831');" onMouseOut="HidePopup('pop1831');">Ted and Robin are moving in together and Barney is...</a>
+  	<div id="pop1831" class="popupDiv">Ted and Robin are moving in together and Barney is dead against it. After failing to convince them he steals the moving truck. Ted is furious and is not amused when Barney insists that he go out with him on one last night out together. Ted goes though after he and Robin argue over where to put all of his stuff. Meanwhile Marshall and Lily enjoy their alone time but soon discover that Ted was a bigger part of their life than they had realised.</div></td>
+  	<td>48</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>19</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/bachelor-party/" title="Bachelor Party">Bachelor Party</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1832');" onMouseOut="HidePopup('pop1832');">Ted tells Barney that there will be no strippers a...</a>
+  	<div id="pop1832" class="popupDiv">Ted tells Barney that there will be no strippers at Marshall&#39;s bachelor party. Barney ignores them and hijacks the whole thing. When the stripper breaks her ankle the evening is ruined. Meanwhile at Lily&#39;s bridal shower Robin brings a vibrator and is disturbed to find that it is more of a family affair.</div></td>
+  	<td>59</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>20</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/showdown/" title="Showdown">Showdown</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1833');" onMouseOut="HidePopup('pop1833');">Marshall and Lily agree to spend the last two week...</a>
+  	<div id="pop1833" class="popupDiv">Marshall and Lily agree to spend the last two weeks of their wedding in different apartments. Ted tries to write a best man&#39;s speech which can get past Marshall&#39;s editing. Lily tries to gain weight to fit into her dress. Barney is preparing to go on &quot;The Price is Right.&quot;</div></td>
+  	<td>66</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>21</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/something-borrowed/" title="Something Borrowed">Something Borrowed</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1834');" onMouseOut="HidePopup('pop1834');">Lily and Marshall's small outdoor wedding has morp...</a>
+  	<div id="pop1834" class="popupDiv">Lily and Marshall&#39;s small outdoor wedding has morphed into the traditional big indoor one by the time the day arrives. Then one disaster after another leads a miserable Lily and Marshall to meet in the garden. They decide to get married then and there with just Barney, Robin and Ted.</div></td>
+  	<td>52</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+<tr>
+	<td>22</td>
+  	<td style="width:16em;"><a href="/reviews/comedies/how-i-met-your-mother/season-69/something-blue/" title="Something Blue">Something Blue</a></td>
+  	<td><a class="popupLink" onMouseOver="ShowPopup(this,'pop1835');" onMouseOut="HidePopup('pop1835');">At the reception Lily and Marshall struggle to fin...</a>
+  	<div id="pop1835" class="popupDiv">At the reception Lily and Marshall struggle to find time to eat. Barney overhears Robin and Ted discussing a secret and hounds them until they tell him the story of how they broke up.</div></td>
+  	<td>65</td>
+    <td>-</td>
+  	<td nowrap>
+  	
+  	</td>
+</tr>
+
+</table>
+
+
+<br/>
+
+<p/>
+
+</div>
+		</td>
+	<td class="WOGPanel_R"></td>
+</tr>
+<tr>
+	<td class="WOGPanel_BL"></td>
+	<td class="WOGPanel_BR" colspan="2"></td>
+</tr>
+</table>
+
+	</td>
+	<td class="SL2_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL2_BL"></td>
+	<td colspan="2" class="SL2_BR"></td>
+</tr>
+</table>
+
+</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+                
+                
+                
+			</td>
+			<td id="PageLayoutRightColumn"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutBottomLeft"></td>
+			<td colspan="2" id="PageLayoutBottom"></td>
+			<td id="PageLayoutBottomRight"></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<div id="Footer">
+					<div>Copyright &copy; 2008-2015 Robin Pierson</div>
+					 
+					
+						<a href="/admin">Admin login</a>
+                                                           
+					
+				</div>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+</body>
+</html>

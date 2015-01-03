@@ -30,7 +30,7 @@ with open('data/episodes.csv', 'r') as episodes:
                     for c in characters:
                         c = c.replace("(credit only)", "").replace("(uncredited)","").strip()
 
-                        if c in ["Himself", "Herself"]:
+                        if c in ["Himself", "Herself", "Himself (voice)", "Himself - Boyz II Men"]:
                             c = actor
 
                         writer.writerow([row[0], c, actor])
