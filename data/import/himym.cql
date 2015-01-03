@@ -51,3 +51,21 @@ FOREACH(n1 in [episodes[i]] | FOREACH(n2 in [episodes[i+1]] |
     MERGE (n1)-[:NEXT]->(n2))));
 
 // characters
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/characters.csv" AS row
+MERGE (character:Character {name: row.Character});
+
+// actors
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/characters.csv" AS row
+MERGE (person:Person {name: row.Actor});
+
+// actors -> characters
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/characters.csv" AS row
+MATCH (person:Person {name: row.Actor})
+MATCH (character:Character {name: row.Character})
+MERGE (person)-[:PLAYS_CHARACTER]->(character);
+
+// character -> episode
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/characters.csv" AS row
+MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
+MATCH (character:Character {name: row.Character})
+MERGE (character)-[:APPEARED_IN_EPISODE]->(episode);

@@ -23,4 +23,10 @@ with open('data/episodes.csv', 'r') as episodes:
                 if len(columns) > 1:
                     character = " ".join(select(character_row, "td.character")[0].text.replace("\n", "").split()).encode("utf-8")
                     actor = " ".join(select(character_row, "td.itemprop")[0].text.replace("\n", "").split()).encode("utf-8")
-                    writer.writerow([row[0], character, actor])
+
+                    characters = character.split(" / ")
+
+                    for c in characters:
+                        c = c.replace("(credit only)", "").replace("(uncredited)","").strip()
+
+                        writer.writerow([row[0], c, actor])

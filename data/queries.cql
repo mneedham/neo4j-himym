@@ -10,3 +10,15 @@ MATCH (season)<-[:IN_SEASON]-(episode:`Episode`)-[:NEXT]->(next)-[:IN_SEASON]->(
 WHERE season <> nextSeason
 RETURN episode.title, next.title, (next.timestamp - episode.timestamp) / 60 / 60 / 24 as gap, season.number, nextSeason.number
 ORDER BY gap DESC
+
+// How many episodes has each character appeared in?
+MATCH (c:Character)-[:APPEARED_IN_EPISODE]->()
+RETURN c.name, COUNT(*) AS times
+ORDER BY times DESC
+LIMIT 10
+
+// Which episodes didn't feature the narrator?
+MATCH (c:Character {name: "Narrator (voice)"})
+MATCH (e:Episode)
+WHERE NOT (c)-[:APPEARED_IN_EPISODE]->(e)
+RETURN e
