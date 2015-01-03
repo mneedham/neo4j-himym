@@ -1165,7 +1165,8 @@ EpisodeId,Character,Actor
 79,Grant,Zachary Gordon
 79,Ricky,Angelo Diona
 79,Stage Mom,Kimberly Pfeffer
-79,Younger Son / Son (uncredited),Shane Giedraitis
+79,Younger Son,Shane Giedraitis
+79,Son (uncredited),Shane Giedraitis
 79,Narrator (voice) (uncredited),Bob Saget
 80,Ted Mosby,Josh Radnor
 80,Marshall Eriksen,Jason Segel
@@ -1313,7 +1314,8 @@ EpisodeId,Character,Actor
 90,Marshall Eriksen,Jason Segel
 90,Robin Scherbatsky,Cobie Smulders
 90,Barney Stinson,Neil Patrick Harris
-90,Lily Aldrin / Jasmine,Alyson Hannigan
+90,Lily Aldrin,Alyson Hannigan
+90,Jasmine,Alyson Hannigan
 90,Jen,Lindsay Sloane
 90,Dr. Vikash,Rizwan Manji
 90,Judy,Molly Prather
@@ -1602,7 +1604,8 @@ EpisodeId,Character,Actor
 107,Simon,Collin Christopher
 107,Lisa,Celeste Thorson
 107,Mike,Ron Nicolosi
-107,Mugger / Zoo Keeper,Jon Dore
+107,Mugger,Jon Dore
+107,Zoo Keeper,Jon Dore
 107,Narrator (voice) (uncredited),Bob Saget
 108,Ted Mosby,Josh Radnor
 108,Marshall Eriksen,Jason Segel
@@ -1865,7 +1868,8 @@ EpisodeId,Character,Actor
 125,Ted Mosby,Josh Radnor
 125,Marshall Eriksen,Jason Segel
 125,Robin Scherbatsky,Cobie Smulders
-125,Barney Stinson / Dr. John Stangel,Neil Patrick Harris
+125,Barney Stinson,Neil Patrick Harris
+125,Dr. John Stangel,Neil Patrick Harris
 125,Lily Aldrin,Alyson Hannigan
 125,Sandy Rivers,Alexis Denisof
 125,Marvin Eriksen Sr.,Bill Fagerbakke
@@ -2263,7 +2267,8 @@ EpisodeId,Character,Actor
 150,Marshall Eriksen,Jason Segel
 150,Robin Scherbatsky,Cobie Smulders
 150,Barney Stinson,Neil Patrick Harris
-150,Lily Aldrin / Jasmine,Alyson Hannigan
+150,Lily Aldrin,Alyson Hannigan
+150,Jasmine,Alyson Hannigan
 150,Kevin,Kal Penn
 150,Mickey Aldrin,Chris Elliott
 150,Arvydas,Dimitri Diatchenko
@@ -2548,7 +2553,8 @@ EpisodeId,Character,Actor
 168,Clerk,Missy Hairston
 168,Kid #2,Herbie Jackson
 168,Cop,Jeff Rector
-168,Mountie #1 / Hotel Employee #1,Kurt Scholler
+168,Mountie #1,Kurt Scholler
+168,Hotel Employee #1,Kurt Scholler
 168,Bailiff,Steve Seagren
 168,Sketch Artist,Nancy Stone
 168,Mindy,Joy Meulenberg
@@ -3145,7 +3151,8 @@ EpisodeId,Character,Actor
 205,Robin Scherbatsky,Cobie Smulders
 205,Tracy McConnell,Cristin Milioti
 205,Barney Stinson,Neil Patrick Harris
-205,Lily Aldrin / Jasmine,Alyson Hannigan
+205,Lily Aldrin,Alyson Hannigan
+205,Jasmine,Alyson Hannigan
 205,Gary Blauman,Taran Killam
 205,James Stinson,Wayne Brady
 205,Billy Zabka,William Zabka
