@@ -1,0 +1,724 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta name="verify-v1" content="sKUjov6Pa/cI4tQyOUZbTLorxZlMRnuQ3EF5QRjsHjM=" />
+	<base href="http://www.thetvcritic.org/"><!--[if lte IE 6]></base><![endif]-->
+	<title>The TV Critic.org - How I Met Your Mother, Season 7, Episode 17: No Pressure</title>
+<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="How I Met Your Mother, S7E17, No Pressure" />
+<meta name="description" content="The TV Critic.org - How I Met Your Mother, Season 7, Episode 17: No Pressure.  Overview: Ted leaves Robin to think about what he said. The next morning she kisses him but has to go to Moscow for work. Barney wakes up at Marshall and Lily&#39;s house and begins searching for their sex tape. Instead he finds a box of bets they&#39;ve made over the years." />
+
+
+	
+    
+    
+    
+    
+
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/layout.css?m=1332506754" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/typography.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/form.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/Forum.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider-ie.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider.css?m=1331828436" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/theme-homepage.css?m=1331828414" />
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/prototype/prototype.js?m=1330603700"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/behaviour/behaviour.js?m=1330603692"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/prototype_improvements.js?m=1330603626"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/i18n.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/lang/en_US.js?m=1330603728"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/Validator.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery-1.7.1.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.fx.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.easing.1.2.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/custom.js?m=1361360386"></script>
+<script type="text/javascript">
+//<![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7363433-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#PageCommentInterface_Form_PostCommentForm': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+									if(typeof fromAnOnBlur != 'undefined'){
+
+							if(fromAnOnBlur.name == 'Name')
+
+								require(fromAnOnBlur);
+
+						}else{
+							require('Name');
+						}						if(typeof fromAnOnBlur != 'undefined'){
+
+							if(fromAnOnBlur.name == 'Comment')
+
+								require(fromAnOnBlur);
+
+						}else{
+							require('Comment');
+						}
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('PageCommentInterface_Form_PostCommentForm').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('PageCommentInterface_Form_PostCommentForm').validate(this);
+			}
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('PageCommentInterface_Form_PostCommentForm').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#SearchForm_searchresults': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+			
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#SearchForm_searchresults input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('SearchForm_searchresults').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#SearchForm_searchresults textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this);
+			}
+		}
+	},
+	'#SearchForm_searchresults select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+</head>
+<body>
+<div id="Crumbs"><b>Crumbs:</b> <a href="/reviews/">Reviews</a> &raquo; <a href="/reviews/comedies/">Comedies</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/season-73/">Season 7</a> &raquo; No Pressure</div>
+	   <div align="center">
+		<table id="PageLayout">
+		<tr>
+			<td></td>
+			<td id="LogoContainer">
+                <div id="mainLogo"><a href="/" title="The TV Critic Home"><img src="themes/tvcritic/images/the_tv_critic_logo.jpg" alt="The TV Critic"/></a></div>
+                <div id="strapline">Critical reviews of U.S. TV shows <br/> and analysis of what makes them <br/> good, bad, irritating and enlightening.</div>                  
+			</td>
+			<td id="MemberContainer">
+				<div class="headerTop">
+					
+						
+					
+					<form  id="SearchForm_searchresults" action="/reviews/comedies/how-i-met-your-mother/season-73/no-pressure/searchresults" method="get" enctype="application/x-www-form-urlencoded">
+	<fieldset>
+		<legend></legend>
+		
+			<div id="q" class="field text "><label class="left" for="SearchForm_searchresults_q">Search: </label><div class="middleColumn"><input type="text" class="text" id="SearchForm_searchresults_q" name="q" value="" /></div></div>
+		
+		
+			<input class="action " id="SearchForm_searchresults_action_searchresults" type="submit" name="action_searchresults" value="Go" title="Go" />
+		
+	</fieldset>
+</form>
+
+				</div>
+                
+                	
+                        <div class="ad-banner size468x60">
+    
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-9835826809205228";
+/* Header Banner */
+google_ad_slot = "5938664980";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+                    
+                
+                
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutTopLeft" rowspan="3"><img src="themes/tvcritic/images/pg_tl.gif" /></td>
+			<td id="PageLayoutTop" colspan="2" height="4"></td>
+			<td id="PageLayoutTopRight" rowspan="3"><img src="themes/tvcritic/images/pg_tr.gif" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" height="34">
+			<div id="MenuBar"><ul>
+					   
+					      <li class="link"><a href="/" title="Go to the &quot;Home&quot; page">Home</a></li>
+					   
+					      <li class="section"><a href="/reviews/" title="Go to the &quot;Reviews&quot; page">Reviews</a></li>
+					   
+					      <li class="link"><a href="/scores/" title="Go to the &quot;Scores&quot; page">Scores</a></li>
+					   
+					      <li class="link"><a href="/podcasts/" title="Go to the &quot;Podcasts&quot; page">Podcasts</a></li>
+					   
+					      <li class="link"><a href="/donate/" title="Go to the &quot;Donate&quot; page">Donate</a></li>
+					   
+					      <li class="link"><a href="/blog/" title="Go to the &quot;Blog&quot; page">Blog</a></li>
+					   
+					      <li class="link"><a href="/forums/" title="Go to the &quot;Forums&quot; page">Forums</a></li>
+					   
+					      <li class="link"><a href="/about/" title="Go to the &quot;About&quot; page">About</a></li>
+					   
+					      <li class="link"><a href="/contact/" title="Go to the &quot;Contact&quot; page">Contact</a></li>
+					   
+			</ul></div></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="menuGapBottom"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutLeftColumn"></td>
+			<td colspan="2" id="ContentContainer"><div class="clear"></div>
+				<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs">
+		<div class="ShowMenuBar ">
+
+    <div class="showListNav">
+        <h3><a href="/reviews/">Comedies</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/comedies/30-rock/">30 Rock</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/community/">Community</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/entourage/">Entourage</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/family-guy/">Family Guy</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/friends/">Friends</a></li>
+            
+            	<li class="section"><a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/parks-and-recreation/">Parks and Recreation</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/scrubs/">Scrubs</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-big-bang-theory/">The Big Bang Theory</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-office/">The Office</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-simpsons/">The Simpsons</a></li>
+            
+        </ul>
+    </div>
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/">Dramas</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/dramas/boardwalk-empire/">Boardwalk Empire</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/breaking-bad/">Breaking Bad</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/buffy-the-vampire-slayer/">Buffy the Vampire Slayer</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/deadwood/">Deadwood</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dexter/">Dexter</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dollhouse/">Dollhouse</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/flashforward/">FlashForward</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/game-of-thrones/">Game of Thrones</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/heroes/">Heroes</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/homeland/">Homeland</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/lost/">Lost</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/mad-men/">Mad Men</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/prison-break/">Prison Break</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/shameless/">Shameless</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/spartacus/">Spartacus</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-walking-dead-2/">The Walking Dead</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-wire/">The Wire</a></li>
+            
+        </ul>
+    </div> 
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/other-reviews/">Other reviews</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/other-reviews/californication/">Californication</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/episodes/">Episodes</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/fringe/">Fringe</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/glee/">Glee</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/legend-of-the-seeker/">Legend of the Seeker</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lights-out/">Lights Out</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lone-star/">Lone Star</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/mike-and-molly/">Mike and Molly</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/modern-family/">Modern Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/no-ordinary-family/">No Ordinary Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/rubicon/">Rubicon</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-event/">The Event</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-middle/">The Middle</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/treme/">Treme</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/twin-peaks/">Twin Peaks</a></li>
+            
+        </ul>
+    </div>        
+    
+</div>
+	</td>
+<td class="SL_M Content">
+
+	<style type="text/css">
+.notbody {
+  background:url('mysite/images/how-i-met-your-mother/banner.jpg') no-repeat top center;
+}
+</style>
+
+
+
+    <div class="score">50<div class="outof">/100</div></div>
+
+    <div class="score viewer"><div class="title">Viewer</div>47<div class="outof">/100</div></div>
+
+
+
+
+
+<div class="typography">
+<h1>How I Met Your Mother</h1>
+
+<p>How I Met Your Mother is a comedy about Ted Mosby, a New York architect who wants to get married and start a family. Future Ted is telling the story of how he met their mother and we see his past story set in the present day and the adventures he has with friends Marshall, Lily, Barney and Robin. CBS 2005-???</p>
+</div>
+
+	<table class="clear">
+<tr>
+	<td class="SL2_TL"></td>
+	<td colspan="2" class="SL2_TR"></td>
+</tr>
+<tr>
+	<td class="SL2_Tabs">
+	
+    	
+            <div class="SeasonMenuBar">
+            	<ul>
+                	<li><h1>S</h1></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-37/">1</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-69/">2</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-19/">3</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-20/">4</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-43/">5</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-54/">6</a></li>
+                    
+                    <li class="section"><a href="/reviews/comedies/how-i-met-your-mother/season-73/">7</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/">8</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-9/">9</a></li>
+                    
+				</ul>
+			</div>
+		            
+	</td>
+	<td class="SL2_M Content">
+
+		<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs" style="width:50px!important;">
+		<div class="ShowMenuBar"><ul>
+		<li><h1>E</h1></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-best-man/">1</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-naked-truth/">2</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-ducky-tie/">3</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-stinson-missile-crisis/">4</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/field-trip/">5</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/mystery-vs-history/">6</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/noretta/">7</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-slutty-pumpkin-returns/">8</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/disaster-averted/">9</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/tick-tick-tick/">10</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/rebound-girl/">11</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/symphony-of-illumination/">12</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/tailgate/">13</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/46-minutes/">14</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-burning-beekeeper/">15</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-drunk-train/">16</a></li>
+	   
+	      <li class="current"><a href="/reviews/comedies/how-i-met-your-mother/season-73/no-pressure/">17</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/karma/">18</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-broath/">19</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/trilogy-time/">20</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/now-we-re-even/">21</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/good-crazy/">22</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-magician-s-code-1/">23</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-magician-s-code-2/">24</a></li>
+	   
+	</ul></div>
+	</td>
+	<td class="SL_M Content">
+            <div class="score">38<div class="outof">/100</div></div>
+            
+
+			
+
+			<div class="typography">
+				<h1>Episode 17 - No Pressure</h1>
+
+				<div class="latestTimestamp">7 March 2012</div>
+
+				
+				<p><img src="http://www.thetvcritic.org/assets/HIMYM/_resampled/ResizedImage600278-Long-term-bet.png" alt="Credit CBS" title="Credit CBS" width="600" height="278"/></p>
+<p><strong>Synopsis: </strong>Ted leaves Robin to think about what he said. The  next morning she kisses him but has to go to Moscow for work. Barney  wakes up at Marshall and Lily's house and begins searching for their sex  tape. Instead he finds a box of bets they've made over the years.</p>
+<p><strong>The Good: </strong>I'm not sure this Ted-related part of the triangle  was really needed. However to actually hear Robin say she doesn't love  him and move out felt like the show moving forward. We've seen so many  backslides from Robin and Ted and plenty of apartment shuffling that it  would be nice to think the door was shut on that for good. The  Barney-Robin marriage seems more inevitable than ever which would be  fine though not remotely as interesting as the writers seem to think.</p>
+<p><strong>The Bad: </strong>In between Ted saying I love you and Robin saying she  didn't the episode was horrible. I sat down with a friend this week and  complained about <em>How I Met Your Mother. </em>I made the point that there were dozens of silly characters on <em>Scrubs </em>but  they all got an explanation. Their little crazy quirks were all  particular to them. On HIMYM on the other hand the regular characters  just suddenly gain new implausible attributes when the writers feel like  it.</p>
+<p>Here was a case in point. We were asked to believe that Lily would  screw over Ted's happiness to win a bet with Marshall. The writers have  asked us to accept that Lily likes to interfere in her friends lives so  you could argue that it's within the range of what she is capable of.  But morally speaking it just shouldn't be. Lily is meant to be the mama  bear of the group and someone we like. We are supposed to respect her  decisions and see her as a good moulder of impressionable minds (at  school). So it <em>is </em>an utter contradiction of who she is to see her lie to Ted's face just to win a bet. It makes her look petty and ridiculous.</p>
+<p>Marshall and Lily's secret gambling hobby falls into a similar  category. I can buy that they would make bets about their friends lives  but I don't see them jumping up and down with glee or lying to win. The  flashback to their reactions at Stella's wedding were awful. There's no  fun to be had in implying they took any joy from Ted's misery. To  compound this switch in established traits Barney refused to watch  Marshall and Lily's sex tape. I don't believe that for a second, he  lives for this stuff no matter how gross it might be.</p>
+<p>All this character switching behaviour is an attempt at comedy. As  usual it was a failure and nothing worked in that department. In an  episode when Ted needed to be serious we still managed to see him being  douchey with his secret camping and Russian balloon ideas.</p>
+<p>The little recreations of Robin's goodbye kiss were beyond pointless.  We just saw how she said goodbye, why on Earth would we need to see it  again?</p>
+<p>I hope the teases about the Mother (whose back we've now seen) lead  to something soon because the writers are irritating me with these  little "hints."</p>
+<p><strong>Comic Highlight: </strong>I did smile at Barney calling his cleaners to come tidy up a house he was about to ransack.</p>
+<p><strong>How I rate your episode: </strong>This captured the twin pillars of this season: slow stead plot progression and abysmal attempts at humour.</p>
+				
+				<div style="float:left; margin-right:20px;">
+					<a name="fb_share" type="button_count"></a>
+				</div>
+				
+				<div style="float:left; margin-right:20px;">
+					<a class="DiggThisButton">('<img src="http://digg.com/img/diggThisCompact.png" height="18" width="120" alt="DiggThis" />’)</a>
+				</div>
+				
+				<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+				<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
+				
+				<div class="clear"></div>
+				
+				<p class="sponsor">For reviews and discussion of the latest movies, music, books and shows visit <a href="http://www.pressplus1.com">www.pressplus1.com</a> - Your Ticket to Entertainment!</p>
+				
+				
+				<h2>Feedback</h2>
+
+				<p>Add your comments on this episode below.  They may be included in the weekly podcasts.</p>
+
+			</div>
+
+			<div id="PageComments_holder" class="typography">
+
+	<h4>Post your comment</h4>
+	
+		
+			
+<form  id="PageCommentInterface_Form_PostCommentForm" action="/reviews/comedies/how-i-met-your-mother/season-73/no-pressure/PageComments/PostCommentForm" method="post" enctype="application/x-www-form-urlencoded">
+
+	
+	<p id="PageCommentInterface_Form_PostCommentForm_error" class="message " style="display: none"></p>
+	
+	
+	<fieldset>
+		 
+		
+			<input class="hidden" type="hidden" id="PageCommentInterface_Form_PostCommentForm_ParentID" name="ParentID" value="2097" />
+		
+			<div id="Name" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Name">Your name</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_Name" name="Name" value="" /></div></div>
+		
+			<div id="EpisodeScore" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_EpisodeScore">Your score (out of 100)</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_EpisodeScore" name="EpisodeScore" value="" /></div></div>
+		
+			<div id="CommenterURL" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_CommenterURL">Your website URL</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_CommenterURL" name="CommenterURL" value="" /></div></div>
+		
+			<div id="Math" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Math">SPAM protection question: What is five plus three?</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_Math" name="Math" value="" /></div></div>
+		
+			<div id="Comment" class="field textarea "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Comment">Comments</label><div class="middleColumn"><textarea id="PageCommentInterface_Form_PostCommentForm_Comment" name="Comment" rows="5" cols="20"></textarea></div></div>
+		
+			<input class="hidden" type="hidden" id="PageCommentInterface_Form_PostCommentForm_SecurityID" name="SecurityID" value="6cb2c5aa753b24fc2c903946e8ffd7d051edf98b" />
+		
+		<div class="clear"><!-- --></div>
+	</fieldset>
+
+	
+	<div class="Actions">
+		
+			<input class="action " id="PageCommentInterface_Form_PostCommentForm_action_postcomment" type="submit" name="action_postcomment" value="Post" title="Post" />
+		
+	</div>
+	
+
+</form>
+
+
+		
+	
+
+	<h4>Comments</h4>
+	
+	<div id="CommentHolder">
+		
+			<ul id="PageComments">
+				
+					<li class="odd first  notspam">
+						<p class="comment" id="PageComment_2427">
+	
+		You&#39;re both forgetting that Lily is no mama bear. Her behaviour is actually quite consistent. She has sabotaged Ted&#39;s relationships before and generally her character seems to be: a horrible person inside a small lovable body. She doesn&#39;t act the way her character should, but the writers have never once written Lily convincingly.<br /><br />I thought there were fewer jokes in this episode than usual and so we got to see the characters be a bit more normal. The problem is after all the crap they&#39;ve done over the last few years, and as you say characteristics they&#39;ve suddenly acquired and then dropped, it&#39;s hard to believe them as people anymore or care about their problems.<br /><br />I have to say though I liked Barney&#39;s conversation with Ted at the end. I liked that Ted remembered the clues about Barney&#39;s feelings and that the realisation that Barney and Robin had a better thing led to actual change.<br /><br />And I liked that Marshall went to tell Robin to move out, even though it was mired in the ridiculous &#39;bets&#39; plot. Seemed like a genuine thing for a friend to do...<br /><br />If you can completely ignore Lily and Marshall (which I have trained myself to be able to do), this episode was quite good by HIMYM standards. 	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The G Man, 21/03/2012 12:25pm (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even last  notspam">
+						<p class="comment" id="PageComment_2426">
+	
+		I actually thought Barney&#39;s search for the sex tape was a funny sub-plot and the conversation between Barney and Ted about Robin was very interesting and well acted. I am interested in Barney and Robin&#39;s love story.<br /><br />However Lily and Marshall bets. I thought it was fine that they were betting on things like the sex tape and other petty things and they would try to win those bets. However there is no way that Lily would scheme that much to screw Ted over. Rooting against Ted at the wedding was awful.<br /><br />There is one explanation that I believe is acceptable and they could have easily worked it into the episode. Lily doesn&#39;t think Robin and Ted are meant to be together because she knows that it is Robin and Barney who are meant to be together. Lily knew at the time of Ted and Stella&#39;s wedding that Barney had feelings for Robin if you remember (not that excuses their behavior at the wedding). However this explanation keeps Lily&#39;s mama bear status intact, she is looking out for what&#39;s best for the group even if it does come at Ted&#39;s expense. I think it was a matter of presentation that was the problem with Lily and Marshall&#39;s betting not the betting itself. 	
+	
+</p>
+
+<p class="info">
+	
+		Posted by Derek, 21/03/2012 12:25pm (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+			</ul>
+			
+			
+		
+	</div>
+	
+	<p id="CommentsRSSFeed">
+		<a class="commentrss" href="http://www.thetvcritic.org/PageComment/rss?pageid=2097">RSS feed for comments on this page</a> | 
+		<a href="PageComment/rss" class="commentrss" title="View all Comments">RSS feed for all comments</a>
+	</p>
+</div>
+	
+
+
+
+			</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+
+	</td>
+	<td class="SL2_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL2_BL"></td>
+	<td colspan="2" class="SL2_BR"></td>
+</tr>
+</table>
+
+</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+                
+                
+                
+			</td>
+			<td id="PageLayoutRightColumn"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutBottomLeft"></td>
+			<td colspan="2" id="PageLayoutBottom"></td>
+			<td id="PageLayoutBottomRight"></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<div id="Footer">
+					<div>Copyright &copy; 2008-2015 Robin Pierson</div>
+					 
+					
+						<a href="/admin">Admin login</a>
+                                                           
+					
+				</div>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+</body>
+</html>

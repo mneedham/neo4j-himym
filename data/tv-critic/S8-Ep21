@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta name="verify-v1" content="sKUjov6Pa/cI4tQyOUZbTLorxZlMRnuQ3EF5QRjsHjM=" />
+	<base href="http://www.thetvcritic.org/"><!--[if lte IE 6]></base><![endif]-->
+	<title>The TV Critic.org - How I Met Your Mother, Season 8, Episode 21: Romeward Bound</title>
+<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="How I Met Your Mother, S8E21, Romeward Bound" />
+<meta name="description" content="The TV Critic.org - How I Met Your Mother, Season 8, Episode 21: Romeward Bound.  Overview: The Captain announces that he&#39;s moving to Rome for a year and wants Lily to go with him. She says no, assuming that Marshall won&#39;t want to uproot his existence. Meanwhile Barney and Robin&#39;s wedding planner has a ridiculous body that he and Ted are desperate to see." />
+
+
+	
+    
+    
+    
+    
+
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/layout.css?m=1332506754" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/typography.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/form.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/Forum.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider-ie.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider.css?m=1331828436" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/theme-homepage.css?m=1331828414" />
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/prototype/prototype.js?m=1330603700"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/behaviour/behaviour.js?m=1330603692"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/prototype_improvements.js?m=1330603626"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/i18n.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/lang/en_US.js?m=1330603728"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/Validator.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery-1.7.1.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.fx.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.easing.1.2.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/custom.js?m=1361360386"></script>
+<script type="text/javascript">
+//<![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7363433-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#PageCommentInterface_Form_PostCommentForm': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+									if(typeof fromAnOnBlur != 'undefined'){
+
+							if(fromAnOnBlur.name == 'Name')
+
+								require(fromAnOnBlur);
+
+						}else{
+							require('Name');
+						}						if(typeof fromAnOnBlur != 'undefined'){
+
+							if(fromAnOnBlur.name == 'Comment')
+
+								require(fromAnOnBlur);
+
+						}else{
+							require('Comment');
+						}
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('PageCommentInterface_Form_PostCommentForm').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('PageCommentInterface_Form_PostCommentForm').validate(this);
+			}
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('PageCommentInterface_Form_PostCommentForm').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#SearchForm_searchresults': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+			
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#SearchForm_searchresults input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('SearchForm_searchresults').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#SearchForm_searchresults textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this);
+			}
+		}
+	},
+	'#SearchForm_searchresults select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+</head>
+<body>
+<div id="Crumbs"><b>Crumbs:</b> <a href="/reviews/">Reviews</a> &raquo; <a href="/reviews/comedies/">Comedies</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/season-8/">Season 8</a> &raquo; Romeward Bound</div>
+	   <div align="center">
+		<table id="PageLayout">
+		<tr>
+			<td></td>
+			<td id="LogoContainer">
+                <div id="mainLogo"><a href="/" title="The TV Critic Home"><img src="themes/tvcritic/images/the_tv_critic_logo.jpg" alt="The TV Critic"/></a></div>
+                <div id="strapline">Critical reviews of U.S. TV shows <br/> and analysis of what makes them <br/> good, bad, irritating and enlightening.</div>                  
+			</td>
+			<td id="MemberContainer">
+				<div class="headerTop">
+					
+						
+					
+					<form  id="SearchForm_searchresults" action="/reviews/comedies/how-i-met-your-mother/season-8/romeward-bound/searchresults" method="get" enctype="application/x-www-form-urlencoded">
+	<fieldset>
+		<legend></legend>
+		
+			<div id="q" class="field text "><label class="left" for="SearchForm_searchresults_q">Search: </label><div class="middleColumn"><input type="text" class="text" id="SearchForm_searchresults_q" name="q" value="" /></div></div>
+		
+		
+			<input class="action " id="SearchForm_searchresults_action_searchresults" type="submit" name="action_searchresults" value="Go" title="Go" />
+		
+	</fieldset>
+</form>
+
+				</div>
+                
+                	
+                        <div class="ad-banner size468x60">
+    
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-9835826809205228";
+/* Header Banner */
+google_ad_slot = "5938664980";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+                    
+                
+                
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutTopLeft" rowspan="3"><img src="themes/tvcritic/images/pg_tl.gif" /></td>
+			<td id="PageLayoutTop" colspan="2" height="4"></td>
+			<td id="PageLayoutTopRight" rowspan="3"><img src="themes/tvcritic/images/pg_tr.gif" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" height="34">
+			<div id="MenuBar"><ul>
+					   
+					      <li class="link"><a href="/" title="Go to the &quot;Home&quot; page">Home</a></li>
+					   
+					      <li class="section"><a href="/reviews/" title="Go to the &quot;Reviews&quot; page">Reviews</a></li>
+					   
+					      <li class="link"><a href="/scores/" title="Go to the &quot;Scores&quot; page">Scores</a></li>
+					   
+					      <li class="link"><a href="/podcasts/" title="Go to the &quot;Podcasts&quot; page">Podcasts</a></li>
+					   
+					      <li class="link"><a href="/donate/" title="Go to the &quot;Donate&quot; page">Donate</a></li>
+					   
+					      <li class="link"><a href="/blog/" title="Go to the &quot;Blog&quot; page">Blog</a></li>
+					   
+					      <li class="link"><a href="/forums/" title="Go to the &quot;Forums&quot; page">Forums</a></li>
+					   
+					      <li class="link"><a href="/about/" title="Go to the &quot;About&quot; page">About</a></li>
+					   
+					      <li class="link"><a href="/contact/" title="Go to the &quot;Contact&quot; page">Contact</a></li>
+					   
+			</ul></div></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="menuGapBottom"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutLeftColumn"></td>
+			<td colspan="2" id="ContentContainer"><div class="clear"></div>
+				<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs">
+		<div class="ShowMenuBar ">
+
+    <div class="showListNav">
+        <h3><a href="/reviews/">Comedies</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/comedies/30-rock/">30 Rock</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/community/">Community</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/entourage/">Entourage</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/family-guy/">Family Guy</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/friends/">Friends</a></li>
+            
+            	<li class="section"><a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/parks-and-recreation/">Parks and Recreation</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/scrubs/">Scrubs</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-big-bang-theory/">The Big Bang Theory</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-office/">The Office</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-simpsons/">The Simpsons</a></li>
+            
+        </ul>
+    </div>
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/">Dramas</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/dramas/boardwalk-empire/">Boardwalk Empire</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/breaking-bad/">Breaking Bad</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/buffy-the-vampire-slayer/">Buffy the Vampire Slayer</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/deadwood/">Deadwood</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dexter/">Dexter</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dollhouse/">Dollhouse</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/flashforward/">FlashForward</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/game-of-thrones/">Game of Thrones</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/heroes/">Heroes</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/homeland/">Homeland</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/lost/">Lost</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/mad-men/">Mad Men</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/prison-break/">Prison Break</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/shameless/">Shameless</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/spartacus/">Spartacus</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-walking-dead-2/">The Walking Dead</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-wire/">The Wire</a></li>
+            
+        </ul>
+    </div> 
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/other-reviews/">Other reviews</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/other-reviews/californication/">Californication</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/episodes/">Episodes</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/fringe/">Fringe</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/glee/">Glee</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/legend-of-the-seeker/">Legend of the Seeker</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lights-out/">Lights Out</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lone-star/">Lone Star</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/mike-and-molly/">Mike and Molly</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/modern-family/">Modern Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/no-ordinary-family/">No Ordinary Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/rubicon/">Rubicon</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-event/">The Event</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-middle/">The Middle</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/treme/">Treme</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/twin-peaks/">Twin Peaks</a></li>
+            
+        </ul>
+    </div>        
+    
+</div>
+	</td>
+<td class="SL_M Content">
+
+	<style type="text/css">
+.notbody {
+  background:url('mysite/images/how-i-met-your-mother/banner.jpg') no-repeat top center;
+}
+</style>
+
+
+
+    <div class="score">50<div class="outof">/100</div></div>
+
+    <div class="score viewer"><div class="title">Viewer</div>47<div class="outof">/100</div></div>
+
+
+
+
+
+<div class="typography">
+<h1>How I Met Your Mother</h1>
+
+<p>How I Met Your Mother is a comedy about Ted Mosby, a New York architect who wants to get married and start a family. Future Ted is telling the story of how he met their mother and we see his past story set in the present day and the adventures he has with friends Marshall, Lily, Barney and Robin. CBS 2005-???</p>
+</div>
+
+	<table class="clear">
+<tr>
+	<td class="SL2_TL"></td>
+	<td colspan="2" class="SL2_TR"></td>
+</tr>
+<tr>
+	<td class="SL2_Tabs">
+	
+    	
+            <div class="SeasonMenuBar">
+            	<ul>
+                	<li><h1>S</h1></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-37/">1</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-69/">2</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-19/">3</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-20/">4</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-43/">5</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-54/">6</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/">7</a></li>
+                    
+                    <li class="section"><a href="/reviews/comedies/how-i-met-your-mother/season-8/">8</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-9/">9</a></li>
+                    
+				</ul>
+			</div>
+		            
+	</td>
+	<td class="SL2_M Content">
+
+		<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs" style="width:50px!important;">
+		<div class="ShowMenuBar"><ul>
+		<li><h1>E</h1></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/farhampton/">1</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-pre-nup/">2</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/nannies/">3</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/who-wants-to-be-a-godparent/">4</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-autumn-of-break-ups/">5</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/splitsville/">6</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-stamp-tramp/">7</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/twelve-horny-women/">8</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/lobster-crawl/">9</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-over-correction/">10</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-final-page-1-2/">11</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/band-or-dj/">13</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/ring-up/">14</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/p-s-i-love-you/">15</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/bad-crazy/">16</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-ashtray/">17</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/weekend-at-barney-s/">18</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-fortress/">19</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-time-travelers/">20</a></li>
+	   
+	      <li class="current"><a href="/reviews/comedies/how-i-met-your-mother/season-8/romeward-bound/">21</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/the-bro-mitzvah/">22</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/something-old/">23</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/something-new/">24</a></li>
+	   
+	</ul></div>
+	</td>
+	<td class="SL_M Content">
+            <div class="score">41<div class="outof">/100</div></div>
+            
+
+			
+
+			<div class="typography">
+				<h1>Episode 21 - Romeward Bound</h1>
+
+				<div class="latestTimestamp">16 April 2013</div>
+
+				
+				<p><img class="center" src="assets/Uploads/HIMYM/_resampled/resizedimage600291-Thermonuclear.png" alt="Credit CBS" title="Credit CBS" width="600" height="291"/></p>
+<p><strong>Synopsis: </strong>The Captain announces that he's moving to Rome for a year and wants Lily to go with him. She says no, assuming that Marshall won't want to uproot his existence. Meanwhile Barney and Robin's wedding planner has a ridiculous body that he and Ted are desperate to see.</p>
+<p><strong>The Good: </strong>The subtitles bit was pretty sweet. Marshall uses his one sentence of Italian to communicate his faith in his relationship with Lily. Awww.</p>
+<p><strong>The Bad: </strong>It's a shame we had to swallow the idea that he'd been lying to her for months. He claims it's because he didn't want her to see him as a failure which is ridiculous given all they've been through together. I genuinely struggle to imagine the person who laughed at the pun related excuses Marshall gave for ending their phone calls. And of course it's beyond dumb to accept that he sat in an office eating burgers and drinking beer for months. I assume Marshall and Lily go to Rome after the wedding and it won't affect the show much next season (e.g. they come back immediately or within a few eps).</p>
+<p>The point of the ridonculous body story was clearly to sow some potential dissension between Robin and Barney leading up to the wedding. That's fine on a basic level but it meant we had to sit through a really dull story in the meantime. It's also the second time this season that a major plot about Ted being ready to get married was followed by him being a pathetic single guy again.</p>
+<p><strong>Comic Highlight: </strong>There was some choice bad comedy here. I appreciated the truth at the core of the body gags that a happily married man can say things to single women that don't seem creepy and that set up a good test for Barney.</p>
+<p><strong>How I rate your episode: </strong>A lot of crappy stuff to move the plot forward. A harsh but not inaccurate description of the whole show since season two.</p>
+				
+				<div style="float:left; margin-right:20px;">
+					<a name="fb_share" type="button_count"></a>
+				</div>
+				
+				<div style="float:left; margin-right:20px;">
+					<a class="DiggThisButton">('<img src="http://digg.com/img/diggThisCompact.png" height="18" width="120" alt="DiggThis" />’)</a>
+				</div>
+				
+				<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+				<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
+				
+				<div class="clear"></div>
+				
+				<p class="sponsor">For reviews and discussion of the latest movies, music, books and shows visit <a href="http://www.pressplus1.com">www.pressplus1.com</a> - Your Ticket to Entertainment!</p>
+				
+				
+				<h2>Feedback</h2>
+
+				<p>Add your comments on this episode below.  They may be included in the weekly podcasts.</p>
+
+			</div>
+
+			<div id="PageComments_holder" class="typography">
+
+	<h4>Post your comment</h4>
+	
+		
+			
+<form  id="PageCommentInterface_Form_PostCommentForm" action="/reviews/comedies/how-i-met-your-mother/season-8/romeward-bound/PageComments/PostCommentForm" method="post" enctype="application/x-www-form-urlencoded">
+
+	
+	<p id="PageCommentInterface_Form_PostCommentForm_error" class="message " style="display: none"></p>
+	
+	
+	<fieldset>
+		 
+		
+			<input class="hidden" type="hidden" id="PageCommentInterface_Form_PostCommentForm_ParentID" name="ParentID" value="2513" />
+		
+			<div id="Name" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Name">Your name</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_Name" name="Name" value="" /></div></div>
+		
+			<div id="EpisodeScore" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_EpisodeScore">Your score (out of 100)</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_EpisodeScore" name="EpisodeScore" value="" /></div></div>
+		
+			<div id="CommenterURL" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_CommenterURL">Your website URL</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_CommenterURL" name="CommenterURL" value="" /></div></div>
+		
+			<div id="Math" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Math">SPAM protection question: What is eight plus one?</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_Math" name="Math" value="" /></div></div>
+		
+			<div id="Comment" class="field textarea "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Comment">Comments</label><div class="middleColumn"><textarea id="PageCommentInterface_Form_PostCommentForm_Comment" name="Comment" rows="5" cols="20"></textarea></div></div>
+		
+			<input class="hidden" type="hidden" id="PageCommentInterface_Form_PostCommentForm_SecurityID" name="SecurityID" value="64b11bddbb3974a1da33c484ca27856c705499aa" />
+		
+		<div class="clear"><!-- --></div>
+	</fieldset>
+
+	
+	<div class="Actions">
+		
+			<input class="action " id="PageCommentInterface_Form_PostCommentForm_action_postcomment" type="submit" name="action_postcomment" value="Post" title="Post" />
+		
+	</div>
+	
+
+</form>
+
+
+		
+	
+
+	<h4>Comments</h4>
+	
+	<div id="CommentHolder">
+		
+			<ul id="PageComments">
+				
+					<li class="odd first  notspam">
+						<p class="comment" id="PageComment_5097">
+	
+		I have followed your sensible lead and replied in the Forums...see you there.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 22/04/2013 10:59pm (2 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even notspam">
+						<p class="comment" id="PageComment_5093">
+	
+		&quot;Most of the disagreements we have over comedy seem to be about definition. I don&#39;t think I&#39;m actually stating an opinion when I say that comedy is based on reality. People have often told me that comedy is not to meant to be &quot;believable&quot; or based on reality but we are clearly defining words differently.&quot;<br /><br />I&#39;m sorry, but that is an opinion. Obviously the writers have to base their comedy on SOMETHING because they are actual people who live in this reality, not whatsamawhosits from the DCESBH dimension, but there doesn&#39;t have to be anything real about the comedy in the least, plenty of comedies have been unrealistic to the extreme and still been successful, Family Guy and South Park are probably some of the most well known examples. The fact that you think there has to be anything resembling basis in reality for a comedy is an opinion, it&#39;s not necessarily true.<br /><br />&quot;If I told you that I bit into an apple and it was rotten inside you might laugh (depending on my tone) because you would recognise the truth of the situation. Sometimes fruit is bad and the nice thing you were looking forward to turned out to not be so great. If I told you I just ate a purple apple, you wouldn&#39;t laugh. Because there&#39;s no reality to recognise, there are no purple apples.&quot;<br /><br />There are as I mentioned plenty of unrealistic and successful comedies where something like eating a purple apple is only the tip of the iceberg when it comes to there being &quot;no reality to recognize&quot; as you put it.<br /><br />&quot;When I talk about wanting reality or believability, I am allowing for exaggeration. You don&#39;t see me complaining often about Barney as a creation. When he acts in ways that don&#39;t destroy my suspension of disbelief I enjoy him a lot. Ditto Sheldon or Joey or whoever it is who is an obvious exaggeration. The key for me is that the world reacts to them how the real world might. As long as Ted is disgusted or amused or surprised by Barney then I can buy into what he is doing.&quot;<br /><br /> That was kinda my point, you expect anything resembling reality in what the characters do or say in any comedy when you shouldn&#39;t, even if the comedy itself if usually fairly realistic. Comedies are meant to be funny, and whether that means they only dip into the unrealistic from time to time or jump in headfirst and never surface depends on who the writers are aiming their comedy at and how far they&#39;re willing to go to get laughs. If it doesn&#39;t work for you it just doesn&#39;t, but don&#39;t put comedies down just for being unreal. Realism isn&#39;t a valid criteria for whether something is good or not.<br />Also, From what I&#39;ve read of your reviews and replies you also seem to let a lack of realism pass from characters like Barney or Sheldon but then turn around and expect realism from other characters. In other words, you&#39;re like the teacher who let&#39;s a kid or 2 get away with whatever while raising hell when anybody else does the same thing. It seems rather arbitrary from my perspective.<br /><br />&quot;Friends was not especially more real than How I Met Your Mother, it just did a much better job of having its characters behave in a believable manner. Part of that as I repeatedly point out in my reviews is that they talked in a consistent way, blending punch lines into their chatter. How I Met Your Mother has a jarring habit of blending ultra relatable talk of relationship or career trouble with punch lines, lists or puns that don&#39;t sound at all like either real people or the characters themselves. Now if that doesn&#39;t bother you, that&#39;s fine. There&#39;s millions of people who don&#39;t agree with me. But it&#39;s not about me misunderstanding that comedy is meant to be an exaggeration. The best comedies can exaggerate while giving you enough reason to go along for the ride. In my opinion How I Met Your Mother has never ever been good at that.&quot;<br /><br />Ahh... I see. From what I&#39;ve seen you seem to expect the HIMYM to have the same comedic styles that Friends does, when it doesn&#39;t and never was meant to. Friends and HIMYM are very different comedies with very different styles of comedy. Friends interjects in jokes into situations where they would be appropriate like you said in order to get laughs, while HIMYM likes to throw it&#39;s characters into ludicrous situations and make it&#39;s characters say and act contrary or consistently to what you would expect in order to keep you guessing. The punchlines and lists and such are a part of this approach, they are 2 different but not necessarily any less valid means to try and achieve the same end.<br /><br />&quot;I would love to spend more time pointing out examples and contrasts between various sit coms but I just don&#39;t have time.&quot;<br /><br />That&#39;s fine, if you have the time later on and want to discuss this further I&#39;ve registered to the forums here and I will create a thread entitled &quot;About comedy&quot; in the General Discussion thread after I&#39;m done posting this to continue on from here.<br /><br />&quot;Part of the problem with the modern generation of shows is that they&#39;ve all come in the wake of The Simpsons. The Simpsons so effectively mocked the formula and format of sit coms that so many writers now are trying to reinvent the wheel, break the 4th wall and undermine their own sense of reality. HIMYM doesn&#39;t help itself with its flashbacks and changes of perspective when they seem inauthentic or wildly exaggerated.&quot;<br /><br />That&#39;s not really true. The Simpson has been so successful because writers discovered a comedic style which works with a great deal of people. Other comedies since then are either blatantly ripping off it or are trying to find another style that also resounds with as many people as possible, HIMYM is the latter. HIMYM uses the flashbacks and changes in perspective in very exaggerated and inauthentic ways because what&#39;s a part of it&#39;s comedic style, and if you don&#39;t find that style funny that&#39;s fine, but you shouldn&#39;t put HIMYM down because it style of comedy just doesn&#39;t work for you, you should put it down for doing a bad job utilizing it&#39;s distinctive style.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by immortalfrieza, 19/04/2013 8:48pm (2 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="odd notspam">
+						<p class="comment" id="PageComment_5092">
+	
+		Hey,<br /><br />I&#39;m about as busy as I&#39;ve ever been so I&#39;m sorry I can&#39;t give this the thorough reply it deserves. It never sounded rude or ranty and I hope I won&#39;t in turn. Anyone who liked their TV enough to engage online about it is someone I appreciate.<br /><br />Most of the disagreements we have over comedy seem to be about definition. I don&#39;t think I&#39;m actually stating an opinion when I say that comedy is based on reality. People have often told me that comedy is not to meant to be &quot;believable&quot; or based on reality but we are clearly defining words differently.<br /><br />If I told you that I bit into an apple and it was rotten inside you might laugh (depending on my tone) because you would recognise the truth of the situation. Sometimes fruit is bad and the nice thing you were looking forward to turned out to not be so great. If I told you I just ate a purple apple, you wouldn&#39;t laugh. Because there&#39;s no reality to recognise, there are no purple apples. <br /><br />It&#39;s a simplistic point but all comedy stems from reality. All sit coms are exaggerations of a reality. That&#39;s why sit coms are usually built around families or work places. People need to see situations they recognise to appreciate the truth in them. You said that a show which reflected reality wouldn&#39;t be funny at all but actually most comedies begin from a place that everyone can relate to. Whether its the hospital in Scrubs or the coffee shop in Friends or the date between Ted and Robin in the pilot. All of those shows began with a highly real and relatable situation with a few exaggerations to make things funny.<br /><br />When I talk about wanting reality or believability, I am allowing for exaggeration. You don&#39;t see me complaining often about Barney as a creation. When he acts in ways that don&#39;t destroy my suspension of disbelief I enjoy him a lot. Ditto Sheldon or Joey or whoever it is who is an obvious exaggeration. The key for me is that the world reacts to them how the real world might. As long as Ted is disgusted or amused or surprised by Barney then I can buy into what he is doing.<br /><br />Friends was not especially more real than How I Met Your Mother, it just did a much better job of having its characters behave in a believable manner. Part of that as I repeatedly point out in my reviews is that they talked in a consistent way, blending punch lines into their chatter. How I Met Your Mother has a jarring habit of blending ultra relatable talk of relationship or career trouble with punch lines, lists or puns that don&#39;t sound at all like either real people or the characters themselves. Now if that doesn&#39;t bother you, that&#39;s fine. There&#39;s millions of people who don&#39;t agree with me. But it&#39;s not about me misunderstanding that comedy is meant to be an exaggeration. The best comedies can exaggerate while giving you enough reason to go along for the ride. In my opinion How I Met Your Mother has never ever been good at that. <br /><br />If you visit Hitfix.com or many other websites you will find similar arguments about the quality of storytelling on HIMYM even if they disagree with me about the comedy. I would love to spend more time pointing out examples and contrasts between various sit coms but I just don&#39;t have time. If you look across the dozens of comedies I&#39;ve reviewed then are tons of examples of plots and jokes which draw upon relatable emotions and reactions. I love the sit com format and watched a plethora of brilliant shows when I was growing up. Part of the problem with the modern generation of shows is that they&#39;ve all come in the wake of The Simpsons. The Simpsons so effectively mocked the formula and format of sit coms that so many writers now are trying to reinvent the wheel, break the 4th wall and undermine their own sense of reality. HIMYM doesn&#39;t help itself with its flashbacks and changes of perspective when they seem inauthentic or wildly exaggerated. <br /><br />Just to return to my main point though - comedy is the recognition of some kind of truth. It isn&#39;t a random act. Barney is indeed a satire on the player type. But that doesn&#39;t mean that I have to accept that everything he does is funny. When he picks up a bimbo and there is zero chance that the tactic he used could ever work then there is no truth to recognise. The truth there is that the writers couldn&#39;t think of something based in reality. So they made something up. The result wasn&#39;t funny. <br />	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 19/04/2013 5:50pm (2 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even notspam">
+						<p class="comment" id="PageComment_5090">
+	
+		Hey,<br /><br />I really do appreciate the chance to discuss comedy. Thank you for taking the time to write in. I will respond properly soon.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 18/04/2013 10:17am (2 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="odd last  notspam">
+						<p class="comment" id="PageComment_5088">
+	
+		Robin, I&#39;ve been reading quite a few of your reviews of comedy shows, How I Met Your Mother especially, and I also heard your podcast addressing Ryan about HIMYM and Big Bang Theory, and while I like reading them, and I haven&#39;t gotten through them all or all the episodes yet, quite frankly, I think they show that you miss the point of How I Met Your Mother and really comedies in general by quite a bit. I mean, if the humor doesn&#39;t work for you, that&#39;s fine, but there are 3 main things you constantly put HIMYM and with the first one all comedies down about, in just about all of your reviews, but all of those 3 things that you complain about are what comedy IS, and what HIMYM in particular is about. It&#39;s going to be a bit long to read, but I&#39;ll go through them.<br /><br />First, your complaint about realism, or rather, a lack thereof in many scenes in HIMYM and other comedies that you review, you seem to have an obsession in particular with this. You expect the characters, both the main, recurring, and the one offs to find or put themselves in realistic situations, act like real people, and see realistic consequences for their  behavior. No, that wouldn&#39;t work and no comedy ever would do that. Why? It&#39;s because:<br /><br />1. A show that would geniunely have all those things would be anything but interesting and not funny in the least. People watch TV to get AWAY from their real lives, not watch sit there and watch their real lifes unfold, they get enough of that crap when they aren&#39;t watching TV.<br /><br />2. I&#39;m aware that you know that the characters on comedies obviously are not real people, but you seem to expect them to act like they are, when they aren&#39;t, aren&#39;t ever going to be, and shouldn&#39;t have to be. The fact is, characters in comedies aren&#39;t even supposed to represent real people, they are caricatures of human beings. They are meant to parody real people, and this extends to the situations they find themselves put in, they aren&#39;t supposed to act realistically to anything. This is why Barney has always been and probably will always be a smooth talking ladies man despite using pickup lines and tactics that would NEVER work on anyone while also being an unrepentant egotistical douche, and that despite this he is loved by everybody and will never get any sort of real punishment for his reprehensible behavior, he&#39;s meant to mock people in real life that actually are smooth talking ladies men and playboy types, and to interject funny lines into situations where they aren&#39;t there already, and the rest of the cast is also there to mock their own respective sides, Ted is meant to mock the hopeless romantic, Robin mocks the workaholic and those with a fear of commitment, while Marshal and Lily mock married couples. In fact, a large part of why the humor and plots in comedies works is because watching the absurdity of characters doing and get away with things we know they realistically wouldn&#39;t is what makes people laugh.<br /><br />3. You seem to expect the characters not to constantly fire off jokes and to react to the situations they find themselves in with a realistic amount of seriousness and depth, but if that&#39;s what you want, don&#39;t watch comedies. A comedy that doesn&#39;t throw out jokes every 10 seconds and ever treats any scene with seriousness for any real length of time isn&#39;t going to last long, it&#39;s the bread and butter of comedies. Sure, there are serious scenes in comedies, but those exist to create downtime between jokes and to create setups to make jokes come across better, in fact, everything about comedies exists for the sake of the rule of funny. <br /><br />5. During the podcast and your reviews you mentioned Friends a lot, as a comedy that is much more realistic in with it&#39;s characters and situations than shows like HIMYM and BBT, and therefore in your opinion better, but they also aren&#39;t meant to be realistic either, it&#39;s just a matter of exactly what it is the writers are parodying, how far into the surreal the writers are willing to go to get a laugh, and of course their own sense of humor. Ross is no more realistic than Ted or Barney, he&#39;s just written to be a different kind of character than they are.<br /><br />Second, you seem to be hung up on the fact that progress concerning leading up to meeting the mother is slow to non-existent in most episodes. However, despite the title the mother is not in the least what How I Met Your Mother is about, in fact, she is insignificant to the show pretty much entirely and she always has been. The mother exists as a plot device, the arc of meeting the mother is the carrot on the stick to keep people watching, and to provide room for a few jokes and to justify the narrative format of the show, she&#39;ll probably never appear until the final episode if at all. What the show is actually about is the hopeless romantic unlucky in love, the 4 friends he hangs out with, and the amusing antics they constantly get into. The show is about parodying relationships, both friendships like Ted and his group, and that of romantic relationships, and that&#39;s why the mother and the kids for that matter are hardly ever mentioned and that the mother&#39;s reveal is in a constant standstill throughout the show, neither of them matter.<br /><br />Which leads me into the third thing you complain about, you complain about Future Ted telling stories to his children that are incredibly inappropriate, ones that any decent parent would never tell in a million years, as well as several stories that have nothing to do with the mother, so why should FT even tell his kids those stories? Again, you miss the point of the kids. As with the mother, the kids are merely a plot device so the narration by Future Ted isn&#39;t just there for no reason, and to occasionally be the subject of a joke or 2. FT isn&#39;t telling this story to his kids, he&#39;s telling this story to us, the audience, and thus more mature material and irrelevant to the overarching plot is warranted in these stories. So in short, like the mother, the kids don&#39;t matter.<br /><br />I&#39;m sorry if this got ranty or a little rude at times, but these same 3 things you&#39;ve been putting in the bad section of your reviews all the time is just petty at best and outright wrong at worst, and I hate that you can&#39;t enjoy this and other comedies as much as I and others do because you can&#39;t get over these things central to what a comedy and HIMYM is, by their very nature as comedies.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by immortalfrieza, 18/04/2013 12:36am (2 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+			</ul>
+			
+			
+		
+	</div>
+	
+	<p id="CommentsRSSFeed">
+		<a class="commentrss" href="http://www.thetvcritic.org/PageComment/rss?pageid=2513">RSS feed for comments on this page</a> | 
+		<a href="PageComment/rss" class="commentrss" title="View all Comments">RSS feed for all comments</a>
+	</p>
+</div>
+	
+
+
+
+			</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+
+	</td>
+	<td class="SL2_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL2_BL"></td>
+	<td colspan="2" class="SL2_BR"></td>
+</tr>
+</table>
+
+</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+                
+                
+                
+			</td>
+			<td id="PageLayoutRightColumn"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutBottomLeft"></td>
+			<td colspan="2" id="PageLayoutBottom"></td>
+			<td id="PageLayoutBottomRight"></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<div id="Footer">
+					<div>Copyright &copy; 2008-2015 Robin Pierson</div>
+					 
+					
+						<a href="/admin">Admin login</a>
+                                                           
+					
+				</div>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+</body>
+</html>

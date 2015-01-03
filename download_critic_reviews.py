@@ -10,23 +10,21 @@ for i in range(1,10):
     for row in select(soup, "div.typography tr"):
         columns = select(row, "td")
         if len(columns) > 0:
-            episodes["%d-%d" %(i, int(columns[0].text))] = int(columns[3].text)
+            episodes["%d-%d" %(i, int(columns[0].text))] = select(columns[1], "a")[0].get("href")
 
-print episodes
+for key, value in episodes.iteritems():
+    parts = key.split("-")
+    season = int(parts[0])
+    episode = int(parts[1])
+    filename = "data/tv-critic/S%d-Ep%d" %(season, episode)
+    print filename
 
-# for key, value in episodes.iteritems():
-#     parts = key.split("x")
-#     season = int(parts[0])
-#     episode = int(parts[1])
-#     filename = "data/transcripts/S%d-Ep%d" %(season, episode)
-#     print filename
-#
-#     with open(filename, 'wb') as handle:
-#         headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
-#         response = requests.get("http://transcripts.foreverdreaming.org" + value["link"], headers = headers)
-#         if response.ok:
-#             for block in response.iter_content(1024):
-#                 if not block:
-#                     break
-#
-#                 handle.write(block)
+    with open(filename, 'wb') as handle:
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+        response = requests.get("http://www.thetvcritic.org" + value, headers = headers)
+        if response.ok:
+            for block in response.iter_content(1024):
+                if not block:
+                    break
+
+                handle.write(block)

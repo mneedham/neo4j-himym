@@ -1,0 +1,926 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta name="verify-v1" content="sKUjov6Pa/cI4tQyOUZbTLorxZlMRnuQ3EF5QRjsHjM=" />
+	<base href="http://www.thetvcritic.org/"><!--[if lte IE 6]></base><![endif]-->
+	<title>The TV Critic.org - How I Met Your Mother, Season 7, Episode 10: Tick Tick Tick</title>
+<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="How I Met Your Mother, S7E10, Tick Tick Tick" />
+<meta name="description" content="The TV Critic.org - How I Met Your Mother, Season 7, Episode 10: Tick Tick Tick.  Overview: Robin and Barney both feel terrible for cheating and fret about a double date coming up on a boat trip. Once there they both agree to tell Nora and Kevin the truth" />
+
+
+	
+    
+    
+    
+    
+
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/layout.css?m=1332506754" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/typography.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/form.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/Forum.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider-ie.css?m=1331723928" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/anythingslider.css?m=1331828436" />
+<link rel="stylesheet" type="text/css" href="http://www.thetvcritic.org/themes/tvcritic/css/theme-homepage.css?m=1331828414" />
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/prototype/prototype.js?m=1330603700"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/thirdparty/behaviour/behaviour.js?m=1330603692"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/prototype_improvements.js?m=1330603626"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/i18n.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/lang/en_US.js?m=1330603728"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/sapphire/javascript/Validator.js?m=1330603624"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery-1.7.1.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.fx.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.anythingslider.min.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/jquery.easing.1.2.js?m=1331723958"></script>
+<script type="text/javascript" src="http://www.thetvcritic.org/themes/tvcritic/javascript/custom.js?m=1361360386"></script>
+<script type="text/javascript">
+//<![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7363433-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#PageCommentInterface_Form_PostCommentForm': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+									if(typeof fromAnOnBlur != 'undefined'){
+
+							if(fromAnOnBlur.name == 'Name')
+
+								require(fromAnOnBlur);
+
+						}else{
+							require('Name');
+						}						if(typeof fromAnOnBlur != 'undefined'){
+
+							if(fromAnOnBlur.name == 'Comment')
+
+								require(fromAnOnBlur);
+
+						}else{
+							require('Comment');
+						}
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('PageCommentInterface_Form_PostCommentForm').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('PageCommentInterface_Form_PostCommentForm').validate(this);
+			}
+		}
+	},
+	'#PageCommentInterface_Form_PostCommentForm select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('PageCommentInterface_Form_PostCommentForm').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Behaviour.register({
+	'#SearchForm_searchresults': {
+		validate : function(fromAnOnBlur) {
+			initialiseForm(this, fromAnOnBlur);
+			
+
+			var error = hasHadFormError();
+			if(!error && fromAnOnBlur) clearErrorMessage(fromAnOnBlur);
+			if(error && !fromAnOnBlur) focusOnFirstErroredField();
+			
+			return !error;
+		},
+		onsubmit : function() {
+			if(typeof this.bypassValidation == 'undefined' || !this.bypassValidation) return this.validate();
+		}
+	},
+	'#SearchForm_searchresults input' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				// Don't perform instant validation for CalendarDateField fields; it creates usability wierdness.
+				if(this.parentNode.className.indexOf('calendardate') == -1 || this.value) {
+					return $('SearchForm_searchresults').validate(this);
+				} else {
+					return true;
+				}
+			}
+		}
+	},
+	'#SearchForm_searchresults textarea' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+			if(!this.old_onfocus) this.old_onfocus = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this);
+			}
+		}
+	},
+	'#SearchForm_searchresults select' : {
+		initialise: function() {
+			if(!this.old_onblur) this.old_onblur = function() { return true; } 
+		},
+		onblur : function() {
+			if(this.old_onblur()) {
+				return $('SearchForm_searchresults').validate(this); 
+			}
+		}
+	}
+});
+
+//]]>
+</script>
+</head>
+<body>
+<div id="Crumbs"><b>Crumbs:</b> <a href="/reviews/">Reviews</a> &raquo; <a href="/reviews/comedies/">Comedies</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a> &raquo; <a href="/reviews/comedies/how-i-met-your-mother/season-73/">Season 7</a> &raquo; Tick Tick Tick</div>
+	   <div align="center">
+		<table id="PageLayout">
+		<tr>
+			<td></td>
+			<td id="LogoContainer">
+                <div id="mainLogo"><a href="/" title="The TV Critic Home"><img src="themes/tvcritic/images/the_tv_critic_logo.jpg" alt="The TV Critic"/></a></div>
+                <div id="strapline">Critical reviews of U.S. TV shows <br/> and analysis of what makes them <br/> good, bad, irritating and enlightening.</div>                  
+			</td>
+			<td id="MemberContainer">
+				<div class="headerTop">
+					
+						
+					
+					<form  id="SearchForm_searchresults" action="/reviews/comedies/how-i-met-your-mother/season-73/tick-tick-tick/searchresults" method="get" enctype="application/x-www-form-urlencoded">
+	<fieldset>
+		<legend></legend>
+		
+			<div id="q" class="field text "><label class="left" for="SearchForm_searchresults_q">Search: </label><div class="middleColumn"><input type="text" class="text" id="SearchForm_searchresults_q" name="q" value="" /></div></div>
+		
+		
+			<input class="action " id="SearchForm_searchresults_action_searchresults" type="submit" name="action_searchresults" value="Go" title="Go" />
+		
+	</fieldset>
+</form>
+
+				</div>
+                
+                	
+                        <div class="ad-banner size468x60">
+    
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-9835826809205228";
+/* Header Banner */
+google_ad_slot = "5938664980";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+                    
+                
+                
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutTopLeft" rowspan="3"><img src="themes/tvcritic/images/pg_tl.gif" /></td>
+			<td id="PageLayoutTop" colspan="2" height="4"></td>
+			<td id="PageLayoutTopRight" rowspan="3"><img src="themes/tvcritic/images/pg_tr.gif" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" height="34">
+			<div id="MenuBar"><ul>
+					   
+					      <li class="link"><a href="/" title="Go to the &quot;Home&quot; page">Home</a></li>
+					   
+					      <li class="section"><a href="/reviews/" title="Go to the &quot;Reviews&quot; page">Reviews</a></li>
+					   
+					      <li class="link"><a href="/scores/" title="Go to the &quot;Scores&quot; page">Scores</a></li>
+					   
+					      <li class="link"><a href="/podcasts/" title="Go to the &quot;Podcasts&quot; page">Podcasts</a></li>
+					   
+					      <li class="link"><a href="/donate/" title="Go to the &quot;Donate&quot; page">Donate</a></li>
+					   
+					      <li class="link"><a href="/blog/" title="Go to the &quot;Blog&quot; page">Blog</a></li>
+					   
+					      <li class="link"><a href="/forums/" title="Go to the &quot;Forums&quot; page">Forums</a></li>
+					   
+					      <li class="link"><a href="/about/" title="Go to the &quot;About&quot; page">About</a></li>
+					   
+					      <li class="link"><a href="/contact/" title="Go to the &quot;Contact&quot; page">Contact</a></li>
+					   
+			</ul></div></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="menuGapBottom"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutLeftColumn"></td>
+			<td colspan="2" id="ContentContainer"><div class="clear"></div>
+				<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs">
+		<div class="ShowMenuBar ">
+
+    <div class="showListNav">
+        <h3><a href="/reviews/">Comedies</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/comedies/30-rock/">30 Rock</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/community/">Community</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/entourage/">Entourage</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/family-guy/">Family Guy</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/friends/">Friends</a></li>
+            
+            	<li class="section"><a href="/reviews/comedies/how-i-met-your-mother/">How I Met Your Mother</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/parks-and-recreation/">Parks and Recreation</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/scrubs/">Scrubs</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-big-bang-theory/">The Big Bang Theory</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-office/">The Office</a></li>
+            
+            	<li class="link"><a href="/reviews/comedies/the-simpsons/">The Simpsons</a></li>
+            
+        </ul>
+    </div>
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/">Dramas</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/dramas/boardwalk-empire/">Boardwalk Empire</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/breaking-bad/">Breaking Bad</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/buffy-the-vampire-slayer/">Buffy the Vampire Slayer</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/deadwood/">Deadwood</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dexter/">Dexter</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/dollhouse/">Dollhouse</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/flashforward/">FlashForward</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/game-of-thrones/">Game of Thrones</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/heroes/">Heroes</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/homeland/">Homeland</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/lost/">Lost</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/mad-men/">Mad Men</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/prison-break/">Prison Break</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/shameless/">Shameless</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/spartacus/">Spartacus</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-walking-dead-2/">The Walking Dead</a></li>
+            
+            	<li class="link"><a href="/reviews/dramas/the-wire/">The Wire</a></li>
+            
+        </ul>
+    </div> 
+    
+    <div class="showListNav">
+        <h3><a href="/reviews/other-reviews/">Other reviews</a></h3>
+        <a href="#" class="showContentBtn"></a>
+        <ul class="showContainer">
+	        
+            	<li class="link"><a href="/reviews/other-reviews/californication/">Californication</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/episodes/">Episodes</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/fringe/">Fringe</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/glee/">Glee</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/legend-of-the-seeker/">Legend of the Seeker</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lights-out/">Lights Out</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/lone-star/">Lone Star</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/mike-and-molly/">Mike and Molly</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/modern-family/">Modern Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/no-ordinary-family/">No Ordinary Family</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/rubicon/">Rubicon</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-event/">The Event</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/the-middle/">The Middle</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/treme/">Treme</a></li>
+            
+            	<li class="link"><a href="/reviews/other-reviews/twin-peaks/">Twin Peaks</a></li>
+            
+        </ul>
+    </div>        
+    
+</div>
+	</td>
+<td class="SL_M Content">
+
+	<style type="text/css">
+.notbody {
+  background:url('mysite/images/how-i-met-your-mother/banner.jpg') no-repeat top center;
+}
+</style>
+
+
+
+    <div class="score">50<div class="outof">/100</div></div>
+
+    <div class="score viewer"><div class="title">Viewer</div>47<div class="outof">/100</div></div>
+
+
+
+
+
+<div class="typography">
+<h1>How I Met Your Mother</h1>
+
+<p>How I Met Your Mother is a comedy about Ted Mosby, a New York architect who wants to get married and start a family. Future Ted is telling the story of how he met their mother and we see his past story set in the present day and the adventures he has with friends Marshall, Lily, Barney and Robin. CBS 2005-???</p>
+</div>
+
+	<table class="clear">
+<tr>
+	<td class="SL2_TL"></td>
+	<td colspan="2" class="SL2_TR"></td>
+</tr>
+<tr>
+	<td class="SL2_Tabs">
+	
+    	
+            <div class="SeasonMenuBar">
+            	<ul>
+                	<li><h1>S</h1></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-37/">1</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-69/">2</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-19/">3</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-20/">4</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-43/">5</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-54/">6</a></li>
+                    
+                    <li class="section"><a href="/reviews/comedies/how-i-met-your-mother/season-73/">7</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-8/">8</a></li>
+                    
+                    <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-9/">9</a></li>
+                    
+				</ul>
+			</div>
+		            
+	</td>
+	<td class="SL2_M Content">
+
+		<table class="clear">
+<tr>
+	<td class="SL_TL"></td>
+	<td colspan="2" class="SL_TR"></td>
+</tr>
+<tr>
+	<td class="SL_Tabs" style="width:50px!important;">
+		<div class="ShowMenuBar"><ul>
+		<li><h1>E</h1></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-best-man/">1</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-naked-truth/">2</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-ducky-tie/">3</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-stinson-missile-crisis/">4</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/field-trip/">5</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/mystery-vs-history/">6</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/noretta/">7</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-slutty-pumpkin-returns/">8</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/disaster-averted/">9</a></li>
+	   
+	      <li class="current"><a href="/reviews/comedies/how-i-met-your-mother/season-73/tick-tick-tick/">10</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/rebound-girl/">11</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/symphony-of-illumination/">12</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/tailgate/">13</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/46-minutes/">14</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-burning-beekeeper/">15</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-drunk-train/">16</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/no-pressure/">17</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/karma/">18</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-broath/">19</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/trilogy-time/">20</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/now-we-re-even/">21</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/good-crazy/">22</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-magician-s-code-1/">23</a></li>
+	   
+	      <li class="link"><a href="/reviews/comedies/how-i-met-your-mother/season-73/the-magician-s-code-2/">24</a></li>
+	   
+	</ul></div>
+	</td>
+	<td class="SL_M Content">
+            <div class="score">30<div class="outof">/100</div></div>
+            
+
+			
+
+			<div class="typography">
+				<h1>Episode 10 - Tick Tick Tick</h1>
+
+				<div class="latestTimestamp">15 November 2011</div>
+
+				
+				<p><strong>Synopsis: </strong>Robin and Barney both feel terrible for cheating and fret about a double date coming up on a boat trip. Once there they both agree to tell Nora and Kevin the truth. Barney goes through with it but Kevin is so sweet to Robin that she can't. Meanwhile Ted takes Marshall and Lily to a big concert called Groovapalooza and they get high beforehand.</p>
+<p><strong>The Good: </strong>Barney played his sadness very well at the end and the fact that Ted saw him in Robin's room provides an organic way for them to talk about what has happened.</p>
+<p><strong>The Bad: </strong>Organic is the key to why this story was so poor. Until those final moments there wasn't one aspect to this episode which felt like it had come about naturally.</p>
+<p>Robin and Barney wake up the morning after and we have to sit through her being serious and him making silly sitcom jokes. None of them were remotely funny or appropriate so why couldn't he have just been serious?</p>
+<p>In predictable sit com fashion the four involved parties were then put on a boat together with the King of inorganic dialogue Sandy Rivers. Seriously, does Alexis Denisof have any clue as to how unconvincing his hammy routing is? Ignoring him though we again had to sit through Barney's ridiculous Freudian slip routine and then a fake song dedicated to just laying out how guilt Robin and Barney were feeling. I really don't understand the idea behind this type of "comedy." Maybe on rare occasions someone has heard song lyrics and thought they related guiltily to their misdeeds. But by turning that idea up to one thousand and having the singer just literally call Robin and Barney out killed any comedy value in the idea.</p>
+<p>Barney then makes the argument that he and Robin should be together because they have been thinking about one another ever since they broke up. That sort of fits with what she has been through but not him. They broke up well over a season ago (507) and he has done a great job of not thinking about Robin since then including of course his whole relationship with Nora. We have had no explanation at all of why Nora made him turn his back on his womanising ways. And now we have no real explanation for why he would ditch her for Robin. It's particularly lazy writing considering the writers have presumably known about Barney's wedding for a long time now.</p>
+<p>Back to the story and Barney crushes Nora after her father made an inappropriate and implausibly long speech about love after five minutes in their company. Meanwhile Kevin makes a passionate plea for Robin to ignore her issues and commit to him. That was fine and eloquent but again it felt inorganic. Kevin had no reason to cut Robin off when he did. The writers just came up with a way to delay the inevitable reunion of Barney and Robin. Although he played that moment well I still think Kevin overacts most of the time including when he took the martini to the eyes.</p>
+<p>If you are reading this and thinking <em>"I don't care about any of that, I just want to see Robin and Barney get together" </em>then that really is fine. My argument is that if this story were even slightly more organic it would have been ten times better than this. The endless manipulation by the writers leaves the story feeling like a bunch of ideas pasted together rather than a flow that takes you on a journey.</p>
+<p>As for the Marshall and Ted story. Well, that might have been the worst story <em>How I Met Your Mother </em>has ever put together. It's difficult for me to make that assertion without trawling through other bad episodes which I don't want to do. It's hard to imagine anything worse than this though.</p>
+<p>As I continue to say, these people don't understand comedy. The whole point of a character being drunk or high or on medication is that they aren't themselves. The comedy comes from them saying or doing things which are foolish or revealing. It's not something that should be overused because it's such an exaggeration from how people who are really under the influence behave.</p>
+<p>Yes this story just went on and on and on. Marshall doesn't recognise Lily. He and Ted mistake a cardboard cut out for a person. The endless repetition of the same joke about standing in line for the girls bathroom was deeply irritating. It wasn't funny the first time and asks the audience to accept an insulting level of stupidity. All this "humour" was insultingly broad and lacking in imagination or creativity.</p>
+<p>The conversation about being growing old fell as flat as it could because the antics surrounding it were so stupid. Then in a move I just couldn't believe the writers claimed that actually the whole episodes-worth of nonsense had taken place within two minutes. Ted and Marshall were so high that they imagined everything had taken much longer. So somehow a story that was already too dumb to buy into was made even dumber. It still staggers me that this writing team can't see the flaws in their own ideas.</p>
+<p>I should probably also point out that they lit up inside what was clearly a modern arena. You aren't usually allowed to smoke inside and such a big gig would presumably have had security checking bags.<strong> <br /></strong></p>
+<p><strong>Comic Highlight: </strong>I saw nothing worth mentioning.</p>
+<p><strong>How I rate your episode: </strong>In one story we got the meddling that destroys any sense of reality. In the other we got the most pathetic attempts at comedy imaginable. This was the worst of both sides of <em>How I Met Your Mother </em>in one episode.</p>
+				
+				<div style="float:left; margin-right:20px;">
+					<a name="fb_share" type="button_count"></a>
+				</div>
+				
+				<div style="float:left; margin-right:20px;">
+					<a class="DiggThisButton">('<img src="http://digg.com/img/diggThisCompact.png" height="18" width="120" alt="DiggThis" />’)</a>
+				</div>
+				
+				<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+				<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
+				
+				<div class="clear"></div>
+				
+				<p class="sponsor">For reviews and discussion of the latest movies, music, books and shows visit <a href="http://www.pressplus1.com">www.pressplus1.com</a> - Your Ticket to Entertainment!</p>
+				
+				
+				<h2>Feedback</h2>
+
+				<p>Add your comments on this episode below.  They may be included in the weekly podcasts.</p>
+
+			</div>
+
+			<div id="PageComments_holder" class="typography">
+
+	<h4>Post your comment</h4>
+	
+		
+			
+<form  id="PageCommentInterface_Form_PostCommentForm" action="/reviews/comedies/how-i-met-your-mother/season-73/tick-tick-tick/PageComments/PostCommentForm" method="post" enctype="application/x-www-form-urlencoded">
+
+	
+	<p id="PageCommentInterface_Form_PostCommentForm_error" class="message " style="display: none"></p>
+	
+	
+	<fieldset>
+		 
+		
+			<input class="hidden" type="hidden" id="PageCommentInterface_Form_PostCommentForm_ParentID" name="ParentID" value="1946" />
+		
+			<div id="Name" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Name">Your name</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_Name" name="Name" value="" /></div></div>
+		
+			<div id="EpisodeScore" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_EpisodeScore">Your score (out of 100)</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_EpisodeScore" name="EpisodeScore" value="" /></div></div>
+		
+			<div id="CommenterURL" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_CommenterURL">Your website URL</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_CommenterURL" name="CommenterURL" value="" /></div></div>
+		
+			<div id="Math" class="field text "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Math">SPAM protection question: What is seven plus nine?</label><div class="middleColumn"><input type="text" class="text" id="PageCommentInterface_Form_PostCommentForm_Math" name="Math" value="" /></div></div>
+		
+			<div id="Comment" class="field textarea "><label class="left" for="PageCommentInterface_Form_PostCommentForm_Comment">Comments</label><div class="middleColumn"><textarea id="PageCommentInterface_Form_PostCommentForm_Comment" name="Comment" rows="5" cols="20"></textarea></div></div>
+		
+			<input class="hidden" type="hidden" id="PageCommentInterface_Form_PostCommentForm_SecurityID" name="SecurityID" value="2d786b164ec602f7d70867061674fb8876141d92" />
+		
+		<div class="clear"><!-- --></div>
+	</fieldset>
+
+	
+	<div class="Actions">
+		
+			<input class="action " id="PageCommentInterface_Form_PostCommentForm_action_postcomment" type="submit" name="action_postcomment" value="Post" title="Post" />
+		
+	</div>
+	
+
+</form>
+
+
+		
+	
+
+	<h4>Comments</h4>
+	
+	<div id="CommentHolder">
+		
+			<ul id="PageComments">
+				
+					<li class="odd first  notspam">
+						<p class="comment" id="PageComment_1867">
+	
+		Thanks Goffy for replying. You are right, comedy will always be quite divisive. As Brando says, if you have seen the same jokes for ten years straight it becomes harder to make you laugh.<br /><br />The sad thing is I probably would still be watching HIMYM even if I weren&#39;t reviewing. I am a completist and would want to know how the story ended. I am fascinated by the every attempt at comedy too. I watch so many comedies even now that I don&#39;t write about. I will give a round up on the blog before Christmas. It&#39;s a sickness and it&#39;s why I became a tv critic :-)	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 18/11/2011 10:16am (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even notspam">
+						<p class="comment" id="PageComment_1866">
+	
+		ftr, i really enjoy your reviews but i can tell if you werent reviewing the show, you probably wouldnt watch it. <br />you may find the show and jokes forced and over the top, but they have been like that for 7 years and the people that may have been scared off by that, have stopped watching. Comedy is really hard thing to critique for anyone and your bound to have some disagree always. <br /><br />as for what I found funny, <br /><br />-Barney&#39;s quip about Gilligan and a 3 hour tour<br />- i laughed at the womens line gag at least the first 2 times. <br />- the &quot;its a sign&quot; gag (as i figured it out when he said it) <br /><br />thats just off the top of my head, as i said before, definatly not a great episode but there were still moments to enjoy. 	
+	
+</p>
+
+<p class="info">
+	
+		Posted by goffy, 18/11/2011 6:49am (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="odd notspam">
+						<p class="comment" id="PageComment_1865">
+	
+		Lucas/Peyton/Brooke is an embarrassing admission...as that&#39;s the love triangle from One Tree Hill.  <br /><br />Nancy/Andy = Weeds<br /><br />Also I forgot to mention Henry/Casey, Ted/Robin (for a while at least), etc.<br /><br />And I should have used Monica &amp; Chandler as an example of relationship done right as well.   I loved, that in spite of the various problems they had to work through, there was never a question of them being together for the long haul ans having stability in that sense.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by Brando, 18/11/2011 12:52am (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even notspam">
+						<p class="comment" id="PageComment_1864">
+	
+		Obviously I echo what Brando says and add the fact that we know Barney is supposed to get married at some point in the future. That seems to make it inevitable that he and Robin will get together and underlines the manipulative element in this episode. <br /><br />I got all the couples except these two<br />*Lucas/Peyton/Brooke<br />*Nancy/Andy	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 17/11/2011 11:28pm (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="odd notspam">
+						<p class="comment" id="PageComment_1861">
+	
+		My own opinion on the subject is that perhaps people like Robin and I have a completely different (and somewhat jaded) viewpoint at times because we have seen (I assume) way more TV shows in their relative entirety than the average Jane or Joe.<br /><br />For me this episode, and particularly the Barney/Robin portion, wasn&#39;t ruined because of bad acting or because it was just flat out terrible...but rather because I&#39;ve seen it so many times!  Just off the top of my head, shows that I have actually watched completely or to a relevant degree, here is a list of will they, won&#39;t they relationships:<br /><br />*Sam and Diane<br />*Ross and Rachel<br />*Elliot and JD<br />*Jack/Kate/Sawyer/Juliet<br />*Mulder/Scully<br />*Castle/Beckett<br />*Jim/Pam<br />*Pacey/Joey/Dawson<br />*Eric/Sookie/Bill<br />*House/Cuddy/Cameron<br />*Spike/Buffy/Angel<br />*Captain Mal/Inara<br />*Andy/April<br />*Leonard/Penny<br />*Lucas/Peyton/Brooke<br />*Annie/Jeff/Britta<br />*Nancy/Andy<br />*Sally/Patrick<br />*Andy/Erin<br /><br />That&#39;s not even after sitting down and thinking about it.  That&#39;s just straight off the top of my head.  So having sat through all of those couples, triangles and quadrangles you quickly see all the leadup and warning signs...but you also see all of the standard ways of keeping the &quot;will they/won&#39;t they&quot; alive.  It can suck the TV enjoying life out of you to see some of these &quot;inorganic&quot; ways of keeping couples apart and having to watch poor attempts at mood shifts, miscommunications and deus ex machina obstacles get in the way of fated romances.<br /><br />In that way this episode would have dropped about 30-40 points for me had I been reviewing it, simply based on those factors.  I groaned when, at the end, there Robin was unable to match up with Barney at the right time...even though we know there will inevitably be more longing and romance/confrontation down the road.<br /><br />As a counter example, that&#39;s why I absolutely LOVED what Parks and Rec did with Andy and April, or why I enjoyed the first and second seasons of Jim &amp; Pam.  One had a new and fresh wrinkle on the answer of will they (Yes, they will!  and they&#39;ll surprise everyone by getting married mid-season with zero build up.  and it will forever put to rest the question of will they/won&#39;t they), and in the other you had actual dramatic and organic tension keeping a couple apart.  They weren&#39;t openly pining for each other...they were slowly realizing their feelings were greater than just friendship, which means it was highlighting all of the problem to the relationship and engagement one of them was in...but without knowing what to do.  in a lesser TV show Pam would have broken thing off with Roy by episode 5 of Season 2 of The Office...rushing into her true love Jim&#39;s arms and acknowledging how right that course of action was!  Instead, Pam is characterized as a good person who does genuinely care about Roy and the pending marriage seems expected, stable and safe.  I like that early on she shows know sign of even thinking about breaking things off with Roy.  To accept a marriage proposal, one has to be pretty far in a relationship and feel ready to commit to the person.  So instead it was just a shy, organic, and sweet crush she had on Jim...and they slow burned that into one of the great will they/won&#39;t they confrontation in TV (the Season 2 finale of The Office).<br /><br />Anyway, as per the norm I have turned a simple point into a long rambling answer.  But all in all I just think the reason someone might pick away at an episode like this is not because I (or Robin for that matter) dislike the characters of Barney and Robin.  Or that I even think they are bad for each other as a couple in the show.  But based on their history of will they wont they...how the ended that the first time around...and now coming to this...all I could do was just groan and ask, &quot;really?  that&#39;s really where this is going right now?  ugh.&quot;<br /><br />Just one man&#39;s opinion.  But I thought I&#39;d shed light on how critics can bash episodes like these without the answer being that we just suck the fun out of any ol&#39; show.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by Brando, 17/11/2011 4:13pm (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even notspam">
+						<p class="comment" id="PageComment_1858">
+	
+		Hi H, thanks for posting again. I am really glad you can still get wrapped up in the story. The reason I criticise shows is because I would like to be emotionally involved in all of them. When a show loses me I want to point out why and analyse the differences.<br /><br />The reason I was drawn to becoming a critic was not a love of nit picking but a dislike for shows not sucking me in anymore. I wanted to know why a show was once something I enjoyed and wasn&#39;t anymore.<br /><br />It&#39;s impossible for me to switch off and not see the flaws in something that doesn&#39;t grab me anymore. <br /><br />I still stand by what I wrote above that this episode could have been ten times better if it were written slightly more organically. After seven seasons of any show it is tough to keep things feeling organic. But the HIMYM writers just seem to go out of their way to make things as forced and silly as possible. My emotions switch off at that point.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 17/11/2011 11:24am (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="odd notspam">
+						<p class="comment" id="PageComment_1857">
+	
+		I believe HIMYM&#39;s faithful followers, like yours truly, are too absorbed by Robin/Barney&#39;s possible reunion, and how they handle Nora/Kevin, that we are blinded of how &#39;inorganic&#39; the plots were. <br />I for one didn&#39;t notice it til i read your review and i do agree with most of them, especially the Marshall/Ted plot...! It was weak but i still enjoyed Marshall/Ted&#39;s silliness because it damn well coincides which their character, so it sort of was cute and believable, except for the 2minute thing, which i felt was quite unnecessary. And i actually found the continually going back to joining the ladies&#39; queue funny though predictable, maybe i&#39;m biased idk haha. It basically served as a buffer for the A plot, and the silliness of it kind of helped in not overshadowing the A plot in a sense i felt...<br />I really enjoyed the Barney/Robin bits. From their banter at the start of the show about whether it &#39;meant anything&#39;, to them being guilt ridden and uncomfortable around Kevin / Nora. I thought the song thing was too blatant and exaggerated as you&#39;ve pointed out. But i really enjoyed the Kevin and Robin confession talk bit, i thought it made sense for Kevin to not want to hear what happen, because he being a psychiatrist is bound to be more inclined in picking up people&#39;s feelings, and he probably loved Robin too much to want to hear the bad news, which is written all over Robin&#39;s uneased behaviour throughout. He then gave a super sweet speech about how wonderful he felt Robin was, which was just AW, and i thought Robin&#39;s crying was really realistic and my heart ached for her as she was torn with indecisiveness and touched by Kevin. It was then quite obvious that Robin wasn&#39;t going to break up with Kevin, and that built up the Barney disappointment scene which was so heartbreaking i cried like mad haha. I also liked how Barney prepared something for Robin.<br />The only flaw in the A plot was how Barney could break things up so easiiy with Nora, since she was the one who put a stop to his womanising ways, which he took extreme pride in.<br />But after some pondering i thought Nora might have been a buffer, maybe Barney &#39;used&#39; her to curb his flippant attitudes toward women and relationships, because he wanted to be ready for Robin, but he of course thought Nora was his true love at that point. And that also explains why he and Nora aren&#39;t exactly super sticky and loving, and he still has to remind himself that he has a girlfriend so he shouldn&#39;t want to sleep around with any hottie he spots.<br />But then again i might be overthinking and it&#39;s likely that it&#39;s sloppy lazy writing as you&#39;ve mentioned...!<br /><br />I also fully agree with Goffy that perhaps the over-scrutinising of the show takes out the fun and instead make the problematic aspects stand out.. So i was shocked when i saw that this episode was scored 30 haha even though i pretty much enjoyed it, even more than some of the episodes in this season...	
+	
+</p>
+
+<p class="info">
+	
+		Posted by H, 17/11/2011 7:56am (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even notspam">
+						<p class="comment" id="PageComment_1852">
+	
+		I am confident you are right Goffy because so many millions tune in week after week and aren&#39;t turned off. But if you want to say which parts you did find funny I would appreciate it.	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 15/11/2011 9:57pm (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="odd notspam">
+						<p class="comment" id="PageComment_1851">
+	
+		Well I agree regarding Ted and Marshall&#39;s storyline. Their sandwich induced haze has been done many times on this show much better. <br /><br />The Barney and robin storyline was a little inorganic, but Barney&#39;a life is a little extreme....once they agreed to meet up and discuss what they wanted, the episode was had my full attention. <br /><br />Perhaps a score of 30 is justified, though I think your evaluation of how funny the comedy aspect of any sitcom is a bit off. Most veiwers ( who aren&#39;t trying to critique every second) would enjoy this more than you give it credit for. 	
+	
+</p>
+
+<p class="info">
+	
+		Posted by Goffy, 15/11/2011 9:54pm (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+					<li class="even last  notspam">
+						<p class="comment" id="PageComment_1850">
+	
+		I definitely considered going lower. But I felt that the stories being told were, in theory, fine. It was just that the execution was about as bad as I could imagine. I tend to reserve scores of below 30 for episodes that actually offend me in some way (Family Guy) or whose stories just disappear into nonsense (Later season Simpsons).	
+	
+</p>
+
+<p class="info">
+	
+		Posted by The TV Critic, 15/11/2011 6:36pm (3 years ago)
+	
+</p>
+
+<ul class="actionLinks">
+	
+	
+	
+	
+</ul>
+
+					</li>
+				
+			</ul>
+			
+			
+				<div id="PageCommentsPagination">
+					<p>
+					
+					
+					
+						
+							
+								<strong>1</strong>
+							
+						
+							
+								<a href="reviews/comedies/how-i-met-your-mother/season-73/tick-tick-tick/?commentStart=10">2</a>
+							
+						
+					
+	
+					
+						<a href="reviews/comedies/how-i-met-your-mother/season-73/tick-tick-tick/?commentStart=10">next &raquo;</a>
+					
+					</p>
+				</div>
+			
+		
+	</div>
+	
+	<p id="CommentsRSSFeed">
+		<a class="commentrss" href="http://www.thetvcritic.org/PageComment/rss?pageid=1946">RSS feed for comments on this page</a> | 
+		<a href="PageComment/rss" class="commentrss" title="View all Comments">RSS feed for all comments</a>
+	</p>
+</div>
+	
+
+
+
+			</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+
+	</td>
+	<td class="SL2_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL2_BL"></td>
+	<td colspan="2" class="SL2_BR"></td>
+</tr>
+</table>
+
+</td>
+	<td class="SL_R"><div style="width:12px;"/></td>
+</tr>
+<tr>
+	<td class="SL_BL"></td>
+	<td colspan="2" class="SL_BR"></td>
+</tr>
+</table>
+                
+                
+                
+			</td>
+			<td id="PageLayoutRightColumn"></td>
+		</tr>
+		<tr>
+			<td id="PageLayoutBottomLeft"></td>
+			<td colspan="2" id="PageLayoutBottom"></td>
+			<td id="PageLayoutBottomRight"></td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<div id="Footer">
+					<div>Copyright &copy; 2008-2015 Robin Pierson</div>
+					 
+					
+						<a href="/admin">Admin login</a>
+                                                           
+					
+				</div>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+</body>
+</html>
