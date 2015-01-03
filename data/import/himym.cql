@@ -5,7 +5,8 @@ SET episode.title = row.Title,
     episode.viewers = toFloat(row.Viewers),
     episode.dateAired = row.DateAired,
     episode.timestamp = TOINT(row.Timestamp),
-    episode.number = TOINT(row.NumberInSeason);
+    episode.number = TOINT(row.NumberInSeason),
+    episode.ranking = TOINT(row.Rating);
 
 // directors
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/episodes_full.csv" AS row
