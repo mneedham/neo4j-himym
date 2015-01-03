@@ -587,7 +587,7 @@ EpisodeId,Character,Actor
 42,Barney Stinson,Neil Patrick Harris
 42,Lily Aldrin,Alyson Hannigan
 42,Bob Barker,Bob Barker
-42,Himself (voice),Rich Fields
+42,Rich Fields,Rich Fields
 42,Price is Right Contestant #1,Alan Finkelstein
 42,Price is Right Contestant #2,Lisa Hoggatt
 42,Millie,Sharon Madden
@@ -1535,7 +1535,7 @@ EpisodeId,Character,Actor
 103,Ranjit,Marshall Manesh
 103,Natalia,Bar Paly
 103,Jim Nantz (voice),Jim Nantz
-103,Himself (voice),Phil Simms
+103,Phil Simms,Phil Simms
 103,Waiter,Arnold Chun
 103,Marissa,Lauren Shiohama
 103,Pub Patron,Breeanna Judy
@@ -2596,7 +2596,7 @@ EpisodeId,Character,Actor
 171,Patrice,Ellen D. Williams
 171,Devil Stick Ron,Doug Mand
 171,Waitress,Misty Monroe
-171,Himself (voice),Frank Viola
+171,Frank Viola,Frank Viola
 171,College Student (as Kailey Portsmouth),Kailey Michael Portsmouth
 171,McLaren's Bar Patron,Charlotte Benesch
 171,Narrator (voice),Bob Saget
@@ -3026,9 +3026,9 @@ EpisodeId,Character,Actor
 198,Tracy McConnell,Cristin Milioti
 198,Barney Stinson,Neil Patrick Harris
 198,Lily Aldrin,Alyson Hannigan
-198,Himself - Boyz II Men,Wanya Morris
-198,Himself - Boyz II Men,Shawn Stockman
-198,Himself - Boyz II Men,Nathan Morris
+198,Wanya Morris,Wanya Morris
+198,Shawn Stockman,Shawn Stockman
+198,Nathan Morris,Nathan Morris
 198,Karina,Stacy Keibler
 198,Nora,Nazanin Boniadi
 198,Meg,April Bowlby
