@@ -14,9 +14,9 @@ EpisodeId,Character,Actor
 1,Dumped Friend,Sarah Loew
 1,Waiter #1,Gary Riotto
 1,Waiter #2,Tony Rossi
-1,Narrator (voice) (uncredited),Bob Saget
-1,Boyfriend (uncredited),Randy Spire
-1,Man At Table (uncredited),Geoff Stevenson
+1,Narrator (voice),Bob Saget
+1,Boyfriend,Randy Spire
+1,Man At Table,Geoff Stevenson
 2,Ted Mosby,Josh Radnor
 2,Marshall Eriksen,Jason Segel
 2,Robin Scherbatsky,Cobie Smulders
@@ -28,7 +28,7 @@ EpisodeId,Character,Actor
 2,Carlos,Jon Bernthal
 2,Fantasy Girl,Lindsay Schoneweis
 2,Leroy,Jae Head
-2,Narrator (voice) (uncredited),Bob Saget
+2,Narrator (voice),Bob Saget
 3,Ted Mosby,Josh Radnor
 3,Marshall Eriksen,Jason Segel
 3,Robin Scherbatsky,Cobie Smulders
@@ -50,7 +50,7 @@ EpisodeId,Character,Actor
 3,Guy #2,Chuck Carter
 3,Guy #3,Dustin Lancaster
 3,Leonard - Cab Driver #2 (as Floyd Vanbuskirk),Floyd Van Buskirk
-3,Narrator (voice) (uncredited),Bob Saget
+3,Narrator (voice),Bob Saget
 4,Ted Mosby,Josh Radnor
 4,Marshall Eriksen,Jason Segel
 4,Robin Scherbatsky,Cobie Smulders
@@ -68,7 +68,7 @@ EpisodeId,Character,Actor
 4,Trucker Hat Guy #1,Choice Skinner
 4,Trucker Hat Guy #2,John Henry Canavan
 4,Wendy,Charlene Amoia
-4,Narrator (voice) (uncredited),Bob Saget
+4,Narrator (voice),Bob Saget
 5,Ted Mosby,Josh Radnor
 5,Marshall Eriksen,Jason Segel
 5,Robin Scherbatsky,Cobie Smulders
@@ -88,7 +88,7 @@ EpisodeId,Character,Actor
 5,Bartender,Sebastian Siegel
 5,Leslie,Kristin Denehy
 5,Bouncer,William Romeo
-5,Narrator (voice) (uncredited),Bob Saget
+5,Narrator (voice),Bob Saget
 6,Ted Mosby,Josh Radnor
 6,Marshall Eriksen,Jason Segel
 6,Robin Scherbatsky,Cobie Smulders
@@ -107,7 +107,7 @@ EpisodeId,Character,Actor
 6,The Shagarats,Andy Brown
 6,The Shagarats,Ryan Goessl
 6,The Shagarats,Kevin St. Clair
-6,Narrator (voice) (uncredited),Bob Saget
+6,Narrator (voice),Bob Saget
 7,Ted Mosby,Josh Radnor
 7,Marshall Eriksen,Jason Segel
 7,Robin Scherbatsky,Cobie Smulders
@@ -119,7 +119,7 @@ EpisodeId,Character,Actor
 7,Son,David Henrie
 7,Carl,Joe Nieves
 7,Sudeep,Nick Jaine
-7,Narrator (voice) (uncredited),Bob Saget
+7,Narrator (voice),Bob Saget
 8,Ted Mosby,Josh Radnor
 8,Marshall Eriksen,Jason Segel
 8,Robin Scherbatsky,Cobie Smulders
@@ -135,7 +135,7 @@ EpisodeId,Character,Actor
 8,Chinese Waitress,Miki Mia
 8,Moving Man #1,Brian Petrucelli
 8,Delivery Man,Nick Kaiser
-8,Narrator (voice) (uncredited),Bob Saget
+8,Narrator (voice),Bob Saget
 9,Ted Mosby,Josh Radnor
 9,Marshall Eriksen,Jason Segel
 9,Robin Scherbatsky,Cobie Smulders
@@ -154,8 +154,8 @@ EpisodeId,Character,Actor
 9,Walter,Tom Ayers
 9,Stripper (as Katie Keane),Katie A. Keane
 9,Policeman,Eben Ham
-9,Samantha (uncredited),Lisa Catara
-9,Narrator (voice) (uncredited),Bob Saget
+9,Samantha,Lisa Catara
+9,Narrator (voice),Bob Saget
 10,Ted Mosby,Josh Radnor
 10,Marshall Eriksen,Jason Segel
 10,Robin Scherbatsky,Cobie Smulders
@@ -165,7 +165,7 @@ EpisodeId,Character,Actor
 10,Carl,Joe Nieves
 10,Jane,Joanna Leeds
 10,Rude Waiter (as Parys Sylver),Reese Riley
-10,Narrator (voice) (uncredited),Bob Saget
+10,Narrator (voice),Bob Saget
 11,Ted Mosby,Josh Radnor
 11,Marshall Eriksen,Jason Segel
 11,Robin Scherbatsky,Cobie Smulders
@@ -178,8 +178,8 @@ EpisodeId,Character,Actor
 11,Not Moby,J.P. Manoux
 11,Natalya,Natalie Denise Sperl
 11,Derek,James Tupper
-11,New Years Guest (uncredited),Christina Putnam
-11,Narrator (voice) (uncredited),Bob Saget
+11,New Years Guest,Christina Putnam
+11,Narrator (voice),Bob Saget
 12,Ted Mosby,Josh Radnor
 12,Marshall Eriksen,Jason Segel
 12,Robin Scherbatsky,Cobie Smulders
@@ -188,7 +188,7 @@ EpisodeId,Character,Actor
 12,Victoria,Ashley Williams
 12,Claudia,Virginia Williams
 12,Stuart,Matt Boren
-12,Narrator (voice) (uncredited),Bob Saget
+12,Narrator (voice),Bob Saget
 13,Ted Mosby,Josh Radnor
 13,Marshall Eriksen,Jason Segel
 13,Robin Scherbatsky,Cobie Smulders
@@ -199,7 +199,7 @@ EpisodeId,Character,Actor
 13,Stuart,Matt Boren
 13,Tanya (as Napiera Danielle Groves),Napiera Groves
 13,Masseuse,Kelly Stables
-13,Narrator (voice) (uncredited),Bob Saget
+13,Narrator (voice),Bob Saget
 14,Ted Mosby,Josh Radnor
 14,Marshall Eriksen,Jason Segel
 14,Robin Scherbatsky,Cobie Smulders
@@ -208,7 +208,7 @@ EpisodeId,Character,Actor
 14,Victoria,Ashley Williams
 14,Ava,Vivian Bang
 14,Dumped Friend,Sarah Loew
-14,Narrator (voice) (uncredited),Bob Saget
+14,Narrator (voice),Bob Saget
 15,Ted Mosby,Josh Radnor
 15,Marshall Eriksen,Jason Segel
 15,Robin Scherbatsky,Cobie Smulders
@@ -220,7 +220,7 @@ EpisodeId,Character,Actor
 15,Judy Eriksen,Suzie Plakson
 15,Ranjit,Marshall Manesh
 15,Screaming Boy,Michael McNeely
-15,Narrator (voice) (uncredited),Bob Saget
+15,Narrator (voice),Bob Saget
 16,Ted Mosby,Josh Radnor
 16,Marshall Eriksen,Jason Segel
 16,Robin Scherbatsky,Cobie Smulders
@@ -229,7 +229,7 @@ EpisodeId,Character,Actor
 16,Victoria,Ashley Williams
 16,Bridal Shop Lady,Caroline Lagerfelt
 16,Sergei the Tailor,Sergey Brusilovsky
-16,Narrator (voice) (uncredited),Bob Saget
+16,Narrator (voice),Bob Saget
 17,Ted Mosby,Josh Radnor
 17,Marshall Eriksen,Jason Segel
 17,Robin Scherbatsky,Cobie Smulders
@@ -240,8 +240,8 @@ EpisodeId,Character,Actor
 17,Dr. Aurelia Birnholz-Vazquez (as Diane Louise Salinger),Diane Salinger
 17,Young Marshall,Tyler Peterson
 17,Karaoke DJ,Gregor Manns
-17,Narrator (voice) (uncredited),Bob Saget
-17,Bar Patron (uncredited),Randy Vinneau
+17,Narrator (voice),Bob Saget
+17,Bar Patron,Randy Vinneau
 18,Ted Mosby,Josh Radnor
 18,Marshall Eriksen,Jason Segel
 18,Robin Scherbatsky,Cobie Smulders
@@ -254,7 +254,7 @@ EpisodeId,Character,Actor
 18,Little Girl #1,Cailey Blair Jones
 18,Little Girl #2,Alyssa Shafer
 18,Little Boy #1,Shaheed Rasheed
-18,Narrator (voice) (uncredited),Bob Saget
+18,Narrator (voice),Bob Saget
 19,Ted Mosby,Josh Radnor
 19,Marshall Eriksen,Jason Segel
 19,Robin Scherbatsky,Cobie Smulders
@@ -263,8 +263,8 @@ EpisodeId,Character,Actor
 19,Sandy Rivers,Alexis Denisof
 19,Mary,Erinn Bartlett
 19,Vampire Lou,Robert Michael Morris
-19,Awards Show Announcer (uncredited),Michael 'Mick' Harrity
-19,Narrator (voice) (uncredited),Bob Saget
+19,Awards Show Announcer,Michael 'Mick' Harrity
+19,Narrator (voice),Bob Saget
 20,Ted Mosby,Josh Radnor
 20,Marshall Eriksen,Jason Segel
 20,Robin Scherbatsky,Cobie Smulders
@@ -278,8 +278,8 @@ EpisodeId,Character,Actor
 20,Andrew,Brent Tarnol
 20,Security Guard #1 (as Brett Jones),Brett A. Jones
 20,Security Guard #2,Michael Owen
-20,Valerie (uncredited),Joanne Brooks
-20,Narrator (voice) (uncredited),Bob Saget
+20,Valerie,Joanne Brooks
+20,Narrator (voice),Bob Saget
 21,Ted Mosby,Josh Radnor
 21,Marshall Eriksen,Jason Segel
 21,Robin Scherbatsky,Cobie Smulders
@@ -290,10 +290,10 @@ EpisodeId,Character,Actor
 21,Clark Butterfield,Nate Torrence
 21,Wendy,Charlene Amoia
 21,Tracy (as Brenda Isaacs-Booth),Brenda Isaacs Booth
-21,Fake Paramedic (uncredited),Carter Bays
-21,Beautiful Woman #2 (uncredited),Lisa Claire
-21,Narrator (voice) (uncredited),Bob Saget
-21,Fake Paramedic (uncredited),Craig Thomas
+21,Fake Paramedic,Carter Bays
+21,Beautiful Woman #2,Lisa Claire
+21,Narrator (voice),Bob Saget
+21,Fake Paramedic,Craig Thomas
 22,Ted Mosby,Josh Radnor
 22,Marshall Eriksen,Jason Segel
 22,Robin Scherbatsky,Cobie Smulders
@@ -304,7 +304,7 @@ EpisodeId,Character,Actor
 22,Lou,Robert Michael Morris
 22,Vet,Suzanne Ford
 22,Quartet Leader,Mark Gagliardi
-22,Narrator (voice) (uncredited),Bob Saget
+22,Narrator (voice),Bob Saget
 23,Ted Mosby,Josh Radnor
 23,Marshall Eriksen,Jason Segel
 23,Robin Scherbatsky,Cobie Smulders
@@ -316,9 +316,9 @@ EpisodeId,Character,Actor
 23,Sunshine,Jenae Altschwager
 23,Angry New Yorker (as Joey 'Coco' Diaz),Joey Diaz
 23,Joey Adalian (as Gilbert John),G.J. Echternkamp
-23,Chili Dog Couple (uncredited),Michelle Lenhardt
-23,Chili Dog Couple (uncredited),Roberto Lequeux
-23,Narrator (voice) (uncredited),Bob Saget
+23,Chili Dog Couple,Michelle Lenhardt
+23,Chili Dog Couple,Roberto Lequeux
+23,Narrator (voice),Bob Saget
 24,Ted Mosby,Josh Radnor
 24,Marshall Eriksen,Jason Segel
 24,Robin Scherbatsky,Cobie Smulders
@@ -335,7 +335,7 @@ EpisodeId,Character,Actor
 24,Amy (as Lara Boyd Rhodes),Lara Wickes
 24,Art Professor,Richard Wharton
 24,Mike,Josh Wingate
-24,Narrator (voice) (uncredited),Bob Saget
+24,Narrator (voice),Bob Saget
 25,Ted Mosby,Josh Radnor
 25,Marshall Eriksen,Jason Segel
 25,Robin Scherbatsky,Cobie Smulders
@@ -345,7 +345,7 @@ EpisodeId,Character,Actor
 25,Virginia Mosby,Cristine Rose
 25,Wendy,Charlene Amoia
 25,Waitress,Noel True
-25,Narrator (voice) (uncredited),Bob Saget
+25,Narrator (voice),Bob Saget
 26,Ted Mosby,Josh Radnor
 26,Marshall Eriksen,Jason Segel
 26,Robin Scherbatsky,Cobie Smulders
@@ -360,7 +360,7 @@ EpisodeId,Character,Actor
 26,Chet,Ryan O'Connor
 26,Manicurist,Bach Hoang
 26,Office Architect,Daniel Mark Stafford
-26,Narrator (voice) (uncredited),Bob Saget
+26,Narrator (voice),Bob Saget
 27,Ted Mosby,Josh Radnor
 27,Marshall Eriksen,Jason Segel
 27,Robin Scherbatsky,Cobie Smulders
@@ -371,7 +371,7 @@ EpisodeId,Character,Actor
 27,Host,Jake Broder
 27,Kara,Aisha Kabia
 27,Woman #1,Claudia Mason
-27,Narrator (voice) (uncredited),Bob Saget
+27,Narrator (voice),Bob Saget
 28,Ted Mosby,Josh Radnor
 28,Marshall Eriksen,Jason Segel
 28,Robin Scherbatsky,Cobie Smulders
@@ -381,7 +381,7 @@ EpisodeId,Character,Actor
 28,Professor Lewis,Jane Seymour
 28,Bank President (as Charlie Robinson),Charles Robinson
 28,Office Worker,Ewan Chung
-28,Narrator (voice) (uncredited),Bob Saget
+28,Narrator (voice),Bob Saget
 29,Ted Mosby,Josh Radnor
 29,Marshall Eriksen,Jason Segel
 29,Robin Scherbatsky,Cobie Smulders
@@ -394,7 +394,7 @@ EpisodeId,Character,Actor
 29,Man,Shawn Carter Peterson
 29,Lauren,Dana Power
 29,Janine,Vanessa Vander Pluym
-29,Narrator (voice) (uncredited),Bob Saget
+29,Narrator (voice),Bob Saget
 30,Ted Mosby,Josh Radnor
 30,Marshall Eriksen,Jason Segel
 30,Robin Scherbatsky,Cobie Smulders
@@ -411,7 +411,7 @@ EpisodeId,Character,Actor
 30,Registrar,Kate Micucci
 30,Mike,Ron Nicolosi
 30,Casino Waitress,Janet Cho
-30,Narrator (voice) (uncredited),Bob Saget
+30,Narrator (voice),Bob Saget
 31,Ted Mosby,Josh Radnor
 31,Marshall Eriksen,Jason Segel
 31,Robin Scherbatsky,Cobie Smulders
@@ -422,9 +422,9 @@ EpisodeId,Character,Actor
 31,Reverend Rob,Wayne Nickel
 31,Sara,Rachel Specter
 31,Dancer,Chris Moss
-31,Dancer (uncredited),Tara Brook
-31,Mr. Johnson (uncredited),Timothy Prindle
-31,Narrator (voice) (uncredited),Bob Saget
+31,Dancer,Tara Brook
+31,Mr. Johnson,Timothy Prindle
+31,Narrator (voice),Bob Saget
 32,Ted Mosby,Josh Radnor
 32,Marshall Eriksen,Jason Segel
 32,Robin Scherbatsky,Cobie Smulders
@@ -443,7 +443,7 @@ EpisodeId,Character,Actor
 32,Tramp Stamp Girl,Gabrielle Richens
 32,Concerned Guy,Jamison Yang
 32,Mrs. Stinson,Megan Mullally
-32,Narrator (voice) (uncredited),Bob Saget
+32,Narrator (voice),Bob Saget
 33,Ted Mosby,Josh Radnor
 33,Marshall Eriksen,Jason Segel
 33,Robin Scherbatsky,Cobie Smulders
@@ -457,11 +457,11 @@ EpisodeId,Character,Actor
 33,Charity,Hannah Payne
 33,Brunette,Anne-Michelle Seiler
 33,Stacy (as Moon Zappa),Moon Unit Zappa
-33,New Yorker (uncredited),Christopher L. Antie
-33,Alfred Mosby (voice) (uncredited),Michael Gross
-33,Lily's Landlord (voice) (uncredited),Wayne Knight
-33,New Yorker (uncredited),William Ramos Jr.
-33,Narrator (voice) (uncredited),Bob Saget
+33,New Yorker,Christopher L. Antie
+33,Alfred Mosby (voice),Michael Gross
+33,Lily's Landlord (voice),Wayne Knight
+33,New Yorker,William Ramos Jr.
+33,Narrator (voice),Bob Saget
 34,Ted Mosby,Josh Radnor
 34,Marshall Eriksen,Jason Segel
 34,Robin Scherbatsky,Cobie Smulders
@@ -474,10 +474,10 @@ EpisodeId,Character,Actor
 34,Stranger (as Stuart Randy Smith),Stu Smith
 34,Frances 'Baby' Houseman (archive footage),Jennifer Grey
 34,Johnny Castle (archive footage),Patrick Swayze
-34,Daughter (uncredited),Lyndsy Fonseca
-34,Son (uncredited),David Henrie
-34,Tourist Man (uncredited),James McMann
-34,Narrator (voice) (uncredited),Bob Saget
+34,Daughter,Lyndsy Fonseca
+34,Son,David Henrie
+34,Tourist Man,James McMann
+34,Narrator (voice),Bob Saget
 35,Ted Mosby,Josh Radnor
 35,Marshall Eriksen,Jason Segel
 35,Robin Scherbatsky,Cobie Smulders
@@ -490,7 +490,7 @@ EpisodeId,Character,Actor
 35,Carol,Ewan Chung
 35,Man,Thomas Anthony Jones
 35,Mark,Ben Tolpin
-35,Narrator (voice) (uncredited),Bob Saget
+35,Narrator (voice),Bob Saget
 36,Ted Mosby,Josh Radnor
 36,Marshall Eriksen,Jason Segel
 36,Robin Scherbatsky,Cobie Smulders
@@ -513,7 +513,7 @@ EpisodeId,Character,Actor
 36,Trish,Peyton Hinson
 36,Mike,Ron Nicolosi
 36,Bartender,Jon Ryckman
-36,Narrator (voice) (uncredited),Bob Saget
+36,Narrator (voice),Bob Saget
 37,Ted Mosby,Josh Radnor
 37,Marshall Eriksen,Jason Segel
 37,Robin Scherbatsky,Cobie Smulders
@@ -527,9 +527,9 @@ EpisodeId,Character,Actor
 37,Suit Guy,John Rosenfeld
 37,Old Lady,Connie Sawyer
 37,Man Sitting Next to Barney on the Subway,Bill Macy
-37,Daughter (uncredited),Lyndsy Fonseca
-37,Son (uncredited),David Henrie
-37,Narrator (voice) (uncredited),Bob Saget
+37,Daughter,Lyndsy Fonseca
+37,Son,David Henrie
+37,Narrator (voice),Bob Saget
 38,Ted Mosby,Josh Radnor
 38,Marshall Eriksen,Jason Segel
 38,Robin Scherbatsky,Cobie Smulders
@@ -543,7 +543,7 @@ EpisodeId,Character,Actor
 38,Floppy Haired Guy,Rick Malambri
 38,Zach Grecco,Evan Mann
 38,Staci Rawnsley,Terryn Westbrook
-38,Narrator (voice) (uncredited),Bob Saget
+38,Narrator (voice),Bob Saget
 39,Ted Mosby,Josh Radnor
 39,Marshall Eriksen,Jason Segel
 39,Robin Scherbatsky,Cobie Smulders
@@ -554,8 +554,8 @@ EpisodeId,Character,Actor
 39,Marcus Eriksen,Ned Rolsma
 39,Marvin Eriksen Jr.,Robert Michael Ryan
 39,Drive Thru Attendant,Jack Salvatore Jr.
-39,Waldo (uncredited),Bay Dariz
-39,Narrator (voice) (uncredited),Bob Saget
+39,Waldo,Bay Dariz
+39,Narrator (voice),Bob Saget
 40,Ted Mosby,Josh Radnor
 40,Marshall Eriksen,Jason Segel
 40,Robin Scherbatsky,Cobie Smulders
@@ -566,7 +566,7 @@ EpisodeId,Character,Actor
 40,Girl #3,Ailsa Marshall
 40,Girl #1,Ella Thomas
 40,Girl #2 (as Necar Zadegar),Necar Zadegan
-40,Narrator (voice) (uncredited),Bob Saget
+40,Narrator (voice),Bob Saget
 41,Ted Mosby,Josh Radnor
 41,Marshall Eriksen,Jason Segel
 41,Robin Scherbatsky,Cobie Smulders
@@ -580,7 +580,7 @@ EpisodeId,Character,Actor
 41,Aunt Florence,Patricia Place
 41,Stripper (as Jamie Rose Hagan),Jamie Hagan
 41,Cousin Margaret,Corie Vickers
-41,Narrator (voice) (uncredited),Bob Saget
+41,Narrator (voice),Bob Saget
 42,Ted Mosby,Josh Radnor
 42,Marshall Eriksen,Jason Segel
 42,Robin Scherbatsky,Cobie Smulders
@@ -593,8 +593,8 @@ EpisodeId,Character,Actor
 42,Millie,Sharon Madden
 42,Young Barney,Tanner Maguire
 42,Herself,Rachel Reynolds
-42,Wedding Guest (uncredited),Elijah Samuel Quesada
-42,Narrator (voice) (uncredited),Bob Saget
+42,Wedding Guest,Elijah Samuel Quesada
+42,Narrator (voice),Bob Saget
 43,Ted Mosby,Josh Radnor
 43,Marshall Eriksen,Jason Segel
 43,Robin Scherbatsky,Cobie Smulders
@@ -609,9 +609,9 @@ EpisodeId,Character,Actor
 43,Andrea,Shulie Cowen
 43,Bartender,P.J. Marino
 43,Woman,Rachelle Wood
-43,Wedding Guest (uncredited),Kathleen Bartholomew
-43,Wedding Guest (uncredited),Elijah Samuel Quesada
-43,Narrator (voice) (uncredited),Bob Saget
+43,Wedding Guest,Kathleen Bartholomew
+43,Wedding Guest,Elijah Samuel Quesada
+43,Narrator (voice),Bob Saget
 44,Ted Mosby,Josh Radnor
 44,Marshall Eriksen,Jason Segel
 44,Robin Scherbatsky,Cobie Smulders
@@ -626,9 +626,9 @@ EpisodeId,Character,Actor
 44,DJ,Jeff Meacham
 44,Mike,Ron Nicolosi
 44,Waiter #2,Tony Rossi
-44,Wedding Guest (uncredited),Kathleen Bartholomew
-44,Wedding Guest (uncredited),Elijah Samuel Quesada
-44,Narrator (voice) (uncredited),Bob Saget
+44,Wedding Guest,Kathleen Bartholomew
+44,Wedding Guest,Elijah Samuel Quesada
+44,Narrator (voice),Bob Saget
 45,Ted Mosby,Josh Radnor
 45,Marshall Eriksen,Jason Segel
 45,Robin Scherbatsky,Cobie Smulders
@@ -641,8 +641,8 @@ EpisodeId,Character,Actor
 45,Lydia,Amanda Loncar
 45,Steve,Frank Alvarez
 45,Tyler,Donovan Dustin
-45,Millie (uncredited),Sharon Madden
-45,Narrator (voice) (uncredited),Bob Saget
+45,Millie,Sharon Madden
+45,Narrator (voice),Bob Saget
 46,Ted Mosby,Josh Radnor
 46,Marshall Eriksen,Jason Segel
 46,Robin Scherbatsky,Cobie Smulders
@@ -653,8 +653,8 @@ EpisodeId,Character,Actor
 46,Colleen,Michele Nordin
 46,Officer Roque,Darryl Sivad
 46,Australian Backpacker,Damon Gameau
-46,Aussie Girl (uncredited),Bonnie Carter
-46,Narrator (voice) (uncredited),Bob Saget
+46,Aussie Girl,Bonnie Carter
+46,Narrator (voice),Bob Saget
 47,Ted Mosby,Josh Radnor
 47,Marshall Eriksen,Jason Segel
 47,Robin Scherbatsky,Cobie Smulders
@@ -668,8 +668,8 @@ EpisodeId,Character,Actor
 47,Ian,Neil Jackson
 47,Woman #1,Melissa Ordway
 47,Woman #2,Chantelle Barry
-47,Steve (uncredited),Frank Alvarez
-47,Narrator (voice) (uncredited),Bob Saget
+47,Steve,Frank Alvarez
+47,Narrator (voice),Bob Saget
 48,Ted Mosby,Josh Radnor
 48,Marshall Eriksen,Jason Segel
 48,Robin Scherbatsky,Cobie Smulders
@@ -681,7 +681,7 @@ EpisodeId,Character,Actor
 48,11 year old Robin,Olivia Howard Bagg
 48,4 year old Katie,Pamela Darling
 48,Brooke Bartholomay,Deanna Russo
-48,Narrator (voice) (uncredited),Bob Saget
+48,Narrator (voice),Bob Saget
 49,Ted Mosby,Josh Radnor
 49,Marshall Eriksen,Jason Segel
 49,Robin Scherbatsky,Cobie Smulders
@@ -691,7 +691,7 @@ EpisodeId,Character,Actor
 49,Alexa,Jolie Jenkins
 49,Phil,Ray Auxias
 49,Audrey,Betsy Rue
-49,Narrator (voice) (uncredited),Bob Saget
+49,Narrator (voice),Bob Saget
 50,Ted Mosby,Josh Radnor
 50,Marshall Eriksen,Jason Segel
 50,Robin Scherbatsky,Cobie Smulders
@@ -705,7 +705,7 @@ EpisodeId,Character,Actor
 50,Woman,Jacqui Holland
 50,Doctor,Jim Jansen
 50,Walk of Shame Woman,Mary Alyce Kania
-50,Narrator (voice) (uncredited),Bob Saget
+50,Narrator (voice),Bob Saget
 51,Ted Mosby,Josh Radnor
 51,Marshall Eriksen,Jason Segel
 51,Robin Scherbatsky,Cobie Smulders
@@ -720,8 +720,8 @@ EpisodeId,Character,Actor
 51,Persephone,Megan Bowers
 51,Cab Driver,Rhomeyn Johnson
 51,Daphne,Kaliya Skye
-51,Marshall's Son (uncredited),Michael William Arnold
-51,Narrator (voice) (uncredited),Bob Saget
+51,Marshall's Son,Michael William Arnold
+51,Narrator (voice),Bob Saget
 52,Ted Mosby,Josh Radnor
 52,Marshall Eriksen,Jason Segel
 52,Robin Scherbatsky,Cobie Smulders
@@ -732,7 +732,7 @@ EpisodeId,Character,Actor
 52,Son,David Henrie
 52,Proctor,Ron Butler
 52,Test-Taker,Steve Little
-52,Narrator (voice) (uncredited),Bob Saget
+52,Narrator (voice),Bob Saget
 53,Ted Mosby,Josh Radnor
 53,Marshall Eriksen,Jason Segel
 53,Robin Scherbatsky,Cobie Smulders
@@ -742,8 +742,8 @@ EpisodeId,Character,Actor
 53,Younger Bob,Eben Ham
 53,Female Robotic Recording (voice),Gita Isak
 53,Bar Girl,Tyffanee C. Smith
-53,Bar Guy (uncredited),Trey Everett
-53,Narrator (voice) (uncredited),Bob Saget
+53,Bar Guy,Trey Everett
+53,Narrator (voice),Bob Saget
 54,Ted Mosby,Josh Radnor
 54,Marshall Eriksen,Jason Segel
 54,Robin Scherbatsky,Cobie Smulders
@@ -765,7 +765,7 @@ EpisodeId,Character,Actor
 54,Max (as Mick Harrity),Michael 'Mick' Harrity
 54,Becky,Annie Ilonzeh
 54,Young Barney,Tanner Maguire
-54,Narrator (voice) (uncredited),Bob Saget
+54,Narrator (voice),Bob Saget
 55,Ted Mosby,Josh Radnor
 55,Marshall Eriksen,Jason Segel
 55,Robin Scherbatsky,Cobie Smulders
@@ -775,8 +775,8 @@ EpisodeId,Character,Actor
 55,Wendy,Charlene Amoia
 55,Laura Girard,Kristen Schaal
 55,Michael Girard,John Sloan
-55,Tattooed Dermatology Patient (uncredited),Lester G. Reynolds
-55,Narrator (voice) (uncredited),Bob Saget
+55,Tattooed Dermatology Patient,Lester G. Reynolds
+55,Narrator (voice),Bob Saget
 56,Ted Mosby,Josh Radnor
 56,Marshall Eriksen,Jason Segel
 56,Robin Scherbatsky,Cobie Smulders
@@ -793,10 +793,10 @@ EpisodeId,Character,Actor
 56,Bouncer,Terrell Lee
 56,Woman (as Nicole Muirbrook-Wagner),Nicole Muirbrook
 56,Attractive Brunette,Hope Riley
-56,Girl at the Bar (uncredited),Nathalie Antonia
-56,Answering Machine (voice) (uncredited),Gita Isak
-56,Party Girl (uncredited),Debbi Larkins
-56,Narrator (voice) (uncredited),Bob Saget
+56,Girl at the Bar,Nathalie Antonia
+56,Answering Machine (voice),Gita Isak
+56,Party Girl,Debbi Larkins
+56,Narrator (voice),Bob Saget
 57,Ted Mosby,Josh Radnor
 57,Marshall Eriksen,Jason Segel
 57,Robin Scherbatsky,Cobie Smulders
@@ -810,8 +810,8 @@ EpisodeId,Character,Actor
 57,Ranjit,Marshall Manesh
 57,Gloria,Ria Pavia
 57,Brenda,Caroline Whitney Smith
-57,Bachelor (uncredited),Matthew Corbett Davis
-57,Narrator (voice) (uncredited),Bob Saget
+57,Bachelor,Matthew Corbett Davis
+57,Narrator (voice),Bob Saget
 58,Ted Mosby,Josh Radnor
 58,Marshall Eriksen,Jason Segel
 58,Robin Scherbatsky,Cobie Smulders
@@ -829,10 +829,10 @@ EpisodeId,Character,Actor
 58,Karen,Katie Savoy
 58,Julia,Kathy Uyen
 58,Maggie,Jennipher Foster
-58,Ex-Girlfriend (uncredited),Marcienne Dwyer
-58,Art Gallery Bystander (uncredited),Bruce Holman
-58,Himself (uncredited),Alex Parlar
-58,Narrator (voice) (uncredited),Bob Saget
+58,Ex-Girlfriend,Marcienne Dwyer
+58,Art Gallery Bystander,Bruce Holman
+58,Himself,Alex Parlar
+58,Narrator (voice),Bob Saget
 59,Ted Mosby,Josh Radnor
 59,Marshall Eriksen,Jason Segel
 59,Robin Scherbatsky,Cobie Smulders
@@ -849,7 +849,7 @@ EpisodeId,Character,Actor
 59,Dylan,Charles Poynter
 59,Erica,Kira Saks
 59,Office Worker (as Kenneth Mark Bhan),Ken Bhan
-59,Narrator (voice) (uncredited),Bob Saget
+59,Narrator (voice),Bob Saget
 60,Ted Mosby,Josh Radnor
 60,Marshall Eriksen,Jason Segel
 60,Robin Scherbatsky,Cobie Smulders
@@ -864,7 +864,7 @@ EpisodeId,Character,Actor
 60,Son,David Henrie
 60,Catholic School Girl,Veronica Estrada
 60,Catholic School Girl,Cara-Lee Knodel
-60,Narrator (voice) (uncredited),Bob Saget
+60,Narrator (voice),Bob Saget
 61,Ted Mosby,Josh Radnor
 61,Marshall Eriksen,Jason Segel
 61,Robin Scherbatsky,Cobie Smulders
@@ -879,7 +879,7 @@ EpisodeId,Character,Actor
 61,Ranjit,Marshall Manesh
 61,Cindy,Megan McNulty
 61,Little Girl,Destiny Whitlock
-61,Narrator (voice) (uncredited),Bob Saget
+61,Narrator (voice),Bob Saget
 62,Ted Mosby,Josh Radnor
 62,Marshall Eriksen,Jason Segel
 62,Robin Scherbatsky,Cobie Smulders
@@ -896,9 +896,9 @@ EpisodeId,Character,Actor
 62,Sadie,Sonia Rockwell
 62,Kate,Rome Shadanloo
 62,Stapleton (as Dean West),Dean J. West
-62,Girl #3 (uncredited),Adalia Braydon
-62,Doug Stein (uncredited),Aiden Ivy
-62,Narrator (voice) (uncredited),Bob Saget
+62,Girl #3,Adalia Braydon
+62,Doug Stein,Aiden Ivy
+62,Narrator (voice),Bob Saget
 63,Ted Mosby,Josh Radnor
 63,Marshall Eriksen,Jason Segel
 63,Robin Scherbatsky,Cobie Smulders
@@ -916,7 +916,7 @@ EpisodeId,Character,Actor
 63,Cafe Guy,Johnny Palermo
 63,Karen,Katie Savoy
 63,Julia,Kathy Uyen
-63,Narrator (voice) (uncredited),Bob Saget
+63,Narrator (voice),Bob Saget
 64,Ted Mosby,Josh Radnor
 64,Marshall Eriksen,Jason Segel
 64,Robin Scherbatsky,Cobie Smulders
@@ -931,8 +931,8 @@ EpisodeId,Character,Actor
 64,Customs Officer,Anthony Palermo
 64,Nurse,Taira Soo
 64,Robin - Age 6,Shelby Zemanek
-64,Narrator (voice) (uncredited),Bob Saget
-64,Girl Fighting For Cab (uncredited),Christian Sinclair
+64,Narrator (voice),Bob Saget
+64,Girl Fighting For Cab,Christian Sinclair
 65,Ted Mosby,Josh Radnor
 65,Marshall Eriksen,Jason Segel
 65,Robin Scherbatsky,Cobie Smulders
@@ -945,8 +945,8 @@ EpisodeId,Character,Actor
 65,April (as Heidi Lynne Herschbach),Heidi Herschbach
 65,Bartender,Alonza Maxwell
 65,Sexy Blonde,Nicole Taylor
-65,Jessica (uncredited),Camila Greenberg
-65,Narrator (voice) (uncredited),Bob Saget
+65,Jessica,Camila Greenberg
+65,Narrator (voice),Bob Saget
 66,Ted Mosby,Josh Radnor
 66,Marshall Eriksen,Jason Segel
 66,Robin Scherbatsky,Cobie Smulders
@@ -957,9 +957,9 @@ EpisodeId,Character,Actor
 66,The Nicest Guy in the World,Jay Lay
 66,Waitress,Mandy McMillian
 66,Strip Club Guy,Casey Washington
-66,Gym Patron (uncredited),Tony Aaron II
-66,Veggie Waitress (uncredited),Meggan Anderson
-66,Narrator (voice) (uncredited),Bob Saget
+66,Gym Patron,Tony Aaron II
+66,Veggie Waitress,Meggan Anderson
+66,Narrator (voice),Bob Saget
 67,Ted Mosby,Josh Radnor
 67,Marshall Eriksen,Jason Segel
 67,Robin Scherbatsky,Cobie Smulders
@@ -973,7 +973,7 @@ EpisodeId,Character,Actor
 67,Brian,Edward Kiniry-Ostro
 67,Guy From Couple,John Pollono
 67,Lewis (voice),Paul McKinney
-67,Narrator (voice) (uncredited),Bob Saget
+67,Narrator (voice),Bob Saget
 68,Ted Mosby,Josh Radnor
 68,Marshall Eriksen,Jason Segel
 68,Robin Scherbatsky,Cobie Smulders
@@ -988,8 +988,8 @@ EpisodeId,Character,Actor
 68,Mrs. Abergast,Michelle Gunn
 68,Amber,Alex Lombard
 68,Cindy,Shaila Vaidya
-68,Bar Girl (uncredited),Mélanie Mozzet
-68,Narrator (voice) (uncredited),Bob Saget
+68,Bar Girl,Mélanie Mozzet
+68,Narrator (voice),Bob Saget
 69,Ted Mosby,Josh Radnor
 69,Marshall Eriksen,Jason Segel
 69,Robin Scherbatsky,Cobie Smulders
@@ -1004,9 +1004,9 @@ EpisodeId,Character,Actor
 69,Lucy Zinman,Darcy Rose Byrnes
 69,Juice Bar Guy,Aaron Hendry
 69,Host,Derek Shizuto
-69,Waiter (uncredited),Mike Kochansky
-69,14 Year Old Kid (uncredited),Alex Pulido
-69,Narrator (voice) (uncredited),Bob Saget
+69,Waiter,Mike Kochansky
+69,14 Year Old Kid,Alex Pulido
+69,Narrator (voice),Bob Saget
 70,Ted Mosby,Josh Radnor
 70,Marshall Eriksen,Jason Segel
 70,Robin Scherbatsky,Cobie Smulders
@@ -1022,7 +1022,7 @@ EpisodeId,Character,Actor
 70,Waiter,Chris Dotson
 70,Becca DiLucci,Meegan Godfrey
 70,Waiter #2,Andre Navarro
-70,Narrator (voice) (uncredited),Bob Saget
+70,Narrator (voice),Bob Saget
 71,Ted Mosby,Josh Radnor
 71,Marshall Eriksen,Jason Segel
 71,Robin Scherbatsky,Cobie Smulders
@@ -1035,7 +1035,7 @@ EpisodeId,Character,Actor
 71,Cabbie,Michael McCafferty
 71,Ted's Cousin,Elena K. Smith
 71,Lori (as Daniele Watts),Danièle Watts
-71,Narrator (voice) (uncredited),Bob Saget
+71,Narrator (voice),Bob Saget
 72,Ted Mosby,Josh Radnor
 72,Marshall Eriksen,Jason Segel
 72,Robin Scherbatsky,Cobie Smulders
@@ -1050,8 +1050,8 @@ EpisodeId,Character,Actor
 72,Sven #3,Ted Cannon
 72,Sven #2,Sam Littlefield
 72,Mechanical Bull Operator,Matthew Stephen Young
-72,Country Bar Attendee (uncredited),Christopher Reddick-Johnson
-72,Narrator (voice) (uncredited),Bob Saget
+72,Country Bar Attendee,Christopher Reddick-Johnson
+72,Narrator (voice),Bob Saget
 73,Ted Mosby,Josh Radnor
 73,Marshall Eriksen,Jason Segel
 73,Robin Scherbatsky,Cobie Smulders
@@ -1065,9 +1065,9 @@ EpisodeId,Character,Actor
 73,Busboy,David Tran
 73,Burglar #1,Kevin Michael Walsh
 73,Burglar #2,Jim Woods
-73,Woman (voice) (uncredited),Gita Isak
-73,Narrator (voice) (uncredited),Bob Saget
-73,Restaurant Patron (uncredited),Michael A. Templeton
+73,Woman (voice),Gita Isak
+73,Narrator (voice),Bob Saget
+73,Restaurant Patron,Michael A. Templeton
 74,Ted Mosby,Josh Radnor
 74,Marshall Eriksen,Jason Segel
 74,Robin Scherbatsky,Cobie Smulders
@@ -1087,8 +1087,8 @@ EpisodeId,Character,Actor
 74,Kid,Alec Gray
 74,Guy #3 in Booth,Khary Payton
 74,Guy #1 in Booth,Jess Rowland
-74,Kindergartener (uncredited),Ama'ri
-74,Narrator (voice) (uncredited),Bob Saget
+74,Kindergartener,Ama'ri
+74,Narrator (voice),Bob Saget
 75,Ted Mosby,Josh Radnor
 75,Marshall Eriksen,Jason Segel
 75,Robin Scherbatsky,Cobie Smulders
@@ -1100,11 +1100,11 @@ EpisodeId,Character,Actor
 75,Herm,Jon Paul Burkhart
 75,Wayne (as Sean Graham),Sean C. Graham
 75,Glen,Scott Michael Morgan
-75,Kindergartener (uncredited),Ama'ri
-75,Bar Patron (uncredited),Mark Casimir Dyniewicz
-75,Canadian Bar Guy (uncredited),Brice Harris
-75,Hurley's Waiter (uncredited),Alan Mueting
-75,Narrator (voice) (uncredited),Bob Saget
+75,Kindergartener,Ama'ri
+75,Bar Patron,Mark Casimir Dyniewicz
+75,Canadian Bar Guy,Brice Harris
+75,Hurley's Waiter,Alan Mueting
+75,Narrator (voice),Bob Saget
 76,Ted Mosby,Josh Radnor
 76,Marshall Eriksen,Jason Segel
 76,Robin Scherbatsky,Cobie Smulders
@@ -1121,8 +1121,8 @@ EpisodeId,Character,Actor
 76,Craig Gerard,Jack J. Bennett
 76,Matt Zinman,Greg Collins
 76,Ben,Ethan Dizon
-76,Kindergartener (uncredited),Ama'ri
-76,Narrator (voice) (uncredited),Bob Saget
+76,Kindergartener,Ama'ri
+76,Narrator (voice),Bob Saget
 77,Ted Mosby,Josh Radnor
 77,Marshall Eriksen,Jason Segel
 77,Robin Scherbatsky,Cobie Smulders
@@ -1138,7 +1138,7 @@ EpisodeId,Character,Actor
 77,Thelma,Pat Crawford Brown
 77,Rachel Sondheimer,Gita Isak
 77,Viveka,Ute Werner
-77,Narrator (voice) (uncredited),Bob Saget
+77,Narrator (voice),Bob Saget
 78,Ted Mosby,Josh Radnor
 78,Marshall Eriksen,Jason Segel
 78,Robin Scherbatsky,Cobie Smulders
@@ -1153,8 +1153,8 @@ EpisodeId,Character,Actor
 78,Referee,Wayne Lopez
 78,Dr. Goodman,Mark Tomesek
 78,Female Reporter,Patrizia Medrano
-78,Camera Operator (uncredited),Mohammad Kavianpour
-78,Narrator (voice) (uncredited),Bob Saget
+78,Camera Operator,Mohammad Kavianpour
+78,Narrator (voice),Bob Saget
 79,Ted Mosby,Josh Radnor
 79,Marshall Eriksen,Jason Segel
 79,Robin Scherbatsky,Cobie Smulders
@@ -1166,8 +1166,8 @@ EpisodeId,Character,Actor
 79,Ricky,Angelo Diona
 79,Stage Mom,Kimberly Pfeffer
 79,Younger Son,Shane Giedraitis
-79,Son (uncredited),Shane Giedraitis
-79,Narrator (voice) (uncredited),Bob Saget
+79,Son,Shane Giedraitis
+79,Narrator (voice),Bob Saget
 80,Ted Mosby,Josh Radnor
 80,Marshall Eriksen,Jason Segel
 80,Robin Scherbatsky,Cobie Smulders
@@ -1184,7 +1184,7 @@ EpisodeId,Character,Actor
 80,Jerry,Houston Rhines
 80,8-Year Old Nicole,Laura Ann Kesling
 80,8-Year Old Marshall,Koby Rouviere
-80,Narrator (voice) (uncredited),Bob Saget
+80,Narrator (voice),Bob Saget
 81,Ted Mosby,Josh Radnor
 81,Marshall Eriksen,Jason Segel
 81,Robin Scherbatsky,Cobie Smulders
@@ -1194,7 +1194,7 @@ EpisodeId,Character,Actor
 81,Hot Woman #3,Jessica Anderson
 81,Hot Woman #1,Italia Ricci
 81,Hot Woman #2 (as Nikki Wells),Nikki BreAnne Wells
-81,Narrator (voice) (uncredited),Bob Saget
+81,Narrator (voice),Bob Saget
 82,Ted Mosby,Josh Radnor
 82,Marshall Eriksen,Jason Segel
 82,Robin Scherbatsky,Cobie Smulders
@@ -1206,7 +1206,7 @@ EpisodeId,Character,Actor
 82,Maya,Aynsley Bubbico
 82,Arthur,Stephen Kearin
 82,Roy,William Walton
-82,Narrator (voice) (uncredited),Bob Saget
+82,Narrator (voice),Bob Saget
 83,Ted Mosby,Josh Radnor
 83,Marshall Eriksen,Jason Segel
 83,Robin Scherbatsky,Cobie Smulders
@@ -1220,12 +1220,12 @@ EpisodeId,Character,Actor
 83,Ryan,Justin Lawrence
 83,Kenny,Charlie Stewart
 83,Rave Girl,Desiree Brajevich
-83,Alex (uncredited),Alex Bennett
-83,St. Ann's Basketball Player #4 (uncredited),Beau Bowden
-83,Basketball Kindergardener (uncredited),Matthew Cuen
-83,Roger Murtaugh (archive footage) (uncredited),Danny Glover
-83,Narrator (voice) (uncredited),Bob Saget
-83,Basketball Player (uncredited),Labrandon Shead
+83,Alex,Alex Bennett
+83,St. Ann's Basketball Player #4,Beau Bowden
+83,Basketball Kindergardener,Matthew Cuen
+83,Roger Murtaugh (archive footage),Danny Glover
+83,Narrator (voice),Bob Saget
+83,Basketball Player,Labrandon Shead
 84,Ted Mosby,Josh Radnor
 84,Marshall Eriksen,Jason Segel
 84,Robin Scherbatsky,Cobie Smulders
@@ -1238,20 +1238,20 @@ EpisodeId,Character,Actor
 84,Guy #1,Darren O'Hare
 84,Fantasy Guy,Adrian Rice
 84,Toy Guy,Joel Spence
-84,Narrator (voice) (uncredited),Bob Saget
+84,Narrator (voice),Bob Saget
 85,Ted Mosby,Josh Radnor
 85,Marshall Eriksen,Jason Segel
 85,Robin Scherbatsky,Cobie Smulders
 85,Barney Stinson,Neil Patrick Harris
-85,Lily Aldrin (credit only),Alyson Hannigan
+85,Lily Aldrin,Alyson Hannigan
 85,Holli,Rebecca Budig
 85,Stan,Kevin Michael Richardson
-85,Narrator (voice) (uncredited),Bob Saget
+85,Narrator (voice),Bob Saget
 86,Ted Mosby,Josh Radnor
 86,Marshall Eriksen,Jason Segel
 86,Robin Scherbatsky,Cobie Smulders
 86,Barney Stinson,Neil Patrick Harris
-86,Lily Aldrin (credit only),Alyson Hannigan
+86,Lily Aldrin,Alyson Hannigan
 86,Stella Zinman,Sarah Chalke
 86,Milt,Dan Castellaneta
 86,Harlen Johnsen,John Duerler
@@ -1266,8 +1266,8 @@ EpisodeId,Character,Actor
 86,12 Year Old Matthew,Austin Majors
 86,Matthew Panning,Steven Montfort
 86,Fran,Kit Pongetti
-86,Student (uncredited),Veronica Parks
-86,Narrator (voice) (uncredited),Bob Saget
+86,Student,Veronica Parks
+86,Narrator (voice),Bob Saget
 87,Ted Mosby,Josh Radnor
 87,Marshall Eriksen,Jason Segel
 87,Robin Scherbatsky,Cobie Smulders
@@ -1283,9 +1283,9 @@ EpisodeId,Character,Actor
 87,Highway Cop #1,Ezra Buzzington
 87,Highway Cop #2 (as Ron Rogge),Ron Roggé
 87,Highway Cop #3,Joe Thornton Jr.
-87,Highway Cop #4 (uncredited),Kevin High
-87,TV Exec (uncredited),Tom Poole
-87,Narrator (voice) (uncredited),Bob Saget
+87,Highway Cop #4,Kevin High
+87,TV Exec,Tom Poole
+87,Narrator (voice),Bob Saget
 88,Ted Mosby,Josh Radnor
 88,Marshall Eriksen,Jason Segel
 88,Robin Scherbatsky,Cobie Smulders
@@ -1295,7 +1295,7 @@ EpisodeId,Character,Actor
 88,Ged Wilkinson,Joel McCrary
 88,Tracey,Christine Scott Bennett
 88,Bill,Jayden Lund
-88,Narrator (voice) (uncredited),Bob Saget
+88,Narrator (voice),Bob Saget
 89,Ted Mosby,Josh Radnor
 89,Marshall Eriksen,Jason Segel
 89,Robin Scherbatsky,Cobie Smulders
@@ -1307,9 +1307,9 @@ EpisodeId,Character,Actor
 89,Guy #1,Brett Ryback
 89,Guy #2,Abhi Sinha
 89,Professor Calzonetti,Dale E. Turner
-89,Shouting Hockey Fan (uncredited),Mark Casimir Dyniewicz
-89,Narrator (voice) (uncredited),Bob Saget
-89,Attentive Student (uncredited),Wilson Stiner
+89,Shouting Hockey Fan,Mark Casimir Dyniewicz
+89,Narrator (voice),Bob Saget
+89,Attentive Student,Wilson Stiner
 90,Ted Mosby,Josh Radnor
 90,Marshall Eriksen,Jason Segel
 90,Robin Scherbatsky,Cobie Smulders
@@ -1321,8 +1321,8 @@ EpisodeId,Character,Actor
 90,Judy,Molly Prather
 90,April,Alyssa Julya Smith
 90,Minister Giles,Clyde Tull
-90,Bar Patron (uncredited),Marcus Hopkins
-90,Narrator (voice) (uncredited),Bob Saget
+90,Bar Patron,Marcus Hopkins
+90,Narrator (voice),Bob Saget
 91,Ted Mosby,Josh Radnor
 91,Marshall Eriksen,Jason Segel
 91,Robin Scherbatsky,Cobie Smulders
@@ -1336,7 +1336,7 @@ EpisodeId,Character,Actor
 91,College Girl,Sophie Simpson
 91,Sandy,Christine Tonnu
 91,College Student,Russell Vance Bailey
-91,Narrator (voice) (uncredited),Bob Saget
+91,Narrator (voice),Bob Saget
 92,Ted Mosby,Josh Radnor
 92,Marshall Eriksen,Jason Segel
 92,Robin Scherbatsky,Cobie Smulders
@@ -1354,8 +1354,8 @@ EpisodeId,Character,Actor
 92,The Sexless Innkeeper,Derek Easley
 92,Chinese Delivery Boy,William Ngo
 92,Sex Addict,Paul Vasquez
-92,Kate Purdy 2009 (uncredited),Molly McColgan
-92,Narrator (voice) (uncredited),Bob Saget
+92,Kate Purdy 2009,Molly McColgan
+92,Narrator (voice),Bob Saget
 93,Ted Mosby,Josh Radnor
 93,Marshall Eriksen,Jason Segel
 93,Robin Scherbatsky,Cobie Smulders
@@ -1366,15 +1366,15 @@ EpisodeId,Character,Actor
 93,Bruno,Brad Grunberg
 93,Bailey,Corinne Dekker
 93,Canadian Curling Team Member,Mindy Montavon
-93,Narrator (voice) (uncredited),Bob Saget
+93,Narrator (voice),Bob Saget
 94,Ted Mosby,Josh Radnor
 94,Marshall Eriksen,Jason Segel
 94,Robin Scherbatsky,Cobie Smulders
 94,Barney Stinson,Neil Patrick Harris
 94,Lily Aldrin,Alyson Hannigan
 94,Phil,Sam Stefanski
-94,Girl at Bar (uncredited),Sandy Masciarelli
-94,Narrator (voice) (uncredited),Bob Saget
+94,Girl at Bar,Sandy Masciarelli
+94,Narrator (voice),Bob Saget
 95,Ted Mosby,Josh Radnor
 95,Marshall Eriksen,Jason Segel
 95,Robin Scherbatsky,Cobie Smulders
@@ -1386,8 +1386,8 @@ EpisodeId,Character,Actor
 95,Meg,April Bowlby
 95,Pizza Guy,Matt Jones
 95,Lost in Space Robot,Whit Hertford
-95,MaClaren's Pub Patron (uncredited),Vanessa Ross
-95,Narrator (voice) (uncredited),Bob Saget
+95,MaClaren's Pub Patron,Vanessa Ross
+95,Narrator (voice),Bob Saget
 96,Ted Mosby,Josh Radnor
 96,Marshall Eriksen,Jason Segel
 96,Robin Scherbatsky,Cobie Smulders
@@ -1402,8 +1402,8 @@ EpisodeId,Character,Actor
 96,Christy,Katie Malia
 96,Christina,Jaime Taite
 96,Girl (as Nicole Foster Tomlinson),Nicole Foster Callahan
-96,Ted Mosby Victim (uncredited),Emmie Kivell
-96,Narrator (voice) (uncredited),Bob Saget
+96,Ted Mosby Victim,Emmie Kivell
+96,Narrator (voice),Bob Saget
 97,Ted Mosby,Josh Radnor
 97,Marshall Eriksen,Jason Segel
 97,Robin Scherbatsky,Cobie Smulders
@@ -1425,9 +1425,9 @@ EpisodeId,Character,Actor
 97,Marvin Eriksen Jr.,Robert Michael Ryan
 97,Korean Woman,Doris Jung Usui
 97,Bar Girl,Tyffanee C. Smith
-97,Narrator (voice) (uncredited),Bob Saget
-97,Slapping Kid (uncredited),Lei'lah Star
-97,Slapping Game Kid (uncredited),Zenali Turner
+97,Narrator (voice),Bob Saget
+97,Slapping Kid,Lei'lah Star
+97,Slapping Game Kid,Zenali Turner
 98,Ted Mosby,Josh Radnor
 98,Marshall Eriksen,Jason Segel
 98,Robin Scherbatsky,Cobie Smulders
@@ -1443,10 +1443,10 @@ EpisodeId,Character,Actor
 98,Louis,Matthew Moy
 98,Mrs. Douglas,Barbara Perry
 98,Adam,Michael Spellman
-98,Herman (chubby boyfriend) (uncredited),Donnie Bonelli
-98,Hot Guy #1 (uncredited),Marcus Lindsey
-98,Narrator (voice) (uncredited),Bob Saget
-98,Himself (uncredited),Mario Tadinac
+98,Herman (chubby boyfriend),Donnie Bonelli
+98,Hot Guy #1,Marcus Lindsey
+98,Narrator (voice),Bob Saget
+98,Himself,Mario Tadinac
 99,Ted Mosby,Josh Radnor
 99,Marshall Eriksen,Jason Segel
 99,Robin Scherbatsky,Cobie Smulders
@@ -1460,8 +1460,8 @@ EpisodeId,Character,Actor
 99,Mike,Ron Nicolosi
 99,Ricky,Trent Peltz
 99,Thirteen Year Old Marshall,Tyler Peterson
-99,Narrator (voice) (uncredited),Bob Saget
-99,Waiter (uncredited),Josh Abraham Webber
+99,Narrator (voice),Bob Saget
+99,Waiter,Josh Abraham Webber
 100,Ted Mosby,Josh Radnor
 100,Marshall Eriksen,Jason Segel
 100,Robin Scherbatsky,Cobie Smulders
@@ -1476,21 +1476,21 @@ EpisodeId,Character,Actor
 100,Herb (as Ryan Kyler Bailey),Ryan Bailey
 100,Frat Dude #1,James Pumphrey
 100,Dancer,Christopher Scott
-100,Dancer (uncredited),Kelly Connolly
-100,Dancer (uncredited),Marty Dew
-100,Dancer (uncredited),Nick Drago
-100,Lady Cop (uncredited),Nadine Ellis
-100,Dancer (uncredited),Bunny Gibson
-100,Business Man (uncredited),Lonnie Henderson
-100,Dancer (uncredited),Scott Hislop
-100,Dancer (uncredited),Rachael Markarian
-100,Suit Dancer (uncredited),Heather Morris
-100,Dancer with dog (uncredited),Randi Pareira
-100,Dancer (uncredited),Doug Penikas
-100,Narrator (voice) (uncredited),Bob Saget
-100,Dancer (uncredited),Nicole Sciacca
-100,Dancer (uncredited),Casper Smart
-100,Bar Patron (uncredited),Eric Strom
+100,Dancer,Kelly Connolly
+100,Dancer,Marty Dew
+100,Dancer,Nick Drago
+100,Lady Cop,Nadine Ellis
+100,Dancer,Bunny Gibson
+100,Business Man,Lonnie Henderson
+100,Dancer,Scott Hislop
+100,Dancer,Rachael Markarian
+100,Suit Dancer,Heather Morris
+100,Dancer with dog,Randi Pareira
+100,Dancer,Doug Penikas
+100,Narrator (voice),Bob Saget
+100,Dancer,Nicole Sciacca
+100,Dancer,Casper Smart
+100,Bar Patron,Eric Strom
 101,Ted Mosby,Josh Radnor
 101,Marshall Eriksen,Jason Segel
 101,Robin Scherbatsky,Cobie Smulders
@@ -1505,7 +1505,7 @@ EpisodeId,Character,Actor
 101,8 Year Old Kid,Lucky Davis
 101,Male Jenkins,Edward Flores
 101,Betty,Marieve Herington
-101,Narrator (voice) (uncredited),Bob Saget
+101,Narrator (voice),Bob Saget
 102,Ted Mosby,Josh Radnor
 102,Marshall Eriksen,Jason Segel
 102,Robin Scherbatsky,Cobie Smulders
@@ -1523,9 +1523,9 @@ EpisodeId,Character,Actor
 102,Jamie Adamic,George Finn
 102,Assistant,Charlene Lovings
 102,Christy,Brooke Newton
-102,Narrator (voice) (uncredited),Bob Saget
-102,Slapper (uncredited),Deanna Tryon
-102,Specialty Girl (uncredited),Danielle Yu
+102,Narrator (voice),Bob Saget
+102,Slapper,Deanna Tryon
+102,Specialty Girl,Danielle Yu
 103,Ted Mosby,Josh Radnor
 103,Marshall Eriksen,Jason Segel
 103,Robin Scherbatsky,Cobie Smulders
@@ -1538,9 +1538,9 @@ EpisodeId,Character,Actor
 103,Himself (voice),Phil Simms
 103,Waiter,Arnold Chun
 103,Marissa,Lauren Shiohama
-103,Pub Patron (uncredited),Breeanna Judy
-103,Hot Bullfighter (uncredited),Melissa Rivera
-103,Narrator (voice) (uncredited),Bob Saget
+103,Pub Patron,Breeanna Judy
+103,Hot Bullfighter,Melissa Rivera
+103,Narrator (voice),Bob Saget
 104,Ted Mosby,Josh Radnor
 104,Marshall Eriksen,Jason Segel
 104,Robin Scherbatsky,Cobie Smulders
@@ -1558,9 +1558,9 @@ EpisodeId,Character,Actor
 104,Mike,Ron Nicolosi
 104,Diana,Tiara Parker
 104,Mom,Roz Witt
-104,Trampoline Girl (uncredited),Sara Holden
-104,Bar Patron (uncredited),David Pryor
-104,Narrator (voice) (uncredited),Bob Saget
+104,Trampoline Girl,Sara Holden
+104,Bar Patron,David Pryor
+104,Narrator (voice),Bob Saget
 105,Ted Mosby,Josh Radnor
 105,Marshall Eriksen,Jason Segel
 105,Robin Scherbatsky,Cobie Smulders
@@ -1570,9 +1570,9 @@ EpisodeId,Character,Actor
 105,Don Frank (as Ben Koldyke),Benjamin Koldyke
 105,Officer McKie,Joni Bovill
 105,Mike,Ron Nicolosi
-105,Carriage Driver (uncredited),Matt Frewer
-105,The Girl at the Bar (uncredited),Roni Meron
-105,Narrator (voice) (uncredited),Bob Saget
+105,Carriage Driver,Matt Frewer
+105,The Girl at the Bar,Roni Meron
+105,Narrator (voice),Bob Saget
 106,Ted Mosby,Josh Radnor
 106,Marshall Eriksen,Jason Segel
 106,Robin Scherbatsky,Cobie Smulders
@@ -1588,11 +1588,11 @@ EpisodeId,Character,Actor
 106,Robin's Date,Gaku Space
 106,Rosalie,Jessica Vilchis
 106,College Kid 1,Elliott Pruitt
-106,Flight Attendant (uncredited),Star Calvet
-106,Airline Pilot (uncredited),Mike Hennessey
-106,Pub Patron (uncredited),Breeanna Judy
-106,Japanese Waitress (uncredited),Angelica Ng
-106,Narrator (voice) (uncredited),Bob Saget
+106,Flight Attendant,Star Calvet
+106,Airline Pilot,Mike Hennessey
+106,Pub Patron,Breeanna Judy
+106,Japanese Waitress,Angelica Ng
+106,Narrator (voice),Bob Saget
 107,Ted Mosby,Josh Radnor
 107,Marshall Eriksen,Jason Segel
 107,Robin Scherbatsky,Cobie Smulders
@@ -1606,7 +1606,7 @@ EpisodeId,Character,Actor
 107,Mike,Ron Nicolosi
 107,Mugger,Jon Dore
 107,Zoo Keeper,Jon Dore
-107,Narrator (voice) (uncredited),Bob Saget
+107,Narrator (voice),Bob Saget
 108,Ted Mosby,Josh Radnor
 108,Marshall Eriksen,Jason Segel
 108,Robin Scherbatsky,Cobie Smulders
@@ -1625,8 +1625,8 @@ EpisodeId,Character,Actor
 108,Meredith,Marianne Muellerleile
 108,Muriel,Linda Porter
 108,10 Year Old Marshall,Koby Rouviere
-108,Billy (uncredited),Jacob Hopkins
-108,Narrator (voice) (uncredited),Bob Saget
+108,Billy,Jacob Hopkins
+108,Narrator (voice),Bob Saget
 109,Ted Mosby,Josh Radnor
 109,Marshall Eriksen,Jason Segel
 109,Robin Scherbatsky,Cobie Smulders
@@ -1634,8 +1634,8 @@ EpisodeId,Character,Actor
 109,Lily Aldrin,Alyson Hannigan
 109,Don Frank (as Ben Koldyke),Benjamin Koldyke
 109,Carl,Joe Nieves
-109,Maid (voice) (uncredited),Gita Isak
-109,Narrator (voice) (uncredited),Bob Saget
+109,Maid (voice),Gita Isak
+109,Narrator (voice),Bob Saget
 110,Ted Mosby,Josh Radnor
 110,Marshall Eriksen,Jason Segel
 110,Robin Scherbatsky,Cobie Smulders
@@ -1650,8 +1650,8 @@ EpisodeId,Character,Actor
 110,Waiter,Ed Brigadier
 110,Hannah,Brea Cola
 110,Marla,Rebecca Klingler
-110,Party Goer (uncredited),Olivia Presley
-110,Narrator (voice) (uncredited),Bob Saget
+110,Party Goer,Olivia Presley
+110,Narrator (voice),Bob Saget
 111,Ted Mosby,Josh Radnor
 111,Marshall Eriksen,Jason Segel
 111,Robin Scherbatsky,Cobie Smulders
@@ -1669,10 +1669,10 @@ EpisodeId,Character,Actor
 111,Minister,Tom Virtue
 111,Susan,Megan Duffy
 111,Jennifer,Shira Scott Astrof
-111,Stella Zinman (archive footage) (uncredited),Sarah Chalke
-111,Tony Grafanello (archive footage) (uncredited),Jason Jones
-111,Narrator (voice) (uncredited),Bob Saget
-111,Groomsman (uncredited),Nick Salter
+111,Stella Zinman (archive footage),Sarah Chalke
+111,Tony Grafanello (archive footage),Jason Jones
+111,Narrator (voice),Bob Saget
+111,Groomsman,Nick Salter
 112,Ted Mosby,Josh Radnor
 112,Marshall Eriksen,Jason Segel
 112,Robin Scherbatsky,Cobie Smulders
@@ -1683,8 +1683,8 @@ EpisodeId,Character,Actor
 112,Son,David Henrie
 112,Flo,Bonnie Bailey-Reed
 112,Petra,Brianna Belladonna
-112,Narrator (voice) (uncredited),Bob Saget
-112,Pretzel Customer (uncredited),Kevin Richard Sullivan
+112,Narrator (voice),Bob Saget
+112,Pretzel Customer,Kevin Richard Sullivan
 113,Ted Mosby,Josh Radnor
 113,Marshall Eriksen,Jason Segel
 113,Robin Scherbatsky,Cobie Smulders
@@ -1699,9 +1699,9 @@ EpisodeId,Character,Actor
 113,Guy,Daniel Kash
 113,Co-Worker #1,Peter Katona
 113,Co-Worker #3,James Ryen
-113,Wedding Guest (uncredited),David Banuelos
-113,Bob (uncredited),Lou George
-113,Narrator (voice) (uncredited),Bob Saget
+113,Wedding Guest,David Banuelos
+113,Bob,Lou George
+113,Narrator (voice),Bob Saget
 114,Ted Mosby,Josh Radnor
 114,Marshall Eriksen,Jason Segel
 114,Robin Scherbatsky,Cobie Smulders
@@ -1713,7 +1713,7 @@ EpisodeId,Character,Actor
 114,Coach,David Haley
 114,Post Master General,Michael Earl Reid
 114,Young Barney,Riley Thomas Stewart
-114,Narrator (voice) (uncredited),Bob Saget
+114,Narrator (voice),Bob Saget
 115,Ted Mosby,Josh Radnor
 115,Marshall Eriksen,Jason Segel
 115,Robin Scherbatsky,Cobie Smulders
@@ -1723,11 +1723,11 @@ EpisodeId,Character,Actor
 115,Chrissy,Malea Mitchell
 115,Rachel,Tara Erica Moore
 115,7 Year Old Karate student,Jude Will
-115,Blond Girl at the bar (uncredited),Clark Gilmer
-115,Newscast Announcer (uncredited),David H. Lawrence XVII
-115,Scott Weisman (uncredited),Keith Middlebrook
-115,Chrissy's Friend (uncredited),Carolyn Ordoñez
-115,Narrator (voice) (uncredited),Bob Saget
+115,Blond Girl at the bar,Clark Gilmer
+115,Newscast Announcer,David H. Lawrence XVII
+115,Scott Weisman,Keith Middlebrook
+115,Chrissy's Friend,Carolyn Ordoñez
+115,Narrator (voice),Bob Saget
 116,Ted Mosby,Josh Radnor
 116,Marshall Eriksen,Jason Segel
 116,Robin Scherbatsky,Cobie Smulders
@@ -1744,9 +1744,9 @@ EpisodeId,Character,Actor
 116,Young Marshall,Koby Rouviere
 116,Tourist,Nick Toren
 116,Paramedic,Toussaint Waterman
-116,Pedestrian Shoppper (uncredited),Jason E. Barnes
-116,Christine (uncredited),April Heather
-116,Narrator (voice) (uncredited),Bob Saget
+116,Pedestrian Shoppper,Jason E. Barnes
+116,Christine,April Heather
+116,Narrator (voice),Bob Saget
 117,Ted Mosby,Josh Radnor
 117,Marshall Eriksen,Jason Segel
 117,Robin Scherbatsky,Cobie Smulders
@@ -1760,8 +1760,8 @@ EpisodeId,Character,Actor
 117,Trish,Jessica Blair Herman
 117,Drag Queen,Clinton Leupp
 117,Stoner Guy,Ian Wolterstorff
-117,Protestor (uncredited),Doby Daenger
-117,Narrator (voice) (uncredited),Bob Saget
+117,Protestor,Doby Daenger
+117,Narrator (voice),Bob Saget
 118,Ted Mosby,Josh Radnor
 118,Marshall Eriksen,Jason Segel
 118,Robin Scherbatsky,Cobie Smulders
@@ -1782,8 +1782,8 @@ EpisodeId,Character,Actor
 118,Rob Greenberg,Jadon Sand
 118,Tawny Eriksen,Emily Wilson
 118,Gerard,Pete Monaco
-118,Tara (uncredited),Vanessa V. Johnston
-118,Narrator (voice) (uncredited),Bob Saget
+118,Tara,Vanessa V. Johnston
+118,Narrator (voice),Bob Saget
 119,Ted Mosby,Josh Radnor
 119,Marshall Eriksen,Jason Segel
 119,Robin Scherbatsky,Cobie Smulders
@@ -1797,9 +1797,9 @@ EpisodeId,Character,Actor
 119,Johnny,Ashwyn Bagga
 119,Betty,Marieve Herington
 119,Mike,Ron Nicolosi
-119,Paxton (uncredited),Brady Cook
-119,Ted's Student (uncredited),Doug Heiar
-119,Narrator (voice) (uncredited),Bob Saget
+119,Paxton,Brady Cook
+119,Ted's Student,Doug Heiar
+119,Narrator (voice),Bob Saget
 120,Ted Mosby,Josh Radnor
 120,Marshall Eriksen,Jason Segel
 120,Robin Scherbatsky,Cobie Smulders
@@ -1811,7 +1811,7 @@ EpisodeId,Character,Actor
 120,Curtis,Dan Bakkedahl
 120,Scooter,David Burtka
 120,Russell,Ted Jonas
-120,Narrator (voice) (uncredited),Bob Saget
+120,Narrator (voice),Bob Saget
 121,Ted Mosby,Josh Radnor
 121,Marshall Eriksen,Jason Segel
 121,Robin Scherbatsky,Cobie Smulders
@@ -1823,7 +1823,7 @@ EpisodeId,Character,Actor
 121,Daughter,Lyndsy Fonseca
 121,Son,David Henrie
 121,Kelly,Stefanie Black
-121,Narrator (voice) (uncredited),Bob Saget
+121,Narrator (voice),Bob Saget
 122,Ted Mosby,Josh Radnor
 122,Marshall Eriksen,Jason Segel
 122,Robin Scherbatsky,Cobie Smulders
@@ -1838,7 +1838,7 @@ EpisodeId,Character,Actor
 122,Girl,Audra Griffis
 122,Babaka,Roger Narayan
 122,Lady in Red,Rachele Brooke Smith
-122,Narrator (voice) (uncredited),Bob Saget
+122,Narrator (voice),Bob Saget
 123,Ted Mosby,Josh Radnor
 123,Marshall Eriksen,Jason Segel
 123,Robin Scherbatsky,Cobie Smulders
@@ -1850,7 +1850,7 @@ EpisodeId,Character,Actor
 123,Son,David Henrie
 123,Iris,Tamara Lynn Davis
 123,Angus,Angus McClelland
-123,Narrator (voice) (uncredited),Bob Saget
+123,Narrator (voice),Bob Saget
 124,Ted Mosby,Josh Radnor
 124,Marshall Eriksen,Jason Segel
 124,Robin Scherbatsky,Cobie Smulders
@@ -1864,7 +1864,7 @@ EpisodeId,Character,Actor
 124,Jordan,Benton Jennings
 124,Noelle,Melissa Molinaro
 124,Coin Flipper,Romina Laino
-124,Narrator (voice) (uncredited),Bob Saget
+124,Narrator (voice),Bob Saget
 125,Ted Mosby,Josh Radnor
 125,Marshall Eriksen,Jason Segel
 125,Robin Scherbatsky,Cobie Smulders
@@ -1881,7 +1881,7 @@ EpisodeId,Character,Actor
 125,Marty,Bill Suplee
 125,Ronald,Jay Brian Winnick
 125,Dominatrix (as Elena Melnikova),Elena Levon
-125,Narrator (voice) (uncredited),Bob Saget
+125,Narrator (voice),Bob Saget
 126,Ted Mosby,Josh Radnor
 126,Marshall Eriksen,Jason Segel
 126,Robin Scherbatsky,Cobie Smulders
@@ -1901,7 +1901,7 @@ EpisodeId,Character,Actor
 126,British General,Noah James Butler
 126,Marcus Eriksen,Ned Rolsma
 126,Daphne,Caitlin Wehrle
-126,Narrator (voice) (uncredited),Bob Saget
+126,Narrator (voice),Bob Saget
 127,Ted Mosby,Josh Radnor
 127,Marshall Eriksen,Jason Segel
 127,Robin Scherbatsky,Cobie Smulders
@@ -1912,9 +1912,9 @@ EpisodeId,Character,Actor
 127,Mrs. Matsen,Renée Taylor
 127,Judy Eriksen,Suzie Plakson
 127,Marcus Eriksen,Ned Rolsma
-127,Protestor (uncredited),Doby Daenger
-127,Bar Patron (uncredited),Kristin McCoy
-127,Narrator (voice) (uncredited),Bob Saget
+127,Protestor,Doby Daenger
+127,Bar Patron,Kristin McCoy
+127,Narrator (voice),Bob Saget
 128,Ted Mosby,Josh Radnor
 128,Marshall Eriksen,Jason Segel
 128,Robin Scherbatsky,Cobie Smulders
@@ -1927,10 +1927,10 @@ EpisodeId,Character,Actor
 128,Bev,Lennon Parham
 128,Anna,Artemis Pebdani
 128,Tori,Kelsey Crane
-128,Hotdog Buying Guy (uncredited),Jesse Heiman
-128,Beautiful Woman (uncredited),Brenda Koo
-128,Mrs. Berkelheimer (uncredited),Bette Rae
-128,Narrator (voice) (uncredited),Bob Saget
+128,Hotdog Buying Guy,Jesse Heiman
+128,Beautiful Woman,Brenda Koo
+128,Mrs. Berkelheimer,Bette Rae
+128,Narrator (voice),Bob Saget
 129,Ted Mosby,Josh Radnor
 129,Marshall Eriksen,Jason Segel
 129,Robin Scherbatsky,Cobie Smulders
@@ -1943,9 +1943,9 @@ EpisodeId,Character,Actor
 129,Nora,Nazanin Boniadi
 129,Meeker (as Daniel G. O'Brien),Dan O'Brien
 129,Food Guy,Edward Flores
-129,GNB Employee (uncredited),Diana Peña
-129,Narrator (voice) (uncredited),Bob Saget
-129,Bar Patron (uncredited),Abigail Wright
+129,GNB Employee,Diana Peña
+129,Narrator (voice),Bob Saget
+129,Bar Patron,Abigail Wright
 130,Ted Mosby,Josh Radnor
 130,Marshall Eriksen,Jason Segel
 130,Robin Scherbatsky,Cobie Smulders
@@ -1957,7 +1957,7 @@ EpisodeId,Character,Actor
 130,Daughter,Lyndsy Fonseca
 130,Son,David Henrie
 130,Architect Student (as Gregory Hillman),G. Lane Hillman
-130,Narrator (voice) (uncredited),Bob Saget
+130,Narrator (voice),Bob Saget
 131,Ted Mosby,Josh Radnor
 131,Marshall Eriksen,Jason Segel
 131,Robin Scherbatsky,Cobie Smulders
@@ -1970,7 +1970,7 @@ EpisodeId,Character,Actor
 131,Son,David Henrie
 131,Betty,Marieve Herington
 131,Scott,Michael Rupnow
-131,Narrator (voice) (uncredited),Bob Saget
+131,Narrator (voice),Bob Saget
 132,Ted Mosby,Josh Radnor
 132,Marshall Eriksen,Jason Segel
 132,Robin Scherbatsky,Cobie Smulders
@@ -1983,7 +1983,7 @@ EpisodeId,Character,Actor
 132,Marc,Edward Flores
 132,Yuthers,Bruce Gray
 132,Random Girl (as Elizabeth Nicole),Liz Nicole Abrams
-132,Narrator (voice) (uncredited),Bob Saget
+132,Narrator (voice),Bob Saget
 133,Ted Mosby,Josh Radnor
 133,Marshall Eriksen,Jason Segel
 133,Robin Scherbatsky,Cobie Smulders
@@ -1996,10 +1996,10 @@ EpisodeId,Character,Actor
 133,Penny (as Cristina Rosas),Cristina N. Rose
 133,JJ Whitaker,Will Shadley
 133,Young Barney,Riley Thomas Stewart
-133,Hopeless Bar Patron (uncredited),Aphrodite Camello
-133,Blond Girl at the bar (uncredited),Clark Gilmer
-133,Jersey Shore Bar Patron (uncredited),Jake Levy
-133,Narrator (voice) (uncredited),Bob Saget
+133,Hopeless Bar Patron,Aphrodite Camello
+133,Blond Girl at the bar,Clark Gilmer
+133,Jersey Shore Bar Patron,Jake Levy
+133,Narrator (voice),Bob Saget
 134,Ted Mosby,Josh Radnor
 134,Marshall Eriksen,Jason Segel
 134,Robin Scherbatsky,Cobie Smulders
@@ -2014,7 +2014,7 @@ EpisodeId,Character,Actor
 134,Ben,Thomas Fowler
 134,Kristen's Friend,MaShae Alderman
 134,Waitress,Ellie Arket
-134,Narrator (voice) (uncredited),Bob Saget
+134,Narrator (voice),Bob Saget
 135,Ted Mosby,Josh Radnor
 135,Marshall Eriksen,Jason Segel
 135,Robin Scherbatsky,Cobie Smulders
@@ -2027,7 +2027,7 @@ EpisodeId,Character,Actor
 135,Jane,Julie Meyer
 135,Ninja,Eijiro Ozaki
 135,MacLaren's Patron,Mark Roman
-135,Narrator (voice) (uncredited),Bob Saget
+135,Narrator (voice),Bob Saget
 136,Ted Mosby,Josh Radnor
 136,Marshall Eriksen,Jason Segel
 136,Robin Scherbatsky,Cobie Smulders
@@ -2044,9 +2044,9 @@ EpisodeId,Character,Actor
 136,Blonde Girl,Chris M. Kelly
 136,Comedian,Morgane Slemp
 136,Waitress,Daphnique Springs
-136,Blue Plate Cook (uncredited),Ryan Bruce
-136,Narrator (voice) (uncredited),Bob Saget
-136,Flower vendor (uncredited),Patrick Weil
+136,Blue Plate Cook,Ryan Bruce
+136,Narrator (voice),Bob Saget
+136,Flower vendor,Patrick Weil
 137,Ted Mosby,Josh Radnor
 137,Marshall Eriksen,Jason Segel
 137,Robin Scherbatsky,Cobie Smulders
@@ -2066,10 +2066,10 @@ EpisodeId,Character,Actor
 137,Kelly's Father,Steve Tom
 137,Parent #1,Adam Tsekhman
 137,Wedding Bartender,Cassity Atkins
-137,Scandinavian Woman (uncredited),Xan Rogers
-137,Narrator (voice) (uncredited),Bob Saget
-137,Scandinavian Woman (uncredited),Anne B. Scott
-137,Victoria (uncredited),Ashley Williams
+137,Scandinavian Woman,Xan Rogers
+137,Narrator (voice),Bob Saget
+137,Scandinavian Woman,Anne B. Scott
+137,Victoria,Ashley Williams
 138,Ted Mosby,Josh Radnor
 138,Marshall Eriksen,Jason Segel
 138,Robin Scherbatsky,Cobie Smulders
@@ -2084,10 +2084,10 @@ EpisodeId,Character,Actor
 138,Sara,Kallee Brookes
 138,Jessica,Nicole Hayden
 138,Carol (as Kristen Celeste),Kristen Henry King
-138,The Hat Salesman (uncredited),Joshua Lassman
-138,Diner Waitress (uncredited),Kathleen Leary
-138,Claire (uncredited),Runa Lucienne
-138,Narrator (voice) (uncredited),Bob Saget
+138,The Hat Salesman,Joshua Lassman
+138,Diner Waitress,Kathleen Leary
+138,Claire,Runa Lucienne
+138,Narrator (voice),Bob Saget
 139,Ted Mosby,Josh Radnor
 139,Marshall Eriksen,Jason Segel
 139,Robin Scherbatsky,Cobie Smulders
@@ -2096,7 +2096,7 @@ EpisodeId,Character,Actor
 139,Victoria,Ashley Williams
 139,Architect's Ball Guest,Lynne Alana Delaney
 139,Architect's Ball Guest,Ruben Roberto Gomez
-139,Narrator (voice) (uncredited),Bob Saget
+139,Narrator (voice),Bob Saget
 140,Ted Mosby,Josh Radnor
 140,Marshall Eriksen,Jason Segel
 140,Robin Scherbatsky,Cobie Smulders
@@ -2114,8 +2114,8 @@ EpisodeId,Character,Actor
 140,Darcy,Katherine Von Till
 140,Patrice,Ellen D. Williams
 140,Infomercial Actress,Hollie Winnard
-140,Waitress (uncredited),Erica Hanrahan-Ball
-140,Narrator (voice) (uncredited),Bob Saget
+140,Waitress,Erica Hanrahan-Ball
+140,Narrator (voice),Bob Saget
 141,Ted Mosby,Josh Radnor
 141,Marshall Eriksen,Jason Segel
 141,Robin Scherbatsky,Cobie Smulders
@@ -2129,9 +2129,9 @@ EpisodeId,Character,Actor
 141,Waitress,Elaine Bartolone
 141,Will,Nick Pasqual
 141,Gina,Jamie Lea Willett
-141,Green Office Worker (uncredited),Leah Coonce
-141,Green Office Worker (uncredited),Waymond Lee
-141,Narrator (voice) (uncredited),Bob Saget
+141,Green Office Worker,Leah Coonce
+141,Green Office Worker,Waymond Lee
+141,Narrator (voice),Bob Saget
 142,Ted Mosby,Josh Radnor
 142,Marshall Eriksen,Jason Segel
 142,Robin Scherbatsky,Cobie Smulders
@@ -2143,8 +2143,8 @@ EpisodeId,Character,Actor
 142,Waiter,Drew Droege
 142,Mia,Eleanor Seigler
 142,Paula,Rachel Sterling
-142,Martini Bar Patron (uncredited),Philippe Badreau
-142,Narrator (voice) (uncredited),Bob Saget
+142,Martini Bar Patron,Philippe Badreau
+142,Narrator (voice),Bob Saget
 143,Ted Mosby,Josh Radnor
 143,Marshall Eriksen,Jason Segel
 143,Robin Scherbatsky,Cobie Smulders
@@ -2161,7 +2161,7 @@ EpisodeId,Character,Actor
 143,Mrs. Venkataraghavan,Sathya Jesudasson
 143,Leigh,Christiann Castellanos
 143,Young Barney,Riley Thomas Stewart
-143,Narrator (voice) (uncredited),Bob Saget
+143,Narrator (voice),Bob Saget
 144,Ted Mosby,Josh Radnor
 144,Marshall Eriksen,Jason Segel
 144,Robin Scherbatsky,Cobie Smulders
@@ -2178,7 +2178,7 @@ EpisodeId,Character,Actor
 144,Shop Owner,Van Epperson
 144,Pat,Kevin Wayne Berger
 144,Santa Claus,William Mulligan
-144,Narrator (voice) (uncredited),Bob Saget
+144,Narrator (voice),Bob Saget
 145,Ted Mosby,Josh Radnor
 145,Marshall Eriksen,Jason Segel
 145,Robin Scherbatsky,Cobie Smulders
@@ -2190,8 +2190,8 @@ EpisodeId,Character,Actor
 145,Yuthers,Bruce Gray
 145,Man in Fez,J. Anthony McCarthy
 145,TV News Anchor (voice),Rich Skidmore
-145,Himself (archive footage) (uncredited),Michael Bloomberg
-145,Narrator (voice) (uncredited),Bob Saget
+145,Himself (archive footage),Michael Bloomberg
+145,Narrator (voice),Bob Saget
 146,Ted Mosby,Josh Radnor
 146,Marshall Eriksen,Jason Segel
 146,Robin Scherbatsky,Cobie Smulders
@@ -2208,9 +2208,9 @@ EpisodeId,Character,Actor
 146,Goatee Guy,David Neher
 146,Singer #1,Sy Smith
 146,Guitar Man,Tahmus Rounds
-146,Waiter (uncredited),Brian Cawley
-146,Rocker (uncredited),Brittany Kroll
-146,Narrator (voice) (uncredited),Bob Saget
+146,Waiter,Brian Cawley
+146,Rocker,Brittany Kroll
+146,Narrator (voice),Bob Saget
 147,Ted Mosby,Josh Radnor
 147,Marshall Eriksen,Jason Segel
 147,Robin Scherbatsky,Cobie Smulders
@@ -2225,7 +2225,7 @@ EpisodeId,Character,Actor
 147,Anne,Victoria Geil
 147,Annette,Chelsea Gilligan
 147,Tom (as Jai D. Rodriguez),Jai Rodriguez
-147,Narrator (voice) (uncredited),Bob Saget
+147,Narrator (voice),Bob Saget
 148,Ted Mosby,Josh Radnor
 148,Marshall Eriksen,Jason Segel
 148,Robin Scherbatsky,Cobie Smulders
@@ -2237,7 +2237,7 @@ EpisodeId,Character,Actor
 148,Sheila,Danielle Weeks
 148,Robin's Daughter,Andra Nechita
 148,Robin's Son,Noah Schnacky
-148,Narrator (voice) (uncredited),Bob Saget
+148,Narrator (voice),Bob Saget
 149,Ted Mosby,Josh Radnor
 149,Marshall Eriksen,Jason Segel
 149,Robin Scherbatsky,Cobie Smulders
@@ -2260,9 +2260,9 @@ EpisodeId,Character,Actor
 149,Mourner #1,Stewart Skelton
 149,Frat Dude,Joe Spellman
 149,Disgusted Hot Girl (as Molly Shaffer Meyer),Molly Meyer
-149,Sports Play-by-Play Announcer (uncredited),David H. Lawrence XVII
-149,Partygoer (uncredited),Justin Piccari
-149,Narrator (voice) (uncredited),Bob Saget
+149,Sports Play-by-Play Announcer,David H. Lawrence XVII
+149,Partygoer,Justin Piccari
+149,Narrator (voice),Bob Saget
 150,Ted Mosby,Josh Radnor
 150,Marshall Eriksen,Jason Segel
 150,Robin Scherbatsky,Cobie Smulders
@@ -2276,8 +2276,8 @@ EpisodeId,Character,Actor
 150,Ferrari,Milynn Sarley
 150,Larry,Ptolemy Slocum
 150,Dancer,Kristina Rodrigues
-150,Narrator (voice) (uncredited),Bob Saget
-150,Waitress (uncredited),Tennille Williams
+150,Narrator (voice),Bob Saget
+150,Waitress,Tennille Williams
 151,Ted Mosby,Josh Radnor
 151,Marshall Eriksen,Jason Segel
 151,Robin Scherbatsky,Cobie Smulders
@@ -2286,7 +2286,7 @@ EpisodeId,Character,Actor
 151,Garrison Cootes,Martin Short
 151,Mickey Aldrin,Chris Elliott
 151,Geraldine,Rebecca Creskoff
-151,Narrator (voice) (uncredited),Bob Saget
+151,Narrator (voice),Bob Saget
 152,Ted Mosby,Josh Radnor
 152,Marshall Eriksen,Jason Segel
 152,Robin Scherbatsky,Cobie Smulders
@@ -2305,8 +2305,8 @@ EpisodeId,Character,Actor
 152,Gina,Nicole Shabtai
 152,Jenni,Melissa Soso
 152,Lindsay,Nicole Zeoli
-152,Just Screaming (voice) (uncredited),Gita Isak
-152,Narrator (voice) (uncredited),Bob Saget
+152,Just Screaming (voice),Gita Isak
+152,Narrator (voice),Bob Saget
 153,Ted Mosby,Josh Radnor
 153,Marshall Eriksen,Jason Segel
 153,Robin Scherbatsky,Cobie Smulders
@@ -2316,8 +2316,8 @@ EpisodeId,Character,Actor
 153,Son,David Henrie
 153,Consuela,Angela Matemotja
 153,Patrice,Ellen D. Williams
-153,Bar Patron (uncredited),Conan O'Brien
-153,Narrator (voice) (uncredited),Bob Saget
+153,Bar Patron,Conan O'Brien
+153,Narrator (voice),Bob Saget
 154,Ted Mosby,Josh Radnor
 154,Marshall Eriksen,Jason Segel
 154,Robin Scherbatsky,Cobie Smulders
@@ -2326,7 +2326,7 @@ EpisodeId,Character,Actor
 154,Quinn Garvey,Becki Newton
 154,Daughter,Lyndsy Fonseca
 154,Son,David Henrie
-154,Serendipity (credit only),Elena Diaz
+154,Serendipity,Elena Diaz
 154,Chanel,Tara Holt
 154,Waitress,Lauren Pritchard
 154,Kismet,Arielle Reitsma
@@ -2334,8 +2334,8 @@ EpisodeId,Character,Actor
 154,Ferrari,Milynn Sarley
 154,Patrice,Ellen D. Williams
 154,Strip Club Waitress (as Stefanja Pytel),Stefanja Orlowska
-154,Narrator (voice) (uncredited),Bob Saget
-154,Sheila (uncredited),Jackie Zane
+154,Narrator (voice),Bob Saget
+154,Sheila,Jackie Zane
 155,Ted Mosby,Josh Radnor
 155,Marshall Eriksen,Jason Segel
 155,Robin Scherbatsky,Cobie Smulders
@@ -2348,8 +2348,8 @@ EpisodeId,Character,Actor
 155,Martin,Ryan Meharry
 155,Ned,Brendan Robinson
 155,Patrice,Ellen D. Williams
-155,Bar Patron (uncredited),Marc Abbink
-155,Narrator (voice) (uncredited),Bob Saget
+155,Bar Patron,Marc Abbink
+155,Narrator (voice),Bob Saget
 156,Ted Mosby,Josh Radnor
 156,Marshall Eriksen,Jason Segel
 156,Robin Scherbatsky,Cobie Smulders
@@ -2359,9 +2359,9 @@ EpisodeId,Character,Actor
 156,Quinn Garvey,Becki Newton
 156,Chester,Michael Gladis
 156,Veronica,Meghan Maureen McDonough
-156,Lisa (uncredited),Lauren Brown
-156,Melanie (uncredited),Michelle LaRue
-156,Narrator (voice) (uncredited),Bob Saget
+156,Lisa,Lauren Brown
+156,Melanie,Michelle LaRue
+156,Narrator (voice),Bob Saget
 157,Ted Mosby,Josh Radnor
 157,Marshall Eriksen,Jason Segel
 157,Robin Scherbatsky,Cobie Smulders
@@ -2372,7 +2372,7 @@ EpisodeId,Character,Actor
 157,Ranjit,Marshall Manesh
 157,Pilot,Eben Ham
 157,Gary,Bryan Krasner
-157,Narrator (voice) (uncredited),Bob Saget
+157,Narrator (voice),Bob Saget
 158,Ted Mosby,Josh Radnor
 158,Marshall Eriksen,Jason Segel
 158,Robin Scherbatsky,Cobie Smulders
@@ -2388,7 +2388,7 @@ EpisodeId,Character,Actor
 158,Lizbeth,Katy Stoll
 158,Holly,Karissa Vacker
 158,Larry,Casey Washington
-158,Narrator (voice) (uncredited),Bob Saget
+158,Narrator (voice),Bob Saget
 159,Ted Mosby,Josh Radnor
 159,Marshall Eriksen,Jason Segel
 159,Robin Scherbatsky,Cobie Smulders
@@ -2410,9 +2410,9 @@ EpisodeId,Character,Actor
 159,Leila,Vivian Smallwood
 159,Kate,Nikki Stanley
 159,Elderly Chinese Man,Ken Takemoto
-159,Banana Peel Girl (uncredited),Natalie Padilla
-159,Narrator (voice) (uncredited),Bob Saget
-159,Security Guard #2 (uncredited),Scott Workman
+159,Banana Peel Girl,Natalie Padilla
+159,Narrator (voice),Bob Saget
+159,Security Guard #2,Scott Workman
 160,Ted Mosby,Josh Radnor
 160,Marshall Eriksen,Jason Segel
 160,Robin Scherbatsky,Cobie Smulders
@@ -2428,8 +2428,8 @@ EpisodeId,Character,Actor
 160,Mr. Drury,Christopher Carroll
 160,Zelda,Kelly Connolly
 160,Mr. McIntee,Peter Gannon
-160,Guard #3 (uncredited),Ithamar Enriquez
-160,Narrator (voice) (uncredited),Bob Saget
+160,Guard #3,Ithamar Enriquez
+160,Narrator (voice),Bob Saget
 161,Ted Mosby,Josh Radnor
 161,Marshall Eriksen,Jason Segel
 161,Robin Scherbatsky,Cobie Smulders
@@ -2442,7 +2442,7 @@ EpisodeId,Character,Actor
 161,Bernice,Judith Drake
 161,Cab Driver,Hal Havins
 161,Uta,Colleen Smith
-161,Narrator (voice) (uncredited),Bob Saget
+161,Narrator (voice),Bob Saget
 162,Ted Mosby,Josh Radnor
 162,Marshall Eriksen,Jason Segel
 162,Robin Scherbatsky,Cobie Smulders
@@ -2457,9 +2457,9 @@ EpisodeId,Character,Actor
 162,Judy Eriksen,Suzie Plakson
 162,Young Marvin Eriksen Jr.,Blake Bertrand
 162,Young Marcus Eriksen,Gibson Bobby Sjobeck
-162,Quinn's Friend (uncredited),Carly Hollas
-162,Ludwig (voice) (uncredited),Ken Lally
-162,Narrator (voice) (uncredited),Bob Saget
+162,Quinn's Friend,Carly Hollas
+162,Ludwig (voice),Ken Lally
+162,Narrator (voice),Bob Saget
 163,Ted Mosby,Josh Radnor
 163,Marshall Eriksen,Jason Segel
 163,Robin Scherbatsky,Cobie Smulders
@@ -2474,9 +2474,9 @@ EpisodeId,Character,Actor
 163,Kara,Melissa Christine
 163,Sally,Daisy Faith
 163,Beth,Marie Pettit
-163,Quinn Garvey (archive footage) (uncredited),Becki Newton
-163,Narrator (voice) (uncredited),Bob Saget
-163,Hot Nanny (uncredited),Laura Soares
+163,Quinn Garvey (archive footage),Becki Newton
+163,Narrator (voice),Bob Saget
+163,Hot Nanny,Laura Soares
 164,Ted Mosby,Josh Radnor
 164,Marshall Eriksen,Jason Segel
 164,Robin Scherbatsky,Cobie Smulders
@@ -2490,10 +2490,10 @@ EpisodeId,Character,Actor
 164,14 Year Old Marvin Eriksen,Jake Elliott
 164,Christie,Nikki Limo
 164,6 Year Old Marvin Eriksen,August Maturo
-164,Mickey Aldrin (archive footage) (uncredited),Chris Elliott
-164,McLaren's Pub Patron (uncredited),Sherina Mikasa
-164,Narrator (voice) (uncredited),Bob Saget
-164,Broller Girl (uncredited),Hannah Townsend
+164,Mickey Aldrin (archive footage),Chris Elliott
+164,McLaren's Pub Patron,Sherina Mikasa
+164,Narrator (voice),Bob Saget
+164,Broller Girl,Hannah Townsend
 165,Ted Mosby,Josh Radnor
 165,Marshall Eriksen,Jason Segel
 165,Robin Scherbatsky,Cobie Smulders
@@ -2507,7 +2507,7 @@ EpisodeId,Character,Actor
 165,Singer #3,Nikki Grier
 165,Singer #1,Shannon Pearson
 165,Peg,Amanda Reed
-165,Narrator (voice) (uncredited),Bob Saget
+165,Narrator (voice),Bob Saget
 166,Ted Mosby,Josh Radnor
 166,Marshall Eriksen,Jason Segel
 166,Robin Scherbatsky,Cobie Smulders
@@ -2520,7 +2520,7 @@ EpisodeId,Character,Actor
 166,Woman #2,Karolin Luna
 166,Giles,Karthik Srinivasan
 166,Patrice,Ellen D. Williams
-166,Narrator (voice) (uncredited),Bob Saget
+166,Narrator (voice),Bob Saget
 167,Ted Mosby,Josh Radnor
 167,Marshall Eriksen,Jason Segel
 167,Robin Scherbatsky,Cobie Smulders
@@ -2534,7 +2534,7 @@ EpisodeId,Character,Actor
 167,College Dude,Raymond Lee
 167,Ray,Brian Shortall
 167,Man in the Bar,Jesse Keen
-167,Narrator (voice) (uncredited),Bob Saget
+167,Narrator (voice),Bob Saget
 168,Ted Mosby,Josh Radnor
 168,Marshall Eriksen,Jason Segel
 168,Robin Scherbatsky,Cobie Smulders
@@ -2558,10 +2558,10 @@ EpisodeId,Character,Actor
 168,Bailiff,Steve Seagren
 168,Sketch Artist,Nancy Stone
 168,Mindy,Joy Meulenberg
-168,MacLaren's Bar Patron (uncredited),Charlotte Benesch
-168,Renaissance Princess (uncredited),Leigh Nieves
-168,Party Couple (uncredited),Chelsea Reynolds
-168,Narrator (voice) (uncredited),Bob Saget
+168,MacLaren's Bar Patron,Charlotte Benesch
+168,Renaissance Princess,Leigh Nieves
+168,Party Couple,Chelsea Reynolds
+168,Narrator (voice),Bob Saget
 169,Ted Mosby,Josh Radnor
 169,Marshall Eriksen,Jason Segel
 169,Robin Scherbatsky,Cobie Smulders
@@ -2570,8 +2570,8 @@ EpisodeId,Character,Actor
 169,Doctor,Cornelius Peter
 169,Brandi,Chelan Simmons
 169,Patrice,Ellen D. Williams
-169,MacLaren's Bar Patron (uncredited),Charlotte Benesch
-169,Narrator (voice) (uncredited),Bob Saget
+169,MacLaren's Bar Patron,Charlotte Benesch
+169,Narrator (voice),Bob Saget
 170,Ted Mosby,Josh Radnor
 170,Marshall Eriksen,Jason Segel
 170,Robin Scherbatsky,Cobie Smulders
@@ -2583,8 +2583,8 @@ EpisodeId,Character,Actor
 170,Sandra,Suzi Barrett
 170,Christy (as Amy Holland Pennell),Amy Holland
 170,Patrice,Ellen D. Williams
-170,McLaren's Bar Patron (uncredited),Charlotte Benesch
-170,Narrator (voice) (uncredited),Bob Saget
+170,McLaren's Bar Patron,Charlotte Benesch
+170,Narrator (voice),Bob Saget
 171,Ted Mosby,Josh Radnor
 171,Marshall Eriksen,Jason Segel
 171,Robin Scherbatsky,Cobie Smulders
@@ -2598,9 +2598,9 @@ EpisodeId,Character,Actor
 171,Waitress,Misty Monroe
 171,Himself (voice),Frank Viola
 171,College Student (as Kailey Portsmouth),Kailey Michael Portsmouth
-171,McLaren's Bar Patron (uncredited),Charlotte Benesch
-171,Narrator (voice) (uncredited),Bob Saget
-171,Brandi (uncredited),Chelan Simmons
+171,McLaren's Bar Patron,Charlotte Benesch
+171,Narrator (voice),Bob Saget
+171,Brandi,Chelan Simmons
 172,Ted Mosby,Josh Radnor
 172,Marshall Eriksen,Jason Segel
 172,Robin Scherbatsky,Cobie Smulders
@@ -2610,10 +2610,10 @@ EpisodeId,Character,Actor
 172,Patrice,Ellen D. Williams
 172,Ranjit,Marshall Manesh
 172,Yuthers,Bruce Gray
-172,McLaren's Bar Patron (uncredited),Charlotte Benesch
-172,Young Dad (uncredited),Trevor Brunsink
-172,Narrator (voice) (uncredited),Bob Saget
-172,Brandi (uncredited),Chelan Simmons
+172,McLaren's Bar Patron,Charlotte Benesch
+172,Young Dad,Trevor Brunsink
+172,Narrator (voice),Bob Saget
+172,Brandi,Chelan Simmons
 173,Ted Mosby,Josh Radnor
 173,Marshall Eriksen,Jason Segel
 173,Robin Scherbatsky,Cobie Smulders
@@ -2623,10 +2623,10 @@ EpisodeId,Character,Actor
 173,Robin Scherbatsky Sr.,Ray Wise
 173,Casey,Kaylee DeFer
 173,Waiter,Tony Robinette
-173,Woman (uncredited),Jennifer Birmingham
-173,Pizzazzy's Waiter (uncredited),Eric Newnham
-173,Marcus Eriksen (uncredited),Ned Rolsma
-173,Narrator (voice) (uncredited),Bob Saget
+173,Woman,Jennifer Birmingham
+173,Pizzazzy's Waiter,Eric Newnham
+173,Marcus Eriksen,Ned Rolsma
+173,Narrator (voice),Bob Saget
 174,Ted Mosby,Josh Radnor
 174,Marshall Eriksen,Jason Segel
 174,Robin Scherbatsky,Cobie Smulders
@@ -2639,8 +2639,8 @@ EpisodeId,Character,Actor
 174,Business Man,Chauncey Jenkins
 174,Hot Girl,Nikki Tuazon
 174,Barista,Jason Watson
-174,Carly's Friend on Skates (uncredited),Ryan Budds
-174,Narrator (voice) (uncredited),Bob Saget
+174,Carly's Friend on Skates,Ryan Budds
+174,Narrator (voice),Bob Saget
 175,Ted Mosby,Josh Radnor
 175,Marshall Eriksen,Jason Segel
 175,Robin Scherbatsky,Cobie Smulders
@@ -2662,9 +2662,9 @@ EpisodeId,Character,Actor
 175,Gordie,Corey Krueger
 175,U.T.T. Narrator (voice) (as James Jude Forbes),Jim Forbes
 175,Old Man,Chuck Lacey
-175,Grungy Slacker (uncredited),Dana Lee
-175,Crew Cut Girl (uncredited),Rebecca Newton
-175,Narrator (voice) (uncredited),Bob Saget
+175,Grungy Slacker,Dana Lee
+175,Crew Cut Girl,Rebecca Newton
+175,Narrator (voice),Bob Saget
 176,Ted Mosby,Josh Radnor
 176,Marshall Eriksen,Jason Segel
 176,Robin Scherbatsky,Cobie Smulders
@@ -2675,7 +2675,7 @@ EpisodeId,Character,Actor
 176,Daughter,Lyndsy Fonseca
 176,Son,David Henrie
 176,Old Lady,Reatha Grey
-176,Narrator (voice) (uncredited),Bob Saget
+176,Narrator (voice),Bob Saget
 177,Ted Mosby,Josh Radnor
 177,Marshall Eriksen,Jason Segel
 177,Robin Scherbatsky,Cobie Smulders
@@ -2685,7 +2685,7 @@ EpisodeId,Character,Actor
 177,Becky,Laura Bell Bundy
 177,Shelly,Becky Baeling
 177,Mike,Ron Nicolosi
-177,Narrator (voice) (uncredited),Bob Saget
+177,Narrator (voice),Bob Saget
 178,Ted Mosby,Josh Radnor
 178,Marshall Eriksen,Jason Segel
 178,Robin Scherbatsky,Cobie Smulders
@@ -2697,10 +2697,10 @@ EpisodeId,Character,Actor
 178,Emma,Maliabeth Johnson
 178,Beach Babe,Ashley Michaelsen
 178,Elderly Man (as Weston I. Nathanson),Weston Nathanson
-178,Ted's Third Attempted Date (uncredited),Carly Hollas
-178,Art Snob (uncredited),Eric Newnham
-178,Art Snob (uncredited),Shaun Rylee
-178,Narrator (voice) (uncredited),Bob Saget
+178,Ted's Third Attempted Date,Carly Hollas
+178,Art Snob,Eric Newnham
+178,Art Snob,Shaun Rylee
+178,Narrator (voice),Bob Saget
 179,Ted Mosby,Josh Radnor
 179,Marshall Eriksen,Jason Segel
 179,Robin Scherbatsky,Cobie Smulders
@@ -2716,8 +2716,8 @@ EpisodeId,Character,Actor
 179,Young Woman,Emily Roche
 179,Husband #3,Erik Van Wyck
 179,Husband #2,Max Napolitano
-179,Wife #1 (uncredited),Jodi Fleisher
-179,Narrator (voice) (uncredited),Bob Saget
+179,Wife #1,Jodi Fleisher
+179,Narrator (voice),Bob Saget
 180,Ted Mosby,Josh Radnor
 180,Marshall Eriksen,Jason Segel
 180,Robin Scherbatsky,Cobie Smulders
@@ -2728,7 +2728,7 @@ EpisodeId,Character,Actor
 180,Daughter,Lyndsy Fonseca
 180,Son,David Henrie
 180,Louis,Lou Ferrigno Jr.
-180,Narrator (voice) (uncredited),Bob Saget
+180,Narrator (voice),Bob Saget
 181,Ted Mosby,Josh Radnor
 181,Marshall Eriksen,Jason Segel
 181,Robin Scherbatsky,Cobie Smulders
@@ -2739,8 +2739,8 @@ EpisodeId,Character,Actor
 181,Bernard,Robert Baxt
 181,Auctioneer,Mario Di Donato
 181,Belissima,Jocelyn Osorio
-181,Italian Game Show Host (voice) (uncredited),Sevy Di Cione
-181,Narrator (voice) (uncredited),Bob Saget
+181,Italian Game Show Host (voice),Sevy Di Cione
+181,Narrator (voice),Bob Saget
 182,Ted Mosby,Josh Radnor
 182,Marshall Eriksen,Jason Segel
 182,Robin Scherbatsky,Cobie Smulders
@@ -2751,9 +2751,9 @@ EpisodeId,Character,Actor
 182,Ralph Macchio,Ralph Macchio
 182,Clown,William Zabka
 182,Chinese Mobster,Calvin Jung
-182,Chinese Bodyguard (uncredited),Americus Abesamis
-182,Casino Gambler (uncredited),Billy Choi
-182,Narrator (voice) (uncredited),Bob Saget
+182,Chinese Bodyguard,Americus Abesamis
+182,Casino Gambler,Billy Choi
+182,Narrator (voice),Bob Saget
 183,Ted Mosby,Josh Radnor
 183,Marshall Eriksen,Jason Segel
 183,Robin Scherbatsky,Cobie Smulders
@@ -2770,7 +2770,7 @@ EpisodeId,Character,Actor
 183,Mariachi #2,Eduardo Reynoso Jr.
 183,Kid #3,Cameron McCasland
 183,Kaden,Albert Tsai
-183,Narrator (voice) (uncredited),Bob Saget
+183,Narrator (voice),Bob Saget
 184,Ted Mosby,Josh Radnor
 184,Marshall Eriksen,Jason Segel
 184,Robin Scherbatsky,Cobie Smulders
@@ -2787,7 +2787,7 @@ EpisodeId,Character,Actor
 184,Daughter,Lyndsy Fonseca
 184,Son,David Henrie
 184,Hostess,Cherub Moore
-184,Narrator (voice) (uncredited),Bob Saget
+184,Narrator (voice),Bob Saget
 185,Ted Mosby,Josh Radnor
 185,Marshall Eriksen,Jason Segel
 185,Robin Scherbatsky,Cobie Smulders
@@ -2802,8 +2802,8 @@ EpisodeId,Character,Actor
 185,Young Woman,Alex Scott
 185,Security Guard,Wayne Temple
 185,Gate Agent,Rudy Villagrana
-185,Airport Officer (uncredited),Devin Hennessy
-185,Narrator (voice) (uncredited),Bob Saget
+185,Airport Officer,Devin Hennessy
+185,Narrator (voice),Bob Saget
 186,Ted Mosby,Josh Radnor
 186,Marshall Eriksen,Jason Segel
 186,Robin Scherbatsky,Cobie Smulders
@@ -2818,13 +2818,13 @@ EpisodeId,Character,Actor
 186,Female Gate Agent,Mary Gallagher
 186,Herm,John C. Moskoff
 186,Old Gypsy Woman,Irene Roseen
-186,Young Gypsy (uncredited),Sarieha Alsawaf
-186,Ted the Car Rental Worker (uncredited),Claude Miles
-186,Narrator (voice) (uncredited),Bob Saget
+186,Young Gypsy,Sarieha Alsawaf
+186,Ted the Car Rental Worker,Claude Miles
+186,Narrator (voice),Bob Saget
 187,Ted Mosby,Josh Radnor
 187,Marshall Eriksen,Jason Segel
 187,Robin Scherbatsky,Cobie Smulders
-187,Tracy McConnell (credit only),Cristin Milioti
+187,Tracy McConnell,Cristin Milioti
 187,Barney Stinson,Neil Patrick Harris
 187,Lily Aldrin,Alyson Hannigan
 187,Daphne,Sherri Shepherd
@@ -2837,17 +2837,17 @@ EpisodeId,Character,Actor
 187,Elderly Relative,Joie Magidow
 187,Gorgeous Woman,Cynthia Murell
 187,Cop,Jonathan Craig Williams
-187,Stella Zinman (archive footage) (uncredited),Sarah Chalke
-187,Great-Grandmother (O.S.) (uncredited),Suzanne Friedline
-187,Wedding Guest (uncredited),Ryan Philbin
-187,Narrator (voice) (uncredited),Bob Saget
-187,Security Guard (uncredited),Wayne Temple
-187,Victoria (archive footage) (uncredited),Ashley Williams
-187,Mustache Guy (uncredited),Eric Womack
+187,Stella Zinman (archive footage),Sarah Chalke
+187,Great-Grandmother (O.S.),Suzanne Friedline
+187,Wedding Guest,Ryan Philbin
+187,Narrator (voice),Bob Saget
+187,Security Guard,Wayne Temple
+187,Victoria (archive footage),Ashley Williams
+187,Mustache Guy,Eric Womack
 188,Ted Mosby,Josh Radnor
 188,Marshall Eriksen,Jason Segel
 188,Robin Scherbatsky,Cobie Smulders
-188,Tracy McConnell (credit only),Cristin Milioti
+188,Tracy McConnell,Cristin Milioti
 188,Barney Stinson,Neil Patrick Harris
 188,Lily Aldrin,Alyson Hannigan
 188,Ranjit,Marshall Manesh
@@ -2858,15 +2858,15 @@ EpisodeId,Character,Actor
 188,Linus,Robert Belushi
 188,Lisa,Cate Scott Campbell
 188,Lauren,Di Koob
-188,Bikini Babe Bombshell (uncredited),Tracey McCall
-188,Gorgeous Woman (uncredited),Cynthia Murell
-188,Wedding Guest (uncredited),Ryan Philbin
-188,Narrator (voice) (uncredited),Bob Saget
-188,Mustache Guy (uncredited),Eric Womack
+188,Bikini Babe Bombshell,Tracey McCall
+188,Gorgeous Woman,Cynthia Murell
+188,Wedding Guest,Ryan Philbin
+188,Narrator (voice),Bob Saget
+188,Mustache Guy,Eric Womack
 189,Ted Mosby,Josh Radnor
 189,Marshall Eriksen,Jason Segel
 189,Robin Scherbatsky,Cobie Smulders
-189,Tracy McConnell (credit only),Cristin Milioti
+189,Tracy McConnell,Cristin Milioti
 189,Barney Stinson,Neil Patrick Harris
 189,Lily Aldrin,Alyson Hannigan
 189,Daphne,Sherri Shepherd
@@ -2877,13 +2877,13 @@ EpisodeId,Character,Actor
 189,Stuart,Matt Boren
 189,Claudia,Virginia Williams
 189,Delivery Guy,Jeff Grace
-189,Tim Gunn (uncredited),Tim Gunn
-189,Naomi (uncredited),Katie Holmes
-189,Narrator (voice) (uncredited),Bob Saget
+189,Tim Gunn,Tim Gunn
+189,Naomi,Katie Holmes
+189,Narrator (voice),Bob Saget
 190,Ted Mosby,Josh Radnor
 190,Marshall Eriksen,Jason Segel
 190,Robin Scherbatsky,Cobie Smulders
-190,Tracy McConnell (credit only),Cristin Milioti
+190,Tracy McConnell,Cristin Milioti
 190,Barney Stinson,Neil Patrick Harris
 190,Lily Aldrin,Alyson Hannigan
 190,Daphne,Sherri Shepherd
@@ -2895,12 +2895,12 @@ EpisodeId,Character,Actor
 190,Waiter,Rob Gleeson
 190,Lucky Guy Wesley,Joshua Hoover
 190,Grace,Skyler Vallo
-190,Restaurant Patron (uncredited),Larry Gevirtz
-190,Narrator (voice) (uncredited),Bob Saget
+190,Restaurant Patron,Larry Gevirtz
+190,Narrator (voice),Bob Saget
 191,Ted Mosby,Josh Radnor
 191,Marshall Eriksen,Jason Segel
 191,Robin Scherbatsky,Cobie Smulders
-191,Tracy McConnell (credit only),Cristin Milioti
+191,Tracy McConnell,Cristin Milioti
 191,Barney Stinson,Neil Patrick Harris
 191,Lily Aldrin,Alyson Hannigan
 191,Daphne,Sherri Shepherd
@@ -2910,11 +2910,11 @@ EpisodeId,Character,Actor
 191,Woman,Lindsey Alley
 191,Captain Dearduff,David Grammer
 191,Bellhop (as Tre Moye),Tré Moyé
-191,Pedestrian (uncredited),Laura Bedwell-Young
-191,Waiter (uncredited),Rob Gleeson
-191,Maid (uncredited),Donna Pieroni
-191,Marcus Eriksen (uncredited),Ned Rolsma
-191,Narrator (voice) (uncredited),Bob Saget
+191,Pedestrian,Laura Bedwell-Young
+191,Waiter,Rob Gleeson
+191,Maid,Donna Pieroni
+191,Marcus Eriksen,Ned Rolsma
+191,Narrator (voice),Bob Saget
 192,Ted Mosby,Josh Radnor
 192,Marshall Eriksen,Jason Segel
 192,Robin Scherbatsky,Cobie Smulders
@@ -2931,7 +2931,7 @@ EpisodeId,Character,Actor
 192,Linus,Robert Belushi
 192,Son,David Henrie
 192,Waiter,Rob Gleeson
-192,Narrator (voice) (uncredited),Bob Saget
+192,Narrator (voice),Bob Saget
 193,Ted Mosby,Josh Radnor
 193,Marshall Eriksen,Jason Segel
 193,Robin Scherbatsky,Cobie Smulders
@@ -2945,12 +2945,12 @@ EpisodeId,Character,Actor
 193,Elaine Edelstein,Sarah Karges
 193,Meredith,Stephanie Lynn
 193,Madeline,Angela Sprinkle
-193,Jukebox Girl (uncredited),Val Emanuel
-193,Narrator (voice) (uncredited),Bob Saget
+193,Jukebox Girl,Val Emanuel
+193,Narrator (voice),Bob Saget
 194,Ted Mosby,Josh Radnor
 194,Marshall Eriksen,Jason Segel
 194,Robin Scherbatsky,Cobie Smulders
-194,Tracy McConnell (credit only),Cristin Milioti
+194,Tracy McConnell,Cristin Milioti
 194,Barney Stinson,Neil Patrick Harris
 194,Lily Aldrin,Alyson Hannigan
 194,Jerry Whitaker,John Lithgow
@@ -2968,13 +2968,13 @@ EpisodeId,Character,Actor
 194,Claude,Napoleon Ryan
 194,Shandra (as Kyla-Drew Simmons),Kyla Drew Simmons
 194,Police Officer,Jermaine Alexander
-194,Son (uncredited),Shane Giedraitis
-194,Billy's Mom (voice) (uncredited),Gita Isak
-194,Narrator (voice) (uncredited),Bob Saget
+194,Son,Shane Giedraitis
+194,Billy's Mom (voice),Gita Isak
+194,Narrator (voice),Bob Saget
 195,Ted Mosby,Josh Radnor
 195,Marshall Eriksen,Jason Segel
 195,Robin Scherbatsky,Cobie Smulders
-195,Tracy McConnell (credit only),Cristin Milioti
+195,Tracy McConnell,Cristin Milioti
 195,Barney Stinson,Neil Patrick Harris
 195,Lily Aldrin,Alyson Hannigan
 195,Gus,Lin-Manuel Miranda
@@ -2986,13 +2986,13 @@ EpisodeId,Character,Actor
 195,Old Lady,Marcia Ann Burrs
 195,Grumpy Man,Michael C. Mahon
 195,Thug,Alfred Rubin Thompson
-195,Girl in the Pink Sweater (uncredited),Becca Dietz
-195,Carlotta the Waitress (uncredited),Ashley Leilani
-195,Narrator (voice) (uncredited),Bob Saget
+195,Girl in the Pink Sweater,Becca Dietz
+195,Carlotta the Waitress,Ashley Leilani
+195,Narrator (voice),Bob Saget
 196,Ted Mosby,Josh Radnor
 196,Marshall Eriksen,Jason Segel
 196,Robin Scherbatsky,Cobie Smulders
-196,Tracy McConnell (credit only),Cristin Milioti
+196,Tracy McConnell,Cristin Milioti
 196,Barney Stinson,Neil Patrick Harris
 196,Lily Aldrin,Alyson Hannigan
 196,James Stinson,Wayne Brady
@@ -3003,9 +3003,9 @@ EpisodeId,Character,Actor
 196,Dr. Frederick Banting,Lawrence Larsen
 196,Guy,Luc Radu
 196,Woman,Natalie Harlan West
-196,Rehearsal Guest (uncredited),Monica Giraldo
-196,Guy (uncredited),Andy Park
-196,Narrator (voice) (uncredited),Bob Saget
+196,Rehearsal Guest,Monica Giraldo
+196,Guy,Andy Park
+196,Narrator (voice),Bob Saget
 197,Ted Mosby,Josh Radnor
 197,Marshall Eriksen,Jason Segel
 197,Robin Scherbatsky,Cobie Smulders
@@ -3015,15 +3015,15 @@ EpisodeId,Character,Actor
 197,Darren,Andrew Rannells
 197,Linus,Robert Belushi
 197,Bigfoot,Angus Mclellan
-197,James Stinson (archive footage) (uncredited),Wayne Brady
-197,Loretta Stinson (archive footage) (uncredited),Frances Conroy
-197,Old Sailor Guy (uncredited),David Grammer
-197,Narrator (voice) (uncredited),Bob Saget
-197,Sam Gibbs (archive footage) (uncredited),Ben Vereen
+197,James Stinson (archive footage),Wayne Brady
+197,Loretta Stinson (archive footage),Frances Conroy
+197,Old Sailor Guy,David Grammer
+197,Narrator (voice),Bob Saget
+197,Sam Gibbs (archive footage),Ben Vereen
 198,Ted Mosby,Josh Radnor
 198,Marshall Eriksen,Jason Segel
 198,Robin Scherbatsky,Cobie Smulders
-198,Tracy McConnell (credit only),Cristin Milioti
+198,Tracy McConnell,Cristin Milioti
 198,Barney Stinson,Neil Patrick Harris
 198,Lily Aldrin,Alyson Hannigan
 198,Himself - Boyz II Men,Wanya Morris
@@ -3041,9 +3041,9 @@ EpisodeId,Character,Actor
 198,Chinese Boy,Dat Pham
 198,Kung Fu Instructor,Adam Wang
 198,Old Man,Ping Wu
-198,Office Worker (uncredited),Kyle Cartieri
-198,Young Man (uncredited),Kenzo Lee
-198,Narrator (voice) (uncredited),Bob Saget
+198,Office Worker,Kyle Cartieri
+198,Young Man,Kenzo Lee
+198,Narrator (voice),Bob Saget
 199,Ted Mosby,Josh Radnor
 199,Marshall Eriksen,Jason Segel
 199,Robin Scherbatsky,Cobie Smulders
@@ -3054,8 +3054,8 @@ EpisodeId,Character,Actor
 199,Linus,Robert Belushi
 199,Young Man,Kenzo Lee
 199,Animal Trainer,David Mattey
-199,Narrator (voice) (uncredited),Bob Saget
-199,Shannon (uncredited),Katie Walder
+199,Narrator (voice),Bob Saget
+199,Shannon,Katie Walder
 200,Ted Mosby,Josh Radnor
 200,Marshall Eriksen,Jason Segel
 200,Robin Scherbatsky,Cobie Smulders
@@ -3069,13 +3069,13 @@ EpisodeId,Character,Actor
 200,Linus,Robert Belushi
 200,Mitch,Adam Paul
 200,Louis,Lou Ferrigno Jr.
-200,Bar Patron (uncredited),Sherilyn Henderson
-200,Bar Patron (uncredited),Jenna Osterlund
-200,Narrator (voice) (uncredited),Bob Saget
+200,Bar Patron,Sherilyn Henderson
+200,Bar Patron,Jenna Osterlund
+200,Narrator (voice),Bob Saget
 201,Ted Mosby,Josh Radnor
 201,Marshall Eriksen,Jason Segel
 201,Robin Scherbatsky,Cobie Smulders
-201,Tracy McConnell (credit only),Cristin Milioti
+201,Tracy McConnell,Cristin Milioti
 201,Barney Stinson,Neil Patrick Harris
 201,Lily Aldrin,Alyson Hannigan
 201,Stella Zinman,Sarah Chalke
@@ -3092,9 +3092,9 @@ EpisodeId,Character,Actor
 201,Young Ted,Sawyer Ever
 201,Shelly,Alexandra Siegel
 201,Operator,Alex Staggs
-201,Burly Guy (uncredited),Benjamin Byron Davis
-201,Strip Club Patron (uncredited),Nick Norrece Phillips
-201,Narrator (voice) (uncredited),Bob Saget
+201,Burly Guy,Benjamin Byron Davis
+201,Strip Club Patron,Nick Norrece Phillips
+201,Narrator (voice),Bob Saget
 202,Ted Mosby,Josh Radnor
 202,Marshall Eriksen,Jason Segel
 202,Robin Scherbatsky,Cobie Smulders
@@ -3111,9 +3111,9 @@ EpisodeId,Character,Actor
 202,Mother,Mariangela Pagan
 202,Marvin Eriksen,Spencer Ralston
 202,Young Penny Mosby,Katie Silverman
-202,Campaign Worker (uncredited),Richard Par
-202,Wedding Guest (uncredited),Ryan Philbin
-202,Narrator (voice) (uncredited),Bob Saget
+202,Campaign Worker,Richard Par
+202,Wedding Guest,Ryan Philbin
+202,Narrator (voice),Bob Saget
 203,Ted Mosby,Josh Radnor
 203,Marshall Eriksen,Jason Segel
 203,Robin Scherbatsky,Cobie Smulders
@@ -3126,11 +3126,11 @@ EpisodeId,Character,Actor
 203,Katie Scherbatsky,Lucy Hale
 203,Narshall,Jon Heder
 203,Grandma,Barbara Nathanson
-203,Narrator (voice) (uncredited),Bob Saget
+203,Narrator (voice),Bob Saget
 204,Ted Mosby,Josh Radnor
 204,Marshall Eriksen,Jason Segel
 204,Robin Scherbatsky,Cobie Smulders
-204,Tracy McConnell (credit only),Cristin Milioti
+204,Tracy McConnell,Cristin Milioti
 204,Barney Stinson,Neil Patrick Harris
 204,Lily Aldrin,Alyson Hannigan
 204,Genevieve Scherbatsky,Tracey Ullman
@@ -3143,9 +3143,9 @@ EpisodeId,Character,Actor
 204,Linus,Robert Belushi
 204,Daughter,Lyndsy Fonseca
 204,Son,David Henrie
-204,EZ Mart Clerk (uncredited),Christopher Aber
-204,Loretta Stinson (archive footage) (uncredited),Frances Conroy
-204,Narrator (voice) (uncredited),Bob Saget
+204,EZ Mart Clerk,Christopher Aber
+204,Loretta Stinson (archive footage),Frances Conroy
+204,Narrator (voice),Bob Saget
 205,Ted Mosby,Josh Radnor
 205,Marshall Eriksen,Jason Segel
 205,Robin Scherbatsky,Cobie Smulders
@@ -3172,8 +3172,8 @@ EpisodeId,Character,Actor
 205,Louis,Lou Ferrigno Jr.
 205,Cathy,Gail King
 205,Bitterman,Peter Michael McGowan
-205,Photographer (uncredited),Jush Allen
-205,Narrator (voice) (uncredited),Bob Saget
+205,Photographer,Jush Allen
+205,Narrator (voice),Bob Saget
 206,Ted Mosby,Josh Radnor
 206,Marshall Eriksen,Jason Segel
 206,Robin Scherbatsky,Cobie Smulders
@@ -3194,8 +3194,8 @@ EpisodeId,Character,Actor
 206,Gary Blauman,Taran Killam
 206,Daughter,Lyndsy Fonseca
 206,Son,David Henrie
-206,Wedding Guest (uncredited),Richard Michael Egan
-206,Narrator (voice) (uncredited),Bob Saget
+206,Wedding Guest,Richard Michael Egan
+206,Narrator (voice),Bob Saget
 207,Ted Mosby,Josh Radnor
 207,Marshall Eriksen,Jason Segel
 207,Robin Scherbatsky,Cobie Smulders
@@ -3203,8 +3203,8 @@ EpisodeId,Character,Actor
 207,Barney Stinson,Neil Patrick Harris
 207,Lily Aldrin,Alyson Hannigan
 207,Bernice,Judith Drake
-207,Guest (uncredited),Julia Martin
-207,Wedding Guest (uncredited),Brian Mizula
+207,Guest,Julia Martin
+207,Wedding Guest,Brian Mizula
 208,Marshall Eriksen,Jason Segel
 208,Lily Aldrin,Alyson Hannigan
 208,Barney Stinson,Neil Patrick Harris
@@ -3222,4 +3222,4 @@ EpisodeId,Character,Actor
 208,Nurse,Saudia Rashed
 208,Erin (as Alexandria Skaltsounis),Alexandria Sounis
 208,Girl,Courtney Hope Turner
-208,Young Son (uncredited),Jaeden Bettencourt
+208,Young Son,Jaeden Bettencourt
