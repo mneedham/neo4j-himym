@@ -26,6 +26,7 @@ with open('data/episodes.csv', 'w') as episodes:
 
             if number_overall == "216":
                 number_overall = "180"
+                number_in_season = "20"
 
             if int(number_overall) < 23:
                 season = 1

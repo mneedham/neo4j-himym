@@ -49,3 +49,5 @@ WITH COLLECT(episode) AS episodes
 FOREACH(i in RANGE(0, length(episodes)-2) |
 FOREACH(n1 in [episodes[i]] | FOREACH(n2 in [episodes[i+1]] |
     MERGE (n1)-[:NEXT]->(n2))));
+
+// characters
