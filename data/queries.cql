@@ -18,7 +18,12 @@ ORDER BY times DESC
 LIMIT 10
 
 // Which episodes didn't feature the narrator?
-MATCH (c:Character {name: "Narrator (voice)"})
-MATCH (e:Episode)
+MATCH (c:Character {name: "Narrator (voice)"}), (e:Episode)
 WHERE NOT (c)-[:APPEARED_IN_EPISODE]->(e)
 RETURN e
+
+// Which actors play more than one character?
+MATCH (p:Person)-[:PLAYS_CHARACTER]->(c)
+WITH p, COLLECT(c.name) AS characters
+WHERE LENGTH(characters) > 1
+RETURN p.name, characters

@@ -13,7 +13,7 @@ with open('data/episodes.csv', 'r') as episodes:
 
         for row in reader:
             filename = "imdb/S%s-Ep%s-fullcredits" %(int(row[3]), int(row[1]))
-            print filename
+            # print filename
             characters_page = open(filename, 'r').read()
             soup = BeautifulSoup(characters_page)
             characters = select(soup, 'table.cast_list tr')
@@ -21,6 +21,7 @@ with open('data/episodes.csv', 'r') as episodes:
             for character_row in characters:
                 columns = select(character_row, "td")
                 if len(columns) > 1:
+                    # print select(select(character_row, "td.character")[0], "a")
                     character = " ".join(select(character_row, "td.character")[0].text.replace("\n", "").split()).encode("utf-8")
                     actor = " ".join(select(character_row, "td.itemprop")[0].text.replace("\n", "").split()).encode("utf-8")
 
@@ -28,5 +29,8 @@ with open('data/episodes.csv', 'r') as episodes:
 
                     for c in characters:
                         c = c.replace("(credit only)", "").replace("(uncredited)","").strip()
+
+                        if c in ["Himself", "Herself"]:
+                            c = actor
 
                         writer.writerow([row[0], c, actor])

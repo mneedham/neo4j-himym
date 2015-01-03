@@ -310,7 +310,7 @@ EpisodeId,Character,Actor
 23,Robin Scherbatsky,Cobie Smulders
 23,Barney Stinson,Neil Patrick Harris
 23,Lily Aldrin,Alyson Hannigan
-23,Himself,George Clinton
+23,George Clinton,George Clinton
 23,Daughter,Lyndsy Fonseca
 23,Son,David Henrie
 23,Sunshine,Jenae Altschwager
@@ -496,7 +496,7 @@ EpisodeId,Character,Actor
 36,Robin Scherbatsky,Cobie Smulders
 36,Barney Stinson,Neil Patrick Harris
 36,Lily Aldrin,Alyson Hannigan
-36,Himself,Emmitt Smith
+36,Emmitt Smith,Emmitt Smith
 36,Daughter,Lyndsy Fonseca
 36,Son,David Henrie
 36,Kevin,John Ducey
@@ -586,13 +586,13 @@ EpisodeId,Character,Actor
 42,Robin Scherbatsky,Cobie Smulders
 42,Barney Stinson,Neil Patrick Harris
 42,Lily Aldrin,Alyson Hannigan
-42,Himself,Bob Barker
+42,Bob Barker,Bob Barker
 42,Himself (voice),Rich Fields
 42,Price is Right Contestant #1,Alan Finkelstein
 42,Price is Right Contestant #2,Lisa Hoggatt
 42,Millie,Sharon Madden
 42,Young Barney,Tanner Maguire
-42,Herself,Rachel Reynolds
+42,Rachel Reynolds,Rachel Reynolds
 42,Wedding Guest,Elijah Samuel Quesada
 42,Narrator (voice),Bob Saget
 43,Ted Mosby,Josh Radnor
@@ -754,14 +754,14 @@ EpisodeId,Character,Actor
 54,Daughter,Lyndsy Fonseca
 54,Son,David Henrie
 54,Trish (as Meredith Roberts),Meredith Roberts Quill
-54,Herself,Heidi Klum
+54,Heidi Klum,Heidi Klum
 54,Greg,Mark Derwin
 54,Shannon,Katie Walder
-54,Herself,Alessandra Ambrosio
-54,Herself,Selita Ebanks
-54,Herself,Miranda Kerr
-54,Herself,Adriana Lima
-54,Herself,Marisa Miller
+54,Alessandra Ambrosio,Alessandra Ambrosio
+54,Selita Ebanks,Selita Ebanks
+54,Miranda Kerr,Miranda Kerr
+54,Adriana Lima,Adriana Lima
+54,Marisa Miller,Marisa Miller
 54,Max (as Mick Harrity),Michael 'Mick' Harrity
 54,Becky,Annie Ilonzeh
 54,Young Barney,Tanner Maguire
@@ -831,7 +831,7 @@ EpisodeId,Character,Actor
 58,Maggie,Jennipher Foster
 58,Ex-Girlfriend,Marcienne Dwyer
 58,Art Gallery Bystander,Bruce Holman
-58,Himself,Alex Parlar
+58,Alex Parlar,Alex Parlar
 58,Narrator (voice),Bob Saget
 59,Ted Mosby,Josh Radnor
 59,Marshall Eriksen,Jason Segel
@@ -1110,10 +1110,10 @@ EpisodeId,Character,Actor
 76,Robin Scherbatsky,Cobie Smulders
 76,Barney Stinson,Neil Patrick Harris
 76,Lily Aldrin,Alyson Hannigan
-76,Herself,Heidi Montag
-76,Himself,Spencer Pratt
+76,Heidi Montag,Heidi Montag
+76,Spencer Pratt,Spencer Pratt
 76,Herself (as Kim Kardashian),Kim Kardashian West
-76,Herself,Kendra Wilkinson
+76,Kendra Wilkinson,Kendra Wilkinson
 76,Bilson,Bryan Callen
 76,Donald,Kevin Kirkpatrick
 76,Jill,Ambrit Millhouse
@@ -1446,7 +1446,7 @@ EpisodeId,Character,Actor
 98,Herman (chubby boyfriend),Donnie Bonelli
 98,Hot Guy #1,Marcus Lindsey
 98,Narrator (voice),Bob Saget
-98,Himself,Mario Tadinac
+98,Mario Tadinac,Mario Tadinac
 99,Ted Mosby,Josh Radnor
 99,Marshall Eriksen,Jason Segel
 99,Robin Scherbatsky,Cobie Smulders
@@ -1512,7 +1512,7 @@ EpisodeId,Character,Actor
 102,Barney Stinson,Neil Patrick Harris
 102,Lily Aldrin,Alyson Hannigan
 102,Jim Nantz,Jim Nantz
-102,Himself,Nick Swisher
+102,Nick Swisher,Nick Swisher
 102,Joe Donovan,Larry Poindexter
 102,Wendy,Charlene Amoia
 102,Daughter,Lyndsy Fonseca
@@ -1642,9 +1642,9 @@ EpisodeId,Character,Actor
 110,Barney Stinson,Neil Patrick Harris
 110,Lily Aldrin,Alyson Hannigan
 110,Jefferson Van Smoot,Michael York
-110,Himself,Peter Bogdanovich
-110,Herself,Arianna Huffington
-110,Himself,Will Shortz
+110,Peter Bogdanovich,Peter Bogdanovich
+110,Arianna Huffington,Arianna Huffington
+110,Will Shortz,Will Shortz
 110,Marissa Heller,Darby Stanchfield
 110,Jolene,Michele Boyd
 110,Waiter,Ed Brigadier
@@ -1856,7 +1856,7 @@ EpisodeId,Character,Actor
 124,Robin Scherbatsky,Cobie Smulders
 124,Barney Stinson,Neil Patrick Harris
 124,Lily Aldrin,Alyson Hannigan
-124,Himself,Alex Trebek
+124,Alex Trebek,Alex Trebek
 124,Sam Gibbs,Ben Vereen
 124,Anna,Artemis Pebdani
 124,Punchy (as Chris Romanski),Chris Romano
@@ -2152,7 +2152,7 @@ EpisodeId,Character,Actor
 143,Lily Aldrin,Alyson Hannigan
 143,Kevin,Kal Penn
 143,Mickey Aldrin,Chris Elliott
-143,Himself,'Weird Al' Yankovic
+143,'Weird Al' Yankovic,'Weird Al' Yankovic
 143,Nora,Nazanin Boniadi
 143,Loretta Stinson,Frances Conroy
 143,Marvin Eriksen Sr.,Bill Fagerbakke
@@ -2217,7 +2217,7 @@ EpisodeId,Character,Actor
 147,Barney Stinson,Neil Patrick Harris
 147,Lily Aldrin,Alyson Hannigan
 147,James Stinson,Wayne Brady
-147,Himself,Ernie Hudson
+147,Ernie Hudson,Ernie Hudson
 147,Daughter,Lyndsy Fonseca
 147,Son,David Henrie
 147,Annie,Nicole Andrews
@@ -2646,18 +2646,18 @@ EpisodeId,Character,Actor
 175,Robin Scherbatsky,Cobie Smulders
 175,Barney Stinson,Neil Patrick Harris
 175,Lily Aldrin,Alyson Hannigan
-175,Himself,Paul Shaffer
-175,Himself,Alex Trebek
+175,Paul Shaffer,Paul Shaffer
+175,Alex Trebek,Alex Trebek
 175,Jeanette Peterson,Abby Elliott
 175,Simon,James Van Der Beek
 175,Alan Thicke,Alan Thicke
 175,Chuck Gerussi,Dave Thomas
-175,Himself,Jason Priestley
-175,Himself,Geddy Lee
-175,Himself,Steven Page
-175,Himself,Dave Coulier
-175,Himself,Luc Robitaille
-175,Herself,k.d. lang
+175,Jason Priestley,Jason Priestley
+175,Geddy Lee,Geddy Lee
+175,Steven Page,Steven Page
+175,Dave Coulier,Dave Coulier
+175,Luc Robitaille,Luc Robitaille
+175,k.d. lang,k.d. lang
 175,Turk Grimsby,Craig Lee Thomas
 175,Gordie,Corey Krueger
 175,U.T.T. Narrator (voice) (as James Jude Forbes),Jim Forbes
