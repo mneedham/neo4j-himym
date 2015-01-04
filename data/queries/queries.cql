@@ -27,3 +27,7 @@ MATCH (p:Person)-[:PLAYS_CHARACTER]->(c)
 WITH p, COLLECT(c.name) AS characters
 WHERE LENGTH(characters) > 1
 RETURN p.name, characters
+
+// Which episodes should have been seen previously to follow this one?
+MATCH (e:Episode {title: "No Tomorrow"})-[:REFERENCES]->(ref)-[:HAPPENED_IN]->(original)
+RETURN ref, original
