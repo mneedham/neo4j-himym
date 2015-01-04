@@ -6,6 +6,7 @@ SET episode.title = row.Title,
     episode.dateAired = row.DateAired,
     episode.timestamp = TOINT(row.Timestamp),
     episode.number = TOINT(row.NumberInSeason),
+    episode.season = TOINT(row.Season),
     episode.ranking = TOINT(row.Rating);
 
 // directors

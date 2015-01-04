@@ -31,3 +31,8 @@ RETURN p.name, characters
 // Which episodes should have been seen previously to follow this one?
 MATCH (e:Episode {title: "No Tomorrow"})-[:REFERENCES]->(ref)-[:HAPPENED_IN]->(original)
 RETURN ref, original
+
+// When's the yellow umbrella mentioned?
+MATCH (refEpisode)-[:REFERENCES]->(r:Reference)-[:HAPPENED_IN]->(episode)
+WHERE r.text =~ "(?i).*yellow umbrella.*"
+RETURN r, episode, refEpisode
