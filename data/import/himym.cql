@@ -44,6 +44,7 @@ MATCH (season:Season {number: row.Season})
 MATCH (episode:Episode {id: TOINT(row.NumberOverall)})
 MERGE (episode)-[:IN_SEASON]->(season);
 
+// link episodes
 MATCH (episode:Episode)
 WITH episode
 ORDER BY episode.id
@@ -51,7 +52,17 @@ WITH COLLECT(episode) AS episodes
 
 FOREACH(i in RANGE(0, length(episodes)-2) |
 FOREACH(n1 in [episodes[i]] | FOREACH(n2 in [episodes[i+1]] |
-    MERGE (n1)-[:NEXT]->(n2))));
+    MERGE (n1)-[:NEXT_EPISODE]->(n2))));
+
+// link seasons
+MATCH (season:Season)
+WITH season
+ORDER BY season.number
+WITH COLLECT(season) AS seasons
+
+FOREACH(i in RANGE(0, length(seasons)-2) |
+FOREACH(n1 in [seasons[i]] | FOREACH(n2 in [seasons[i+1]] |
+  MERGE (n1)-[:NEXT_SEASON]->(n2))));
 
 // characters
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/characters.csv" AS row

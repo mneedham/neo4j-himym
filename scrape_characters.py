@@ -3,11 +3,11 @@ from bs4 import BeautifulSoup
 from soupselect import select
 import csv
 
-with open('data/episodes.csv', 'r') as episodes:
+with open('data/import/episodes.csv', 'r') as episodes:
     reader = csv.reader(episodes, delimiter=',')
     reader.next()
 
-    with open('data/characters.csv', 'w') as characters:
+    with open('data/import/characters.csv', 'w') as characters:
         writer = csv.writer(characters, delimiter=',')
         writer.writerow(["EpisodeId", "Character", "Actor"])
 

@@ -10,7 +10,7 @@ episode_guide = open("data/Episode_Guide", 'r')
 
 soup = BeautifulSoup(episode_guide.read())
 
-with open('data/episodes.csv', 'w') as episodes:
+with open('data/import/episodes.csv', 'w') as episodes:
     writer = csv.writer(episodes, delimiter=',')
     writer.writerow(["NumberOverall", "NumberInSeason", "Episode", "Season", "DateAired", "Timestamp"])
 
