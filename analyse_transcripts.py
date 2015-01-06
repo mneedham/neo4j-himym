@@ -15,7 +15,7 @@ def count_words(words):
     tally=Counter()
     for elem in words:
         tally[elem] += 1
-    tally
+    return tally
 
 episodes_dict = {}
 with open('data/import/episodes.csv', 'r') as episodes:
@@ -34,30 +34,17 @@ with open('data/import/episodes.csv', 'r') as episodes:
             .replace("adsbygoogle", "") \
             .strip()
 
-        # text =  "".join([str(x) for x in rows[1].contents])
-
-
-        # print text.split("<br>\n<br>")
         text = re.sub("[^a-zA-Z]", " ", text )
 
         words =  nltk.word_tokenize(text)
-        # print [word_tokenize(t) for t in sent_tokenize(text)]
-
-        # punkt = nltk.data.load('tokenizers/punkt/english.pickle')
-        # print punkt.tokenize(text)[2]
-
         words = [w for w in words if not w in stopwords.words("english")]
 
-        words = set(words)
-        words = set(nltk.ngrams(words, 2))
+        words = count_words(words)
         episodes_dict[row[0]] = words
 
-
-        # print nltk.ngrams(rows[1].text.strip(), 4)
-
-tally=Counter()
-for k,v in episodes_dict.iteritems():
-    for v2 in v:
-        tally[v2] +=1
-
-print [(k, tally[k]) for k in tally if tally[k] > 1]
+with open("data/import/words.csv", "w") as words:
+    writer = csv.writer(words, delimiter=",")
+    writer.writerow(["EpisodeId", "Word", "Occurrences"])
+    for episode_id, words in episodes_dict.iteritems():
+        for word in words:
+            writer.writerow([episode_id, word, words[word]])
