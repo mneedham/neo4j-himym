@@ -104,7 +104,7 @@ MERGE (referencing)-[:REFERENCES]->(reference);
 // words
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/words.csv" AS row
 MERGE (word:Word {value: row.Word})
-SET word.occurrences = row.Occurrences;
+SET word.occurrences = TOINT(row.Occurrences);
 
 // words to episodes
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/words.csv" AS row

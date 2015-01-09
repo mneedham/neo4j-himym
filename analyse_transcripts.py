@@ -23,21 +23,20 @@ with open('data/import/episodes.csv', 'r') as episodes:
     reader.next()
 
     for row in reader:
+        print row
         transcript = open("data/transcripts/S%s-Ep%s" %(row[3], row[1])).read()
         soup = BeautifulSoup(transcript)
-        rows  = select(soup, "table.tablebg tr")
+        rows = select(soup, "table.tablebg tr td.post-body div.postbody")
 
-        text = rows[1].text.replace("How I Met Your Mother DVDs", "") \
-            .replace("How I Met Your Mother Instant Video", "") \
-            .replace("How I Met Your Mother Collectables", "") \
-            .replace("Amazon Prime Instant Video Free Trial", "") \
-            .replace("adsbygoogle", "") \
-            .strip()
+        raw_text = rows[0]
+        [ad.extract() for ad in select(raw_text, "div.ads-topic")]
+        [ad.extract() for ad in select(raw_text, "div.t-foot-links")]
 
+        text = raw_text.text.strip()
         text = re.sub("[^a-zA-Z]", " ", text )
 
         words =  nltk.word_tokenize(text)
-        words = [w for w in words if not w in stopwords.words("english")]
+        words = [w for w in words if not w.lower() in stopwords.words("english")]
 
         words = count_words(words)
         episodes_dict[row[0]] = words

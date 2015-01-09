@@ -194,7 +194,7 @@ EpisodeId,Word,Occurrences
 165,hot,1
 165,actually,1
 165,better,2
-165,window,3
+165,window,1
 165,farmer,1
 165,covered,1
 165,weeks,1
@@ -690,7 +690,6 @@ EpisodeId,Word,Occurrences
 165,compete,1
 165,Bitch,1
 165,time,4
-165,push,2
 165,fresh,1
 165,baked,1
 133,Perfect,1
@@ -904,7 +903,6 @@ EpisodeId,Word,Occurrences
 133,ll,10
 133,actually,1
 133,better,3
-133,window,2
 133,weeks,1
 133,bye,1
 133,might,2
@@ -1388,7 +1386,7 @@ EpisodeId,Word,Occurrences
 133,biggest,1
 133,gin,1
 133,allergic,1
-133,ago,3
+133,jiggity,1
 133,Congratulations,1
 133,happen,1
 133,J,6
@@ -1442,7 +1440,7 @@ EpisodeId,Word,Occurrences
 133,Corral,1
 133,friends,2
 133,Outside,1
-133,jiggity,1
+133,ago,3
 133,happier,1
 133,wife,1
 133,Ah,1
@@ -1454,7 +1452,6 @@ EpisodeId,Word,Occurrences
 133,fact,1
 133,Aw,2
 133,Streep,1
-133,push,2
 133,starting,1
 132,baited,1
 132,four,1
@@ -1681,7 +1678,7 @@ EpisodeId,Word,Occurrences
 132,torn,1
 132,actually,1
 132,better,5
-132,window,3
+132,window,1
 132,degrees,1
 132,bummer,1
 132,symptoms,1
@@ -2276,7 +2273,6 @@ EpisodeId,Word,Occurrences
 132,warm,1
 132,Scott,1
 132,time,10
-132,push,2
 132,serious,1
 132,starting,3
 131,surrounded,1
@@ -2502,7 +2498,6 @@ EpisodeId,Word,Occurrences
 131,thank,2
 131,ll,8
 131,houseLily,1
-131,window,2
 131,Observe,2
 131,Luis,2
 131,bout,1
@@ -2814,7 +2809,7 @@ EpisodeId,Word,Occurrences
 131,straight,1
 131,aim,1
 131,neat,2
-131,homework,1
+131,elves,1
 131,fun,3
 131,voice,2
 131,coolest,1
@@ -2878,7 +2873,7 @@ EpisodeId,Word,Occurrences
 131,crack,1
 131,reason,1
 131,Marine,1
-131,elves,1
+131,homework,1
 131,real,7
 131,Oh,18
 131,James,1
@@ -3053,7 +3048,6 @@ EpisodeId,Word,Occurrences
 131,Asian,2
 131,Aw,1
 131,time,6
-131,push,2
 131,lives,3
 131,pubescently,1
 130,Canada,3
@@ -3081,6 +3075,7 @@ EpisodeId,Word,Occurrences
 130,torture,1
 130,Isn,1
 130,every,4
+130,multiple,1
 130,condition,1
 130,cool,1
 130,magic,1
@@ -3244,7 +3239,6 @@ EpisodeId,Word,Occurrences
 130,amazing,1
 130,actually,1
 130,late,1
-130,window,2
 130,mail,1
 130,bye,1
 130,might,2
@@ -3538,7 +3532,6 @@ EpisodeId,Word,Occurrences
 130,hoping,1
 130,eventually,1
 130,endowed,2
-130,walks,1
 130,Back,1
 130,someone,3
 130,Got,1
@@ -3630,7 +3623,7 @@ EpisodeId,Word,Occurrences
 130,preposition,1
 130,clubs,1
 130,Checkmate,1
-130,multiple,1
+130,home,4
 130,Whoa,2
 130,Listen,1
 130,happens,2
@@ -3716,7 +3709,7 @@ EpisodeId,Word,Occurrences
 130,calzones,1
 130,single,1
 130,promised,1
-130,home,4
+130,walks,1
 130,annoying,1
 130,happen,2
 130,Nate,17
@@ -3753,7 +3746,7 @@ EpisodeId,Word,Occurrences
 130,fact,1
 130,Aw,1
 130,time,5
-130,push,3
+130,push,1
 130,lives,1
 130,apparrtmentMarshall,1
 130,starting,1
@@ -3940,7 +3933,6 @@ EpisodeId,Word,Occurrences
 137,ll,7
 137,better,4
 137,Remains,1
-137,window,2
 137,pays,1
 137,sauce,1
 137,Wait,5
@@ -4422,7 +4414,7 @@ EpisodeId,Word,Occurrences
 137,Yeah,7
 137,together,3
 137,time,4
-137,push,3
+137,push,1
 136,code,1
 136,Sadly,1
 136,dance,1
@@ -4663,7 +4655,6 @@ EpisodeId,Word,Occurrences
 136,misspelled,1
 136,ll,6
 136,better,7
-136,window,2
 136,Legendary,1
 136,policy,1
 136,mail,1
@@ -4672,7 +4663,7 @@ EpisodeId,Word,Occurrences
 136,Wait,4
 136,dad,1
 136,coffee,8
-136,good,6
+136,Kids,1
 136,Bar,1
 136,food,5
 136,unemployed,1
@@ -4693,7 +4684,7 @@ EpisodeId,Word,Occurrences
 136,volcanoing,1
 136,always,4
 136,didn,5
-136,Say,1
+136,good,6
 136,Thanks,3
 136,truth,1
 136,turns,1
@@ -4772,6 +4763,7 @@ EpisodeId,Word,Occurrences
 136,plastic,1
 136,needed,1
 136,Uncle,1
+136,slide,1
 136,calculations,1
 136,tea,1
 136,friend,1
@@ -5103,7 +5095,7 @@ EpisodeId,Word,Occurrences
 136,jalapeno,1
 136,pet,1
 136,ear,1
-136,slide,1
+136,Say,1
 136,stops,1
 136,Hi,5
 136,Let,1
@@ -5128,7 +5120,6 @@ EpisodeId,Word,Occurrences
 136,months,3
 136,favorite,1
 136,motorboated,1
-136,Kids,1
 136,stand,1
 136,siteRod,1
 136,road,1
@@ -5227,7 +5218,6 @@ EpisodeId,Word,Occurrences
 136,Street,2
 136,Aw,1
 136,time,11
-136,push,2
 136,corpse,1
 136,unspeakable,2
 135,saying,2
@@ -5427,7 +5417,6 @@ EpisodeId,Word,Occurrences
 135,ll,5
 135,torn,1
 135,destroyed,1
-135,window,2
 135,hidden,1
 135,might,1
 135,easier,1
@@ -5986,7 +5975,7 @@ EpisodeId,Word,Occurrences
 135,Second,1
 135,fact,2
 135,time,4
-135,push,3
+135,push,1
 135,lives,1
 134,Welcome,1
 134,GNBTed,1
@@ -6008,7 +5997,7 @@ EpisodeId,Word,Occurrences
 134,father,3
 134,Everyone,1
 134,environment,3
-134,charge,1
+134,finally,4
 134,carTed,1
 134,th,1
 134,Turkish,1
@@ -6112,7 +6101,7 @@ EpisodeId,Word,Occurrences
 134,takes,2
 134,would,6
 134,hospital,1
-134,two,2
+134,charge,1
 134,next,3
 134,backing,1
 134,live,2
@@ -6215,7 +6204,6 @@ EpisodeId,Word,Occurrences
 134,torn,1
 134,actually,1
 134,better,1
-134,window,2
 134,ruining,1
 134,serenaded,1
 134,bye,2
@@ -6398,7 +6386,7 @@ EpisodeId,Word,Occurrences
 134,inn,1
 134,make,7
 134,Wants,1
-134,finally,4
+134,trying,2
 134,Ejected,1
 134,flatulent,1
 134,ruin,1
@@ -6633,7 +6621,6 @@ EpisodeId,Word,Occurrences
 134,Bank,1
 134,night,3
 134,passionate,1
-134,trying,2
 134,right,12
 134,old,1
 134,often,1
@@ -6679,6 +6666,7 @@ EpisodeId,Word,Occurrences
 134,seeing,1
 134,referenced,1
 134,beatboxing,1
+134,two,2
 134,promise,1
 134,female,1
 134,Martha,1
@@ -6775,7 +6763,6 @@ EpisodeId,Word,Occurrences
 134,compete,1
 134,Aw,2
 134,time,5
-134,push,2
 134,serious,1
 134,sounded,2
 139,represent,1
@@ -7014,7 +7001,6 @@ EpisodeId,Word,Occurrences
 139,continued,1
 139,ll,9
 139,expectations,1
-139,window,2
 139,choose,5
 139,might,1
 139,happened,2
@@ -7537,7 +7523,6 @@ EpisodeId,Word,Occurrences
 139,came,1
 139,reception,1
 139,time,4
-139,push,2
 139,serious,5
 139,resolution,2
 138,represent,1
@@ -7776,7 +7761,6 @@ EpisodeId,Word,Occurrences
 138,continued,1
 138,ll,9
 138,expectations,1
-138,window,2
 138,choose,5
 138,might,1
 138,happened,2
@@ -8299,7 +8283,6 @@ EpisodeId,Word,Occurrences
 138,came,1
 138,reception,1
 138,time,4
-138,push,2
 138,serious,5
 138,resolution,2
 166,managed,1
@@ -8515,7 +8498,7 @@ EpisodeId,Word,Occurrences
 166,amazing,1
 166,actually,2
 166,better,1
-166,window,3
+166,window,1
 166,slobbering,1
 166,showered,1
 166,weeks,5
@@ -9114,7 +9097,7 @@ EpisodeId,Word,Occurrences
 166,Yeah,13
 166,together,3
 166,time,8
-166,push,4
+166,push,2
 166,starting,1
 24,neighbors,1
 24,forget,2
@@ -9315,7 +9298,7 @@ EpisodeId,Word,Occurrences
 24,actually,1
 24,better,2
 24,spoken,1
-24,window,3
+24,window,1
 24,redhead,1
 24,Bubbles,1
 24,happened,1
@@ -9825,7 +9808,6 @@ EpisodeId,Word,Occurrences
 24,ended,1
 24,breasts,1
 24,stay,1
-24,alright,1
 24,chance,1
 24,unattractive,1
 24,sides,1
@@ -9840,7 +9822,7 @@ EpisodeId,Word,Occurrences
 24,Second,1
 24,Waiter,3
 24,time,6
-24,push,2
+24,alright,1
 24,starting,1
 24,hello,1
 25,saying,1
@@ -10043,7 +10025,6 @@ EpisodeId,Word,Occurrences
 25,ll,6
 25,actually,4
 25,better,1
-25,window,2
 25,weeks,2
 25,Wait,1
 25,dad,9
@@ -10618,7 +10599,7 @@ EpisodeId,Word,Occurrences
 25,tandem,1
 25,lying,1
 25,Year,2
-25,push,3
+25,push,1
 25,serious,2
 25,adult,1
 26,Welcome,1
@@ -10849,7 +10830,7 @@ EpisodeId,Word,Occurrences
 26,actually,1
 26,better,1
 26,kickboxer,1
-26,window,2
+26,spankable,1
 26,Hell,1
 26,World,1
 26,weeks,1
@@ -11141,7 +11122,6 @@ EpisodeId,Word,Occurrences
 26,puts,1
 26,Get,1
 26,create,1
-26,spankable,1
 26,Perhaps,1
 26,beer,1
 26,poured,1
@@ -11417,7 +11397,7 @@ EpisodeId,Word,Occurrences
 26,cheater,1
 26,Bitch,1
 26,time,6
-26,push,3
+26,push,1
 26,serious,2
 26,precedent,1
 27,neighbors,1
@@ -11457,7 +11437,7 @@ EpisodeId,Word,Occurrences
 27,ticket,1
 27,cool,3
 27,tickets,3
-27,cooks,1
+27,school,2
 27,Pantry,3
 27,disease,1
 27,try,4
@@ -11626,7 +11606,6 @@ EpisodeId,Word,Occurrences
 27,ll,8
 27,actually,3
 27,better,3
-27,window,2
 27,farmer,2
 27,weeks,3
 27,might,2
@@ -11637,7 +11616,7 @@ EpisodeId,Word,Occurrences
 27,good,4
 27,combination,1
 27,ya,1
-27,school,2
+27,cooks,1
 27,Cat,1
 27,break,1
 27,flash,1
@@ -12197,7 +12176,6 @@ EpisodeId,Word,Occurrences
 27,calla,1
 27,scare,1
 27,god,1
-27,push,2
 27,fresh,1
 20,Nunchaku,1
 20,Van,5
@@ -12395,7 +12373,6 @@ EpisodeId,Word,Occurrences
 20,ll,20
 20,hot,3
 20,labor,1
-20,window,2
 20,redhead,1
 20,weeks,2
 20,bye,2
@@ -12900,7 +12877,6 @@ EpisodeId,Word,Occurrences
 20,Violent,2
 20,Aw,2
 20,time,4
-20,push,2
 20,serious,1
 20,overseas,1
 20,phlegm,1
@@ -12972,7 +12948,7 @@ EpisodeId,Word,Occurrences
 21,weirds,1
 21,never,4
 21,forgive,1
-21,water,1
+21,hours,1
 21,busy,1
 21,Marriage,1
 21,Mr,5
@@ -13116,7 +13092,6 @@ EpisodeId,Word,Occurrences
 21,ll,6
 21,actually,2
 21,forms,2
-21,window,2
 21,superprocessing,1
 21,decaf,1
 21,mail,1
@@ -13364,7 +13339,7 @@ EpisodeId,Word,Occurrences
 21,gobble,1
 21,picking,3
 21,come,6
-21,hours,1
+21,water,1
 21,protect,1
 21,Neighborhood,1
 21,Give,4
@@ -13659,7 +13634,6 @@ EpisodeId,Word,Occurrences
 21,Second,1
 21,requisition,1
 21,time,6
-21,push,2
 21,serious,1
 22,veterinary,1
 22,dance,12
@@ -13844,7 +13818,7 @@ EpisodeId,Word,Occurrences
 22,ll,6
 22,Rain,1
 22,actually,2
-22,window,4
+22,window,2
 22,mail,1
 22,bye,1
 22,might,1
@@ -13921,7 +13895,7 @@ EpisodeId,Word,Occurrences
 22,Mosby,1
 22,already,1
 22,Please,1
-22,hey,1
+22,one,5
 22,hook,1
 22,done,3
 22,bitch,1
@@ -14023,7 +13997,6 @@ EpisodeId,Word,Occurrences
 22,pleased,1
 22,decade,1
 22,ground,1
-22,one,5
 22,pause,6
 22,treasure,1
 22,storms,1
@@ -14349,6 +14322,7 @@ EpisodeId,Word,Occurrences
 22,Man,2
 22,Great,3
 22,E,1
+22,hey,1
 22,Metro,3
 22,living,1
 22,ended,1
@@ -14367,7 +14341,6 @@ EpisodeId,Word,Occurrences
 22,together,6
 22,came,1
 22,time,2
-22,push,2
 22,serious,2
 22,strings,1
 23,inning,1
@@ -14594,7 +14567,6 @@ EpisodeId,Word,Occurrences
 23,hot,1
 23,winning,1
 23,better,3
-23,window,2
 23,might,1
 23,happened,3
 23,good,4
@@ -14869,7 +14841,7 @@ EpisodeId,Word,Occurrences
 23,let,2
 23,Yes,1
 23,whole,4
-23,finds,1
+23,asked,1
 23,comes,3
 23,tough,4
 23,Teddy,1
@@ -14944,7 +14916,6 @@ EpisodeId,Word,Occurrences
 23,arrives,3
 23,affairs,1
 23,Cox,1
-23,town,1
 23,hang,2
 23,drives,1
 23,rain,1
@@ -14956,7 +14927,7 @@ EpisodeId,Word,Occurrences
 23,kid,1
 23,Figure,1
 23,charges,5
-23,asked,1
+23,finds,1
 23,thought,2
 23,person,1
 23,cheer,1
@@ -15137,7 +15108,7 @@ EpisodeId,Word,Occurrences
 23,Later,1
 23,stay,1
 23,SIX,2
-23,alright,1
+23,town,1
 23,drag,3
 23,important,2
 23,kinda,1
@@ -15154,7 +15125,7 @@ EpisodeId,Word,Occurrences
 23,Second,1
 23,Fifth,1
 23,time,14
-23,push,2
+23,alright,1
 23,fresh,1
 23,Apparently,1
 160,Canada,2
@@ -15376,7 +15347,6 @@ EpisodeId,Word,Occurrences
 160,ll,11
 160,actually,4
 160,better,1
-160,window,2
 160,choose,1
 160,Birth,1
 160,cool,2
@@ -15916,7 +15886,6 @@ EpisodeId,Word,Occurrences
 160,Second,1
 160,stripping,1
 160,time,4
-160,push,2
 160,starting,2
 28,coach,1
 28,giggles,1
@@ -16138,7 +16107,7 @@ EpisodeId,Word,Occurrences
 28,ll,12
 28,amazing,1
 28,late,2
-28,window,2
+28,absence,1
 28,weeks,2
 28,legos,1
 28,might,6
@@ -16275,7 +16244,6 @@ EpisodeId,Word,Occurrences
 28,older,1
 28,project,3
 28,See,3
-28,absence,1
 28,architect,4
 28,supposed,2
 28,feeling,1
@@ -16717,7 +16685,6 @@ EpisodeId,Word,Occurrences
 28,scream,1
 28,Aw,1
 28,time,8
-28,push,2
 28,yell,1
 28,oral,1
 29,coach,1
@@ -16940,7 +16907,7 @@ EpisodeId,Word,Occurrences
 29,ll,12
 29,amazing,1
 29,late,2
-29,window,2
+29,absence,1
 29,weeks,2
 29,legos,1
 29,might,6
@@ -17077,7 +17044,6 @@ EpisodeId,Word,Occurrences
 29,older,1
 29,project,3
 29,See,3
-29,absence,1
 29,architect,4
 29,supposed,2
 29,feeling,1
@@ -17519,7 +17485,6 @@ EpisodeId,Word,Occurrences
 29,scream,1
 29,Aw,1
 29,time,8
-29,push,2
 29,yell,1
 29,oral,1
 161,wrestle,1
@@ -17720,7 +17685,7 @@ EpisodeId,Word,Occurrences
 161,ll,13
 161,better,1
 161,grade,1
-161,window,7
+161,window,5
 161,Haven,1
 161,Wait,1
 161,cornflower,2
@@ -18221,7 +18186,6 @@ EpisodeId,Word,Occurrences
 161,came,2
 161,Aw,1
 161,time,4
-161,push,2
 161,serious,2
 161,Mach,1
 4,raining,1
@@ -18243,7 +18207,7 @@ EpisodeId,Word,Occurrences
 4,vet,1
 4,apartment,1
 4,Exactly,1
-4,finally,1
+4,Step,1
 4,smile,1
 4,sorry,3
 4,pride,1
@@ -18308,9 +18272,10 @@ EpisodeId,Word,Occurrences
 4,Mm,2
 4,unprofessional,1
 4,never,2
+4,busy,2
 4,Green,1
 4,free,1
-4,Step,1
+4,yards,1
 4,Mr,11
 4,Alright,3
 4,quite,1
@@ -18463,7 +18428,6 @@ EpisodeId,Word,Occurrences
 4,ll,2
 4,actually,2
 4,better,5
-4,window,2
 4,covered,1
 4,weeks,2
 4,bye,5
@@ -18676,7 +18640,7 @@ EpisodeId,Word,Occurrences
 4,telling,3
 4,fine,1
 4,giant,1
-4,busy,2
+4,finally,1
 4,nice,1
 4,hadn,1
 4,explain,1
@@ -18807,7 +18771,6 @@ EpisodeId,Word,Occurrences
 4,Voice,1
 4,present,1
 4,MISTAKE,1
-4,yards,1
 4,honking,1
 4,Old,1
 4,look,5
@@ -19067,7 +19030,6 @@ EpisodeId,Word,Occurrences
 4,Year,3
 4,misfortune,1
 4,helpful,1
-4,alright,1
 4,chance,2
 4,important,1
 4,nods,1
@@ -19086,7 +19048,7 @@ EpisodeId,Word,Occurrences
 4,Sleep,1
 4,came,2
 4,time,7
-4,push,2
+4,alright,1
 4,Sits,1
 4,hello,1
 8,represent,1
@@ -19335,7 +19297,7 @@ EpisodeId,Word,Occurrences
 8,ll,11
 8,hot,1
 8,meantime,1
-8,window,2
+8,APARTMENT,6
 8,zip,1
 8,mail,1
 8,decades,1
@@ -19547,7 +19509,6 @@ EpisodeId,Word,Occurrences
 8,flowers,1
 8,nice,3
 8,paranoid,1
-8,coffeepot,1
 8,collapses,1
 8,going,4
 8,tape,2
@@ -19573,7 +19534,6 @@ EpisodeId,Word,Occurrences
 8,ever,1
 8,Madsen,2
 8,married,7
-8,APARTMENT,6
 8,tuned,1
 8,naked,1
 8,bad,2
@@ -19694,6 +19654,7 @@ EpisodeId,Word,Occurrences
 8,APARTMENTLily,1
 8,things,2
 8,make,3
+8,swords,19
 8,member,1
 8,rules,1
 8,gets,13
@@ -19895,7 +19856,7 @@ EpisodeId,Word,Occurrences
 8,lemon,9
 8,na,33
 8,Never,1
-8,swords,19
+8,coffeepot,1
 8,detail,1
 8,Delivery,2
 8,book,1
@@ -19924,7 +19885,6 @@ EpisodeId,Word,Occurrences
 8,Yeah,20
 8,together,2
 8,time,6
-8,push,2
 8,serious,1
 8,stammers,1
 8,hello,1
@@ -20151,7 +20111,6 @@ EpisodeId,Word,Occurrences
 163,actually,1
 163,better,2
 163,loopty,1
-163,window,2
 163,willing,1
 163,covered,2
 163,weeks,1
@@ -20721,7 +20680,6 @@ EpisodeId,Word,Occurrences
 163,Bro,1
 163,Cloud,2
 163,Year,1
-163,push,2
 163,wake,1
 163,Organs,4
 119,colleges,1
@@ -20955,7 +20913,6 @@ EpisodeId,Word,Occurrences
 119,actually,1
 119,better,4
 119,maid,1
-119,window,2
 119,permanent,1
 119,minute,1
 119,might,2
@@ -21533,7 +21490,6 @@ EpisodeId,Word,Occurrences
 119,Yeah,6
 119,Aw,1
 119,time,4
-119,push,2
 120,knockers,1
 120,Van,1
 120,forget,1
@@ -21762,7 +21718,6 @@ EpisodeId,Word,Occurrences
 120,exhibits,1
 120,writing,1
 120,acoustical,1
-120,window,2
 120,production,1
 120,spoiling,1
 120,Ahoy,2
@@ -21950,7 +21905,7 @@ EpisodeId,Word,Occurrences
 120,Galactic,3
 120,testicles,1
 120,headline,1
-120,written,1
+120,enough,1
 120,aren,1
 120,going,7
 120,tape,4
@@ -21996,7 +21951,7 @@ EpisodeId,Word,Occurrences
 120,please,1
 120,ups,1
 120,crossword,3
-120,enough,1
+120,written,1
 120,closed,2
 120,probably,1
 120,July,2
@@ -22314,7 +22269,6 @@ EpisodeId,Word,Occurrences
 120,responded,1
 120,came,1
 120,time,6
-120,push,2
 120,serious,2
 120,platter,1
 120,starting,1
@@ -22537,7 +22491,7 @@ EpisodeId,Word,Occurrences
 121,actually,1
 121,better,8
 121,spoken,1
-121,window,3
+121,window,1
 121,Observe,1
 121,bummer,1
 121,redhead,1
@@ -23082,7 +23036,6 @@ EpisodeId,Word,Occurrences
 121,fertilized,1
 121,stay,1
 121,helping,1
-121,uterus,1
 121,Cheer,1
 121,flower,2
 121,Milky,1
@@ -23101,7 +23054,7 @@ EpisodeId,Word,Occurrences
 121,Street,1
 121,fact,2
 121,time,7
-121,push,2
+121,uterus,1
 121,serious,1
 121,caribou,1
 121,hello,1
@@ -23323,7 +23276,6 @@ EpisodeId,Word,Occurrences
 122,actually,1
 122,better,1
 122,feel,1
-122,window,2
 122,ruining,1
 122,Legendary,1
 122,covered,1
@@ -23891,7 +23843,6 @@ EpisodeId,Word,Occurrences
 122,u,1
 122,Aw,10
 122,time,1
-122,push,2
 122,starting,1
 122,original,1
 123,blubber,1
@@ -24084,7 +24035,6 @@ EpisodeId,Word,Occurrences
 123,coordinates,1
 123,better,1
 123,wasting,1
-123,window,2
 123,Observe,1
 123,Ahoy,2
 123,World,1
@@ -24623,7 +24573,6 @@ EpisodeId,Word,Occurrences
 123,together,4
 123,fact,2
 123,time,15
-123,push,2
 124,themed,4
 124,dance,4
 124,caused,1
@@ -24837,7 +24786,6 @@ EpisodeId,Word,Occurrences
 124,winning,2
 124,better,1
 124,feel,1
-124,window,2
 124,asking,2
 124,bummer,1
 124,World,9
@@ -25406,7 +25354,6 @@ EpisodeId,Word,Occurrences
 124,Yeah,8
 124,together,4
 124,time,4
-124,push,2
 124,serious,4
 124,resolution,2
 124,animator,1
@@ -25633,7 +25580,6 @@ EpisodeId,Word,Occurrences
 125,actually,1
 125,late,1
 125,toupee,1
-125,window,2
 125,Armenian,1
 125,policy,1
 125,World,2
@@ -26148,7 +26094,6 @@ EpisodeId,Word,Occurrences
 125,scrub,1
 125,Picture,1
 125,Later,1
-125,push,2
 125,chance,1
 125,fell,2
 125,fertilizer,1
@@ -26366,14 +26311,13 @@ EpisodeId,Word,Occurrences
 126,labor,1
 126,better,1
 126,grade,1
-126,window,2
 126,orange,1
 126,mail,4
 126,might,3
 126,RJ,1
 126,Wait,5
 126,dad,22
-126,someone,3
+126,Kids,1
 126,food,4
 126,significance,1
 126,bat,1
@@ -26389,6 +26333,7 @@ EpisodeId,Word,Occurrences
 126,always,5
 126,drop,2
 126,Foul,1
+126,someone,3
 126,Thanks,4
 126,went,4
 126,side,2
@@ -26824,7 +26769,6 @@ EpisodeId,Word,Occurrences
 126,choke,1
 126,chop,3
 126,Crocodile,7
-126,Kids,1
 126,immediacy,1
 126,beans,1
 126,Looks,2
@@ -26917,7 +26861,6 @@ EpisodeId,Word,Occurrences
 126,clenched,1
 126,lying,1
 126,time,9
-126,push,2
 126,starting,1
 127,managed,1
 127,Lead,1
@@ -26931,7 +26874,7 @@ EpisodeId,Word,Occurrences
 127,buddy,2
 127,hump,1
 127,father,1
-127,suits,1
+127,good,4
 127,sorry,3
 127,woman,1
 127,jerk,1
@@ -26958,7 +26901,6 @@ EpisodeId,Word,Occurrences
 127,pass,2
 127,helpless,1
 127,even,1
-127,brain,1
 127,giving,1
 127,fingers,1
 127,ended,1
@@ -27000,6 +26942,7 @@ EpisodeId,Word,Occurrences
 127,feelings,2
 127,brought,1
 127,Behind,1
+127,suits,1
 127,Wuss,1
 127,ringing,4
 127,use,3
@@ -27013,7 +26956,7 @@ EpisodeId,Word,Occurrences
 127,today,1
 127,touched,1
 127,door,4
-127,pretty,3
+127,said,1
 127,brings,1
 127,impress,1
 127,phone,12
@@ -27039,7 +26982,6 @@ EpisodeId,Word,Occurrences
 127,want,7
 127,allowed,1
 127,Lord,1
-127,Without,1
 127,lamb,1
 127,needs,3
 127,end,1
@@ -27049,7 +26991,7 @@ EpisodeId,Word,Occurrences
 127,means,3
 127,Fridge,1
 127,stayed,1
-127,someone,3
+127,brain,1
 127,hot,5
 127,KFC,1
 127,sword,1
@@ -27095,13 +27037,12 @@ EpisodeId,Word,Occurrences
 127,Clearly,1
 127,actually,3
 127,better,1
-127,window,2
 127,bye,2
 127,happened,1
 127,dad,1
 127,eventually,1
 127,coffee,2
-127,good,4
+127,someone,3
 127,safe,1
 127,hallway,1
 127,touching,1
@@ -27137,6 +27078,7 @@ EpisodeId,Word,Occurrences
 127,actively,1
 127,re,15
 127,seriously,1
+127,bitch,1
 127,got,9
 127,forth,1
 127,shut,3
@@ -27169,7 +27111,7 @@ EpisodeId,Word,Occurrences
 127,number,6
 127,Hertz,2
 127,one,8
-127,bitch,1
+127,pretty,3
 127,another,3
 127,wasn,2
 127,reached,1
@@ -27227,7 +27169,7 @@ EpisodeId,Word,Occurrences
 127,sure,2
 127,knew,1
 127,audition,1
-127,said,1
+127,Without,1
 127,mouth,1
 127,Isn,1
 127,letter,1
@@ -27240,7 +27182,7 @@ EpisodeId,Word,Occurrences
 127,clear,1
 127,sometimes,1
 127,m,17
-127,Eriksen,5
+127,dog,2
 127,FLASHBACK,44
 127,left,3
 127,dragged,1
@@ -27401,6 +27343,7 @@ EpisodeId,Word,Occurrences
 127,mother,1
 127,entry,1
 127,Mosby,1
+127,Eriksen,5
 127,stranger,1
 127,executive,1
 127,touch,2
@@ -27522,7 +27465,6 @@ EpisodeId,Word,Occurrences
 127,recognize,2
 127,kisses,1
 127,doesn,2
-127,dog,2
 127,racking,1
 127,single,1
 127,home,8
@@ -27555,7 +27497,7 @@ EpisodeId,Word,Occurrences
 127,Blah,6
 127,Bitch,1
 127,time,4
-127,push,3
+127,push,1
 128,Letting,1
 128,code,1
 128,forget,1
@@ -27782,7 +27724,6 @@ EpisodeId,Word,Occurrences
 128,amazing,2
 128,actually,2
 128,kindergarten,1
-128,window,2
 128,orange,1
 128,freaking,3
 128,might,1
@@ -28377,7 +28318,6 @@ EpisodeId,Word,Occurrences
 128,cooked,1
 128,Aw,1
 128,time,7
-128,push,2
 128,serious,3
 128,holed,2
 128,starting,1
@@ -28582,7 +28522,6 @@ EpisodeId,Word,Occurrences
 129,amazing,1
 129,actually,1
 129,better,1
-129,window,2
 129,weeks,2
 129,happened,4
 129,dad,1
@@ -29105,7 +29044,7 @@ EpisodeId,Word,Occurrences
 129,together,1
 129,lying,1
 129,time,4
-129,push,3
+129,push,1
 129,serious,1
 129,starting,1
 167,freakish,1
@@ -29173,7 +29112,7 @@ EpisodeId,Word,Occurrences
 167,run,1
 167,even,9
 167,stood,1
-167,soup,2
+167,wallet,1
 167,wore,1
 167,fingers,1
 167,waiting,2
@@ -29272,7 +29211,7 @@ EpisodeId,Word,Occurrences
 167,work,5
 167,pour,1
 167,Bath,2
-167,wallet,1
+167,soup,2
 167,undergrad,1
 167,nine,1
 167,thin,1
@@ -29368,7 +29307,6 @@ EpisodeId,Word,Occurrences
 167,ll,4
 167,amazing,2
 167,tramp,2
-167,window,2
 167,minute,1
 167,handsy,1
 167,World,1
@@ -29992,7 +29930,6 @@ EpisodeId,Word,Occurrences
 167,Bro,3
 167,came,2
 167,time,5
-167,push,2
 167,stammers,1
 167,original,1
 118,gown,1
@@ -30128,7 +30065,7 @@ EpisodeId,Word,Occurrences
 118,glad,1
 118,women,1
 118,town,1
-118,high,3
+118,honey,2
 118,room,3
 118,Otis,1
 118,Tiffany,1
@@ -30145,7 +30082,7 @@ EpisodeId,Word,Occurrences
 118,awesome,2
 118,share,1
 118,accept,1
-118,honey,2
+118,high,3
 118,something,2
 118,want,12
 118,offense,1
@@ -30207,7 +30144,6 @@ EpisodeId,Word,Occurrences
 118,ll,1
 118,writing,1
 118,better,1
-118,window,2
 118,degrees,1
 118,derivative,1
 118,bout,1
@@ -30763,7 +30699,6 @@ EpisodeId,Word,Occurrences
 118,Spiders,1
 118,Aw,1
 118,time,2
-118,push,2
 118,Emily,2
 118,songs,1
 59,Canada,1
@@ -30961,7 +30896,7 @@ EpisodeId,Word,Occurrences
 59,amazing,1
 59,actually,1
 59,kindergarten,3
-59,window,3
+59,window,1
 59,Observe,1
 59,Using,1
 59,weeks,1
@@ -31508,7 +31443,6 @@ EpisodeId,Word,Occurrences
 59,Yeah,9
 59,came,1
 59,time,3
-59,push,2
 59,yell,4
 59,Apparently,1
 59,precedent,1
@@ -31715,7 +31649,6 @@ EpisodeId,Word,Occurrences
 58,ll,6
 58,writing,1
 58,better,1
-58,window,2
 58,spoiling,1
 58,main,1
 58,jukebox,1
@@ -32247,7 +32180,6 @@ EpisodeId,Word,Occurrences
 58,together,1
 58,stripping,1
 58,karma,1
-58,push,2
 58,joins,1
 55,neighbors,5
 55,Title,1
@@ -32458,7 +32390,6 @@ EpisodeId,Word,Occurrences
 55,actually,4
 55,better,1
 55,attraction,1
-55,window,2
 55,offers,1
 55,hidden,1
 55,bye,1
@@ -33023,7 +32954,6 @@ EpisodeId,Word,Occurrences
 55,rule,16
 55,beverage,1
 55,teeth,1
-55,push,2
 55,escap,1
 55,fallout,2
 54,Trish,4
@@ -33205,7 +33135,6 @@ EpisodeId,Word,Occurrences
 54,Backstreet,1
 54,actually,1
 54,better,2
-54,window,2
 54,World,1
 54,bye,1
 54,might,1
@@ -33707,7 +33636,7 @@ EpisodeId,Word,Occurrences
 54,Brought,1
 54,lying,2
 54,time,8
-54,push,6
+54,push,4
 54,yell,1
 57,code,1
 57,forget,3
@@ -33921,7 +33850,6 @@ EpisodeId,Word,Occurrences
 57,actually,2
 57,better,1
 57,tramp,1
-57,window,2
 57,parmesean,1
 57,weeks,6
 57,bye,1
@@ -34460,7 +34388,6 @@ EpisodeId,Word,Occurrences
 57,Scott,1
 57,presenting,1
 57,time,20
-57,push,2
 57,wake,1
 57,yell,4
 56,code,2
@@ -34647,7 +34574,6 @@ EpisodeId,Word,Occurrences
 56,ll,8
 56,winning,2
 56,late,1
-56,window,2
 56,ruining,1
 56,holiday,1
 56,might,2
@@ -35170,7 +35096,6 @@ EpisodeId,Word,Occurrences
 56,Bro,1
 56,explana,2
 56,time,4
-56,push,2
 56,serious,1
 56,yell,1
 56,starting,1
@@ -35410,7 +35335,6 @@ EpisodeId,Word,Occurrences
 51,amazing,2
 51,actually,1
 51,meantime,1
-51,window,2
 51,choose,1
 51,weeks,2
 51,marshall,2
@@ -36018,7 +35942,6 @@ EpisodeId,Word,Occurrences
 51,interestMarshall,1
 51,Asian,1
 51,time,8
-51,push,2
 51,serious,3
 51,starting,1
 50,since,1
@@ -36193,7 +36116,6 @@ EpisodeId,Word,Occurrences
 50,ll,3
 50,actually,2
 50,better,1
-50,window,2
 50,bummer,1
 50,criminal,1
 50,might,2
@@ -36579,7 +36501,6 @@ EpisodeId,Word,Occurrences
 50,Yeah,7
 50,directors,1
 50,time,4
-50,push,2
 50,fresh,1
 50,Apparently,1
 53,Everybody,1
@@ -36789,7 +36710,6 @@ EpisodeId,Word,Occurrences
 53,twitching,1
 53,actually,1
 53,late,2
-53,window,2
 53,minute,1
 53,holiday,3
 53,sauce,1
@@ -37370,7 +37290,6 @@ EpisodeId,Word,Occurrences
 53,grownup,2
 53,fact,2
 53,time,7
-53,push,2
 53,serious,2
 53,starting,1
 53,classical,1
@@ -37442,7 +37361,6 @@ EpisodeId,Word,Occurrences
 52,video,2
 52,lawyer,5
 52,pass,2
-52,Really,2
 52,even,2
 52,Eventually,1
 52,nonsense,1
@@ -37604,7 +37522,7 @@ EpisodeId,Word,Occurrences
 52,ll,7
 52,better,3
 52,feel,1
-52,window,2
+52,Gummi,1
 52,mail,3
 52,weeks,2
 52,cool,1
@@ -37734,7 +37652,7 @@ EpisodeId,Word,Occurrences
 52,bed,1
 52,matter,2
 52,See,2
-52,Gummi,1
+52,future,3
 52,supposed,1
 52,loves,1
 52,maybe,4
@@ -37772,7 +37690,7 @@ EpisodeId,Word,Occurrences
 52,regular,1
 52,Isn,3
 52,nothing,1
-52,future,3
+52,Really,2
 52,Google,1
 52,episode,1
 52,windows,1
@@ -38146,7 +38064,6 @@ EpisodeId,Word,Occurrences
 52,beds,1
 52,Lucilia,1
 52,time,7
-52,push,2
 52,fluffernutter,1
 52,sounded,1
 52,restored,1
@@ -38363,7 +38280,7 @@ EpisodeId,Word,Occurrences
 164,actually,3
 164,better,1
 164,platform,1
-164,window,4
+164,window,2
 164,Moving,1
 164,choose,2
 164,mail,1
@@ -38733,7 +38650,7 @@ EpisodeId,Word,Occurrences
 164,cheer,2
 164,mother,1
 164,clears,3
-164,five,4
+164,Aunt,1
 164,spend,1
 164,mon,1
 164,Sarah,1
@@ -38771,7 +38688,7 @@ EpisodeId,Word,Occurrences
 164,Air,1
 164,matters,1
 164,game,3
-164,Aunt,1
+164,five,4
 164,know,17
 164,mom,7
 164,world,1
@@ -38942,7 +38859,6 @@ EpisodeId,Word,Occurrences
 164,rule,2
 164,Bro,2
 164,time,8
-164,push,2
 164,fresh,1
 164,Organs,1
 164,stroller,2
@@ -39143,7 +39059,6 @@ EpisodeId,Word,Occurrences
 201,buns,1
 201,winning,1
 201,better,1
-201,window,2
 201,covered,1
 201,might,2
 201,Haven,1
@@ -39600,7 +39515,7 @@ EpisodeId,Word,Occurrences
 201,works,1
 201,anything,1
 201,getting,2
-201,important,2
+201,journey,1
 201,importantly,1
 201,clamshell,1
 201,Captain,1
@@ -39683,7 +39598,7 @@ EpisodeId,Word,Occurrences
 201,pretended,1
 201,stay,3
 201,chance,1
-201,journey,1
+201,important,2
 201,serious,1
 201,chocolate,1
 201,friends,8
@@ -39699,7 +39614,6 @@ EpisodeId,Word,Occurrences
 201,Blah,2
 201,lying,1
 201,time,4
-201,push,2
 201,fresh,1
 201,stick,1
 199,sufficed,1
@@ -39913,7 +39827,6 @@ EpisodeId,Word,Occurrences
 199,thank,1
 199,ll,8
 199,late,2
-199,window,2
 199,hobby,2
 199,Wait,4
 199,wouldn,2
@@ -40512,7 +40425,6 @@ EpisodeId,Word,Occurrences
 199,doves,1
 199,Picked,1
 199,time,12
-199,push,2
 199,Yes,3
 199,dehydrated,1
 199,hello,1
@@ -40778,7 +40690,6 @@ EpisodeId,Word,Occurrences
 179,glowing,1
 179,actually,2
 179,late,2
-179,window,2
 179,willing,1
 179,powers,1
 179,Ahoy,4
@@ -41444,7 +41355,7 @@ EpisodeId,Word,Occurrences
 179,Sleep,1
 179,Cambodian,1
 179,time,9
-179,push,3
+179,push,1
 179,fresh,1
 179,baked,1
 200,raining,1
@@ -41641,7 +41552,6 @@ EpisodeId,Word,Occurrences
 200,screaming,1
 200,ll,6
 200,late,1
-200,window,2
 200,permanent,1
 200,shy,1
 200,covered,1
@@ -42132,7 +42042,6 @@ EpisodeId,Word,Occurrences
 200,lift,1
 200,Aw,1
 200,time,11
-200,push,2
 200,songs,1
 195,Canada,4
 195,forget,1
@@ -42161,7 +42070,6 @@ EpisodeId,Word,Occurrences
 195,young,8
 195,answered,1
 195,finally,1
-195,coaching,1
 195,hearts,1
 195,fervor,1
 195,teaching,1
@@ -42424,7 +42332,7 @@ EpisodeId,Word,Occurrences
 195,challenge,1
 195,worst,1
 195,dream,1
-195,began,2
+195,make,3
 195,talk,1
 195,stammerin,1
 195,Barney,12
@@ -42451,7 +42359,7 @@ EpisodeId,Word,Occurrences
 195,blackened,1
 195,actually,1
 195,late,1
-195,window,2
+195,coaching,1
 195,bummer,2
 195,decreased,1
 195,weeks,1
@@ -42942,7 +42850,7 @@ EpisodeId,Word,Occurrences
 195,grant,1
 195,fetching,1
 195,saw,3
-195,make,3
+195,began,2
 195,honk,1
 195,beside,1
 195,wicked,1
@@ -43250,7 +43158,6 @@ EpisodeId,Word,Occurrences
 195,Street,1
 195,Fifth,1
 195,time,8
-195,push,2
 195,validation,1
 195,Fame,1
 195,troubles,2
@@ -43486,7 +43393,6 @@ EpisodeId,Word,Occurrences
 194,screaming,1
 194,ll,12
 194,meantime,1
-194,window,2
 194,squirted,1
 194,might,1
 194,Wait,3
@@ -44077,7 +43983,6 @@ EpisodeId,Word,Occurrences
 194,came,3
 194,reception,1
 194,time,5
-194,push,2
 194,fresh,1
 197,whoever,1
 197,whoops,1
@@ -44299,7 +44204,7 @@ EpisodeId,Word,Occurrences
 197,actually,2
 197,meantime,1
 197,maid,1
-197,window,3
+197,window,1
 197,choose,1
 197,redhead,1
 197,urination,1
@@ -44844,7 +44749,6 @@ EpisodeId,Word,Occurrences
 197,gasps,2
 197,teeth,1
 197,helping,1
-197,littleLion,1
 197,journey,1
 197,poof,1
 197,Skunk,2
@@ -44862,7 +44766,7 @@ EpisodeId,Word,Occurrences
 197,karma,2
 197,Aw,1
 197,time,4
-197,push,2
+197,littleLion,1
 197,understand,1
 197,overseas,1
 197,stammers,1
@@ -45077,7 +44981,7 @@ EpisodeId,Word,Occurrences
 178,intelligentsia,1
 178,mattress,1
 178,better,2
-178,window,3
+178,window,1
 178,mail,2
 178,might,2
 178,parades,1
@@ -45666,7 +45570,6 @@ EpisodeId,Word,Occurrences
 178,blogh,1
 178,lying,2
 178,time,3
-178,push,2
 178,chiming,1
 178,starting,1
 178,strings,1
@@ -45894,7 +45797,7 @@ EpisodeId,Word,Occurrences
 191,ll,12
 191,actually,1
 191,better,4
-191,window,4
+191,window,2
 191,primordial,1
 191,kinkajou,4
 191,thump,1
@@ -46468,7 +46371,6 @@ EpisodeId,Word,Occurrences
 191,came,1
 191,Aw,1
 191,time,7
-191,push,2
 191,sounded,1
 190,forget,2
 190,Self,1
@@ -46674,7 +46576,6 @@ EpisodeId,Word,Occurrences
 190,appetizers,1
 190,writing,1
 190,maid,1
-190,window,2
 190,choose,3
 190,weeks,1
 190,bye,1
@@ -47200,7 +47101,6 @@ EpisodeId,Word,Occurrences
 190,walked,2
 190,Aw,1
 190,time,1
-190,push,2
 193,Unknown,1
 193,nuns,1
 193,woods,1
@@ -47325,7 +47225,7 @@ EpisodeId,Word,Occurrences
 193,cab,1
 193,biter,1
 193,history,1
-193,meant,1
+193,wearing,1
 193,crazy,1
 193,figure,1
 193,give,7
@@ -47400,7 +47300,6 @@ EpisodeId,Word,Occurrences
 193,hot,1
 193,writing,1
 193,better,4
-193,window,2
 193,degrees,1
 193,Brussels,1
 193,pending,1
@@ -47607,7 +47506,7 @@ EpisodeId,Word,Occurrences
 193,Druthers,3
 193,Guys,1
 193,hope,1
-193,wearing,1
+193,meant,1
 193,DiCaprio,1
 193,hit,1
 193,get,11
@@ -47957,7 +47856,6 @@ EpisodeId,Word,Occurrences
 193,fact,2
 193,Aw,2
 193,time,11
-193,push,2
 193,serious,1
 192,raining,1
 192,Van,1
@@ -48182,7 +48080,7 @@ EpisodeId,Word,Occurrences
 192,racecar,1
 192,Fusion,1
 192,late,1
-192,window,2
+192,coaching,1
 192,Judge,1
 192,might,1
 192,pending,1
@@ -48335,7 +48233,7 @@ EpisodeId,Word,Occurrences
 192,breakfast,1
 192,One,1
 192,relatively,1
-192,Gravel,1
+192,Legs,1
 192,shorts,1
 192,Virginia,2
 192,chest,1
@@ -48415,7 +48313,7 @@ EpisodeId,Word,Occurrences
 192,see,5
 192,dumb,1
 192,driveway,1
-192,Legs,1
+192,Gravel,1
 192,best,6
 192,said,2
 192,unsettling,1
@@ -48479,7 +48377,6 @@ EpisodeId,Word,Occurrences
 192,lighthouse,9
 192,Get,3
 192,Marshalls,2
-192,coaching,1
 192,quickly,1
 192,Luckily,1
 192,much,2
@@ -48772,7 +48669,7 @@ EpisodeId,Word,Occurrences
 192,together,2
 192,Aw,1
 192,time,10
-192,push,3
+192,push,1
 192,fresh,1
 192,resolution,1
 192,songs,2
@@ -48991,7 +48888,6 @@ EpisodeId,Word,Occurrences
 115,actually,1
 115,kindergarten,3
 115,Gaudi,2
-115,window,2
 115,inRobin,2
 115,mail,1
 115,might,1
@@ -49373,6 +49269,7 @@ EpisodeId,Word,Occurrences
 115,emergency,1
 115,Oh,12
 115,big,1
+115,contacts,1
 115,admitting,1
 115,early,1
 115,matters,1
@@ -49385,7 +49282,7 @@ EpisodeId,Word,Occurrences
 115,dreams,1
 115,brought,1
 115,like,15
-115,channel,1
+115,either,1
 115,night,3
 115,become,1
 115,works,1
@@ -49409,7 +49306,7 @@ EpisodeId,Word,Occurrences
 115,another,4
 115,sniffing,2
 115,jalapeno,2
-115,bottom,1
+115,channel,1
 115,Frank,2
 115,decision,1
 115,opposite,1
@@ -49423,7 +49320,6 @@ EpisodeId,Word,Occurrences
 115,dating,1
 115,worst,1
 115,Funk,3
-115,either,1
 115,FLASHBACKS,2
 115,core,1
 115,run,1
@@ -49532,14 +49428,13 @@ EpisodeId,Word,Occurrences
 115,intimacy,1
 115,building,5
 115,bullet,1
-115,contacts,1
+115,bottom,1
 115,Yeah,6
 115,rule,2
 115,Bro,1
 115,booker,1
 115,lying,1
 115,time,7
-115,push,2
 115,Empire,1
 115,requires,1
 114,pervert,1
@@ -49782,7 +49677,6 @@ EpisodeId,Word,Occurrences
 114,actually,2
 114,better,2
 114,grade,2
-114,window,2
 114,mail,1
 114,might,2
 114,Wait,6
@@ -50343,7 +50237,6 @@ EpisodeId,Word,Occurrences
 114,Blah,1
 114,incomplete,1
 114,time,4
-114,push,2
 114,understand,1
 114,Apparently,1
 114,tales,1
@@ -50502,7 +50395,6 @@ EpisodeId,Word,Occurrences
 88,fit,1
 88,ll,6
 88,better,1
-88,window,2
 88,farmer,1
 88,Wait,1
 88,evening,1
@@ -50887,7 +50779,6 @@ EpisodeId,Word,Occurrences
 88,u,1
 88,fact,1
 88,time,8
-88,push,2
 89,AGO,1
 89,impression,1
 89,Gremlins,2
@@ -51097,7 +50988,6 @@ EpisodeId,Word,Occurrences
 89,writing,1
 89,better,1
 89,CLASROOMTed,1
-89,window,2
 89,offers,1
 89,HOCKEY,2
 89,Wait,4
@@ -51622,7 +51512,6 @@ EpisodeId,Word,Occurrences
 89,students,2
 89,lying,4
 89,time,11
-89,push,2
 89,serious,2
 89,fess,1
 111,code,1
@@ -51721,6 +51610,7 @@ EpisodeId,Word,Occurrences
 111,Rather,1
 111,Three,1
 111,traumatized,1
+111,Kids,1
 111,Jong,1
 111,Jed,18
 111,pulls,1
@@ -51766,7 +51656,6 @@ EpisodeId,Word,Occurrences
 111,end,3
 111,thing,3
 111,get,3
-111,carries,1
 111,hot,1
 111,nunchakus,1
 111,pure,1
@@ -51816,7 +51705,6 @@ EpisodeId,Word,Occurrences
 111,ll,10
 111,Continues,1
 111,writing,1
-111,window,2
 111,Moving,1
 111,spoiling,1
 111,easier,1
@@ -51952,6 +51840,7 @@ EpisodeId,Word,Occurrences
 111,butterfly,1
 111,sure,1
 111,normal,2
+111,Well,2
 111,falls,2
 111,Baggage,1
 111,Priest,2
@@ -52110,7 +51999,7 @@ EpisodeId,Word,Occurrences
 111,Maybe,1
 111,evil,1
 111,moment,1
-111,barber,1
+111,moving,1
 111,Avatar,1
 111,Order,1
 111,fully,1
@@ -52164,7 +52053,7 @@ EpisodeId,Word,Occurrences
 111,right,3
 111,people,4
 111,spring,1
-111,moving,1
+111,pronounce,1
 111,back,1
 111,export,1
 111,escape,1
@@ -52188,7 +52077,7 @@ EpisodeId,Word,Occurrences
 111,friendship,1
 111,Get,1
 111,favorite,1
-111,Kids,1
+111,carries,1
 111,important,2
 111,luck,1
 111,Really,1
@@ -52213,8 +52102,7 @@ EpisodeId,Word,Occurrences
 111,Come,1
 111,happy,4
 111,complete,1
-111,pronounce,1
-111,Well,2
+111,barber,1
 111,specialty,1
 111,Small,1
 111,true,1
@@ -52271,7 +52159,6 @@ EpisodeId,Word,Occurrences
 111,Yeah,3
 111,together,1
 111,searched,2
-111,push,2
 111,understand,1
 110,shop,1
 110,concept,1
@@ -52484,7 +52371,6 @@ EpisodeId,Word,Occurrences
 110,interesting,1
 110,ll,4
 110,better,1
-110,window,2
 110,mail,2
 110,holiday,1
 110,Bus,1
@@ -52992,7 +52878,6 @@ EpisodeId,Word,Occurrences
 110,together,2
 110,reception,2
 110,teeth,1
-110,push,2
 110,lives,2
 110,berries,1
 110,original,3
@@ -53183,7 +53068,6 @@ EpisodeId,Word,Occurrences
 113,actually,1
 113,better,1
 113,feel,3
-113,window,2
 113,TedRobin,1
 113,weeks,3
 113,bye,2
@@ -53683,7 +53567,6 @@ EpisodeId,Word,Occurrences
 113,rule,1
 113,implied,2
 113,time,7
-113,push,2
 113,understand,1
 113,starting,1
 112,code,1
@@ -53782,6 +53665,7 @@ EpisodeId,Word,Occurrences
 112,Rather,1
 112,Three,1
 112,traumatized,1
+112,Kids,1
 112,Jong,1
 112,Jed,18
 112,pulls,1
@@ -53827,7 +53711,6 @@ EpisodeId,Word,Occurrences
 112,end,3
 112,thing,3
 112,get,3
-112,carries,1
 112,hot,1
 112,nunchakus,1
 112,pure,1
@@ -53877,7 +53760,6 @@ EpisodeId,Word,Occurrences
 112,ll,10
 112,Continues,1
 112,writing,1
-112,window,2
 112,Moving,1
 112,spoiling,1
 112,easier,1
@@ -54013,6 +53895,7 @@ EpisodeId,Word,Occurrences
 112,butterfly,1
 112,sure,1
 112,normal,2
+112,Well,2
 112,falls,2
 112,Baggage,1
 112,Priest,2
@@ -54171,7 +54054,7 @@ EpisodeId,Word,Occurrences
 112,Maybe,1
 112,evil,1
 112,moment,1
-112,barber,1
+112,moving,1
 112,Avatar,1
 112,Order,1
 112,fully,1
@@ -54225,7 +54108,7 @@ EpisodeId,Word,Occurrences
 112,right,3
 112,people,4
 112,spring,1
-112,moving,1
+112,pronounce,1
 112,back,1
 112,export,1
 112,escape,1
@@ -54249,7 +54132,7 @@ EpisodeId,Word,Occurrences
 112,friendship,1
 112,Get,1
 112,favorite,1
-112,Kids,1
+112,carries,1
 112,important,2
 112,luck,1
 112,Really,1
@@ -54274,8 +54157,7 @@ EpisodeId,Word,Occurrences
 112,Come,1
 112,happy,4
 112,complete,1
-112,pronounce,1
-112,Well,2
+112,barber,1
 112,specialty,1
 112,Small,1
 112,true,1
@@ -54332,7 +54214,6 @@ EpisodeId,Word,Occurrences
 112,Yeah,3
 112,together,1
 112,searched,2
-112,push,2
 112,understand,1
 82,Canada,5
 82,forbidden,1
@@ -54448,7 +54329,7 @@ EpisodeId,Word,Occurrences
 82,takes,2
 82,would,5
 82,coins,1
-82,McClaren,1
+82,two,4
 82,next,2
 82,live,1
 82,planted,1
@@ -54553,7 +54434,6 @@ EpisodeId,Word,Occurrences
 82,DESAPER,1
 82,ll,6
 82,actually,3
-82,window,2
 82,orange,1
 82,weeks,2
 82,bye,1
@@ -55037,7 +54917,7 @@ EpisodeId,Word,Occurrences
 82,Barn,1
 82,lied,3
 82,Away,1
-82,two,4
+82,McClaren,1
 82,Everything,2
 82,assistant,1
 82,Corridor,1
@@ -55115,7 +54995,6 @@ EpisodeId,Word,Occurrences
 82,Street,1
 82,Asian,1
 82,teeth,1
-82,push,2
 82,serious,2
 82,starting,1
 82,original,2
@@ -55143,7 +55022,6 @@ EpisodeId,Word,Occurrences
 83,young,4
 83,suits,1
 83,shack,1
-83,coaching,1
 83,th,2
 83,sorry,1
 83,ta,1
@@ -55340,7 +55218,7 @@ EpisodeId,Word,Occurrences
 83,Landing,1
 83,actually,1
 83,kindergarten,1
-83,window,2
+83,coaching,1
 83,according,2
 83,orange,1
 83,admirable,1
@@ -55511,7 +55389,7 @@ EpisodeId,Word,Occurrences
 83,trying,3
 83,northern,1
 83,winner,1
-83,enough,2
+83,behind,1
 83,striptease,1
 83,going,2
 83,pretty,1
@@ -55555,7 +55433,7 @@ EpisodeId,Word,Occurrences
 83,away,1
 83,rings,2
 83,See,1
-83,behind,1
+83,enough,2
 83,score,4
 83,probably,1
 83,reading,1
@@ -55848,7 +55726,6 @@ EpisodeId,Word,Occurrences
 83,Sleep,1
 83,came,2
 83,time,6
-83,push,2
 83,everywhere,1
 83,sounded,1
 80,pervert,1
@@ -55943,7 +55820,7 @@ EpisodeId,Word,Occurrences
 80,La,1
 80,dude,5
 80,two,2
-80,next,1
+80,Think,1
 80,live,2
 80,asteroid,1
 80,call,1
@@ -55963,7 +55840,6 @@ EpisodeId,Word,Occurrences
 80,American,1
 80,Already,1
 80,broke,2
-80,Flashback,1
 80,hurry,1
 80,must,2
 80,shoot,1
@@ -56047,7 +55923,6 @@ EpisodeId,Word,Occurrences
 80,ll,5
 80,torn,2
 80,better,2
-80,window,2
 80,minute,2
 80,derivative,1
 80,bye,2
@@ -56173,7 +56048,7 @@ EpisodeId,Word,Occurrences
 80,butt,1
 80,Fun,1
 80,Bordeaux,1
-80,believe,2
+80,flowers,1
 80,boyfriend,2
 80,loved,1
 80,colleagues,1
@@ -56217,6 +56092,7 @@ EpisodeId,Word,Occurrences
 80,m,6
 80,playing,1
 80,looked,1
+80,FlashbackRobin,1
 80,Vire,1
 80,Earth,1
 80,left,2
@@ -56231,7 +56107,7 @@ EpisodeId,Word,Occurrences
 80,find,1
 80,Horn,1
 80,FlashbackKaren,1
-80,flowers,1
+80,believe,2
 80,Pant,1
 80,Theodore,1
 80,situations,1
@@ -56413,7 +56289,7 @@ EpisodeId,Word,Occurrences
 80,hated,1
 80,hurtful,1
 80,guts,1
-80,Robin,27
+80,Robin,26
 80,color,1
 80,parents,1
 80,formal,1
@@ -56459,7 +56335,6 @@ EpisodeId,Word,Occurrences
 80,guess,1
 80,goldfish,1
 80,mustard,1
-80,Hello,1
 80,humor,1
 80,Lee,1
 80,tube,1
@@ -56480,7 +56355,7 @@ EpisodeId,Word,Occurrences
 80,chick,1
 80,exciting,1
 80,super,1
-80,Think,1
+80,Hello,1
 80,First,1
 80,would,7
 80,anything,2
@@ -56493,6 +56368,7 @@ EpisodeId,Word,Occurrences
 80,Scooter,3
 80,McClaren,1
 80,pepperoni,1
+80,next,1
 80,strangely,1
 80,impressed,1
 80,Ends,1
@@ -56553,7 +56429,6 @@ EpisodeId,Word,Occurrences
 80,students,1
 80,time,8
 80,occurred,1
-80,push,2
 80,important,1
 80,painting,1
 80,required,1
@@ -56638,7 +56513,7 @@ EpisodeId,Word,Occurrences
 81,hast,1
 81,sexy,1
 81,great,6
-81,property,1
+81,Angie,1
 81,ahead,2
 81,leaves,1
 81,leaving,1
@@ -56681,7 +56556,6 @@ EpisodeId,Word,Occurrences
 81,chocolate,1
 81,basically,1
 81,known,1
-81,Flashback,1
 81,glad,1
 81,must,3
 81,fly,1
@@ -56755,7 +56629,6 @@ EpisodeId,Word,Occurrences
 81,fit,1
 81,trying,1
 81,forms,2
-81,window,2
 81,vents,1
 81,weeks,1
 81,happened,6
@@ -56937,6 +56810,7 @@ EpisodeId,Word,Occurrences
 81,Stella,1
 81,courage,1
 81,words,1
+81,probably,1
 81,years,9
 81,routine,1
 81,celebrate,1
@@ -56968,7 +56842,7 @@ EpisodeId,Word,Occurrences
 81,won,3
 81,finger,1
 81,diamonds,1
-81,probably,1
+81,Wait,2
 81,reading,1
 81,sabotage,1
 81,mutes,1
@@ -57031,7 +56905,7 @@ EpisodeId,Word,Occurrences
 81,career,1
 81,joke,1
 81,wild,1
-81,Wait,2
+81,property,1
 81,loop,1
 81,mistake,1
 81,layer,1
@@ -57069,6 +56943,7 @@ EpisodeId,Word,Occurrences
 81,Maybe,3
 81,drink,1
 81,hand,1
+81,FlashbackA,1
 81,flashbackRobin,1
 81,totally,1
 81,cross,1
@@ -57164,7 +57039,6 @@ EpisodeId,Word,Occurrences
 81,earring,3
 81,champ,1
 81,Korean,1
-81,Angie,1
 81,impressed,1
 81,elastic,1
 81,Normal,1
@@ -57244,7 +57118,6 @@ EpisodeId,Word,Occurrences
 81,jacket,1
 81,Second,1
 81,time,3
-81,push,2
 81,fresh,1
 81,Apparently,1
 81,retirees,1
@@ -57445,7 +57318,6 @@ EpisodeId,Word,Occurrences
 86,ll,11
 86,landed,1
 86,better,2
-86,window,2
 86,Wait,2
 86,puts,1
 86,good,2
@@ -57985,7 +57857,7 @@ EpisodeId,Word,Occurrences
 86,came,2
 86,reception,1
 86,time,5
-86,push,3
+86,push,1
 86,adult,1
 87,managed,2
 87,switched,1
@@ -58082,7 +57954,7 @@ EpisodeId,Word,Occurrences
 87,flashbackMarshall,3
 87,would,8
 87,Sold,1
-87,dude,1
+87,Driver,2
 87,McClaren,3
 87,next,3
 87,jam,1
@@ -58171,7 +58043,6 @@ EpisodeId,Word,Occurrences
 87,fix,3
 87,writing,2
 87,better,3
-87,window,2
 87,fines,1
 87,Wait,1
 87,good,5
@@ -58582,7 +58453,7 @@ EpisodeId,Word,Occurrences
 87,swimming,1
 87,alliance,1
 87,lied,2
-87,Driver,2
+87,dude,1
 87,two,2
 87,lung,2
 87,holster,1
@@ -58646,7 +58517,6 @@ EpisodeId,Word,Occurrences
 87,felt,1
 87,problems,1
 87,breasts,1
-87,directory,1
 87,important,1
 87,serious,1
 87,authorities,2
@@ -58660,7 +58530,7 @@ EpisodeId,Word,Occurrences
 87,together,1
 87,came,2
 87,time,3
-87,push,2
+87,directory,1
 87,understand,2
 84,Stretch,1
 84,known,2
@@ -58745,7 +58615,6 @@ EpisodeId,Word,Occurrences
 84,women,1
 84,coolest,1
 84,situations,1
-84,Flashback,1
 84,makes,3
 84,Goliath,1
 84,Toy,6
@@ -58815,7 +58684,7 @@ EpisodeId,Word,Occurrences
 84,hugs,1
 84,instead,2
 84,beach,1
-84,Robin,59
+84,Robin,58
 84,buildings,1
 84,okay,1
 84,stop,5
@@ -58859,7 +58728,6 @@ EpisodeId,Word,Occurrences
 84,ll,13
 84,labor,1
 84,late,2
-84,window,2
 84,creations,1
 84,choose,3
 84,cotta,1
@@ -59026,6 +58894,7 @@ EpisodeId,Word,Occurrences
 84,upset,1
 84,spend,2
 84,looked,1
+84,FlashbackRobin,1
 84,Want,1
 84,Earth,1
 84,away,2
@@ -59372,7 +59241,6 @@ EpisodeId,Word,Occurrences
 84,Second,1
 84,came,1
 84,teeth,1
-84,push,2
 84,lives,2
 84,Empire,2
 84,Apparently,1
@@ -59554,7 +59422,7 @@ EpisodeId,Word,Occurrences
 85,ll,6
 85,actually,1
 85,better,4
-85,window,3
+85,window,1
 85,Wait,3
 85,someone,5
 85,return,1
@@ -59986,7 +59854,6 @@ EpisodeId,Word,Occurrences
 85,Yeah,4
 85,rule,5
 85,time,4
-85,push,2
 85,Apparently,1
 198,Men,2
 198,pardon,1
@@ -60166,7 +60033,6 @@ EpisodeId,Word,Occurrences
 198,willow,4
 198,exact,1
 198,ll,8
-198,window,2
 198,Moving,1
 198,covered,1
 198,bye,2
@@ -60632,7 +60498,6 @@ EpisodeId,Word,Occurrences
 198,Bro,3
 198,Aw,1
 198,time,6
-198,push,2
 198,numbing,1
 198,stammers,2
 206,wrestle,1
@@ -60841,7 +60706,6 @@ EpisodeId,Word,Occurrences
 206,ll,15
 206,actually,2
 206,better,3
-206,window,2
 206,whole,1
 206,Hornpipe,1
 206,covered,1
@@ -61386,7 +61250,6 @@ EpisodeId,Word,Occurrences
 206,Second,1
 206,lying,2
 206,time,3
-206,push,2
 3,Title,2
 3,demand,3
 3,dynamic,1
@@ -61622,7 +61485,7 @@ EpisodeId,Word,Occurrences
 3,ll,8
 3,actually,1
 3,better,1
-3,window,3
+3,window,1
 3,Plane,2
 3,restrain,1
 3,button,1
@@ -62227,9 +62090,8 @@ EpisodeId,Word,Occurrences
 3,Man,4
 3,picture,5
 3,junk,1
-3,time,7
+3,Year,3
 3,convincing,1
-3,alright,3
 3,chance,1
 3,kinda,1
 3,Making,1
@@ -62248,8 +62110,8 @@ EpisodeId,Word,Occurrences
 3,Street,1
 3,Unbuttoning,1
 3,dot,1
-3,Year,3
-3,push,2
+3,time,7
+3,alright,3
 3,wake,1
 3,Philly,12
 3,Heyow,2
@@ -62411,7 +62273,6 @@ EpisodeId,Word,Occurrences
 177,somewhere,1
 177,ll,10
 177,meantime,1
-177,window,2
 177,Ahoy,3
 177,weeks,1
 177,household,1
@@ -62845,7 +62706,6 @@ EpisodeId,Word,Occurrences
 177,together,2
 177,Aw,1
 177,time,4
-177,push,2
 177,serious,1
 7,interspecies,1
 7,forget,1
@@ -63032,7 +62892,7 @@ EpisodeId,Word,Occurrences
 7,end,1
 7,noises,1
 7,watching,1
-7,dinner,1
+7,magazine,1
 7,machine,3
 7,maps,1
 7,hot,1
@@ -63094,7 +62954,7 @@ EpisodeId,Word,Occurrences
 7,ll,7
 7,actually,3
 7,sprays,1
-7,window,8
+7,window,6
 7,might,1
 7,happened,1
 7,wouldn,1
@@ -63344,7 +63204,6 @@ EpisodeId,Word,Occurrences
 7,runs,3
 7,bar,4
 7,married,6
-7,APARTMENT,3
 7,worried,1
 7,bad,2
 7,shots,1
@@ -63472,7 +63331,7 @@ EpisodeId,Word,Occurrences
 7,engaged,3
 7,couples,1
 7,player,1
-7,Kids,1
+7,APARTMENT,3
 7,ready,1
 7,somebody,2
 7,sits,3
@@ -63622,7 +63481,7 @@ EpisodeId,Word,Occurrences
 7,months,2
 7,soulmates,1
 7,Hillbilly,1
-7,magazine,1
+7,Kids,1
 7,slams,1
 7,plus,1
 7,Solutions,5
@@ -63654,6 +63513,7 @@ EpisodeId,Word,Occurrences
 7,Congratulations,2
 7,washed,1
 7,Remember,1
+7,dinner,1
 7,Science,1
 7,Well,4
 7,girlfriends,1
@@ -63719,7 +63579,6 @@ EpisodeId,Word,Occurrences
 7,jacket,1
 7,gorilla,1
 7,time,2
-7,push,2
 7,serious,1
 108,cking,2
 108,leads,1
@@ -63920,7 +63779,6 @@ EpisodeId,Word,Occurrences
 108,ll,5
 108,late,1
 108,tramp,2
-108,window,2
 108,Inventing,1
 108,happened,5
 108,dad,1
@@ -64393,7 +64251,6 @@ EpisodeId,Word,Occurrences
 108,mass,3
 108,hips,1
 108,time,9
-108,push,2
 108,serious,1
 108,basically,1
 109,consider,2
@@ -64567,7 +64424,7 @@ EpisodeId,Word,Occurrences
 109,ll,7
 109,birthdays,1
 109,better,2
-109,window,3
+109,window,1
 109,compelling,1
 109,orchestrating,1
 109,carton,2
@@ -64917,7 +64774,7 @@ EpisodeId,Word,Occurrences
 109,follows,1
 109,Donnie,1
 109,specific,1
-109,chamber,2
+109,remind,3
 109,continue,1
 109,either,3
 109,night,6
@@ -64936,7 +64793,7 @@ EpisodeId,Word,Occurrences
 109,Damn,1
 109,GENERICDon,1
 109,home,1
-109,remind,3
+109,chamber,2
 109,literally,1
 109,kettle,1
 109,Wasabi,1
@@ -65041,7 +64898,7 @@ EpisodeId,Word,Occurrences
 109,beds,10
 109,fact,2
 109,time,3
-109,push,3
+109,push,1
 102,forget,1
 102,relieve,1
 102,four,1
@@ -65251,7 +65108,6 @@ EpisodeId,Word,Occurrences
 102,thank,4
 102,ll,8
 102,better,1
-102,window,2
 102,World,1
 102,happened,5
 102,coffee,1
@@ -65824,7 +65680,7 @@ EpisodeId,Word,Occurrences
 102,compete,1
 102,Fifth,1
 102,time,5
-102,push,3
+102,push,1
 102,Apparently,1
 102,original,1
 103,Based,1
@@ -66048,7 +65904,6 @@ EpisodeId,Word,Occurrences
 103,ll,13
 103,actually,3
 103,better,1
-103,window,2
 103,Ha,1
 103,ruining,1
 103,enlisted,1
@@ -66603,7 +66458,6 @@ EpisodeId,Word,Occurrences
 103,nice,1
 103,Case,1
 103,picture,1
-103,Ay,1
 103,meaning,1
 103,important,1
 103,shattering,1
@@ -66621,7 +66475,7 @@ EpisodeId,Word,Occurrences
 103,Blah,2
 103,came,1
 103,time,2
-103,push,2
+103,Ay,1
 103,stick,1
 100,yellow,2
 100,four,1
@@ -66817,7 +66671,6 @@ EpisodeId,Word,Occurrences
 100,hot,1
 100,housewife,1
 100,better,6
-100,window,2
 100,complex,2
 100,ruining,1
 100,World,1
@@ -67325,7 +67178,6 @@ EpisodeId,Word,Occurrences
 100,jacket,3
 100,Street,1
 100,time,5
-100,push,2
 101,V,1
 101,invent,2
 101,month,1
@@ -67503,7 +67355,7 @@ EpisodeId,Word,Occurrences
 101,ll,5
 101,writing,1
 101,better,1
-101,window,3
+101,window,1
 101,choose,1
 101,mail,1
 101,weeks,2
@@ -67981,7 +67833,6 @@ EpisodeId,Word,Occurrences
 101,rule,3
 101,fact,2
 101,FlashbackAt,1
-101,push,2
 101,lives,1
 106,since,1
 106,forget,1
@@ -68187,7 +68038,6 @@ EpisodeId,Word,Occurrences
 106,birthdays,1
 106,actually,1
 106,better,2
-106,window,2
 106,harmonies,1
 106,weeks,1
 106,might,1
@@ -68681,7 +68531,6 @@ EpisodeId,Word,Occurrences
 106,Street,3
 106,Bitch,1
 106,Spanish,1
-106,push,2
 106,serious,2
 106,starting,1
 106,Emily,2
@@ -68891,7 +68740,6 @@ EpisodeId,Word,Occurrences
 107,lied,2
 107,ll,5
 107,better,1
-107,window,2
 107,peanuts,1
 107,might,1
 107,happened,15
@@ -69031,7 +68879,7 @@ EpisodeId,Word,Occurrences
 107,Bobo,7
 107,begin,1
 107,sure,2
-107,bottle,1
+107,complainer,1
 107,normal,1
 107,Sarah,2
 107,Journalists,1
@@ -69216,7 +69064,7 @@ EpisodeId,Word,Occurrences
 107,well,3
 107,thought,1
 107,breeze,1
-107,complainer,1
+107,bottle,1
 107,dressed,2
 107,Aunt,1
 107,model,4
@@ -69385,7 +69233,6 @@ EpisodeId,Word,Occurrences
 107,together,3
 107,lying,3
 107,time,5
-107,push,2
 107,understand,1
 107,Empire,2
 107,confess,1
@@ -69581,7 +69428,6 @@ EpisodeId,Word,Occurrences
 104,amazing,1
 104,actually,1
 104,better,2
-104,window,2
 104,orange,1
 104,covered,1
 104,team,1
@@ -70111,7 +69957,6 @@ EpisodeId,Word,Occurrences
 104,jacket,3
 104,fact,2
 104,time,4
-104,push,2
 104,Honestly,1
 104,lineup,1
 104,starting,1
@@ -70189,7 +70034,7 @@ EpisodeId,Word,Occurrences
 105,great,9
 105,daughter,1
 105,ahead,1
-105,brilliant,1
+105,Absolutely,1
 105,leaves,4
 105,larger,1
 105,pick,1
@@ -70303,11 +70148,10 @@ EpisodeId,Word,Occurrences
 105,carnal,2
 105,merino,1
 105,still,3
-105,March,1
+105,police,1
 105,ll,6
 105,Continues,1
 105,late,1
-105,window,2
 105,decaf,1
 105,might,2
 105,Wait,3
@@ -70517,7 +70361,7 @@ EpisodeId,Word,Occurrences
 105,Kashmir,1
 105,however,1
 105,enters,1
-105,police,1
+105,March,1
 105,come,2
 105,kitchen,3
 105,last,1
@@ -70565,7 +70409,7 @@ EpisodeId,Word,Occurrences
 105,Marshall,34
 105,Give,1
 105,trick,1
-105,Absolutely,1
+105,brilliant,1
 105,evening,5
 105,surprised,1
 105,fault,1
@@ -70769,7 +70613,6 @@ EpisodeId,Word,Occurrences
 105,together,1
 105,tightest,1
 105,time,4
-105,push,2
 105,serious,1
 105,Empire,1
 39,suicidal,1
@@ -70991,7 +70834,7 @@ EpisodeId,Word,Occurrences
 39,ll,12
 39,actually,1
 39,late,1
-39,window,4
+39,window,2
 39,Pad,1
 39,bye,2
 39,might,2
@@ -71543,7 +71386,7 @@ EpisodeId,Word,Occurrences
 39,fact,1
 39,Aw,1
 39,time,5
-39,push,5
+39,push,3
 39,serious,2
 39,accidents,1
 39,tanned,1
@@ -71723,11 +71566,11 @@ EpisodeId,Word,Occurrences
 38,moisturize,1
 38,winning,1
 38,late,1
-38,window,3
+38,window,1
 38,orange,1
 38,Buttafuoco,1
 38,wouldn,1
-38,good,8
+38,Kids,2
 38,crash,1
 38,killer,1
 38,break,2
@@ -71743,6 +71586,7 @@ EpisodeId,Word,Occurrences
 38,gets,1
 38,always,1
 38,didn,5
+38,good,8
 38,floors,1
 38,flyers,1
 38,found,1
@@ -71944,7 +71788,7 @@ EpisodeId,Word,Occurrences
 38,water,1
 38,last,2
 38,movers,1
-38,Helsing,2
+38,many,2
 38,agree,1
 38,Bring,1
 38,admit,2
@@ -71986,7 +71830,7 @@ EpisodeId,Word,Occurrences
 38,look,5
 38,Marshall,26
 38,ugly,1
-38,many,2
+38,Helsing,2
 38,kissing,1
 38,endured,1
 38,Lauren,1
@@ -72115,7 +71959,6 @@ EpisodeId,Word,Occurrences
 38,months,1
 38,US,1
 38,side,3
-38,Kids,2
 38,stand,1
 38,act,2
 38,Really,3
@@ -72211,7 +72054,6 @@ EpisodeId,Word,Occurrences
 38,lying,1
 38,Aw,1
 38,time,5
-38,push,2
 38,starting,2
 33,cares,1
 33,Sadly,1
@@ -72428,7 +72270,6 @@ EpisodeId,Word,Occurrences
 33,ll,13
 33,mistletoe,1
 33,writing,1
-33,window,2
 33,chimney,1
 33,Santa,1
 33,jukebox,1
@@ -72979,7 +72820,6 @@ EpisodeId,Word,Occurrences
 33,Fiercely,1
 33,came,1
 33,time,9
-33,push,2
 33,tapping,1
 32,Sadly,1
 32,dance,4
@@ -73223,7 +73063,7 @@ EpisodeId,Word,Occurrences
 32,actually,3
 32,better,2
 32,tramp,1
-32,window,3
+32,window,1
 32,choose,1
 32,Legendary,1
 32,shy,1
@@ -73823,7 +73663,6 @@ EpisodeId,Word,Occurrences
 32,discreet,1
 32,Blam,1
 32,time,4
-32,push,2
 32,beers,1
 32,hello,2
 31,Canada,14
@@ -74065,7 +73904,6 @@ EpisodeId,Word,Occurrences
 31,Mountie,1
 31,better,3
 31,massagers,1
-31,window,2
 31,orange,1
 31,Sparkles,15
 31,cutie,1
@@ -74685,7 +74523,6 @@ EpisodeId,Word,Occurrences
 31,jacket,1
 31,reception,1
 31,teeth,1
-31,push,2
 31,serious,1
 30,waive,2
 30,dance,3
@@ -74874,7 +74711,6 @@ EpisodeId,Word,Occurrences
 30,actually,2
 30,better,3
 30,feel,1
-30,window,2
 30,willing,1
 30,choose,1
 30,Judge,8
@@ -75358,7 +75194,6 @@ EpisodeId,Word,Occurrences
 30,together,5
 30,Aw,1
 30,time,7
-30,push,2
 30,understand,4
 37,Canada,1
 37,Nobody,3
@@ -75561,7 +75396,6 @@ EpisodeId,Word,Occurrences
 37,hot,2
 37,actually,2
 37,late,1
-37,window,2
 37,Jersey,1
 37,orange,1
 37,speech,1
@@ -76109,7 +75943,6 @@ EpisodeId,Word,Occurrences
 37,walked,1
 37,Street,1
 37,time,7
-37,push,2
 37,serious,1
 37,starting,2
 37,original,1
@@ -76328,7 +76161,6 @@ EpisodeId,Word,Occurrences
 36,actually,1
 36,late,1
 36,Solemn,1
-36,window,2
 36,weeks,1
 36,holiday,1
 36,sauce,3
@@ -76899,7 +76731,6 @@ EpisodeId,Word,Occurrences
 36,drank,1
 36,Emmitt,6
 36,time,16
-36,push,2
 36,lives,2
 35,forget,1
 35,dance,1
@@ -77109,7 +76940,6 @@ EpisodeId,Word,Occurrences
 35,torn,1
 35,actually,2
 35,late,1
-35,window,2
 35,Emerald,1
 35,weeks,1
 35,legos,1
@@ -77648,7 +77478,6 @@ EpisodeId,Word,Occurrences
 35,Yeah,14
 35,came,2
 35,time,4
-35,push,2
 35,husky,1
 34,Nobody,1
 34,dance,2
@@ -77826,7 +77655,6 @@ EpisodeId,Word,Occurrences
 34,personal,1
 34,ll,12
 34,actually,5
-34,window,2
 34,babyEnd,1
 34,approve,1
 34,World,1
@@ -78321,7 +78149,7 @@ EpisodeId,Word,Occurrences
 34,fact,3
 34,Aw,3
 34,time,8
-34,push,3
+34,push,1
 34,Empire,19
 205,neighbors,1
 205,Everybody,1
@@ -78497,6 +78325,7 @@ EpisodeId,Word,Occurrences
 205,divided,1
 205,boxing,1
 205,poetry,1
+205,Tell,1
 205,machine,1
 205,fourth,3
 205,struggled,1
@@ -78555,7 +78384,6 @@ EpisodeId,Word,Occurrences
 205,Excuse,1
 205,interesting,1
 205,ll,6
-205,window,2
 205,celebrate,1
 205,mail,1
 205,weeks,2
@@ -78909,7 +78737,7 @@ EpisodeId,Word,Occurrences
 205,ready,1
 205,bucks,1
 205,Rivers,1
-205,Tell,1
+205,trek,1
 205,tattoo,3
 205,sweep,1
 205,things,2
@@ -79062,7 +78890,6 @@ EpisodeId,Word,Occurrences
 205,Remember,1
 205,Well,8
 205,yeah,2
-205,trek,1
 205,hear,1
 205,happier,1
 205,crane,1
@@ -79122,7 +78949,6 @@ EpisodeId,Word,Occurrences
 205,Blah,2
 205,Aw,1
 205,time,5
-205,push,2
 205,Apparently,1
 176,since,1
 176,discreetly,1
@@ -79326,7 +79152,7 @@ EpisodeId,Word,Occurrences
 176,ll,7
 176,actually,3
 176,kindergarten,1
-176,window,3
+176,window,1
 176,squatting,1
 176,suspension,1
 176,bye,2
@@ -79794,7 +79620,6 @@ EpisodeId,Word,Occurrences
 176,fact,2
 176,Aw,4
 176,time,10
-176,push,2
 176,serious,2
 176,starting,1
 176,defend,1
@@ -79980,7 +79805,6 @@ EpisodeId,Word,Occurrences
 60,ll,2
 60,hot,1
 60,actually,2
-60,window,2
 60,Sparkles,1
 60,easier,1
 60,happened,2
@@ -80470,7 +80294,6 @@ EpisodeId,Word,Occurrences
 60,together,6
 60,presenting,2
 60,time,4
-60,push,2
 60,understand,1
 60,overseas,1
 60,songs,1
@@ -80691,7 +80514,6 @@ EpisodeId,Word,Occurrences
 61,amazing,1
 61,writing,1
 61,kindergarten,1
-61,window,2
 61,bye,2
 61,might,1
 61,happened,12
@@ -81235,7 +81057,6 @@ EpisodeId,Word,Occurrences
 61,Bro,11
 61,fact,1
 61,time,4
-61,push,2
 61,serious,1
 61,avoid,1
 62,Title,1
@@ -81398,7 +81219,6 @@ EpisodeId,Word,Occurrences
 62,ll,7
 62,expectations,5
 62,actually,1
-62,window,2
 62,weeks,1
 62,might,1
 62,easier,1
@@ -81819,7 +81639,6 @@ EpisodeId,Word,Occurrences
 62,Yeah,11
 62,together,1
 62,time,8
-62,push,2
 62,serious,1
 62,starting,1
 63,vetDr,1
@@ -82023,7 +81842,7 @@ EpisodeId,Word,Occurrences
 63,hot,1
 63,actually,2
 63,better,2
-63,window,3
+63,window,1
 63,Observe,1
 63,glanced,1
 63,weeks,2
@@ -82561,7 +82380,6 @@ EpisodeId,Word,Occurrences
 63,dot,2
 63,Aw,1
 63,time,4
-63,push,2
 63,sensibility,1
 63,original,2
 64,code,1
@@ -82743,7 +82561,6 @@ EpisodeId,Word,Occurrences
 64,ll,8
 64,actually,2
 64,better,1
-64,window,2
 64,willing,1
 64,orange,2
 64,weeks,2
@@ -82961,7 +82778,7 @@ EpisodeId,Word,Occurrences
 64,accident,5
 64,country,1
 64,taking,1
-64,marrying,1
+64,hated,2
 64,whole,4
 64,asked,1
 64,comes,1
@@ -83054,7 +82871,7 @@ EpisodeId,Word,Occurrences
 64,glue,1
 64,death,1
 64,thinking,2
-64,hated,2
+64,marrying,1
 64,point,1
 64,day,3
 64,parents,1
@@ -83208,7 +83025,6 @@ EpisodeId,Word,Occurrences
 64,walked,1
 64,Aw,1
 64,time,5
-64,push,2
 64,serious,1
 64,Fourscore,1
 64,Apparently,2
@@ -83404,7 +83220,6 @@ EpisodeId,Word,Occurrences
 65,actually,6
 65,better,3
 65,feel,2
-65,window,2
 65,Harris,3
 65,choose,2
 65,mail,1
@@ -83969,7 +83784,6 @@ EpisodeId,Word,Occurrences
 65,sounded,1
 65,fact,1
 65,time,12
-65,push,2
 65,original,1
 66,discreetly,1
 66,forget,1
@@ -84191,7 +84005,6 @@ EpisodeId,Word,Occurrences
 66,hot,1
 66,Regis,21
 66,meantime,1
-66,window,2
 66,willing,1
 66,mail,2
 66,weeks,2
@@ -84813,7 +84626,6 @@ EpisodeId,Word,Occurrences
 66,weights,1
 66,came,2
 66,time,3
-66,push,2
 66,serious,1
 66,sRobin,1
 66,starting,1
@@ -85014,7 +84826,6 @@ EpisodeId,Word,Occurrences
 67,glowing,1
 67,winning,1
 67,better,3
-67,window,2
 67,production,1
 67,torturlute,2
 67,happened,1
@@ -85524,7 +85335,6 @@ EpisodeId,Word,Occurrences
 67,compete,2
 67,fact,4
 67,time,10
-67,push,2
 67,Chronicles,1
 67,Empire,1
 67,Secaucus,2
@@ -85647,7 +85457,7 @@ EpisodeId,Word,Occurrences
 68,working,1
 68,prove,1
 68,diacritic,1
-68,tears,1
+68,idiots,1
 68,Hello,1
 68,live,2
 68,call,1
@@ -85744,7 +85554,6 @@ EpisodeId,Word,Occurrences
 68,ll,7
 68,lamp,1
 68,age,2
-68,window,2
 68,Moving,1
 68,minute,1
 68,World,2
@@ -85931,7 +85740,7 @@ EpisodeId,Word,Occurrences
 68,Prove,1
 68,written,2
 68,Hulk,1
-68,idiots,1
+68,tears,1
 68,going,4
 68,seeks,1
 68,hockey,1
@@ -86295,7 +86104,6 @@ EpisodeId,Word,Occurrences
 68,Second,1
 68,warm,1
 68,time,6
-68,push,2
 68,serious,1
 69,code,1
 69,managed,1
@@ -86334,7 +86142,7 @@ EpisodeId,Word,Occurrences
 69,ticket,1
 69,car,3
 69,school,1
-69,Super,1
+69,issue,1
 69,marry,2
 69,joined,4
 69,leave,2
@@ -86500,7 +86308,6 @@ EpisodeId,Word,Occurrences
 69,personal,1
 69,ll,12
 69,late,1
-69,window,2
 69,differently,1
 69,World,1
 69,sauce,1
@@ -86544,7 +86351,7 @@ EpisodeId,Word,Occurrences
 69,rd,1
 69,re,9
 69,got,3
-69,issue,1
+69,Super,1
 69,ass,1
 69,cars,1
 69,cutesy,1
@@ -86660,7 +86467,6 @@ EpisodeId,Word,Occurrences
 69,face,1
 69,scotch,1
 69,fact,1
-69,packs,1
 69,bedroom,1
 69,imagined,1
 69,Poor,1
@@ -86761,7 +86567,7 @@ EpisodeId,Word,Occurrences
 69,life,3
 69,lived,1
 69,meninges,1
-69,Tokyo,3
+69,packs,1
 69,reimburse,1
 69,finished,1
 69,understand,2
@@ -86873,6 +86679,7 @@ EpisodeId,Word,Occurrences
 69,security,1
 69,fault,1
 69,page,1
+69,Tokyo,3
 69,right,6
 69,old,2
 69,often,1
@@ -87000,7 +86807,6 @@ EpisodeId,Word,Occurrences
 69,together,1
 69,reception,1
 69,time,8
-69,push,2
 69,serious,2
 175,Canada,9
 175,growling,3
@@ -87218,7 +87024,7 @@ EpisodeId,Word,Occurrences
 175,interesting,2
 175,fix,1
 175,actually,1
-175,window,3
+175,window,1
 175,bummer,1
 175,Sparkles,13
 175,Sudbury,1
@@ -87807,7 +87613,6 @@ EpisodeId,Word,Occurrences
 175,Yeah,7
 175,together,1
 175,time,3
-175,push,2
 175,serious,2
 174,partial,1
 174,chain,1
@@ -88070,7 +87875,6 @@ EpisodeId,Word,Occurrences
 174,fit,1
 174,ll,9
 174,actually,1
-174,window,2
 174,Losing,1
 174,might,1
 174,Make,1
@@ -88723,7 +88527,6 @@ EpisodeId,Word,Occurrences
 174,scroll,1
 174,Aw,2
 174,teeth,1
-174,push,2
 174,awake,1
 174,Cheerios,1
 174,sounded,1
@@ -88943,7 +88746,6 @@ EpisodeId,Word,Occurrences
 173,ll,12
 173,actually,1
 173,late,1
-173,window,2
 173,bye,1
 173,happened,2
 173,dad,10
@@ -89506,7 +89308,6 @@ EpisodeId,Word,Occurrences
 173,explana,1
 173,reception,1
 173,time,8
-173,push,2
 173,serious,2
 173,Pleased,1
 172,cameras,2
@@ -89591,7 +89392,6 @@ EpisodeId,Word,Occurrences
 172,tired,1
 172,hanging,1
 172,Actually,3
-172,d,6
 172,past,2
 172,rate,1
 172,street,1
@@ -89702,7 +89502,7 @@ EpisodeId,Word,Occurrences
 172,Ranjit,9
 172,enormous,1
 172,reign,2
-172,St,1
+172,Hacky,2
 172,phone,9
 172,train,2
 172,stick,1
@@ -89844,7 +89644,6 @@ EpisodeId,Word,Occurrences
 172,amazing,4
 172,actually,4
 172,better,2
-172,window,2
 172,whole,3
 172,Legendary,1
 172,World,5
@@ -90474,7 +90273,7 @@ EpisodeId,Word,Occurrences
 172,accepted,1
 172,Nerds,1
 172,Talk,1
-172,Hacky,2
+172,d,6
 172,brought,3
 172,incredibly,1
 172,instead,1
@@ -90702,6 +90501,7 @@ EpisodeId,Word,Occurrences
 172,strangers,1
 172,chance,6
 172,wind,2
+172,St,1
 172,friends,4
 172,Page,1
 172,stops,1
@@ -90720,7 +90520,7 @@ EpisodeId,Word,Occurrences
 172,Violent,1
 172,Aw,6
 172,time,7
-172,push,3
+172,push,1
 172,serious,2
 172,underrated,1
 172,validation,1
@@ -90807,7 +90607,6 @@ EpisodeId,Word,Occurrences
 171,tired,1
 171,hanging,1
 171,Actually,3
-171,d,6
 171,past,2
 171,rate,1
 171,street,1
@@ -90917,7 +90716,7 @@ EpisodeId,Word,Occurrences
 171,Ranjit,9
 171,enormous,1
 171,reign,2
-171,St,1
+171,Hacky,2
 171,phone,9
 171,train,2
 171,stick,1
@@ -91059,7 +90858,6 @@ EpisodeId,Word,Occurrences
 171,amazing,4
 171,actually,4
 171,better,2
-171,window,2
 171,whole,3
 171,Legendary,1
 171,World,5
@@ -91689,7 +91487,7 @@ EpisodeId,Word,Occurrences
 171,accepted,1
 171,Nerds,1
 171,Talk,1
-171,Hacky,2
+171,d,6
 171,brought,3
 171,incredibly,1
 171,instead,1
@@ -91918,6 +91716,7 @@ EpisodeId,Word,Occurrences
 171,chance,6
 171,cheque,1
 171,wind,2
+171,St,1
 171,friends,4
 171,Page,1
 171,stops,1
@@ -91936,7 +91735,7 @@ EpisodeId,Word,Occurrences
 171,Violent,1
 171,Aw,6
 171,time,7
-171,push,3
+171,push,1
 171,serious,2
 171,underrated,1
 171,validation,1
@@ -92147,7 +91946,6 @@ EpisodeId,Word,Occurrences
 170,ll,8
 170,mattress,2
 170,better,3
-170,window,2
 170,might,2
 170,happened,1
 170,dad,2
@@ -92680,7 +92478,6 @@ EpisodeId,Word,Occurrences
 170,pet,1
 170,came,1
 170,time,1
-170,push,2
 170,serious,1
 170,landlady,1
 203,limited,1
@@ -92900,7 +92697,6 @@ EpisodeId,Word,Occurrences
 203,actually,1
 203,better,1
 203,feel,1
-203,window,2
 203,differently,1
 203,policy,2
 203,weeks,1
@@ -93071,7 +92867,7 @@ EpisodeId,Word,Occurrences
 203,paid,1
 203,Arizona,1
 203,plenty,1
-203,nothing,4
+203,freshman,1
 203,coil,1
 203,stands,1
 203,forever,1
@@ -93343,7 +93139,7 @@ EpisodeId,Word,Occurrences
 203,Story,1
 203,Lovers,1
 203,screamed,1
-203,freshman,1
+203,nothing,4
 203,promise,2
 203,female,1
 203,strip,1
@@ -93441,7 +93237,6 @@ EpisodeId,Word,Occurrences
 203,gorilla,1
 203,Aw,2
 203,time,6
-203,push,2
 203,serious,1
 203,chiming,1
 203,belts,1
@@ -93508,7 +93303,7 @@ EpisodeId,Word,Occurrences
 181,screams,1
 181,degree,1
 181,Mm,1
-181,herb,1
+181,got,9
 181,never,6
 181,met,5
 181,busy,2
@@ -93620,7 +93415,6 @@ EpisodeId,Word,Occurrences
 181,ll,8
 181,amazing,2
 181,late,1
-181,window,2
 181,Ahoy,3
 181,policy,1
 181,weeks,3
@@ -93669,7 +93463,7 @@ EpisodeId,Word,Occurrences
 181,looking,2
 181,re,14
 181,laid,1
-181,got,9
+181,surprise,1
 181,cause,2
 181,pathetic,1
 181,million,1
@@ -93854,6 +93648,7 @@ EpisodeId,Word,Occurrences
 181,Funyuns,1
 181,enough,1
 181,won,2
+181,herb,1
 181,probably,1
 181,pants,1
 181,interrupting,1
@@ -94113,7 +93908,6 @@ EpisodeId,Word,Occurrences
 181,Man,1
 181,living,1
 181,shelter,1
-181,surprise,1
 181,stay,1
 181,April,1
 181,San,1
@@ -94130,7 +93924,6 @@ EpisodeId,Word,Occurrences
 181,Bro,1
 181,Bogart,1
 181,time,6
-181,push,2
 181,serious,1
 181,holed,1
 181,starting,1
@@ -94366,7 +94159,7 @@ EpisodeId,Word,Occurrences
 182,ll,14
 182,actually,1
 182,late,3
-182,window,3
+182,window,1
 182,ruining,1
 182,weeks,2
 182,might,3
@@ -94908,7 +94701,6 @@ EpisodeId,Word,Occurrences
 182,stripping,4
 182,pupil,1
 182,time,5
-182,push,2
 182,Shooting,1
 183,Canada,1
 183,growling,1
@@ -95012,7 +94804,7 @@ EpisodeId,Word,Occurrences
 183,Animal,2
 183,fool,2
 183,swallowed,1
-183,ve,9
+183,ringing,1
 183,use,1
 183,wanted,3
 183,eye,1
@@ -95119,7 +94911,6 @@ EpisodeId,Word,Occurrences
 183,ll,12
 183,nostalgic,1
 183,better,2
-183,window,2
 183,willing,1
 183,covered,1
 183,weeks,1
@@ -95433,7 +95224,7 @@ EpisodeId,Word,Occurrences
 183,City,2
 183,pound,1
 183,Italy,16
-183,ringing,1
+183,ve,9
 183,played,1
 183,almost,2
 183,Nah,6
@@ -95671,7 +95462,6 @@ EpisodeId,Word,Occurrences
 183,gorilla,1
 183,lift,1
 183,Spanish,2
-183,push,2
 180,rememberRobots,1
 180,since,1
 180,forget,2
@@ -95881,7 +95671,6 @@ EpisodeId,Word,Occurrences
 180,thank,3
 180,ll,11
 180,better,2
-180,window,2
 180,Legendary,2
 180,covered,1
 180,bye,1
@@ -96394,7 +96183,6 @@ EpisodeId,Word,Occurrences
 180,walked,1
 180,Street,1
 180,time,12
-180,push,2
 180,serious,2
 180,Heinie,2
 180,hello,1
@@ -96589,7 +96377,7 @@ EpisodeId,Word,Occurrences
 2,ll,10
 2,Continues,2
 2,writing,1
-2,window,3
+2,window,1
 2,minute,2
 2,bye,1
 2,might,1
@@ -97167,7 +96955,6 @@ EpisodeId,Word,Occurrences
 2,together,3
 2,write,4
 2,Year,2
-2,push,2
 2,serious,1
 2,platter,1
 2,sounded,1
@@ -97388,7 +97175,6 @@ EpisodeId,Word,Occurrences
 162,hot,1
 162,actually,2
 162,better,1
-162,window,2
 162,redhead,1
 162,weeks,3
 162,might,2
@@ -97963,7 +97749,6 @@ EpisodeId,Word,Occurrences
 162,sounded,1
 162,Aw,1
 162,time,11
-162,push,2
 162,serious,1
 162,renegotiating,2
 187,Whose,1
@@ -98189,7 +97974,6 @@ EpisodeId,Word,Occurrences
 187,ll,8
 187,actually,2
 187,destroyed,2
-187,window,2
 187,fade,1
 187,covered,1
 187,bye,6
@@ -98388,7 +98172,6 @@ EpisodeId,Word,Occurrences
 187,slutty,1
 187,cheap,2
 187,booze,1
-187,walker,2
 187,rough,1
 187,fine,1
 187,Thank,3
@@ -98769,7 +98552,7 @@ EpisodeId,Word,Occurrences
 187,came,1
 187,Aw,2
 187,time,8
-187,push,2
+187,walker,2
 187,fresh,1
 187,Empire,2
 187,Maple,1
@@ -98963,7 +98746,6 @@ EpisodeId,Word,Occurrences
 184,course,3
 184,paper,1
 184,ticket,1
-184,explode,1
 184,shake,1
 184,mentioned,1
 184,still,3
@@ -98977,7 +98759,7 @@ EpisodeId,Word,Occurrences
 184,recreational,1
 184,amazing,2
 184,better,2
-184,window,4
+184,window,2
 184,Observe,1
 184,cotta,1
 184,World,1
@@ -98999,7 +98781,7 @@ EpisodeId,Word,Occurrences
 184,name,1
 184,always,1
 184,didn,4
-184,chuckles,2
+184,explode,1
 184,good,7
 184,Thanks,3
 184,roast,1
@@ -99391,7 +99173,7 @@ EpisodeId,Word,Occurrences
 184,Scherbatsky,2
 184,home,3
 184,Whoa,2
-184,gasps,2
+184,chuckles,2
 184,total,1
 184,absolutely,1
 184,ice,1
@@ -99485,6 +99267,7 @@ EpisodeId,Word,Occurrences
 184,poop,1
 184,E,1
 184,hey,2
+184,gasps,2
 184,welcome,1
 184,terra,1
 184,Reload,1
@@ -99500,7 +99283,7 @@ EpisodeId,Word,Occurrences
 184,together,3
 184,Aw,2
 184,time,3
-184,push,3
+184,push,1
 184,NewOriginal,1
 184,decision,1
 6,cares,1
@@ -99734,7 +99517,6 @@ EpisodeId,Word,Occurrences
 6,sexiest,1
 6,writing,1
 6,late,2
-6,window,2
 6,willing,1
 6,disguise,1
 6,whole,1
@@ -100362,7 +100144,6 @@ EpisodeId,Word,Occurrences
 6,Brain,1
 6,worn,1
 6,time,4
-6,push,2
 6,lives,1
 6,Secret,5
 6,pilaf,1
@@ -100731,7 +100512,6 @@ EpisodeId,Word,Occurrences
 186,actually,6
 186,better,4
 186,attraction,1
-186,window,2
 186,Hell,1
 186,hey,1
 186,redhead,1
@@ -101672,7 +101452,6 @@ EpisodeId,Word,Occurrences
 186,fact,1
 186,reception,1
 186,time,2
-186,push,2
 186,serious,1
 186,accidents,1
 186,baked,1
@@ -101891,7 +101670,6 @@ EpisodeId,Word,Occurrences
 188,ll,3
 188,actually,4
 188,maid,2
-188,window,2
 188,World,2
 188,might,2
 188,variables,1
@@ -102073,7 +101851,7 @@ EpisodeId,Word,Occurrences
 188,forever,1
 188,average,1
 188,later,1
-188,m,27
+188,upset,2
 188,breather,1
 188,digress,1
 188,aunt,3
@@ -102418,7 +102196,7 @@ EpisodeId,Word,Occurrences
 188,gone,1
 188,sometimes,1
 188,Please,1
-188,upset,2
+188,m,27
 188,year,3
 188,moved,2
 188,doesn,2
@@ -102458,7 +102236,6 @@ EpisodeId,Word,Occurrences
 188,Bro,16
 188,reception,1
 188,teeth,4
-188,push,2
 189,forget,3
 189,giggles,1
 189,four,1
@@ -102657,7 +102434,7 @@ EpisodeId,Word,Occurrences
 189,bluebluffy,1
 189,winning,1
 189,late,2
-189,window,3
+189,window,1
 189,choose,1
 189,Arguably,1
 189,World,1
@@ -103204,7 +102981,6 @@ EpisodeId,Word,Occurrences
 189,Bro,3
 189,hips,1
 189,time,7
-189,push,2
 189,hello,1
 202,growling,1
 202,clamoring,1
@@ -103428,7 +103204,6 @@ EpisodeId,Word,Occurrences
 202,actually,3
 202,better,3
 202,maid,1
-202,window,2
 202,Judge,5
 202,chatty,1
 202,weeks,1
@@ -104037,7 +103812,6 @@ EpisodeId,Word,Occurrences
 202,cooked,1
 202,Bitch,1
 202,time,7
-202,push,2
 202,understand,1
 202,sounded,1
 196,Canada,15
@@ -104269,7 +104043,6 @@ EpisodeId,Word,Occurrences
 196,actually,2
 196,late,1
 196,maid,1
-196,window,2
 196,choose,1
 196,might,3
 196,easier,1
@@ -104862,7 +104635,7 @@ EpisodeId,Word,Occurrences
 196,intentionally,2
 196,token,1
 196,time,6
-196,push,10
+196,push,8
 196,serious,1
 196,Dummies,2
 185,Canada,1
@@ -105231,7 +105004,6 @@ EpisodeId,Word,Occurrences
 185,actually,6
 185,better,4
 185,attraction,1
-185,window,2
 185,Hell,1
 185,hey,1
 185,redhead,1
@@ -106174,7 +105946,6 @@ EpisodeId,Word,Occurrences
 185,fact,1
 185,reception,1
 185,time,2
-185,push,2
 185,serious,1
 185,accidents,1
 185,baked,1
@@ -106390,7 +106161,7 @@ EpisodeId,Word,Occurrences
 99,ll,9
 99,birthdays,1
 99,better,1
-99,window,3
+99,window,1
 99,weeks,1
 99,holiday,1
 99,might,1
@@ -106884,7 +106655,6 @@ EpisodeId,Word,Occurrences
 99,teeth,1
 99,problems,1
 99,stay,1
-99,alright,1
 99,drag,1
 99,important,3
 99,pumps,1
@@ -106900,7 +106670,7 @@ EpisodeId,Word,Occurrences
 99,together,2
 99,Brain,1
 99,time,8
-99,push,2
+99,alright,1
 99,serious,1
 98,boiiiiiiite,1
 98,Jim,21
@@ -107105,10 +106875,10 @@ EpisodeId,Word,Occurrences
 98,ll,10
 98,torn,1
 98,better,5
-98,window,11
+98,window,9
 98,mail,1
 98,happened,1
-98,evening,3
+98,someone,1
 98,return,3
 98,seeking,1
 98,Challenge,2
@@ -107125,7 +106895,7 @@ EpisodeId,Word,Occurrences
 98,name,1
 98,always,4
 98,Enchanted,1
-98,someone,1
+98,good,7
 98,found,1
 98,feeds,1
 98,energetically,1
@@ -107387,7 +107157,7 @@ EpisodeId,Word,Occurrences
 98,Bluntly,1
 98,Write,1
 98,middle,1
-98,good,7
+98,evening,3
 98,ready,6
 98,Bar,1
 98,rid,1
@@ -107581,7 +107351,6 @@ EpisodeId,Word,Occurrences
 98,jacket,1
 98,came,2
 98,time,13
-98,push,2
 98,serious,1
 98,hello,1
 168,Canada,1
@@ -107817,7 +107586,6 @@ EpisodeId,Word,Occurrences
 168,ll,8
 168,actually,3
 168,late,1
-168,window,2
 168,matured,1
 168,redhead,1
 168,Sparkles,1
@@ -108439,7 +108207,6 @@ EpisodeId,Word,Occurrences
 168,Au,1
 168,lying,1
 168,time,5
-168,push,2
 168,serious,1
 168,precedent,1
 168,songs,1
@@ -108657,7 +108424,6 @@ EpisodeId,Word,Occurrences
 169,ll,8
 169,actually,1
 169,better,3
-169,window,2
 169,slobbering,1
 169,bin,1
 169,derivative,1
@@ -109200,7 +108966,6 @@ EpisodeId,Word,Occurrences
 169,warm,1
 169,Aw,3
 169,time,6
-169,push,2
 169,serious,2
 91,since,2
 91,seated,1
@@ -109444,7 +109209,7 @@ EpisodeId,Word,Occurrences
 91,ll,4
 91,actually,2
 91,late,2
-91,window,6
+91,window,4
 91,sniffling,1
 91,weeks,4
 91,nausea,1
@@ -110062,7 +109827,6 @@ EpisodeId,Word,Occurrences
 91,walked,2
 91,Aw,1
 91,time,3
-91,push,2
 91,awake,1
 91,starting,1
 90,Letting,1
@@ -110299,7 +110063,6 @@ EpisodeId,Word,Occurrences
 90,actually,1
 90,late,1
 90,harmless,2
-90,window,2
 90,offers,1
 90,differently,1
 90,cool,3
@@ -110868,7 +110631,6 @@ EpisodeId,Word,Occurrences
 90,original,1
 90,jacket,2
 90,time,15
-90,push,2
 90,serious,1
 90,Empire,1
 90,hello,1
@@ -111105,7 +110867,6 @@ EpisodeId,Word,Occurrences
 93,somewhere,1
 93,ll,10
 93,actually,1
-93,window,2
 93,differently,3
 93,Helen,3
 93,weeks,1
@@ -111728,7 +111489,7 @@ EpisodeId,Word,Occurrences
 93,Street,1
 93,came,1
 93,time,6
-93,push,3
+93,push,1
 93,backward,1
 93,Fame,1
 92,raining,1
@@ -111748,7 +111509,7 @@ EpisodeId,Word,Occurrences
 92,charge,1
 92,th,1
 92,melon,1
-92,tweed,4
+92,sorry,4
 92,pride,1
 92,HOMELily,4
 92,sent,3
@@ -111807,7 +111568,7 @@ EpisodeId,Word,Occurrences
 92,hours,2
 92,elbow,1
 92,Armani,1
-92,sorry,4
+92,snack,1
 92,let,4
 92,greedy,1
 92,meet,1
@@ -111840,7 +111601,6 @@ EpisodeId,Word,Occurrences
 92,love,1
 92,addresses,1
 92,magically,1
-92,owed,1
 92,Nailed,1
 92,thatVermont,1
 92,colleagues,1
@@ -111973,7 +111733,7 @@ EpisodeId,Word,Occurrences
 92,actually,3
 92,late,1
 92,feel,1
-92,window,3
+92,window,1
 92,offers,1
 92,mail,1
 92,eunuch,1
@@ -112338,7 +112098,7 @@ EpisodeId,Word,Occurrences
 92,kissing,1
 92,voice,1
 92,pack,1
-92,snack,1
+92,owed,1
 92,antiquing,1
 92,ve,10
 92,played,1
@@ -112369,6 +112129,7 @@ EpisodeId,Word,Occurrences
 92,upon,1
 92,muffled,1
 92,hand,1
+92,tweed,4
 92,arrived,1
 92,Usually,1
 92,Ignoring,1
@@ -112605,7 +112366,6 @@ EpisodeId,Word,Occurrences
 92,Saturday,3
 92,Aw,1
 92,time,6
-92,push,2
 92,serious,2
 92,hooves,1
 92,baked,1
@@ -112802,7 +112562,7 @@ EpisodeId,Word,Occurrences
 95,GENERICBarney,1
 95,furious,1
 95,Trust,1
-95,make,6
+95,order,3
 95,wind,1
 95,FlashbackBarney,1
 95,Barney,86
@@ -112825,7 +112585,7 @@ EpisodeId,Word,Occurrences
 95,monitor,1
 95,ll,4
 95,actually,1
-95,window,3
+95,window,1
 95,farmer,1
 95,weeks,1
 95,might,2
@@ -112988,7 +112748,7 @@ EpisodeId,Word,Occurrences
 95,later,1
 95,m,15
 95,hungry,3
-95,order,3
+95,face,2
 95,looked,1
 95,FlashbackRobin,2
 95,talk,1
@@ -113005,6 +112765,7 @@ EpisodeId,Word,Occurrences
 95,Monogamy,1
 95,fine,1
 95,pleased,1
+95,make,6
 95,Poor,1
 95,Shut,4
 95,Woman,2
@@ -113301,7 +113062,6 @@ EpisodeId,Word,Occurrences
 95,maile,1
 95,girlfriend,3
 95,watched,1
-95,face,2
 95,happen,3
 95,film,1
 95,selfish,1
@@ -113336,7 +113096,6 @@ EpisodeId,Word,Occurrences
 95,jacket,1
 95,Street,1
 95,time,7
-95,push,2
 95,serious,1
 95,joins,1
 94,neighbors,5
@@ -113549,7 +113308,6 @@ EpisodeId,Word,Occurrences
 94,ll,7
 94,winning,2
 94,better,3
-94,window,2
 94,weeks,1
 94,holiday,1
 94,might,1
@@ -113632,7 +113390,7 @@ EpisodeId,Word,Occurrences
 94,one,3
 94,wash,5
 94,done,2
-94,least,1
+94,relations,2
 94,another,1
 94,bland,1
 94,Probably,1
@@ -113644,7 +113402,7 @@ EpisodeId,Word,Occurrences
 94,Okay,3
 94,Monday,1
 94,caught,1
-94,relations,2
+94,least,1
 94,plastic,1
 94,paint,1
 94,show,1
@@ -114068,7 +113826,6 @@ EpisodeId,Word,Occurrences
 94,beds,1
 94,fact,2
 94,time,6
-94,push,2
 94,serious,2
 94,Apparently,1
 94,songs,1
@@ -114292,7 +114049,6 @@ EpisodeId,Word,Occurrences
 97,ll,4
 97,better,1
 97,maid,1
-97,window,2
 97,Whitney,2
 97,decaf,3
 97,hidden,1
@@ -114844,7 +114600,6 @@ EpisodeId,Word,Occurrences
 97,Sleep,1
 97,lying,1
 97,time,8
-97,push,2
 97,tapping,1
 96,aring,4
 96,code,1
@@ -114877,6 +114632,7 @@ EpisodeId,Word,Occurrences
 96,fan,1
 96,fall,4
 96,drinking,1
+96,little,1
 96,abandoned,1
 96,school,5
 96,PACS,1
@@ -115008,7 +114764,6 @@ EpisodeId,Word,Occurrences
 96,Rolls,1
 96,something,3
 96,want,5
-96,story,2
 96,end,1
 96,sit,1
 96,rather,2
@@ -115069,7 +114824,6 @@ EpisodeId,Word,Occurrences
 96,writing,1
 96,better,1
 96,platform,1
-96,window,2
 96,production,1
 96,choose,1
 96,hidden,1
@@ -115132,7 +114886,7 @@ EpisodeId,Word,Occurrences
 96,None,1
 96,insecurities,1
 96,END,1
-96,little,1
+96,story,2
 96,approaches,2
 96,whereupon,1
 96,heads,1
@@ -115621,7 +115375,6 @@ EpisodeId,Word,Occurrences
 96,fact,3
 96,volumes,1
 96,FlashbackAt,2
-96,push,2
 96,serious,1
 96,Empire,2
 96,starting,1
@@ -115799,7 +115552,6 @@ EpisodeId,Word,Occurrences
 11,personal,1
 11,ll,17
 11,better,2
-11,window,2
 11,choose,1
 11,might,1
 11,round,1
@@ -116214,7 +115966,6 @@ EpisodeId,Word,Occurrences
 11,Yeah,13
 11,together,2
 11,time,11
-11,push,2
 10,swirls,1
 10,forget,1
 10,pointing,1
@@ -116427,7 +116178,6 @@ EpisodeId,Word,Occurrences
 10,bosom,1
 10,writing,1
 10,late,1
-10,window,2
 10,Vomit,3
 10,shy,3
 10,might,1
@@ -116972,7 +116722,6 @@ EpisodeId,Word,Occurrences
 10,Sleep,1
 10,fact,1
 10,rallies,1
-10,push,2
 10,serious,2
 13,Sadly,1
 13,dance,6
@@ -117109,7 +116858,7 @@ EpisodeId,Word,Occurrences
 13,meet,2
 13,ta,1
 13,grenade,1
-13,something,4
+13,numbers,1
 13,beautiful,1
 13,vodka,1
 13,tap,3
@@ -117119,7 +116868,7 @@ EpisodeId,Word,Occurrences
 13,laughs,2
 13,bridesmaid,5
 13,heard,1
-13,numbers,1
+13,performed,1
 13,want,2
 13,CAB,1
 13,story,1
@@ -117175,7 +116924,7 @@ EpisodeId,Word,Occurrences
 13,actually,2
 13,better,1
 13,feel,4
-13,window,2
+13,APARTMENT,3
 13,weeks,2
 13,bye,1
 13,might,1
@@ -117208,7 +116957,6 @@ EpisodeId,Word,Occurrences
 13,Wow,4
 13,Dude,1
 13,idea,6
-13,Anyway,1
 13,drumroll,3
 13,girl,10
 13,whip,1
@@ -117372,7 +117120,7 @@ EpisodeId,Word,Occurrences
 13,bar,1
 13,Totally,1
 13,cry,5
-13,APARTMENT,3
+13,Anyway,1
 13,calling,2
 13,bag,1
 13,bad,5
@@ -117591,7 +117339,6 @@ EpisodeId,Word,Occurrences
 13,standing,2
 13,shakes,2
 13,eating,2
-13,performed,1
 13,WEDDING,1
 13,Um,2
 13,broken,1
@@ -117643,6 +117390,7 @@ EpisodeId,Word,Occurrences
 13,ghost,3
 13,head,2
 13,form,1
+13,something,4
 13,memory,3
 13,Well,9
 13,yeah,4
@@ -117710,7 +117458,6 @@ EpisodeId,Word,Occurrences
 13,lying,1
 13,reception,7
 13,time,3
-13,push,2
 13,Apparently,1
 13,Pleased,2
 13,stick,1
@@ -117935,7 +117682,6 @@ EpisodeId,Word,Occurrences
 12,hot,2
 12,late,3
 12,harmless,1
-12,window,2
 12,willing,1
 12,messes,1
 12,farmer,1
@@ -118520,7 +118266,6 @@ EpisodeId,Word,Occurrences
 12,Yeah,10
 12,together,6
 12,Year,2
-12,push,2
 15,forget,1
 15,skip,1
 15,keep,1
@@ -118711,7 +118456,6 @@ EpisodeId,Word,Occurrences
 15,amazing,1
 15,actually,3
 15,kindergarten,1
-15,window,2
 15,hidden,2
 15,might,3
 15,happened,3
@@ -119215,7 +118959,6 @@ EpisodeId,Word,Occurrences
 15,together,1
 15,fact,3
 15,time,3
-15,push,2
 15,serious,1
 14,limited,1
 14,code,1
@@ -119403,7 +119146,6 @@ EpisodeId,Word,Occurrences
 14,ships,1
 14,actually,4
 14,better,5
-14,window,2
 14,weeks,1
 14,might,1
 14,jukebox,1
@@ -119901,7 +119643,6 @@ EpisodeId,Word,Occurrences
 14,together,2
 14,appartmentYou,1
 14,time,10
-14,push,2
 14,serious,1
 14,sRobin,1
 14,original,1
@@ -120148,7 +119889,6 @@ EpisodeId,Word,Occurrences
 17,winning,1
 17,kindergarten,1
 17,feel,4
-17,window,2
 17,choose,1
 17,mail,4
 17,weeks,1
@@ -120263,7 +120003,7 @@ EpisodeId,Word,Occurrences
 17,wonderful,1
 17,Uncle,1
 17,breakin,1
-17,destruction,1
+17,kid,2
 17,listen,2
 17,way,1
 17,relationship,2
@@ -120505,7 +120245,7 @@ EpisodeId,Word,Occurrences
 17,totally,4
 17,lobby,1
 17,warming,1
-17,kid,2
+17,destruction,1
 17,break,3
 17,awesomeness,1
 17,try,2
@@ -120710,7 +120450,6 @@ EpisodeId,Word,Occurrences
 17,gorilla,2
 17,Aw,1
 17,time,3
-17,push,2
 17,Empire,1
 17,hello,1
 16,rabbit,1
@@ -120928,7 +120667,7 @@ EpisodeId,Word,Occurrences
 16,amazing,3
 16,actually,3
 16,better,1
-16,window,4
+16,window,2
 16,barking,1
 16,choose,1
 16,Killarney,1
@@ -121463,7 +121202,6 @@ EpisodeId,Word,Occurrences
 16,came,1
 16,Aw,2
 16,time,5
-16,push,2
 16,decision,3
 19,Pouring,1
 19,allowed,1
@@ -121671,7 +121409,6 @@ EpisodeId,Word,Occurrences
 19,amazing,2
 19,actually,2
 19,better,1
-19,window,2
 19,weeks,1
 19,happened,4
 19,wouldn,2
@@ -121696,7 +121433,7 @@ EpisodeId,Word,Occurrences
 19,Disc,2
 19,Thanks,3
 19,Statistic,1
-19,Pickles,2
+19,entirely,1
 19,Check,1
 19,mean,8
 19,upstairs,2
@@ -121850,6 +121587,7 @@ EpisodeId,Word,Occurrences
 19,Roll,1
 19,Woman,1
 19,based,1
+19,Pickles,2
 19,spite,1
 19,nervous,1
 19,winner,1
@@ -122162,7 +121900,6 @@ EpisodeId,Word,Occurrences
 19,kissed,1
 19,blatantly,1
 19,rumors,1
-19,entirely,1
 19,May,1
 19,na,2
 19,Darth,1
@@ -122192,7 +121929,6 @@ EpisodeId,Word,Occurrences
 19,together,1
 19,Sleep,1
 19,time,8
-19,push,2
 19,serious,1
 19,Empire,2
 19,intentional,1
@@ -122359,7 +122095,6 @@ EpisodeId,Word,Occurrences
 18,actually,2
 18,late,4
 18,harmless,1
-18,window,2
 18,serenaded,1
 18,bye,1
 18,might,2
@@ -122787,7 +122522,6 @@ EpisodeId,Word,Occurrences
 18,Yeah,15
 18,carrying,1
 18,time,4
-18,push,2
 18,serious,1
 18,overturned,1
 117,Trish,1
@@ -123026,7 +122760,7 @@ EpisodeId,Word,Occurrences
 117,ll,6
 117,hot,4
 117,better,8
-117,window,3
+117,window,1
 117,matured,1
 117,Legendary,1
 117,soccer,1
@@ -123640,7 +123374,6 @@ EpisodeId,Word,Occurrences
 117,Asian,1
 117,Aw,1
 117,time,2
-117,push,2
 117,starting,1
 117,worried,1
 116,Canada,1
@@ -123843,7 +123576,6 @@ EpisodeId,Word,Occurrences
 116,amazing,1
 116,actually,1
 116,better,1
-116,window,2
 116,weeks,1
 116,might,3
 116,jukebox,1
@@ -124379,7 +124111,6 @@ EpisodeId,Word,Occurrences
 116,hella,1
 116,Aw,1
 116,time,6
-116,push,2
 116,starting,1
 204,forget,1
 204,caused,1
@@ -124466,7 +124197,7 @@ EpisodeId,Word,Occurrences
 204,met,2
 204,shouldn,1
 204,let,2
-204,making,1
+204,meet,5
 204,wait,5
 204,boy,3
 204,great,2
@@ -124521,7 +124252,7 @@ EpisodeId,Word,Occurrences
 204,challenge,2
 204,getting,4
 204,knocked,1
-204,meet,5
+204,making,1
 204,excursion,1
 204,crazy,1
 204,give,3
@@ -124589,7 +124320,7 @@ EpisodeId,Word,Occurrences
 204,ll,8
 204,crew,1
 204,late,3
-204,window,3
+204,window,1
 204,Ahoy,3
 204,Judge,1
 204,bye,1
@@ -125079,7 +124810,6 @@ EpisodeId,Word,Occurrences
 204,landed,1
 204,jab,1
 204,time,7
-204,push,2
 204,starting,1
 151,neighbors,1
 151,liar,1
@@ -125094,7 +124824,6 @@ EpisodeId,Word,Occurrences
 151,hate,1
 151,Dad,2
 151,looking,2
-151,mutters,1
 151,buddy,2
 151,Met,1
 151,peanut,1
@@ -125278,7 +125007,7 @@ EpisodeId,Word,Occurrences
 151,ll,14
 151,ships,1
 151,hot,2
-151,window,2
+151,mutters,1
 151,Quest,1
 151,hobby,2
 151,weeks,1
@@ -125764,7 +125493,7 @@ EpisodeId,Word,Occurrences
 151,rule,2
 151,fact,1
 151,time,4
-151,push,3
+151,push,1
 151,starting,1
 150,Hah,1
 150,giggles,2
@@ -125975,7 +125704,6 @@ EpisodeId,Word,Occurrences
 150,amazing,3
 150,winning,2
 150,better,4
-150,window,2
 150,weeks,3
 150,bye,2
 150,might,2
@@ -126551,7 +126279,6 @@ EpisodeId,Word,Occurrences
 150,wherever,1
 150,reception,1
 150,time,5
-150,push,2
 150,Chicken,1
 150,hello,1
 153,neighbors,1
@@ -126746,7 +126473,6 @@ EpisodeId,Word,Occurrences
 153,fix,1
 153,deeds,1
 153,better,1
-153,window,2
 153,differently,1
 153,World,1
 153,hidden,2
@@ -127232,7 +126958,6 @@ EpisodeId,Word,Occurrences
 153,together,4
 153,scream,1
 153,time,7
-153,push,2
 153,serious,1
 152,logarithms,1
 152,forget,1
@@ -127444,7 +127169,7 @@ EpisodeId,Word,Occurrences
 152,actually,2
 152,better,8
 152,wasting,1
-152,window,4
+152,window,2
 152,Hell,1
 152,minute,1
 152,might,1
@@ -127992,7 +127717,6 @@ EpisodeId,Word,Occurrences
 152,together,1
 152,delta,1
 152,time,10
-152,push,2
 152,fresh,1
 152,starting,1
 155,since,1
@@ -128225,7 +127949,6 @@ EpisodeId,Word,Occurrences
 155,actually,2
 155,better,1
 155,feel,2
-155,window,2
 155,production,1
 155,World,1
 155,weeks,4
@@ -128598,7 +128321,7 @@ EpisodeId,Word,Occurrences
 155,deadly,1
 155,clears,4
 155,five,1
-155,know,13
+155,Mosby,5
 155,slutty,1
 155,cave,1
 155,Thank,3
@@ -128636,7 +128359,7 @@ EpisodeId,Word,Occurrences
 155,Air,1
 155,game,2
 155,grid,1
-155,Mosby,5
+155,know,13
 155,secrecy,1
 155,judge,2
 155,using,3
@@ -128786,7 +128509,6 @@ EpisodeId,Word,Occurrences
 155,Bro,6
 155,stripping,2
 155,time,4
-155,push,2
 155,serious,1
 155,Apparently,1
 154,pointing,1
@@ -128906,7 +128628,7 @@ EpisodeId,Word,Occurrences
 154,vivid,1
 154,would,8
 154,prove,1
-154,arms,1
+154,two,4
 154,next,2
 154,live,2
 154,wood,1
@@ -129015,7 +128737,6 @@ EpisodeId,Word,Occurrences
 154,ll,8
 154,writing,1
 154,better,5
-154,window,2
 154,minute,1
 154,policy,1
 154,hobby,1
@@ -129488,7 +129209,7 @@ EpisodeId,Word,Occurrences
 154,seeing,1
 154,primitive,1
 154,Rascal,2
-154,two,4
+154,arms,1
 154,lies,1
 154,loin,1
 154,donated,1
@@ -129568,7 +129289,6 @@ EpisodeId,Word,Occurrences
 154,train,4
 154,Asian,1
 154,time,7
-154,push,2
 154,serious,1
 154,songs,1
 157,Canada,1
@@ -129796,7 +129516,6 @@ EpisodeId,Word,Occurrences
 157,ll,11
 157,landed,1
 157,better,2
-157,window,2
 157,Sparkles,1
 157,happened,3
 157,dad,1
@@ -130382,7 +130101,6 @@ EpisodeId,Word,Occurrences
 157,stripping,1
 157,fact,3
 157,time,7
-157,push,2
 157,starting,1
 156,saying,1
 156,hats,1
@@ -130578,7 +130296,7 @@ EpisodeId,Word,Occurrences
 156,lamp,2
 156,actually,1
 156,late,3
-156,window,3
+156,window,1
 156,minute,2
 156,mail,1
 156,weeks,1
@@ -131003,7 +130721,7 @@ EpisodeId,Word,Occurrences
 156,way,12
 156,Greedo,1
 156,Come,4
-156,ago,2
+156,building,2
 156,Congratulations,1
 156,buy,1
 156,Stevie,1
@@ -131062,7 +130780,7 @@ EpisodeId,Word,Occurrences
 156,April,1
 156,reservation,1
 156,shatters,1
-156,building,2
+156,ago,2
 156,afford,1
 156,Majesty,1
 156,chords,1
@@ -131072,7 +130790,6 @@ EpisodeId,Word,Occurrences
 156,beds,1
 156,came,1
 156,time,18
-156,push,2
 156,lives,4
 156,hello,3
 156,Stormtrooper,1
@@ -131288,7 +131005,7 @@ EpisodeId,Word,Occurrences
 159,appetizers,1
 159,hot,2
 159,labor,4
-159,window,3
+159,window,1
 159,choose,1
 159,covered,1
 159,distraction,1
@@ -131807,7 +131524,7 @@ EpisodeId,Word,Occurrences
 159,hips,1
 159,Aw,1
 159,time,13
-159,push,4
+159,push,2
 159,starting,1
 158,Canada,2
 158,growling,1
@@ -132023,7 +131740,7 @@ EpisodeId,Word,Occurrences
 158,fix,1
 158,actually,2
 158,late,2
-158,window,4
+158,window,2
 158,willing,1
 158,Moving,1
 158,ruining,1
@@ -132601,7 +132318,6 @@ EpisodeId,Word,Occurrences
 158,came,1
 158,Aw,1
 158,time,9
-158,push,2
 158,deluxe,1
 158,stroller,1
 207,Canada,1
@@ -132745,7 +132461,7 @@ EpisodeId,Word,Occurrences
 207,Three,1
 207,distance,1
 207,bro,2
-207,put,7
+207,ask,2
 207,French,2
 207,fake,1
 207,tap,1
@@ -132797,7 +132513,6 @@ EpisodeId,Word,Occurrences
 207,Tonight,2
 207,anywhere,1
 207,obvious,2
-207,three,10
 207,meet,4
 207,laughter,1
 207,National,1
@@ -132900,7 +132615,7 @@ EpisodeId,Word,Occurrences
 207,hot,1
 207,better,2
 207,age,1
-207,window,2
+207,absence,1
 207,shuddering,1
 207,choose,2
 207,Legendary,1
@@ -132996,7 +132711,7 @@ EpisodeId,Word,Occurrences
 207,completely,1
 207,Architecture,1
 207,W,1
-207,ask,2
+207,put,7
 207,hots,1
 207,teach,1
 207,earliest,1
@@ -133319,7 +133034,7 @@ EpisodeId,Word,Occurrences
 207,decent,1
 207,gals,1
 207,Scherbatsky,4
-207,absence,1
+207,three,10
 207,Didn,1
 207,mark,1
 207,hitting,1
@@ -133725,7 +133440,6 @@ EpisodeId,Word,Occurrences
 207,came,2
 207,Aw,4
 207,time,10
-207,push,2
 207,lives,4
 207,others,1
 48,code,1
@@ -133962,7 +133676,6 @@ EpisodeId,Word,Occurrences
 48,thrust,1
 48,winning,3
 48,better,5
-48,window,2
 48,Dougie,1
 48,choose,1
 48,Brooke,6
@@ -134603,7 +134316,7 @@ EpisodeId,Word,Occurrences
 48,together,1
 48,came,1
 48,time,5
-48,push,3
+48,push,1
 48,serious,1
 48,stroller,1
 49,Worst,1
@@ -134817,7 +134530,6 @@ EpisodeId,Word,Occurrences
 49,actually,2
 49,late,1
 49,resort,1
-49,window,2
 49,strange,1
 49,differently,1
 49,Freshman,1
@@ -135396,7 +135108,6 @@ EpisodeId,Word,Occurrences
 49,felt,1
 49,drift,1
 49,breasts,1
-49,Ay,1
 49,Future,8
 49,stab,1
 49,nods,1
@@ -135413,7 +135124,7 @@ EpisodeId,Word,Occurrences
 49,lying,1
 49,Aw,2
 49,time,8
-49,push,2
+49,Ay,1
 49,fresh,1
 49,starting,1
 46,Welcome,1
@@ -135647,7 +135358,6 @@ EpisodeId,Word,Occurrences
 46,ll,11
 46,writing,3
 46,forms,1
-46,window,2
 46,Atfer,1
 46,travelers,2
 46,travelling,1
@@ -136240,7 +135950,6 @@ EpisodeId,Word,Occurrences
 46,hey,2
 46,time,6
 46,pretended,1
-46,Ay,1
 46,meaning,1
 46,journey,1
 46,serious,1
@@ -136257,7 +135966,7 @@ EpisodeId,Word,Occurrences
 46,sewer,1
 46,pension,1
 46,Year,2
-46,push,2
+46,Ay,1
 46,everywhere,2
 46,baked,2
 47,gown,2
@@ -136519,7 +136228,7 @@ EpisodeId,Word,Occurrences
 47,CD,6
 47,actually,5
 47,late,3
-47,window,4
+47,window,2
 47,choose,1
 47,policy,1
 47,Wilco,2
@@ -137193,7 +136902,6 @@ EpisodeId,Word,Occurrences
 47,waxing,1
 47,implied,1
 47,Village,1
-47,push,2
 47,frenzy,1
 44,Welcome,1
 44,forget,1
@@ -137372,7 +137080,6 @@ EpisodeId,Word,Occurrences
 44,ll,4
 44,actually,4
 44,bouquet,1
-44,window,2
 44,chatty,1
 44,weeks,2
 44,might,3
@@ -137838,7 +137545,6 @@ EpisodeId,Word,Occurrences
 44,came,1
 44,reception,1
 44,time,7
-44,push,2
 44,lives,2
 44,starting,1
 44,sounded,1
@@ -138078,7 +137784,6 @@ EpisodeId,Word,Occurrences
 45,winning,4
 45,better,1
 45,tramp,2
-45,window,2
 45,choose,2
 45,Legendary,2
 45,covered,1
@@ -138107,7 +137812,7 @@ EpisodeId,Word,Occurrences
 45,fantasy,2
 45,always,1
 45,didn,5
-45,someone,2
+45,good,6
 45,bursts,1
 45,Thanks,2
 45,truth,3
@@ -138445,7 +138150,7 @@ EpisodeId,Word,Occurrences
 45,ink,2
 45,helped,1
 45,reads,1
-45,good,6
+45,someone,2
 45,Courtney,1
 45,ready,6
 45,sits,1
@@ -138681,7 +138386,6 @@ EpisodeId,Word,Occurrences
 45,train,1
 45,came,5
 45,Year,2
-45,push,2
 45,serious,1
 45,Chicken,1
 45,backward,1
@@ -138902,7 +138606,6 @@ EpisodeId,Word,Occurrences
 42,wracking,1
 42,actually,1
 42,better,1
-42,window,2
 42,covered,1
 42,weeks,5
 42,bye,1
@@ -139037,7 +138740,7 @@ EpisodeId,Word,Occurrences
 42,supposed,2
 42,loves,1
 42,lawyer,1
-42,God,6
+42,Pay,1
 42,DC,1
 42,decadent,1
 42,talking,1
@@ -139190,7 +138893,7 @@ EpisodeId,Word,Occurrences
 42,gaze,1
 42,damn,1
 42,gelato,1
-42,Pay,1
+42,God,6
 42,Robbing,1
 42,wathing,1
 42,life,1
@@ -139460,7 +139163,6 @@ EpisodeId,Word,Occurrences
 42,Yeah,7
 42,together,3
 42,time,6
-42,push,2
 43,Van,1
 43,dance,1
 43,implants,1
@@ -139593,7 +139295,7 @@ EpisodeId,Word,Occurrences
 43,slip,1
 43,allowed,3
 43,Rockin,1
-43,story,1
+43,honest,1
 43,dress,2
 43,ceremony,7
 43,sir,2
@@ -139653,7 +139355,6 @@ EpisodeId,Word,Occurrences
 43,actually,1
 43,better,3
 43,toupee,7
-43,window,2
 43,Smoot,1
 43,covered,1
 43,main,2
@@ -139702,7 +139403,7 @@ EpisodeId,Word,Occurrences
 43,shows,1
 43,ass,1
 43,Sometimes,2
-43,guess,2
+43,playlist,1
 43,quick,1
 43,reason,2
 43,W,1
@@ -139733,7 +139434,7 @@ EpisodeId,Word,Occurrences
 43,says,1
 43,Guns,1
 43,razor,1
-43,playlist,1
+43,story,1
 43,Okay,9
 43,authentic,2
 43,top,2
@@ -139892,7 +139593,7 @@ EpisodeId,Word,Occurrences
 43,invited,1
 43,called,1
 43,tour,1
-43,busted,1
+43,BarmanWhite,1
 43,games,1
 43,marrying,1
 43,Yes,4
@@ -139928,7 +139629,6 @@ EpisodeId,Word,Occurrences
 43,N,1
 43,Cousin,2
 43,worked,1
-43,honest,1
 43,fur,1
 43,look,6
 43,Tired,1
@@ -139960,7 +139660,7 @@ EpisodeId,Word,Occurrences
 43,cross,2
 43,Excuse,1
 43,Shouldn,1
-43,BarmanWhite,1
+43,busted,1
 43,belly,1
 43,mugged,1
 43,gets,1
@@ -140031,8 +139731,9 @@ EpisodeId,Word,Occurrences
 43,almonds,1
 43,Andy,1
 43,New,2
-43,drop,1
+43,guess,2
 43,describing,1
+43,drop,1
 43,everything,1
 43,pen,1
 43,Hi,1
@@ -140139,7 +139840,6 @@ EpisodeId,Word,Occurrences
 43,Street,1
 43,reception,2
 43,time,2
-43,push,2
 43,strings,1
 40,Snack,2
 40,forget,1
@@ -140330,7 +140030,6 @@ EpisodeId,Word,Occurrences
 40,amazing,1
 40,actually,2
 40,better,2
-40,window,2
 40,whole,1
 40,bummer,1
 40,might,3
@@ -140818,7 +140517,6 @@ EpisodeId,Word,Occurrences
 40,Bro,1
 40,Ding,1
 40,time,7
-40,push,2
 40,Apparently,1
 41,forget,1
 41,switched,2
@@ -140931,7 +140629,7 @@ EpisodeId,Word,Occurrences
 41,army,1
 41,illegal,1
 41,hospital,5
-41,dude,1
+41,Huh,1
 41,two,3
 41,next,2
 41,wood,1
@@ -141021,7 +140719,6 @@ EpisodeId,Word,Occurrences
 41,procured,1
 41,actually,1
 41,better,1
-41,window,2
 41,carve,1
 41,Cousin,3
 41,Wait,1
@@ -141470,7 +141167,7 @@ EpisodeId,Word,Occurrences
 41,processor,1
 41,Best,1
 41,Really,3
-41,Huh,1
+41,dude,1
 41,getting,2
 41,guard,1
 41,promise,2
@@ -141553,7 +141250,6 @@ EpisodeId,Word,Occurrences
 41,together,2
 41,Aw,2
 41,time,3
-41,push,2
 41,serious,1
 41,starting,1
 41,hello,1
@@ -141605,6 +141301,7 @@ EpisodeId,Word,Occurrences
 1,exits,1
 1,turns,6
 1,marry,3
+1,make,7
 1,leave,3
 1,settle,1
 1,Go,1
@@ -141632,7 +141329,7 @@ EpisodeId,Word,Occurrences
 1,waiting,2
 1,Gin,1
 1,new,3
-1,ground,1
+1,order,1
 1,ever,2
 1,Bigger,1
 1,revealing,1
@@ -141678,7 +141375,6 @@ EpisodeId,Word,Occurrences
 1,Mother,1
 1,sign,1
 1,Three,1
-1,order,1
 1,put,1
 1,names,1
 1,dumbest,1
@@ -141815,7 +141511,7 @@ EpisodeId,Word,Occurrences
 1,ll,7
 1,hot,2
 1,better,1
-1,window,6
+1,window,4
 1,minute,1
 1,SUIT,2
 1,World,1
@@ -142046,7 +141742,7 @@ EpisodeId,Word,Occurrences
 1,fianc,2
 1,agrees,1
 1,BEST,1
-1,make,7
+1,ground,1
 1,toast,2
 1,believe,3
 1,based,2
@@ -142472,7 +142168,6 @@ EpisodeId,Word,Occurrences
 1,Metro,4
 1,Later,1
 1,helping,1
-1,alright,1
 1,nods,3
 1,shakerRobin,1
 1,friends,7
@@ -142492,7 +142187,7 @@ EpisodeId,Word,Occurrences
 1,Asian,1
 1,Aw,1
 1,time,4
-1,push,2
+1,alright,1
 1,starting,1
 5,Earlier,1
 5,todays,1
@@ -142725,7 +142420,7 @@ EpisodeId,Word,Occurrences
 5,actually,1
 5,kindergarten,1
 5,RE,2
-5,window,3
+5,window,1
 5,World,1
 5,PANTS,1
 5,parades,3
@@ -142838,7 +142533,6 @@ EpisodeId,Word,Occurrences
 5,girls,1
 5,hangs,1
 5,Uncle,1
-5,time,7
 5,friend,6
 5,gives,1
 5,eyes,1
@@ -143076,6 +142770,7 @@ EpisodeId,Word,Occurrences
 5,ugly,3
 5,near,1
 5,circle,1
+5,Year,2
 5,fun,6
 5,Follow,2
 5,anchor,1
@@ -143357,8 +143052,7 @@ EpisodeId,Word,Occurrences
 5,jacket,1
 5,Street,1
 5,wherever,1
-5,Year,2
-5,push,2
+5,time,7
 5,grownup,3
 5,starting,1
 9,dance,4
@@ -143599,7 +143293,7 @@ EpisodeId,Word,Occurrences
 9,yams,1
 9,actually,3
 9,better,2
-9,window,3
+9,window,1
 9,pays,1
 9,urination,3
 9,holiday,2
@@ -144242,7 +143936,6 @@ EpisodeId,Word,Occurrences
 9,walked,1
 9,lying,1
 9,time,8
-9,push,2
 9,serious,1
 9,joining,1
 9,starting,1
@@ -144420,7 +144113,6 @@ EpisodeId,Word,Occurrences
 146,ll,7
 146,actually,1
 146,better,1
-146,window,2
 146,entranced,1
 146,Jersey,1
 146,fade,1
@@ -144867,7 +144559,6 @@ EpisodeId,Word,Occurrences
 146,together,5
 146,correlates,1
 146,time,8
-146,push,2
 147,Based,1
 147,clamoring,1
 147,Web,1
@@ -145079,7 +144770,6 @@ EpisodeId,Word,Occurrences
 147,amazing,2
 147,actually,1
 147,better,2
-147,window,2
 147,choose,1
 147,policy,1
 147,hobby,1
@@ -145631,7 +145321,6 @@ EpisodeId,Word,Occurrences
 147,lying,1
 147,Aw,3
 147,time,9
-147,push,2
 147,serious,1
 144,Canada,7
 144,since,3
@@ -145864,7 +145553,6 @@ EpisodeId,Word,Occurrences
 144,ll,8
 144,Mountie,1
 144,actually,2
-144,window,2
 144,hidden,1
 144,bye,1
 144,might,2
@@ -146437,7 +146125,6 @@ EpisodeId,Word,Occurrences
 144,together,2
 144,Brain,3
 144,time,4
-144,push,2
 144,serious,2
 144,treaters,1
 144,decision,1
@@ -146468,7 +146155,6 @@ EpisodeId,Word,Occurrences
 145,Plus,1
 145,school,1
 145,die,1
-145,painting,1
 145,leave,4
 145,Go,1
 145,guy,1
@@ -146636,7 +146322,7 @@ EpisodeId,Word,Occurrences
 145,hot,2
 145,hounds,1
 145,better,1
-145,window,3
+145,window,1
 145,bummer,2
 145,weeks,5
 145,bye,2
@@ -146704,7 +146390,7 @@ EpisodeId,Word,Occurrences
 145,Principle,1
 145,tempt,2
 145,put,3
-145,North,1
+145,Okay,9
 145,wanted,2
 145,likelihood,1
 145,inevitable,1
@@ -146743,7 +146429,7 @@ EpisodeId,Word,Occurrences
 145,bitten,1
 145,city,2
 145,little,3
-145,Okay,9
+145,North,1
 145,ten,1
 145,likely,1
 145,jeu,1
@@ -146820,7 +146506,7 @@ EpisodeId,Word,Occurrences
 145,principle,1
 145,Scouted,1
 145,Poe,1
-145,Carolina,1
+145,painting,1
 145,Everybody,1
 145,wild,1
 145,show,1
@@ -146843,7 +146529,7 @@ EpisodeId,Word,Occurrences
 145,Mom,2
 145,Je,1
 145,Guys,3
-145,hall,1
+145,sure,2
 145,meant,1
 145,hit,3
 145,get,14
@@ -146851,6 +146537,7 @@ EpisodeId,Word,Occurrences
 145,truly,1
 145,goons,1
 145,feels,2
+145,hall,1
 145,Help,3
 145,girl,1
 145,radar,1
@@ -147025,6 +146712,7 @@ EpisodeId,Word,Occurrences
 145,world,1
 145,d,2
 145,desire,2
+145,trash,1
 145,like,11
 145,lost,2
 145,safest,1
@@ -147033,7 +146721,6 @@ EpisodeId,Word,Occurrences
 145,night,3
 145,boog,1
 145,Fine,1
-145,towards,1
 145,shmear,1
 145,right,11
 145,old,1
@@ -147043,7 +146730,7 @@ EpisodeId,Word,Occurrences
 145,Since,1
 145,back,5
 145,Therapisted,1
-145,sure,2
+145,towards,1
 145,choosing,1
 145,New,1
 145,guess,2
@@ -147147,7 +146834,7 @@ EpisodeId,Word,Occurrences
 145,tight,1
 145,book,2
 145,tie,14
-145,trash,1
+145,Carolina,1
 145,nice,1
 145,star,1
 145,hey,1
@@ -147168,7 +146855,6 @@ EpisodeId,Word,Occurrences
 145,repay,1
 145,passed,1
 145,time,8
-145,push,2
 145,serious,1
 145,requires,1
 142,Canada,2
@@ -147404,7 +147090,7 @@ EpisodeId,Word,Occurrences
 142,actually,3
 142,late,1
 142,feel,2
-142,window,3
+142,window,1
 142,might,2
 142,Packers,1
 142,Jack,1
@@ -147999,7 +147685,6 @@ EpisodeId,Word,Occurrences
 142,Second,1
 142,fact,2
 142,time,8
-142,push,2
 143,Canada,1
 143,forget,1
 143,pointing,1
@@ -148213,7 +147898,6 @@ EpisodeId,Word,Occurrences
 143,ll,17
 143,actually,1
 143,better,3
-143,window,2
 143,Surgeon,2
 143,bye,1
 143,might,1
@@ -148743,7 +148427,6 @@ EpisodeId,Word,Occurrences
 143,Street,1
 143,Aw,3
 143,time,1
-143,push,2
 143,fresh,1
 143,strings,1
 143,songs,1
@@ -148972,7 +148655,6 @@ EpisodeId,Word,Occurrences
 140,hot,1
 140,actually,1
 140,better,4
-140,window,2
 140,systems,2
 140,criminal,1
 140,Wait,1
@@ -148985,7 +148667,7 @@ EpisodeId,Word,Occurrences
 140,therapy,3
 140,Loves,1
 140,Mother,1
-140,Robin,8
+140,day,1
 140,bigger,1
 140,Secondly,1
 140,pregnant,1
@@ -149364,7 +149046,7 @@ EpisodeId,Word,Occurrences
 140,provocatively,1
 140,mother,1
 140,attractive,1
-140,day,1
+140,Robin,8
 140,parents,1
 140,dreams,2
 140,balloons,1
@@ -149533,7 +149215,7 @@ EpisodeId,Word,Occurrences
 140,Second,1
 140,Aw,1
 140,time,5
-140,push,3
+140,push,1
 140,serious,2
 141,ashamed,1
 141,skip,2
@@ -149700,7 +149382,7 @@ EpisodeId,Word,Occurrences
 141,returned,1
 141,rays,1
 141,end,5
-141,turn,2
+141,thing,4
 141,rather,1
 141,six,1
 141,dismissed,1
@@ -149748,7 +149430,6 @@ EpisodeId,Word,Occurrences
 141,ll,6
 141,actually,1
 141,late,2
-141,window,2
 141,Moving,1
 141,main,1
 141,might,3
@@ -149825,11 +149506,11 @@ EpisodeId,Word,Occurrences
 141,archaeologist,1
 141,care,3
 141,Ugh,2
-141,Harvard,1
+141,couldn,1
 141,ata,1
 141,starts,1
 141,could,1
-141,thing,4
+141,turn,2
 141,place,1
 141,think,11
 141,first,4
@@ -149872,7 +149553,6 @@ EpisodeId,Word,Occurrences
 141,kind,1
 141,feeds,1
 141,boring,1
-141,couldn,1
 141,war,2
 141,matter,2
 141,patients,1
@@ -150156,6 +149836,7 @@ EpisodeId,Word,Occurrences
 141,d,5
 141,lost,1
 141,Show,1
+141,Harvard,1
 141,Whatever,2
 141,remind,1
 141,laughing,1
@@ -150310,7 +149991,6 @@ EpisodeId,Word,Occurrences
 141,Second,1
 141,fact,1
 141,time,6
-141,push,2
 141,serious,1
 141,starting,1
 141,bullpen,1
@@ -150456,7 +150136,7 @@ EpisodeId,Word,Occurrences
 208,Three,1
 208,distance,1
 208,bro,2
-208,put,7
+208,ask,2
 208,French,2
 208,fake,1
 208,tap,1
@@ -150508,7 +150188,6 @@ EpisodeId,Word,Occurrences
 208,Tonight,2
 208,anywhere,1
 208,obvious,2
-208,three,10
 208,meet,4
 208,laughter,1
 208,National,1
@@ -150611,7 +150290,7 @@ EpisodeId,Word,Occurrences
 208,hot,1
 208,better,2
 208,age,1
-208,window,2
+208,absence,1
 208,shuddering,1
 208,choose,2
 208,Legendary,1
@@ -150707,7 +150386,7 @@ EpisodeId,Word,Occurrences
 208,completely,1
 208,Architecture,1
 208,W,1
-208,ask,2
+208,put,7
 208,hots,1
 208,teach,1
 208,earliest,1
@@ -151030,7 +150709,7 @@ EpisodeId,Word,Occurrences
 208,decent,1
 208,gals,1
 208,Scherbatsky,4
-208,absence,1
+208,three,10
 208,Didn,1
 208,mark,1
 208,hitting,1
@@ -151436,7 +151115,6 @@ EpisodeId,Word,Occurrences
 208,came,2
 208,Aw,4
 208,time,10
-208,push,2
 208,lives,4
 208,others,1
 148,Canada,2
@@ -151635,7 +151313,6 @@ EpisodeId,Word,Occurrences
 148,ll,8
 148,actually,1
 148,late,2
-148,window,2
 148,Hell,1
 148,weeks,2
 148,happened,2
@@ -152164,7 +151841,6 @@ EpisodeId,Word,Occurrences
 148,Scott,18
 148,fact,1
 148,time,3
-148,push,2
 148,numbing,1
 148,Apparently,1
 148,hello,1
@@ -152392,7 +152068,6 @@ EpisodeId,Word,Occurrences
 149,actually,2
 149,better,2
 149,feel,4
-149,window,2
 149,covered,1
 149,decades,1
 149,puzzle,2
@@ -152400,7 +152075,7 @@ EpisodeId,Word,Occurrences
 149,dad,7
 149,wouldn,1
 149,coffee,1
-149,Kids,3
+149,someone,2
 149,crash,1
 149,Henderson,1
 149,hunter,1
@@ -152741,7 +152416,7 @@ EpisodeId,Word,Occurrences
 149,respected,1
 149,middle,1
 149,abducting,1
-149,someone,2
+149,Kids,3
 149,ready,1
 149,bucks,4
 149,worry,1
@@ -153003,7 +152678,6 @@ EpisodeId,Word,Occurrences
 149,gorilla,1
 149,carrying,1
 149,Year,12
-149,push,2
 149,serious,1
 149,Chicken,1
 149,stammers,1
@@ -153012,7 +152686,6 @@ EpisodeId,Word,Occurrences
 77,leads,2
 77,sleep,2
 77,go,9
-77,flashback,1
 77,captain,1
 77,row,1
 77,whose,1
@@ -153206,7 +152879,6 @@ EpisodeId,Word,Occurrences
 77,ll,5
 77,edge,1
 77,better,2
-77,window,2
 77,choose,1
 77,margarita,1
 77,happened,2
@@ -153443,7 +153115,7 @@ EpisodeId,Word,Occurrences
 77,cancel,1
 77,Sorry,3
 77,trust,2
-77,Lily,49
+77,Lily,48
 77,sledding,1
 77,bingo,3
 77,bathroom,1
@@ -153585,6 +153257,7 @@ EpisodeId,Word,Occurrences
 77,stops,1
 77,everything,4
 77,Let,2
+77,flashbackLily,1
 77,Nothing,1
 77,knife,1
 77,mode,1
@@ -153682,7 +153355,6 @@ EpisodeId,Word,Occurrences
 77,beds,1
 77,fact,1
 77,time,8
-77,push,2
 77,serious,1
 77,Apparently,1
 76,Men,1
@@ -153880,7 +153552,6 @@ EpisodeId,Word,Occurrences
 76,haughty,1
 76,ll,3
 76,better,3
-76,window,2
 76,willing,1
 76,vantable,1
 76,carton,1
@@ -154390,7 +154061,6 @@ EpisodeId,Word,Occurrences
 76,mass,1
 76,came,1
 76,time,7
-76,push,2
 76,yell,1
 76,resolution,1
 76,decision,1
@@ -154600,7 +154270,6 @@ EpisodeId,Word,Occurrences
 75,ll,9
 75,mistletoe,1
 75,nostalgic,1
-75,window,2
 75,Quest,2
 75,weeks,1
 75,Spain,1
@@ -155123,7 +154792,7 @@ EpisodeId,Word,Occurrences
 75,came,1
 75,scare,1
 75,time,6
-75,push,4
+75,push,2
 75,hello,1
 75,adult,1
 74,gown,1
@@ -155329,7 +154998,6 @@ EpisodeId,Word,Occurrences
 74,sexiest,1
 74,writing,1
 74,late,1
-74,window,2
 74,Blackjack,4
 74,hidden,1
 74,criminal,1
@@ -155807,7 +155475,6 @@ EpisodeId,Word,Occurrences
 74,coincidentally,1
 74,fact,3
 74,time,7
-74,push,2
 74,serious,1
 74,Apparently,1
 74,defend,1
@@ -156015,7 +155682,6 @@ EpisodeId,Word,Occurrences
 73,handheld,1
 73,better,1
 73,resort,2
-73,window,2
 73,willing,1
 73,choose,1
 73,happened,2
@@ -156168,7 +155834,7 @@ EpisodeId,Word,Occurrences
 73,couch,4
 73,also,3
 73,take,7
-73,Half,1
+73,laughed,2
 73,Ask,1
 73,parachuting,1
 73,play,1
@@ -156392,7 +156058,7 @@ EpisodeId,Word,Occurrences
 73,Oh,3
 73,read,1
 73,big,1
-73,laughed,2
+73,Half,1
 73,Popol,2
 73,game,2
 73,Aunt,1
@@ -156535,7 +156201,6 @@ EpisodeId,Word,Occurrences
 73,together,3
 73,lying,1
 73,time,4
-73,push,2
 73,serious,1
 73,Apparently,1
 72,Nobody,1
@@ -156750,7 +156415,6 @@ EpisodeId,Word,Occurrences
 72,ll,4
 72,late,4
 72,feel,1
-72,window,2
 72,occasionally,1
 72,choose,2
 72,weeks,1
@@ -157291,7 +156955,6 @@ EpisodeId,Word,Occurrences
 72,purple,1
 72,worn,1
 72,time,6
-72,push,2
 72,fresh,1
 71,neighbors,3
 71,Welcome,1
@@ -157503,7 +157166,6 @@ EpisodeId,Word,Occurrences
 71,ll,7
 71,cheerleaders,4
 71,better,2
-71,window,2
 71,choose,1
 71,Cousin,1
 71,weeks,1
@@ -158037,7 +157699,6 @@ EpisodeId,Word,Occurrences
 71,Councillors,1
 71,Asian,1
 71,time,5
-71,push,2
 71,serious,1
 71,Apparently,1
 70,Canada,1
@@ -158244,7 +157905,6 @@ EpisodeId,Word,Occurrences
 70,actually,1
 70,better,2
 70,spoken,1
-70,window,2
 70,covered,2
 70,weeks,1
 70,might,1
@@ -158721,7 +158381,6 @@ EpisodeId,Word,Occurrences
 70,crease,1
 70,fact,2
 70,time,7
-70,push,2
 70,serious,2
 79,neighbors,1
 79,Perfect,1
@@ -158935,7 +158594,6 @@ EpisodeId,Word,Occurrences
 79,Continues,1
 79,actually,1
 79,better,5
-79,window,2
 79,weeks,1
 79,Wait,3
 79,dad,1
@@ -159440,7 +159098,6 @@ EpisodeId,Word,Occurrences
 79,train,1
 79,Asian,1
 79,time,3
-79,push,2
 79,Honestly,1
 79,Apparently,1
 78,Canada,5
@@ -159638,7 +159295,6 @@ EpisodeId,Word,Occurrences
 78,ll,6
 78,amazing,1
 78,Director,1
-78,window,2
 78,Relationality,1
 78,mail,2
 78,hidden,1
@@ -160147,4 +159803,3 @@ EpisodeId,Word,Occurrences
 78,city,1
 78,hips,1
 78,time,3
-78,push,2
