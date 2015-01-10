@@ -1,15 +1,12 @@
-import requests
 import csv
 import nltk
 import re
-import numpy as np
-import nltk.data
 
 from bs4 import BeautifulSoup
 from soupselect import select
 from nltk.corpus import stopwords
 from collections import Counter
-from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.tokenize import word_tokenize
 
 def count_words(words):
     tally=Counter()
@@ -32,14 +29,10 @@ with open('data/import/episodes.csv', 'r') as episodes:
         [ad.extract() for ad in select(raw_text, "div.ads-topic")]
         [ad.extract() for ad in select(raw_text, "div.t-foot-links")]
 
-        text = raw_text.text.strip()
-        text = re.sub("[^a-zA-Z]", " ", text )
+        text = re.sub("[^a-zA-Z]", " ", raw_text.text.strip())
+        words = [w for w in nltk.word_tokenize(text) if not w.lower() in stopwords.words("english")]
 
-        words =  nltk.word_tokenize(text)
-        words = [w for w in words if not w.lower() in stopwords.words("english")]
-
-        words = count_words(words)
-        episodes_dict[row[0]] = words
+        episodes_dict[row[0]] = count_words(words)
 
 with open("data/import/words.csv", "w") as words:
     writer = csv.writer(words, delimiter=",")
