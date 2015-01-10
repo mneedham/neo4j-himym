@@ -42,3 +42,20 @@ RETURN ref, original
 MATCH (refEpisode)-[:REFERENCES]->(r:Reference)-[:HAPPENED_IN]->(episode)
 WHERE r.text =~ "(?i).*yellow umbrella.*"
 RETURN r, episode, refEpisode
+
+// which words are mentioned most
+MATCH (word:Word)-[r:USED_IN_EPISODE]->(episode)
+RETURN word.value, COUNT(episode) AS episodes, SUM(r.times) AS occurrences
+ORDER BY occurrences DESC
+LIMIT 10
+
+// in each episode which of the main characters is referenced most often
+
+WITH ["Ted", "Barney", "Robin", "Lily", "Marshall"] as mainCharacters
+MATCH (word:Word) WHERE word.value IN mainCharacters
+MATCH (episode:Episode)<-[r:USED_IN_EPISODE]-(word)
+WITH episode, word, r
+ORDER BY episode.id, r.times DESC
+WITH episode, COLLECT({word: word.value, times: r.times})[0] AS topWord
+RETURN episode.id, topWord.word AS word, topWord.times AS occurrences
+ORDER BY episode.id
