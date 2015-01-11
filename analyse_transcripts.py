@@ -28,27 +28,29 @@ def strip_tags(soup, invalid_tags):
             match.replaceWithChildren()
     return soup
 
-def merge_items(one, two):
-    if type(two) is bs4.element.NavigableString and  two.startswith(":"):
-        return one + two
-    elif type(one) is bs4.element.NavigableString and one.startswith(":"):
-        return None
-    else:
-        return one
+def extract_sentences(html):
+    clean = []
+    brs_in_a_row = 0
+    temp = ""
+    for item in raw_text.contents:
+        if item.name == "br":
+            brs_in_a_row = brs_in_a_row + 1
+        else:
+            temp = temp + item
 
+        if brs_in_a_row == 2:
+            clean.append(temp)
+            temp = ""
+            brs_in_a_row = 0
+    return clean
+
+speakers = []
 with open('data/import/episodes.csv', 'r') as episodes:
     reader = csv.reader(episodes, delimiter=',')
     reader.next()
 
-    count = 0
     for row in reader:
-        if count > 1:
-            break
-        count = count + 1
-
-        # transcript = open("data/transcripts/S%s-Ep%s" %(row[3], row[1])).read()
-        transcript = open("data/transcripts/S%s-Ep%s" %("1", "11")).read()
-        # transcript = open("data/transcripts/S%s-Ep%s" %("1", "1")).read()
+        transcript = open("data/transcripts/S%s-Ep%s" %(row[3], row[1])).read()
         soup = BeautifulSoup(transcript)
         rows = select(soup, "table.tablebg tr td.post-body div.postbody")
 
@@ -57,26 +59,16 @@ with open('data/import/episodes.csv', 'r') as episodes:
         [ad.extract() for ad in select(raw_text, "div.t-foot-links")]
         [ad.extract() for ad in select(raw_text, "hr")]
 
-        for tag in ['strong', 'em']:
+        for tag in ['strong', 'em', "a"]:
             for match in raw_text.findAll(tag):
                 match.replace_with_children()
-
-        html = raw_text.prettify("utf-8")
-        with open('/tmp/S1Ep11', 'wb') as handle:
-            handle.write(html)
-
-        sentences = [
-            (extract_speaker(item), item)
+        print row
+        speakers = speakers + [
+            (extract_speaker(item))
             for item in [
                 item.encode("utf-8").strip()
-                for item in [
-                    merge_items(one,two)
-                    for one,two in zip(raw_text.contents, raw_text.contents[1:])
-                ]
-                if item is not None
+                for item in extract_sentences(raw_text.contents)
             ]
-            if item not in ["<br/>", "<br />"]
         ]
 
-        print row
-        print sentences
+print count_words(speakers)
