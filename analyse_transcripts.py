@@ -9,10 +9,8 @@ from nltk.corpus import stopwords
 from collections import Counter
 from nltk.tokenize import word_tokenize
 
-def count_words(words):
-    tally=Counter()
-    for elem in words:
-        tally[elem] += 1
+def counterify(words):
+    tally=Counter(words)
     return tally
 
 episodes_dict = {}
@@ -20,7 +18,9 @@ speaker_regex = re.compile('([^:]+):(.*)')
 
 def extract_speaker(sentence):
     speaker = speaker_regex.match(item)
-    return speaker.group(1) if speaker else None
+    name = speaker.group(1) if speaker else None
+
+    return (name, nltk.pos_tag(name.split(" ")))  if name else (None, None)
 
 def strip_tags(soup, invalid_tags):
     for tag in invalid_tags:
@@ -37,7 +37,6 @@ def extract_sentences(html):
             brs_in_a_row = brs_in_a_row + 1
         else:
             temp = temp + item
-
         if brs_in_a_row == 2:
             clean.append(temp)
             temp = ""
@@ -45,12 +44,16 @@ def extract_sentences(html):
     return clean
 
 speakers = []
-with open('data/import/episodes.csv', 'r') as episodes:
-    reader = csv.reader(episodes, delimiter=',')
+with open('data/import/episodes.csv', 'r') as episodes_file, open("data/import/speakers.csv", 'w') as speakers_file:
+    reader = csv.reader(episodes_file, delimiter=',')
     reader.next()
 
+    writer = csv.writer(speakers_file, delimiter=',')
+    writer.writerow(["Speaker", "Count"])
+
     for row in reader:
-        transcript = open("data/transcripts/S%s-Ep%s" %(row[3], row[1])).read()
+        # transcript = open("data/transcripts/S%s-Ep%s" %(row[3], row[1])).read()
+        transcript = open("data/transcripts/S%s-Ep%s" %("1", "11")).read()
         soup = BeautifulSoup(transcript)
         rows = select(soup, "table.tablebg tr td.post-body div.postbody")
 
@@ -71,4 +74,6 @@ with open('data/import/episodes.csv', 'r') as episodes:
             ]
         ]
 
-print count_words(speakers)
+    speakers_count =  counterify(speakers)
+    for speaker in speakers_count:
+        writer.writerow([speaker, speakers_count[speaker]])
