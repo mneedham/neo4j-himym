@@ -9,24 +9,36 @@ class App(Cmd):
     prompt = 'You will see a sentence. Type "yes" if it contains a speaker and "no" if not'
 
     def onecmd(self, s):
+        print len(trained)
         self.previous_sentence = self.current_sentence
-        self.current_sentence = self.sentences[randint(0, len(sentences))]
+
+        while True:
+            potential_next = self.sentences[randint(0, len(sentences))]
+            if potential_next["SentenceId"] not in self.trained:
+                self.current_sentence = potential_next
+                break
+            else:
+                print "%s Seen already" % (potential_next["SentenceId"])
+
         self.prompt = self.current_sentence['Sentence'] + " : "
         return Cmd.onecmd(self, s)
 
-    def __init__(self, sentences):
+    def __init__(self, sentences, trained):
         Cmd.__init__(self)
         self.sentences = sentences
+        self.trained = trained
 
     def do_no(self, line):
         with open("data/import/sentences_training.csv", 'a') as training_file:
             writer = csv.writer(training_file, delimiter=",")
             writer.writerow([self.previous_sentence["SentenceId"], "no"])
+            self.trained.add(self.previous_sentence["SentenceId"])
 
     def do_yes(self, line):
         with open("data/import/sentences_training.csv", 'a') as training_file:
             writer = csv.writer(training_file, delimiter=",")
             writer.writerow([self.previous_sentence["SentenceId"], "yes"])
+            self.trained.add(self.previous_sentence["SentenceId"])
 
 
     def do_EOF(self, line):
@@ -38,5 +50,13 @@ if __name__ == '__main__':
         reader = csv.DictReader(sentences_file, delimiter=",")
         for sentence in reader:
             sentences.append(sentence)
-    app = App(sentences)
+
+    trained = set()
+    with open("data/import/sentences_training.csv", 'r') as training_file:
+        reader = csv.DictReader(training_file, delimiter=",")
+        for sentence in reader:
+            trained.add(sentence["SentenceId"])
+    print len(trained)
+
+    app = App(sentences, trained)
     app.cmdloop()
