@@ -9,7 +9,6 @@ class App(Cmd):
     prompt = 'You will see a sentence. Type "yes" if it contains a speaker and "no" if not'
 
     def onecmd(self, s):
-        print len(trained)
         self.previous_sentence = self.current_sentence
 
         while True:
