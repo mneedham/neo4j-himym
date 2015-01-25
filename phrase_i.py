@@ -1,3 +1,4 @@
+import sys
 import csv
 from phrasecounter import PhraseCounter
 
@@ -9,9 +10,10 @@ if __name__ == "__main__":
         reader.next()
         count = 0
         for sentence in reader:
-            if count > 5000:
+            if count > 10000:
                 break
-            phrase_counter.extract_phrases(sentence[4], 3)
+            for n in range(3, 10):
+                phrase_counter.extract_phrases_starting_with(sentence[4], sys.argv[1:][0], n)
             count = count + 1
 
     most_common_phrases = phrase_counter.most_common(500)

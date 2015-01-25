@@ -3,7 +3,6 @@ import string
 import nltk
 from collections import Counter
 
-
 class PhraseCounter:
     """Keep count of phrases in a corpus"""
     def __init__(self):
@@ -26,6 +25,23 @@ class PhraseCounter:
             for phrase in nltk.util.ngrams(words, length):
                 if all(word not in string.punctuation for word in phrase):
                     if phrase[0] == "I":
+                        self.counter[self.untokenize(phrase)] += 1
+
+    def extract_phrases_starting_with(self, text, starts_with, length):
+        starts_with_tokens = nltk.word_tokenize(starts_with)
+
+        for sent in nltk.sent_tokenize(text):
+            strip_speaker = self.non_speaker.match(sent)
+            if strip_speaker is not None:
+                sent = strip_speaker.group(1)
+            words = nltk.word_tokenize(sent)
+            for phrase in nltk.util.ngrams(words, length):
+                if all(word not in string.punctuation for word in phrase):
+                    matching = True
+                    for idx, token in enumerate(starts_with_tokens):
+                        matching = matching and token == phrase[idx]
+
+                    if matching:
                         self.counter[self.untokenize(phrase)] += 1
 
     def most_common(self, count = None):

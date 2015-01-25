@@ -1,8 +1,9 @@
 import nltk
 import csv
 import string
-from collections import Counter
 import re
+
+from collections import Counter
 
 non_speaker = re.compile('[A-Za-z]+: (.*)')
 
@@ -21,7 +22,8 @@ def extract_phrases(text, phrase_counter, length):
         words = nltk.word_tokenize(sent)
         for phrase in nltk.util.ngrams(words, length):
             if all(word not in string.punctuation for word in phrase):
-                phrase_counter[untokenize(phrase)] += 1
+                phrase_counter[phrase] += 1
+                # phrase_counter[untokenize(phrase)] += 1
 
 phrase_counter = Counter()
 
@@ -35,6 +37,6 @@ with open("data/import/sentences.csv", "r") as sentencesfile:
         # if count > 1000:
         #     break
 
-most_common_phrases = phrase_counter.most_common(500)
+most_common_phrases = phrase_counter.most_common(50)
 for k,v in most_common_phrases:
     print '{0: <5}'.format(v), k
