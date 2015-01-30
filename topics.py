@@ -16,8 +16,6 @@ from pandas import DataFrame
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-stoplist = stopwords.words('english')
-
 seasons, episode_ids = [], []
 with open("data/import/episodes.csv", "r") as episodesfile:
     reader = csv.reader(episodesfile, delimiter = ",")
@@ -29,6 +27,7 @@ with open("data/import/episodes.csv", "r") as episodesfile:
 df = DataFrame.from_items([('Season', seasons), ('EpisodeId', episode_ids)])
 last_episode_in_season = list(df.groupby("Season").max()["EpisodeId"])
 
+stoplist = stopwords.words('english')
 episodes = defaultdict(list)
 with open("data/import/sentences.csv", "r") as sentencesfile:
     reader = csv.reader(sentencesfile, delimiter = ",")
@@ -55,25 +54,6 @@ dictionary.save('/tmp/himym.dict')
 corpus = [dictionary.doc2bow(text) for text in texts]
 corpora.MmCorpus.serialize('/tmp/himym.mm', corpus)
 
-words = ["ted", "robin", "barney", "lily", "marshall"]
-words = ["robin"]
-for word in words:
-    word_id = dictionary.token2id[word]
-    counts = []
-    for episode in corpus:
-        count = dict(episode).get(word_id) or 0
-        counts.append(count)
-    print counts
-    plt.plot(counts)
-
-for episode in last_episode_in_season:
-    plt.axvline(x=episode, color = "red")
-
-plt.legend(words, loc='upper left')
-plt.ylabel('occurrences')
-plt.xlabel('episode')
-plt.show()
-
 # Find the most popular words over the first season
 c = Counter()
 for episode in corpus:
@@ -87,13 +67,18 @@ dictionary = corpora.Dictionary.load('/tmp/himym.dict')
 corpus = corpora.MmCorpus('/tmp/himym.mm')
 
 tfidf = models.TfidfModel(corpus)
-
-doc_bow = [(0, 1), (1, 1)]
-tfidf[doc_bow]
-
 corpus_tfidf = tfidf[corpus]
+
+words_tfidf = []
+count = 0
 for doc in corpus_tfidf:
-    print(doc)
+    if count > 0:
+        break
+    for word in doc:
+        words_tfidf.append(word)
+    count = count + 1
+
+max(words_tfidf, key=lambda item:item[1])
 
 lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=2) # initialize an LSI transformation
 corpus_lsi = lsi[corpus_tfidf] # create a double wrapper over the original corpus: bow->tfidf->fold-in-lsi

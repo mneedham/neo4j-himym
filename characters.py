@@ -11,6 +11,8 @@ import pylab
 import matplotlib.pyplot as plt
 pylab.show()
 
+from collections import defaultdict
+
 import pandas
 from pandas import DataFrame
 
@@ -57,19 +59,25 @@ corpus = [dictionary.doc2bow(text) for text in texts]
 print "generate plot"
 
 words = ["ted", "robin", "barney", "lily", "marshall"]
+words_dict = dict()
 for word in words:
-    plt.figure()
     word_id = dictionary.token2id[word]
     counts = []
     for episode in corpus:
         count = dict(episode).get(word_id) or 0
         counts.append(count)
+    words_dict[word] = counts
+
+y_max = max([max(count) for count in words_dict.values()])
+
+for word, counts in words_dict.iteritems():
+    plt.figure()
     plt.plot(counts)
     for episode in last_episode_in_season:
         plt.axvline(x=episode, color = "red")
     plt.legend([word], loc='upper left')
     plt.ylabel('occurrences')
     plt.xlabel('episode')
-    # plt.show()
-    print "save plot"
+    plt.xlim(0, 208)
+    plt.ylim(0, y_max)
     plt.savefig('images/%s.pdf' % (word), dpi=100)
