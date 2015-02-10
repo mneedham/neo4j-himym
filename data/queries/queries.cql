@@ -59,3 +59,43 @@ ORDER BY episode.id, r.times DESC
 WITH episode, COLLECT({word: word.value, times: r.times})[0] AS topWord
 RETURN episode.id, topWord.word AS word, topWord.times AS occurrences
 ORDER BY episode.id
+
+// top words used in TF/IDF terms by the episode
+
+MATCH (word:Word)-[rel:USED_IN_EPISODE]->(e)
+
+WITH word, rel,e
+ORDER BY word.value, e.id WHERE rel.score > 0.5
+
+WITH word, MIN(rel.score) AS min, MAX(rel.score) AS max, AVG(rel.score) AS avg, COUNT(*)
+AS episodesCount, COLLECT(e.id) AS episodes
+
+RETURN word.value, min, max, avg, episodes, episodesCount
+ORDER BY episodesCount DESC
+LIMIT 100
+
+// top words used in TF/IDF terms by the season
+
+MATCH (word:Word)-[rel:USED_IN_EPISODE]->(e)-[:IN_SEASON]->(season)
+
+WITH word, rel,season
+ORDER BY word.value, season.value WHERE rel.score > 0.5
+
+WITH word, MIN(rel.score) AS min, MAX(rel.score) AS max, AVG(rel.score) AS avg,
+     COUNT(*) AS seasonsCount, COLLECT(season.number) AS episodes
+
+RETURN word.value, min, max, avg, episodes, seasonsCount
+ORDER BY seasonsCount DESC
+LIMIT 100
+
+// most popular topics
+match (t:Topic)<-[:TOPIC]-()
+RETURN t.value, COUNT(*) AS times
+ORDER BY times DESC
+
+// most frequently occurring topics by season
+match (t:Topic)<-[:TOPIC]-()-[:IN_SEASON]->(season)
+WITH season, t, COUNT(*) AS times
+ORDER BY season.number, times DESC
+RETURN season.number, COLLECT(t.value)[..5]
+ORDER BY season.number
