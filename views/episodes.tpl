@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Hackathon Movie Guide</title>
+  <title>All episodes</title>
   <link rel="stylesheet" href="/css/main.css">
 </head>
 
@@ -13,11 +13,11 @@
   </div>
 
   <h1>How I met your mother graph</h1>
-  % for id, title in episodes:
-    <li><a href="/episode/{{id}}">{{title}}</a></li>
-  % end
-  <ul>
 
+  <ul>
+    % for id, title in episodes:
+    <li><a href="/episodes/{{id}}">{{title}}</a></li>
+    % end
   </ul>
 
   <div class="footer">

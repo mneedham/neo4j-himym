@@ -1,3 +1,8 @@
 = Tasks To Do
 
-* 
+* Create outline of bottle app
+* Add page showing episodes
+* Create page for each episode
+* Enable CSS
+* Show intent graph topics for each episode
+* Show TF/IDF words for each episode

@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 5em 20px 1em 20px;
+}
+a {
+    text-decoration: none;
+    color: #126296;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #999999;
+    background: #024c7d url(/images/neo4j.png) no-repeat 20px 50%;
+}
+nav {
+    padding: 1.2em 20px 1.2em 66px;
+}
+nav a {
+    color: #CCCCCC;
+}
+nav strong {
+    color: #FFFFFF;
+}
+blockquote {
+    background-color: #EEEEEE;
+    padding: 1em;
+    font-family: serif;
+    font-style: italic;
+    color: #333333;
+}
+form {
+    margin: 2em 0;
+    padding: 1em 0;
+    border-top: 2px solid #EEEEEE;
+}
+.footer {
+    margin: 2em 0;
+    padding: 2em 0;
+    border-top: 2px solid #EEEEEE;
+    text-align: center;
+    color: #666666;
+    font-size: small;
+}
+.footer a {
+    color: #3F84B1;
+}
+.footer p {
+    margin: .25em 0;
+}
