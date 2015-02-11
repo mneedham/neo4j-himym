@@ -2,7 +2,7 @@
 
 * CSS for displaying tables
 * Query for TF/IDF words for each episode
-* Run nltk.phrases on one episode to check structure
+* Phrase collocation on 1 sentence with gensim - http://radimrehurek.com/gensim/models/phrases.html#module-gensim.models.phrases
 * Run http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/ - on one episode - see whether it's useful
   ** https://gate.d5.mpi-inf.mpg.de/webaida/#run_info
   ** https://github.com/yago-naga/aida

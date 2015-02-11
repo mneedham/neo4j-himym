@@ -84,50 +84,14 @@ MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
 MATCH (character:Character {name: row.Character})
 MERGE (character)-[:APPEARED_IN_EPISODE]->(episode);
 
-// references
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/references.csv" AS row
-MERGE (:Reference {text: row.ReferenceText});
-
-// referenced -> reference
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/references.csv" AS row
-MATCH (reference:Reference {text: row.ReferenceText})
-MATCH (referenced:Episode {id: TOINT(row.ReferencedEpisodeId)})
-MERGE (referenced)<-[:HAPPENED_IN]-(reference);
-
-
-// referencing -> reference
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/references.csv" AS row
-MATCH (reference:Reference {text: row.ReferenceText})
-MATCH (referencing:Episode {id: TOINT(row.ReferencingEpisodeId)})
-MERGE (referencing)-[:REFERENCES]->(reference);
-
-// words
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/words.csv" AS row
-MERGE (word:Word {value: row.Word})
-
-// words to episodes
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/words.csv" AS row
-MATCH (word:Word {value: row.Word})
-MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
-MERGE (word)-[:USED_IN_EPISODE {occurrences : TOINT(row.Occurrences)}]->(episode);
-
-
-// tfidf words
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/words_tfidf.csv" AS row
-MERGE (word:Word {value: row.Word})
-
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/words_tfidf.csv" AS row
-MATCH (word:Word {value: row.Word})
-MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
-MERGE (word)-[:USED_IN_EPISODE {score : TOFLOAT(row.Score)}]->(episode);
 
 // topics
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/topics.csv" AS row
 MERGE (topic:Topic {id: TOINT(row.TopicId)})
-ON CREATE SET topic.value = row.Topic
+ON CREATE SET topic.value = row.Topic;
 
 // topic - episode
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/topics.csv" AS row
 MATCH (topic:Topic {id: TOINT(row.TopicId)})
 MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
-MERGE (episode)-[:TOPIC {score: TOFLOAT(row.Score)}]->(topic)
+MERGE (episode)-[:TOPIC {score: TOFLOAT(row.Score)}]->(topic);

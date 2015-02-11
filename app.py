@@ -3,6 +3,9 @@
 
 from bottle import get, run, static_file, template, redirect
 from py2neo import Graph
+from bs4 import BeautifulSoup, NavigableString
+from soupselect import select
+
 graph = Graph()
 
 @get('/css/<filename:re:.*\.css>')
@@ -24,7 +27,7 @@ def get_episodes():
     """
     statement = """\
     MATCH (e:Episode)
-    RETURN e.id AS id, e.title as title
+    RETURN e.id AS id, e.title as title, e.number as number, e.season as season
     ORDER BY id
     """
     return template("episodes", episodes=graph.cypher.execute(statement))
@@ -36,14 +39,21 @@ def get_episode(episode_id):
     statement = """\
     MATCH (e:Episode {id: {episodeId}})-[r:TOPIC]->(topic)
     WITH e, r, topic ORDER BY r.score DESC
-    RETURN e.id AS id, e.title as title,
+    RETURN e.id AS id, e.title as title, e.season AS season, e.number AS number,
            COLLECT({id: topic.id, name: topic.value, score: r.score}) AS topics
     ORDER BY id
     """
 
     episode = graph.cypher.execute(statement, {"episodeId": int(episode_id)})[0]
 
-    return template("episode", episode = episode)
+    season = episode["season"]
+    number = episode["number"]
+
+    transcript = open("data/transcripts/S%d-Ep%d" %(season, number)).read()
+    soup = BeautifulSoup(transcript)
+    rows = select(soup, "table.tablebg tr td.post-body div.postbody")
+
+    return template("episode", episode = episode, transcript = rows[0])
 
 @get("/topics/<topic_id>")
 def get_topic(topic_id):
@@ -58,10 +68,7 @@ def get_topic(topic_id):
     """
     topic = graph.cypher.execute(statement, {"topicId": int(topic_id)})[0]
 
-    print statement, topic_id, topic
-
     return template("topic", topic = topic)
 
-
 if __name__ == "__main__":
-    run(host="localhost", port=8080, reloader=True, debug = True)
+    run(host="localhost", port=8000, reloader=True, debug = True)
