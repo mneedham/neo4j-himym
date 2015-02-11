@@ -64,4 +64,4 @@ def get_topic(topic_id):
 
 
 if __name__ == "__main__":
-    run(host="localhost", port=8080, reloader=True)
+    run(host="localhost", port=8080, reloader=True, debug = True)
