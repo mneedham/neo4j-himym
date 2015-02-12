@@ -1,9 +1,6 @@
 = Tasks To Do
 
-* Make gensim only output bigrams
 * Query for TF/IDF words for each episode
-* Strip out stop words in gensim
-* Filter gensim to only show n-grams
 * What wonders immediately surround bigrams?
 * Plot arc of the phrases across episodes
 * Change episodes page to show transcript from sentences file
