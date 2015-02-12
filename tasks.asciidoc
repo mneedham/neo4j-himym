@@ -1,8 +1,12 @@
 = Tasks To Do
 
-* CSS for displaying tables
+* Make gensim only output bigrams
 * Query for TF/IDF words for each episode
-* Phrase collocation on 1 sentence with gensim - http://radimrehurek.com/gensim/models/phrases.html#module-gensim.models.phrases
+* Strip out stop words in gensim
+* Filter gensim to only show n-grams
+* What wonders immediately surround bigrams?
+* Plot arc of the phrases across episodes
+* Change episodes page to show transcript from sentences file
 * Run http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/ - on one episode - see whether it's useful
   ** https://gate.d5.mpi-inf.mpg.de/webaida/#run_info
   ** https://github.com/yago-naga/aida
