@@ -1,7 +1,8 @@
 = Tasks To Do
 
+* trigram with gensim
 * Query for TF/IDF words for each episode
-* What wonders immediately surround bigrams?
+* What words immediately surround bigrams?
 * Plot arc of the phrases across episodes
 * Change episodes page to show transcript from sentences file
 * Run http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/ - on one episode - see whether it's useful
