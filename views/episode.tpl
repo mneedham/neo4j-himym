@@ -75,8 +75,13 @@
       %end
     </table>
 
-    {{!transcript}}
-
+    <table class="table">
+      % for sentence in sentences:
+      <tr>
+        <td>{{sentence}}</a></td>
+      </tr>
+      %end
+    </table>
   </div>
   <!-- /.container -->
 </body>

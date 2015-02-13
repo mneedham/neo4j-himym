@@ -5,6 +5,7 @@ from bottle import get, run, static_file, template, redirect
 from py2neo import Graph
 from bs4 import BeautifulSoup, NavigableString
 from soupselect import select
+import csv
 
 graph = Graph()
 
@@ -49,11 +50,19 @@ def get_episode(episode_id):
     season = episode["season"]
     number = episode["number"]
 
+    sentences = []
+    with open("data/import/sentences.csv", "r") as sentences_file:
+        reader = csv.reader(sentences_file, delimiter = ",")
+        reader.next()
+        for row in reader:
+            if int(row[1]) == int(episode['id']):
+                sentences.append(row[4])
+
     transcript = open("data/transcripts/S%d-Ep%d" %(season, number)).read()
     soup = BeautifulSoup(transcript)
     rows = select(soup, "table.tablebg tr td.post-body div.postbody")
 
-    return template("episode", episode = episode, transcript = rows[0])
+    return template("episode", episode = episode, transcript = rows[0], sentences = sentences)
 
 @get("/topics/<topic_id>")
 def get_topic(topic_id):
