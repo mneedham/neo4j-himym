@@ -18,6 +18,10 @@ def get_css(filename):
 def get_image(filename):
     return static_file(filename, root="static", mimetype="image/png")
 
+@get('/js/<filename:re:.*\.js>')
+def get_js(filename):
+    return static_file(filename, root="static", mimetype="application/javascript")
+
 @get("/")
 def get_index():
      redirect("/episodes")

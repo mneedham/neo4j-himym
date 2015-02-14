@@ -62,27 +62,45 @@
   <div class="container">
     <h1>{{episode['title']}}</h1>
 
-    <table class="table">
-      <tr>
-        <th align="left">Topic</th>
-        <th align="left">Score</th>
-      </tr>
-      % for topic in episode['topics']:
-      <tr>
-        <td><a href="/topics/{{topic['id']}}">{{topic['name']}}</a></td>
-        <td>{{topic['score']}}</td>
-      </tr>
-      %end
-    </table>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a></li>
+      <li role="presentation"><a href="#topics" aria-controls="topics" role="tab" data-toggle="tab">Topics</a></li>
+      <li role="presentation"><a href="#transcript" aria-controls="transcript" role="tab" data-toggle="tab">Transcript</a></li>
+    </ul>
 
-    <table class="table">
-      % for sentence in sentences:
-      <tr>
-        <td>{{sentence}}</a></td>
-      </tr>
-      %end
-    </table>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="overview">
+
+      </div>
+      <div role="tabpanel" class="tab-pane" id="topics">
+        <table class="table">
+          <tr>
+            <th align="left">Topic</th>
+            <th align="left">Score</th>
+          </tr>
+          % for topic in episode['topics']:
+          <tr>
+            <td><a href="/topics/{{topic['id']}}">{{topic['name']}}</a></td>
+            <td>{{topic['score']}}</td>
+          </tr>
+          %end
+        </table>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="transcript">
+        <table class="table">
+          % for sentence in sentences:
+          <tr>
+            <td>{{sentence}}</a></td>
+          </tr>
+          %end
+        </table>
+      </div>
+    </div>
   </div>
   <!-- /.container -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
 </body>
 </html>

@@ -72,11 +72,11 @@ tfidf = models.TfidfModel(corpus)
 corpus_tfidf = tfidf[corpus]
 
 words_tfidf = defaultdict(list)
-count = 0
+idx = 0
 for doc in corpus_tfidf:
     for word_id,score in doc:
-        words_tfidf[count].append((dictionary.id2token[word_id], score))
-    count = count + 1
+        words_tfidf[idx].append((dictionary.id2token[word_id], score))
+    idx = idx + 1
 
 
 with open("data/import/words_tfidf.csv", "w") as wordsfile:

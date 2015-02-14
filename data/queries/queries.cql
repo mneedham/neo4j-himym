@@ -99,3 +99,21 @@ WITH season, t, COUNT(*) AS times
 ORDER BY season.number, times DESC
 RETURN season.number, COLLECT(t.value)[..5]
 ORDER BY season.number
+
+// writers who worked together
+
+match (writer:Person)-[:WROTE_EPISODE]->()<-[:WROTE_EPISODE]-(otherWriter)
+RETURN writer.name, otherWriter.name, COUNT(*) AS times
+ORDER BY times DESC
+
+// what topics do writers writer about?
+
+PROFILE match (writer:Person)-[r:WROTE_EPISODE]->(e)
+WITH writer, COLLECT(e) AS episodes
+WITH writer, episodes, LENGTH(episodes) AS numberOfEpisodes
+UNWIND episodes AS e
+MATCH (e)-[:TOPIC]->(topic)
+WITH writer, topic, COUNT(*) AS times, numberOfEpisodes
+ORDER BY writer.name, times DESC
+RETURN writer.name, COLLECT({topic: topic.value, times: times})[..5] AS topics, numberOfEpisodes
+ORDER BY numberOfEpisodes DESC
