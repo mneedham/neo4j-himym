@@ -1,10 +1,9 @@
 = Tasks To Do
 
-* trigram with gensim
-* Query for TF/IDF words for each episode
-* What words immediately surround bigrams?
+* Write loading code for scikit-learn phrases
+* Write query for TF/IDF words for each episode
+* Expore what words immediately surround bigrams?
 * Plot arc of the phrases across episodes
 * Run http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/ - on one episode - see whether it's useful
   ** https://gate.d5.mpi-inf.mpg.de/webaida/#run_info
   ** https://github.com/yago-naga/aida
-* http://www.opencalais.com/documentation/opencalais-documentation - NLP as a service

@@ -4,7 +4,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import defaultdict
 import csv
 
-
 episodes = defaultdict(list)
 with open("data/import/sentences.csv", "r") as sentences_file:
     reader = csv.reader(sentences_file, delimiter=',')

@@ -117,3 +117,37 @@ WITH writer, topic, COUNT(*) AS times, numberOfEpisodes
 ORDER BY writer.name, times DESC
 RETURN writer.name, COLLECT({topic: topic.value, times: times})[..5] AS topics, numberOfEpisodes
 ORDER BY numberOfEpisodes DESC
+
+// TF/IDF
+WITH 3 as termFrequency, 2 AS numberOfDocuments, 1 as numberOfDocumentsWithTerm
+WITH termFrequency, log10(numberOfDocuments / numberOfDocumentsWithTerm) AS inverseDocumentFrequency
+return termFrequency * inverseDocumentFrequency
+
+// Top 3 phrases for each episode
+MATCH (e:Episode)<-[rel:USED_IN_EPISODE]-(phrase)
+WITH e, rel, phrase
+ORDER BY e.id, rel.tfidfScore DESC
+RETURN e.id, e.title, COLLECT({phrase: phrase.value, score: rel.tfidfScore})[..3]
+ORDER BY e.id
+
+// Top phrases in an episode
+MATCH (e:Episode {title: "Pilot"})<-[rel:USED_IN_EPISODE]-(phrase)
+WITH phrase, rel
+ORDER BY rel.tfidfScore DESC
+RETURN phrase.value AS phrase, rel.tfidfScore AS score
+LIMIT 20
+
+// Which episodes don't mention Robin by name?
+MATCH (episode:Episode), (phrase:Phrase {value: "robin"})
+WHERE NOT (episode)<-[:USED_IN_EPISODE]-(phrase)
+RETURN episode.id AS id, episode.season AS season, episode.number AS episode
+
+// How many of the top ten phrases were used in other episodes?
+MATCH (episode:Episode {title: "Pilot"})<-[rel:USED_IN_EPISODE]-(phrase)
+WITH phrase, rel, episode
+ORDER BY rel.tfidfScore DESC
+LIMIT 10
+MATCH (phrase)-[:USED_IN_EPISODE]->(otherEpisode)
+WHERE otherEpisode <> episode
+RETURN phrase.value AS phrase, COUNT(*) AS numberOfOtherEpisodes
+ORDER BY numberOfOtherEpisodes DESC
