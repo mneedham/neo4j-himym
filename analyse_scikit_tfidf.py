@@ -2,7 +2,6 @@ import pandas as pd
 df = pd.read_csv('data/import/tfidf_scikit.csv', index_col=False, header=0)
 
 print ("Top 3 phrases by episode")
-print("")
 # Top 3 phrases for each episode
 top_words_by_episode = df \
     .sort(["EpisodeId", "Score"], ascending = [True, False]) \
@@ -10,25 +9,26 @@ top_words_by_episode = df \
     .head(3)
 
 print(top_words_by_episode.to_string())
+print("")
 
 print ("Top phrases in an episode")
-print("")
 # Top phrases in an episode
 top_words = df[(df["EpisodeId"] == 1)] \
     .sort(["Score"], ascending = False) \
     .head(20)
+print("")
 
 print(top_words.to_string())
 
 print ("Which episodes don't mention Robin by name?")
-print("")
 # Which episodes don't mention Robin by name?
 all_episodes = set(range(1, 209))
 robin_episodes = set(df[(df["Phrase"] == "robin")]["EpisodeId"])
 print(set(all_episodes) - set(robin_episodes))
+print("")
+
 
 print ("How many of the top ten phrases were used in other episodes?")
-print("")
 # How many of the top ten phrases were used in other episodes?
 phrases_used = set(df[(df["EpisodeId"] == 1)] \
     .sort(["Score"], ascending = False) \

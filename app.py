@@ -1,13 +1,24 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-from bottle import get, run, static_file, template, redirect
+from bottle import post,get, run, static_file, template, redirect, request, response
 from py2neo import Graph
 from bs4 import BeautifulSoup, NavigableString
+import json
+from json import dumps
 from soupselect import select
 import csv
+import nltk
+from random import randint
 
 graph = Graph()
+
+all_sentences = []
+with open("data/import/sentences.csv", "r") as sentences_file:
+    reader = csv.reader(sentences_file, delimiter = ",")
+    reader.next()
+    for row in reader:
+        all_sentences.append(row[4])
 
 @get('/css/<filename:re:.*\.css>')
 def get_css(filename):
@@ -82,6 +93,33 @@ def get_topic(topic_id):
     topic = graph.cypher.execute(statement, {"topicId": int(topic_id)})[0]
 
     return template("topic", topic = topic)
+
+@get("/training")
+def get_sentences_to_train():
+    print request.headers['Accept']
+    if "application/json" in request.headers['Accept']:
+        sentences = {"sentences": []}
+        for i in range(0, 10):
+            sentences["sentences"].append(nltk.word_tokenize(all_sentences[randint(0, len(all_sentences))]))
+
+        response.content_type = "application/json"
+        return sentences
+    else:
+        return template("training")
+
+@post("/training")
+def train_sentence():
+    print request.body
+    with open("data/import/trained_sentences.json", "r") as json_file:
+        json_data = json.load(json_file)
+    print json_data
+
+    for sentence in json.load(request.body):
+        json_data.append( sentence )
+    print json_data
+
+    with open("data/import/trained_sentences.json", "w") as json_file:
+        json.dump(json_data, json_file)
 
 if __name__ == "__main__":
     run(host="localhost", port=8000, reloader=True, debug = True)
