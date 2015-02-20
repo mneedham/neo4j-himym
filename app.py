@@ -1,24 +1,36 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
+# import sys
+# the mock-0.3.1 dir contains testcase.py, testutils.py & mock.py
+# sys.path.append('lib/')
+
 from bottle import post,get, run, static_file, template, redirect, request, response
 from py2neo import Graph
 from bs4 import BeautifulSoup, NavigableString
-import json
+from random import randint
 from json import dumps
-from soupselect import select
+
+from himymutil.soupselect import select
+from himymutil.sentences import all_sentences
+from himymutil.ml import pos_features
+
+import json
 import csv
 import nltk
-from random import randint
+import pickle
+import itertools
 
 graph = Graph()
+all_sentences = all_sentences()
 
-all_sentences = []
-with open("data/import/sentences.csv", "r") as sentences_file:
-    reader = csv.reader(sentences_file, delimiter = ",")
-    reader.next()
-    for row in reader:
-        all_sentences.append(row[4])
+def extract_speaker(sentence):
+    tokenized_sentence = nltk.word_tokenize(sentence)
+    for i, word in enumerate(tokenized_sentence):
+        classification = classifier.classify(pos_features(tokenized_sentence, i))
+
+with open("classifiers/decision_tree.pickle") as f:
+    classifier = pickle.load(f)
 
 @get('/css/<filename:re:.*\.css>')
 def get_css(filename):
@@ -71,7 +83,13 @@ def get_episode(episode_id):
         reader.next()
         for row in reader:
             if int(row[1]) == int(episode['id']):
-                sentences.append(row[4])
+                tokenized_sentence = nltk.word_tokenize(row[4])
+                word_pos = [(word, classifier.classify(pos_features(tokenized_sentence, i)))
+                             for i, word in enumerate(tokenized_sentence)]
+
+                speaker = list(itertools.takewhile(lambda x: x[1] == True, word_pos))
+
+                sentences.append(("".join(s[0] for s in speaker), row[4]))
 
     transcript = open("data/transcripts/S%d-Ep%d" %(season, number)).read()
     soup = BeautifulSoup(transcript)

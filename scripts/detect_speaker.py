@@ -1,20 +1,9 @@
 import nltk
 import json
 import pickle
-from sklearn.cross_validation import train_test_split
 
-def pos_features(sentence, i):
-    features = {}
-    features["word"] = sentence[i]
-    if i == 0:
-        features["prev-word"] = "<START>"
-    else:
-        features["prev-word"] = sentence[i-1]
-    if i == len(sentence) - 1:
-        features["next-word"] = "<END>"
-    else:
-        features["next-word"] = sentence[i+1]
-    return features
+from sklearn.cross_validation import train_test_split
+from himymutil.ml import pos_features
 
 with open("data/import/trained_sentences.json", "r") as json_file:
     json_data = json.load(json_file)
@@ -43,7 +32,7 @@ print nltk.classify.accuracy(classifier, test_data)
 with open("classifiers/decision_tree.pickle", "w") as f:
     pickle.dump(classifier, f)
 
-sentence = "Mr Druthers: Ted, what are you doing?"
+sentence = "Ted from 2030: Oh,we were bigfansofNewYork'sannualHalloweenparade.Idon'tmeantheonethattakesplaceHalloweennightintheVillage.ImeantheonethattakesplacethemorningofNovember1st,theAnnualPostHalloweenWalkofShameParade."
 tokenized_sentence = nltk.word_tokenize(sentence)
 for i, word in enumerate(tokenized_sentence):
     print "{0} -> {1}".format(word, classifier.classify(pos_features(tokenized_sentence, i)))

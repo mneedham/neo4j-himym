@@ -64,8 +64,9 @@
       </div>
       <div role="tabpanel" class="tab-pane" id="transcript">
         <table class="table">
-          % for sentence in sentences:
+          % for speaker, sentence in sentences:
           <tr>
+            <td>{{speaker}}</td>
             <td>{{sentence}}</td>
           </tr>
           %end
