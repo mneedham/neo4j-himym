@@ -1,4 +1,6 @@
 import nltk
+import json
+from sklearn.cross_validation import train_test_split
 
 def pos_features(sentence, i):
     features = {}
@@ -13,25 +15,12 @@ def pos_features(sentence, i):
         features["next-word"] = sentence[i+1]
     return features
 
+with open("data/import/trained_sentences.json", "r") as json_file:
+    json_data = json.load(json_file)
+
 tagged_sents = []
-tagged_sents.append([('Narrator', 'Speaker'), (':', ''), ('Kids', ''), (',', ''), ('I', ''),("'m", ''), ('going', ''),
-  ('to', ''), ('tell', ''), ('you', ''), ('an', ''), ('incredible', ''), ('story.', ''), ('The', ''), ('story', ''),
-  ('of', ''), ('how', ''), ('I', ''), ('met', ''), ('your', ''), ('mother', '')])
-tagged_sents.append([('Son', 'Speaker'), (':', ''), ('Are', ''), ('we', ''), ('being', ''), ('punished', ''), ('for', ''), ('something', ''), ('?', '')])
-tagged_sents.append([('(', ''), ('Music', ''), ('Plays', ''), (',', ''), ('Title', ''), ('How', ''), ('I', ''), ('Met', ''), ('Your', ''), ('Mother', ''), ('appears', ''), (')', '')])
-tagged_sents.append([('Daughter', 'Speaker'), (':', ''), ('Yeah', ''), (',', ''), ('is', ''), ('this', ''), ('going', ''), ('to', ''), ('take', ''), ('a', ''), ('while', ''), ('?', '')])
-tagged_sents.append([('Narrator', 'Speaker'), (':', ''), ('No', '')])
-tagged_sents.append([('(', ''), ('Scene', ''), ('Freezes', ''), (')', '')])
-tagged_sents.append([('Barney', 'Speaker'), (':', ''), ('Where', ''), ("'s", ''), ('your', ''), ('suit', ''), ('!', ''), ('?', ''), ('Just', ''), ('once', ''), ('when', ''), ('I', ''), ('say', ''), ('suit', ''), ('up', ''), (',', ''), ('I', ''), ('wish', ''), ('you', ''), ("'d", ''), ('put', ''), ('on', ''), ('a', ''), ('suit', ''), ('.', '')])
-tagged_sents.append([('Ted', 'Speaker'), ('(', 'Speaker'), ('2030', 'Speaker'), (')', 'Speaker'), (':', ''), ('The', ''), ('next', ''), ('night', ''), (',', ''), ('Barney', ''), ('and', ''), ('Nora', ''), ('saw', ''), ('each', ''), ('other', ''), ('for', ''), ('a', ''), ('coffee.Fortunately', ''), (',', ''), ('without', ''), ('the', ''), ('neck', ''), ('brace', ''), ('ridiculous', ''), ('.', '')])
-tagged_sents.append([('Ted', 'Speaker'), ('(', 'Speaker'), ('2030', 'Speaker'), (')', 'Speaker'), (':', ''), ('But', ''), ('I', ''), ('lost', ''), ('a', ''), ('bit', ''), ('in', ''), ('the', ''), ('story', ''), ('.', '')])
-tagged_sents.append([('(', ''), ('Barney', ''), ('hits', ''), ('Ted', ''), (')', '')])
-tagged_sents.append([('[', ''), ('Fantasy', ''), ('Ends', ''), (']', '')])
-tagged_sents.append([('Yasmine', 'Speaker'), (':', ''), ('So', ''), ('do', ''), ('you', ''), ('think', ''), ('you', ''), ("'ll", ''), ('ever', ''), ('get', ''), ('married', ''), ('?', '')])
-tagged_sents.append([('Excuse', ''), ('me.', ''), ('It', ''), ('even', ''), ('has', ''), ('my', ''), ('initials', ''), ('on', ''), ('it', ''), ('right', ''), ('here', ''), (':', ''), ('T.M', ''), ('.', '')])
-tagged_sents.append([('(', ''), ('sighs', ''), (')', ''), (':', ''), ('We', ''), ("'ll", ''), ('work', ''), ('on', ''), ('that', ''), ('.', '')])
-tagged_sents.append([('Lily', 'Speaker'), (':', ''), ('(', ''), ('realizing', ''), (')', ''), ('No', ''), (',', ''), ('you', ''), ('are', ''), ('too', ''), ('old', ''), ('to', ''), ('be', ''), ('scared', ''), ('to', ''), ('open', ''), ('a', ''), ('bottle', ''), ('of', ''), ('champagne', ''), ('!', '')])
-tagged_sents.append([('Marshall', 'Speaker'), (':', ''), ('Doggie', ''), ('style.', ''), ('(', ''), ('Laughs', ''), (')', '')])
+for sentence in json_data:
+    tagged_sents.append([(word["word"], word["speaker"]) for word in sentence["words"]])
 
 featuresets = []
 for tagged_sent in tagged_sents:
@@ -39,15 +28,16 @@ for tagged_sent in tagged_sents:
     for i, (word, tag) in enumerate(tagged_sent):
         featuresets.append( (pos_features(untagged_sent, i), tag) )
 
-classifier = nltk.NaiveBayesClassifier.train(featuresets)
-print(classifier.show_most_informative_features(5))
-print nltk.classify.accuracy(classifier, featuresets)
+train_data,test_data = train_test_split(featuresets, test_size=0.20, train_size=0.80)
 
-classifier = nltk.DecisionTreeClassifier.train(featuresets)
+classifier = nltk.NaiveBayesClassifier.train(train_data)
+print nltk.classify.accuracy(classifier, test_data)
+
+classifier = nltk.DecisionTreeClassifier.train(train_data)
+print nltk.classify.accuracy(classifier, test_data)
 print(classifier.pseudocode(depth=4))
-print nltk.classify.accuracy(classifier, featuresets)
 
-sentence = "Mark: is it ok?"
+sentence = "Mr Druthers: Ted, what are you doing?"
 tokenized_sentence = nltk.word_tokenize(sentence)
 for i, word in enumerate(tokenized_sentence):
     print "{0} -> {1}".format(word, classifier.classify(pos_features(tokenized_sentence, i)))
