@@ -1,3 +1,4 @@
 *.pyc
 himym
 neo4j-enterprise*
+neo4j-community*
