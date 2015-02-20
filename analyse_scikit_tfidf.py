@@ -36,6 +36,7 @@ phrases_used = set(df[(df["EpisodeId"] == 1)] \
 
 phrases = df[df["Phrase"].isin(phrases_used)]
 
+
 print (phrases[phrases["EpisodeId"] != 1] \
     .groupby(["Phrase"]) \
     .size() \

@@ -109,14 +109,11 @@ def get_sentences_to_train():
 
 @post("/training")
 def train_sentence():
-    print request.body
     with open("data/import/trained_sentences.json", "r") as json_file:
         json_data = json.load(json_file)
-    print json_data
 
     for sentence in json.load(request.body):
         json_data.append( sentence )
-    print json_data
 
     with open("data/import/trained_sentences.json", "w") as json_file:
         json.dump(json_data, json_file)
