@@ -1,5 +1,6 @@
 import nltk
 import json
+import pickle
 from sklearn.cross_validation import train_test_split
 
 def pos_features(sentence, i):
@@ -33,9 +34,14 @@ train_data,test_data = train_test_split(featuresets, test_size=0.20, train_size=
 classifier = nltk.NaiveBayesClassifier.train(train_data)
 print nltk.classify.accuracy(classifier, test_data)
 
+with open("classifiers/bayes.pickle", "w") as f:
+    pickle.dump(classifier, f)
+
 classifier = nltk.DecisionTreeClassifier.train(train_data)
 print nltk.classify.accuracy(classifier, test_data)
-print(classifier.pseudocode(depth=4))
+
+with open("classifiers/decision_tree.pickle", "w") as f:
+    pickle.dump(classifier, f)
 
 sentence = "Mr Druthers: Ted, what are you doing?"
 tokenized_sentence = nltk.word_tokenize(sentence)
