@@ -1,9 +1,12 @@
 import nltk
 import json
 import pickle
+import collections
 
 from sklearn.cross_validation import train_test_split
 from himymutil.ml import pos_features
+from himymutil.naive import NaiveClassifier
+from tabulate import tabulate
 
 with open("data/import/trained_sentences.json", "r") as json_file:
     json_data = json.load(json_file)
@@ -20,19 +23,39 @@ for tagged_sent in tagged_sents:
 
 train_data,test_data = train_test_split(featuresets, test_size=0.20, train_size=0.80)
 
-classifier = nltk.NaiveBayesClassifier.train(train_data)
-print nltk.classify.accuracy(classifier, test_data)
+def assess_classifier(classifier, test_data, text):
+    refsets = collections.defaultdict(set)
+    testsets = collections.defaultdict(set)
+    for i, (feats, label) in enumerate(test_data):
+        refsets[label].add(i)
+        observed = classifier.classify(feats)
+        testsets[observed].add(i)
 
-with open("classifiers/bayes.pickle", "w") as f:
-    pickle.dump(classifier, f)
+    speaker_precision = nltk.metrics.precision(refsets[True], testsets[True])
+    speaker_recall = nltk.metrics.recall(refsets[True], testsets[True])
+    speaker_f_measure = nltk.metrics.f_measure(refsets[True], testsets[True])
 
-classifier = nltk.DecisionTreeClassifier.train(train_data)
-print nltk.classify.accuracy(classifier, test_data)
+    non_speaker_precision = nltk.metrics.precision(refsets[False], testsets[False])
+    non_speaker_recall = nltk.metrics.recall(refsets[False], testsets[False])
+    non_speaker_f_measure = nltk.metrics.f_measure(refsets[False], testsets[False])
 
-with open("classifiers/decision_tree.pickle", "w") as f:
-    pickle.dump(classifier, f)
+    table = [["speaker precision", speaker_precision],
+             ["speaker recall", speaker_recall],
+             ["speaker F-measure", speaker_f_measure],
+             ["non-speaker precision", non_speaker_precision],
+             ["non-speaker recall", non_speaker_recall],
+             ["non-speaker F-measure", non_speaker_f_measure]]
 
-sentence = "Ted from 2030: Oh,we were bigfansofNewYork'sannualHalloweenparade.Idon'tmeantheonethattakesplaceHalloweennightintheVillage.ImeantheonethattakesplacethemorningofNovember1st,theAnnualPostHalloweenWalkofShameParade."
-tokenized_sentence = nltk.word_tokenize(sentence)
-for i, word in enumerate(tokenized_sentence):
-    print "{0} -> {1}".format(word, classifier.classify(pos_features(tokenized_sentence, i)))
+    print(tabulate(table, headers=["Measure","Naive Bayes"]))
+
+    with open("classifiers/" + text.lower().replace(" ", "_") + ".pickle", "w") as f:
+        pickle.dump(classifier, f)
+
+assess_classifier(nltk.NaiveBayesClassifier.train(train_data), test_data, "Naive Bayes")
+# assess_classifier(nltk.DecisionTreeClassifier.train(train_data), test_data, "Decision Tree")
+# assess_classifier(NaiveClassifier(), test_data, "Naive")
+
+# sentence = "Ted from 2030: Oh,we were"
+# tokenized_sentence = nltk.word_tokenize(sentence)
+# for i, word in enumerate(tokenized_sentence):
+#     print "{0} -> {1}".format(word, classifier.classify(pos_features(tokenized_sentence, i)))
