@@ -33,27 +33,22 @@ def assess_classifier(classifier, test_data, text):
 
     speaker_precision = nltk.metrics.precision(refsets[True], testsets[True])
     speaker_recall = nltk.metrics.recall(refsets[True], testsets[True])
-    speaker_f_measure = nltk.metrics.f_measure(refsets[True], testsets[True])
 
     non_speaker_precision = nltk.metrics.precision(refsets[False], testsets[False])
     non_speaker_recall = nltk.metrics.recall(refsets[False], testsets[False])
-    non_speaker_f_measure = nltk.metrics.f_measure(refsets[False], testsets[False])
 
-    table = [["speaker precision", speaker_precision],
-             ["speaker recall", speaker_recall],
-             ["speaker F-measure", speaker_f_measure],
-             ["non-speaker precision", non_speaker_precision],
-             ["non-speaker recall", non_speaker_recall],
-             ["non-speaker F-measure", non_speaker_f_measure]]
-
-    print(tabulate(table, headers=["Measure","Naive Bayes"]))
+    row = [text, speaker_precision, speaker_recall, non_speaker_precision, non_speaker_recall]
 
     with open("classifiers/" + text.lower().replace(" ", "_") + ".pickle", "w") as f:
         pickle.dump(classifier, f)
+    return row
 
-assess_classifier(nltk.NaiveBayesClassifier.train(train_data), test_data, "Naive Bayes")
-# assess_classifier(nltk.DecisionTreeClassifier.train(train_data), test_data, "Decision Tree")
-# assess_classifier(NaiveClassifier(), test_data, "Naive")
+table = []
+table.append(assess_classifier(NaiveClassifier(), test_data, "Naive"))
+table.append(assess_classifier(nltk.NaiveBayesClassifier.train(train_data), test_data, "Naive Bayes"))
+table.append(assess_classifier(nltk.DecisionTreeClassifier.train(train_data), test_data, "Decision Tree"))
+
+print(tabulate(table, headers=["Classifier","speaker precision", "speaker recall", "non-speaker precision", "non-speaker recall"]))
 
 # sentence = "Ted from 2030: Oh,we were"
 # tokenized_sentence = nltk.word_tokenize(sentence)
