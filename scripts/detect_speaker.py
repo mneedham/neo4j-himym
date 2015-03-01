@@ -5,22 +5,8 @@ import copy
 
 from sklearn.cross_validation import train_test_split
 from tabulate import tabulate
-
 from himymutil.naive import NaiveClassifier
-from himymutil.ml import pos_features
-
-def assess_classifier(classifier, test_data, text):
-    refsets = collections.defaultdict(set)
-    testsets = collections.defaultdict(set)
-    for i, (feats, label) in enumerate(test_data):
-        refsets[label].add(i)
-        observed = classifier.classify(feats)
-        testsets[observed].add(i)
-    speaker_precision = nltk.metrics.precision(refsets[True], testsets[True])
-    speaker_recall = nltk.metrics.recall(refsets[True], testsets[True])
-    non_speaker_precision = nltk.metrics.precision(refsets[False], testsets[False])
-    non_speaker_recall = nltk.metrics.recall(refsets[False], testsets[False])
-    return [text, speaker_precision, speaker_recall, non_speaker_precision, non_speaker_recall]
+from himymutil.ml import pos_features, assess_classifier
 
 with open("data/import/trained_sentences.json", "r") as json_file:
     json_data = json.load(json_file)
