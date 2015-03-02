@@ -1,8 +1,9 @@
 import json
 import nltk
+import collections
 
+from tabulate import tabulate
 from himymutil.ml import pos_features, assess_classifier
-
 from sklearn import tree
 from sklearn.cross_validation import train_test_split
 from sklearn.feature_extraction import DictVectorizer
@@ -22,27 +23,36 @@ for tagged_sent in tagged_sents:
         featuresets.append((pos_features(untagged_sent, sentence_pos, i), tag) )
 
 vec = DictVectorizer()
-
-#train_data,test_data = train_test_split(featuresets, test_size=0.20, train_size=0.80)
-
-X = vec.fit_transform([item[0] for item in train_data]).toarray()
-Y = [item[1] for item in train_data]
+X = vec.fit_transform([item[0] for item in featuresets]).toarray()
+Y = [item[1] for item in featuresets]
 X_train, X_test,Y_train, Y_test = train_test_split(X, Y, test_size=0.20, train_size=0.80)
 
+def assess(text, predictions_actual):
+    refsets = collections.defaultdict(set)
+    testsets = collections.defaultdict(set)
+    for i, (prediction, actual) in enumerate(predictions_actual):
+        refsets[actual].add(i)
+        testsets[prediction].add(i)
+    speaker_precision = nltk.metrics.precision(refsets[True], testsets[True])
+    speaker_recall = nltk.metrics.recall(refsets[True], testsets[True])
+    non_speaker_precision = nltk.metrics.precision(refsets[False], testsets[False])
+    non_speaker_recall = nltk.metrics.recall(refsets[False], testsets[False])
+    return [text, speaker_precision, speaker_recall, non_speaker_precision, non_speaker_recall]
+
+table = []
+
+clf = tree.DecisionTreeClassifier()
 clf = clf.fit(X_train, Y_train)
 predictions = clf.predict(X_test)
+assessment = assess("Decision Tree", zip(predictions, Y_test))
 
-predictions_actual = zip(predictions, Y_test)
+table.append(assessment)
 
-refsets = collections.defaultdict(set)
-testsets = collections.defaultdict(set)
+# table.append(["Decision Tree", speaker_precision, speaker_recall, non_speaker_precision, non_speaker_recall])
 
-for i, (prediction, actual) in enumerate(predictions_actual):
-    refsets[actual].add(i)
-    testsets[prediction].add(i)
+print(tabulate(table, headers=["Classifier","speaker precision", "speaker recall", "non-speaker precision", "non-speaker recall"]))
 
-speaker_precision = nltk.metrics.precision(refsets[True], testsets[True])
-speaker_recall = nltk.metrics.recall(refsets[True], testsets[True])
-non_speaker_precision = nltk.metrics.precision(refsets[False], testsets[False])
-non_speaker_recall = nltk.metrics.recall(refsets[False], testsets[False])
-print [speaker_precision, speaker_recall, non_speaker_precision, non_speaker_recall]
+with open("/tmp/decisionTree.dot", 'w') as file:
+    tree.export_graphviz(clf, out_file = file, feature_names = vec.get_feature_names())
+
+# dot -Tpng /tmp/decisionTree.dot -o /tmp/decisionTree.png
