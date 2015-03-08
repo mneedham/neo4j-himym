@@ -34,6 +34,3 @@ with open("data/import/tfidf_scikit.csv", "w") as file:
                 writer.writerow([doc_id+1, word.encode("utf-8"), score])
             word_id +=1
         doc_id +=1
-
-for phrase, score in [(feature_names[word_id], score) for (word_id, score) in sorted_phrase_scores][:20]:
-    print('{0: <20} {1}'.format(phrase, score))

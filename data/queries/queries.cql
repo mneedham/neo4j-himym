@@ -151,3 +151,14 @@ MATCH (phrase)-[:USED_IN_EPISODE]->(otherEpisode)
 WHERE otherEpisode <> episode
 RETURN phrase.value AS phrase, COUNT(*) AS numberOfOtherEpisodes
 ORDER BY numberOfOtherEpisodes DESC
+
+// TF IDF
+
+match (e:Episode)
+WITH COUNT(e) AS numberOfDocuments
+match (p:Phrase)<-[r:CONTAINED_PHRASE]-(e:Episode {id: 1})
+WITH numberOfDocuments, p AS document, r.times AS termFrequency
+MATCH (p)<-[:CONTAINED_PHRASE]->(otherEpisode)
+WITH p, COUNT(otherEpisode) AS numberOfDocumentsWithTerm, numberOfDocuments, termFrequency
+WITH p, log10(numberOfDocuments / numberOfDocumentsWithTerm) AS inverseDocumentFrequency, termFrequency
+RETURN p, termFrequency * inverseDocumentFrequency

@@ -83,8 +83,9 @@ def get_episode(episode_id):
         reader.next()
         for row in reader:
             if int(row[1]) == int(episode['id']):
-                tokenized_sentence = nltk.word_tokenize(row[4])
-                word_pos = [(word, classifier.classify(pos_features(tokenized_sentence, i)))
+                tokenized_sentence = nltk.word_tokenize(row[4].decode('utf-8'))
+                sentence_pos = nltk.pos_tag(tokenized_sentence)
+                word_pos = [(word, classifier.classify(pos_features(tokenized_sentence, sentence_pos, i)))
                              for i, word in enumerate(tokenized_sentence)]
 
                 speaker = list(itertools.takewhile(lambda x: x[1] == True, word_pos))
