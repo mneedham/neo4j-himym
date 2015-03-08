@@ -152,13 +152,27 @@ WHERE otherEpisode <> episode
 RETURN phrase.value AS phrase, COUNT(*) AS numberOfOtherEpisodes
 ORDER BY numberOfOtherEpisodes DESC
 
-// TF IDF
+// Term Frequency, Inverse Episode Frequency
 
 match (e:Episode)
 WITH COUNT(e) AS numberOfDocuments
 match (p:Phrase)<-[r:CONTAINED_PHRASE]-(e:Episode {id: 1})
-WITH numberOfDocuments, p AS document, r.times AS termFrequency
+WITH numberOfDocuments, p, r.times AS termFrequency
 MATCH (p)<-[:CONTAINED_PHRASE]->(otherEpisode)
 WITH p, COUNT(otherEpisode) AS numberOfDocumentsWithTerm, numberOfDocuments, termFrequency
-WITH p, log10(numberOfDocuments / numberOfDocumentsWithTerm) AS inverseDocumentFrequency, termFrequency
-RETURN p, termFrequency * inverseDocumentFrequency
+WITH p, numberOfDocumentsWithTerm,  log10(numberOfDocuments / numberOfDocumentsWithTerm) AS inverseDocumentFrequency, termFrequency, numberOfDocuments
+RETURN p, termFrequency, numberOfDocumentsWithTerm, inverseDocumentFrequency, termFrequency * inverseDocumentFrequency AS score
+ORDER BY score DESC
+LIMIT 10
+
+// Term Frequency, Inverse Season Frequency
+match (:Season)
+WITH COUNT(*) AS numberOfDocuments
+match (p:Phrase)<-[r:CONTAINED_PHRASE]-(:Episode)-[:IN_SEASON]->(s:Season {number: "1"})
+WITH p, SUM(r.times) AS termFrequency, numberOfDocuments
+MATCH (p)<-[:CONTAINED_PHRASE]->(otherEpisode:Episode)-[:IN_SEASON]->(s:Season)
+WITH p, COUNT(DISTINCT s) AS numberOfDocumentsWithTerm, termFrequency, numberOfDocuments
+WITH p, numberOfDocumentsWithTerm,  log10(numberOfDocuments / numberOfDocumentsWithTerm) AS inverseDocumentFrequency, termFrequency, numberOfDocuments
+RETURN p.value, termFrequency, numberOfDocumentsWithTerm, inverseDocumentFrequency, termFrequency * inverseDocumentFrequency AS score
+ORDER BY score DESC
+LIMIT 10
