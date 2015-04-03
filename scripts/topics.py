@@ -14,6 +14,8 @@ pylab.show()
 import pandas
 from pandas import DataFrame
 
+import sys
+
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 # seasons, episode_ids = [], []
@@ -34,7 +36,7 @@ with open("data/import/sentences.csv", "r") as sentencesfile:
     reader.next()
     for row in reader:
         episodes[row[1]].append([ word
-                                    for word in nltk.word_tokenize(row[4].lower())
+                                    for word in nltk.word_tokenize(row[4].decode("utf-8").lower())
                                     if word not in string.punctuation and
                                        word not in stoplist ] )
 
@@ -78,6 +80,7 @@ for doc in corpus_tfidf:
         words_tfidf[idx].append((dictionary.id2token[word_id], score))
     idx = idx + 1
 
+sys.exit(0)
 
 with open("data/import/words_tfidf.csv", "w") as wordsfile:
     writer = csv.writer(wordsfile, delimiter=",")

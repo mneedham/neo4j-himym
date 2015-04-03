@@ -176,3 +176,16 @@ WITH p, numberOfDocumentsWithTerm,  log10(numberOfDocuments / numberOfDocumentsW
 RETURN p.value, termFrequency, numberOfDocumentsWithTerm, inverseDocumentFrequency, termFrequency * inverseDocumentFrequency AS score
 ORDER BY score DESC
 LIMIT 10
+
+// experimenting with more documents being better up to a certain number
+match (e:Episode)
+WITH COUNT(e) AS numberOfDocuments
+match (p:Phrase)<-[r:CONTAINED_PHRASE]-(e:Episode {id: 1})
+WITH numberOfDocuments, p, r.times AS termFrequency
+MATCH (p)<-[:CONTAINED_PHRASE]->(otherEpisode)
+WITH p, COUNT(otherEpisode) AS numberOfDocumentsWithTerm, numberOfDocuments, termFrequency
+WITH p, numberOfDocumentsWithTerm,  log10(numberOfDocuments/ numberOfDocumentsWithTerm) AS inverseDocumentFrequency, termFrequency, numberOfDocuments
+WITH p, CASE WHEN numberOfDocumentsWithTerm > 104 THEN numberOfDocumentsWithTerm - 104 ELSE 104 - numberOfDocumentsWithTerm END AS documentScore, numberOfDocumentsWithTerm, numberOfDocuments, termFrequency, inverseDocumentFrequency
+RETURN p.value, termFrequency, numberOfDocumentsWithTerm, inverseDocumentFrequency, termFrequency * inverseDocumentFrequency AS score, 104 - documentScore AS score2, documentScore
+ORDER BY score2 DESC
+LIMIT 20 
