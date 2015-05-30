@@ -2,9 +2,10 @@ You can view this document @ http://bit.ly/himym-graph
 
 = Neo4j London Meetup, 2nd June 2015:  The How I met your mother graph
 
-In this session we'll be working with a graph of How I met your mother that I've scrapped from the link:http://how-i-met-your-mother.wikia.com/wiki/How_I_Met_Your_Mother_Wiki[HIMYM wiki].
+In this session we'll be working with a graph of How I met your mother scrapped from the link:http://how-i-met-your-mother.wikia.com/wiki/How_I_Met_Your_Mother_Wiki[HIMYM wiki].
 
-The plan is to write some queries to explore the dataset and learn Neo4j’s cypher language at the same time. If we have time we can even look at how to merge some other data sets in as well.
+We're going to write some queries to explore the dataset and learn Neo4j’s cypher language while doing so.
+If we have time we can even look at how to merge some other data sets in as well.
 
 == Setup
 
@@ -12,13 +13,31 @@ First things first, let's get Neo4j running on your machines.
 
 * Download Neo4j from http://www.neo4j.com/download
 * Windows users: Install desktop application & then click the 'start' button
-*   Mac/Linux: Unpack archive & then `./bin/neo4j start`
+* Mac/Linux: Unpack archive & then `./bin/neo4j start`
+* Browse to http://localhost:7474. You should see the following:
 
+*insert image here*
 
+And we're ready to go!
 
 == The Episodes
 
-The first thing we need to do is load the episodes into Neo4j. I've already done the scrapping of the data into a CSV file so let's start by exploring that:
+The first thing we need to do is load the episodes into Neo4j.
+I've already done the scrapping of the data into a CSV file which is hosted on github.
+
+We'll start by exploring that using Cypher `LOAD CSV` command.
+The `LOAD CSV` command allows us to process CSV files hosted on a web server or our local file system.
+
+The syntax looks like this:
+
+[source, cypher]
+----
+LOAD CSV [WITH HEADERS] FROM "http or file URI" AS row
+[FIELDTERMINATOR ","]
+[MATCH MERGE RETURN WITH]
+----
+
+Let's give it a try:
 
 [source, cypher]
 ----
@@ -27,32 +46,76 @@ RETURN row
 LIMIT 1
 ----
 
-Now that we've got an understanding of the shape of the data let's create an episode for each row in that file:
+If you run that query you should see the following output:
 
-[source, cypher]
-----
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/episodes_full.csv" AS row
-MERGE (episode:Episode {id: TOINT(row.NumberOverall)})
-SET episode.title = row.Title,
-    episode.viewers = toFloat(row.Viewers),
-    episode.dateAired = row.DateAired,
-    episode.timestamp = TOINT(row.Timestamp),
-    episode.number = TOINT(row.NumberInSeason),
-    episode.season = TOINT(row.Season),
-    episode.ranking = TOINT(row.Rating)
-----
+[table]
 
-=== What's this `MERGE` all about?
+We can see that an episode has lots of different attributes - a title, date aired, season, ranking etc.
+
+Now let's create an episode node for each row of the CSV file. We'll do this by combining the `LOAD CSV` command with the `MERGE` command.
+
+=== What's `MERGE` got to do with it?
 
 The `MERGE` command does a `MATCH` or `CREATE` i.e. if the node already exists then we'll return it and if it doesn't then we'll create it.
 
 It's quite useful in this context as we may want to run our import script multiple times but don't want to end up with duplicate episodes.
 
-=== Time for some queries
+The syntax of `MERGE` is as follows:
 
+[source, cypher]
+----
+MERGE (:Label1:Label2 {id: "primaryKeyValue"})
+---
 
-* Find an episode by id
-* Find an episode by title
+[source, cypher]
+----
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/episodes_full.csv" AS row
+MERGE (episode:Episode {id: TOINT(row.NumberOverall)})
+ON CREATE SET episode.title = row.Title,
+              episode.viewers = toFloat(row.Viewers),
+              episode.dateAired = row.DateAired,
+              episode.timestamp = TOINT(row.Timestamp),
+              episode.number = TOINT(row.NumberInSeason),
+              episode.season = TOINT(row.Season),
+              episode.ranking = TOINT(row.Rating)
+----
+
+If everything has run properly you should now have 208 nodes in your database.
+Let's write a query to check that:
+
+[source, cypher]
+----
+MATCH (:Episode)
+RETURN COUNT(*) AS numberOfEpisodes
+----
+
+=== Finding specific episodes
+
+By now you should have all the episodes loaded so let's try and find some individual episodes.
+We'll start by finding an episode by it's `id` which in this case is its overall position in the series:
+
+[source, cypher]
+----
+MATCH (episode:Episode)
+WHERE episode.id = 5
+RETURN episode
+----
+
+or we can use a bit of syntactic sugar:
+
+[source, cypher]
+----
+MATCH (episode:Episode {id: 5})
+RETURN episode
+----
+
+[table]
+
+==== Exercises
+
+* Find an episode by title rather than by id
+* Only return the `title` and `dateAired` properties rather than all the properties
+* Which episode had the highest viewership?
 
 === What's the query doing under the covers?
 
@@ -63,7 +126,6 @@ Prefixing a query with `EXPLAIN` will return the query plan based on statistics 
 Prefixing a query with `PROFILE` will run the query and return the actual query plan that was executed.
 
 Give those a try with the queries we just ran. What do you notice?
-
 
 === Index all the things
 
@@ -79,10 +141,22 @@ CREATE INDEX ON :Episode(id)
 CREATE INDEX ON :Episode(title)
 ----
 
-
 Now let's import some more data to make it more of a graph and less of a key/value store.
 
 === Seasons
+
+If you explored the episodes data carefully you'll remember that we actually stored a `season` property on the episode nodes.
+
+This is fine if we only intend to use the season as meta data but if we want to write queries that start with a season it would be better off represented as a node.
+
+We can refactor the graph to introduce season as a first class citizen with the following query:
+
+[source, cypher]
+----
+MATCH (episode:Episode)
+MERGE (season:Season {number: episode.season})
+MERGE (episode)-[:IN_SEASON]->(season)
+----
 
 [source, cypher]
 ----
@@ -110,7 +184,7 @@ Connecting the episodes together
 
 What sort of queries can we do with a linked list of episodes?
 
-Topics graph
+== Topics graph
 
 I ran the transcript for each of the episodes through Prismatic's Topic Graph and stored the results into a CSV file. We can add this to the graph as well:
 
@@ -120,7 +194,7 @@ I ran the transcript for each of the episodes through Prismatic's Topic Graph an
 ----
 
 
-Building the query for an episode's page
+== Building the query for an episode's page
 
 * Episode title
 * Characters
