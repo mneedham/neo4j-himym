@@ -173,7 +173,7 @@ This query has three steps:
 
 * How many episodes were there in each season?
 
-Finding next/previous episodes
+=== Finding next/previous episodes
 
 Let's say we've looked up an episode and we want to get the next episode.
 How would we do that?
@@ -181,6 +181,7 @@ How would we do that?
 [source, cypher]
 ----
 MATCH (episode:Episode {id: 6})
+
 WITH episode
 MATCH (nextEpisode:Episode {id: episode.id + 1})
 RETURN episode, nextEpisode
@@ -196,15 +197,16 @@ RETURN episode
 ----
 
 Alternatively we can introduce an explicit relationship between the episodes to make this type of query easier.
-The idea is to connect every pair of adjacent nodes with a `NEXT_EPISODE` relationship
+We want to connect every pair of adjacent episode nodes with a `NEXT_EPISODE` relationship
 
 [source, query]
 ----
 MATCH (episode:Episode)
+
 WITH episode
 ORDER BY episode.id
-WITH COLLECT(episode) AS episodes
 
+WITH COLLECT(episode) AS episodes
 FOREACH(i in RANGE(0, length(episodes)-2) |
 FOREACH(n1 in [episodes[i]] | FOREACH(n2 in [episodes[i+1]] |
     MERGE (n1)-[:NEXT_EPISODE]->(n2))))
@@ -214,24 +216,44 @@ First we get all the episodes sorted in `id` order and collect them into an (ord
 We use the outer `FOREACH` function to iterate over all the events and ideally we'd just connect `episodes[i]` and `episodes[i+1]` directly.
 Unfortunately this isn't valid Cypher so instead we create two arrays of length 1 and `FOREACH` over those and execute the `MERGE` command.
 
+Now let's rewrite our earlier query which found episode 6 and the next episode:
+
+[source, cypher]
+----
+MATCH (episode:Episode {id: 6})-[:NEXT_EPISODE]->(nextEpisode)
+RETURN episode, nextEpisode
+----
+
+Not bad.
+If we want to get the next 5 episodes we'd write the following query:
+
+[source, cypher]
+----
+MATCH (episode:Episode {id: 6})-[:NEXT_EPISODE*1..5]->(nextEpisode)
+RETURN episode, nextEpisode
+----
+
+[table]
+
+There's a bit of duplication here in that episode 6 is repeated on every line.
+We can fix that with a slight tweak of the query:
+
+[source, cypher]
+----
+MATCH (:Episode {id: 6})-[:NEXT_EPISODE*0..5]->(episode)
+RETURN episode
+----
+
+[table]
+
 ==== Exercises
 
 * Create a linked list of the seasons
 
-
 === References
 
 The wiki also contains information about the references that episodes make to each other.
-Let's explore that data set:
-
-[source, cypher]
-----
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/references.csv" AS row
-RETURN row
-LIMIT 1
-----
-
-We'll load this into the graph in 3 steps:
+Let's load this into the graph:
 
 [source, cypher]
 ----
@@ -255,6 +277,15 @@ MATCH (referencing:Episode {id: TOINT(row.ReferencingEpisodeId)})
 MERGE (referencing)-[:REFERENCES]->(reference)
 ----
 
+Let's have a quick check that we've got that imported correctly:
+
+[source, cypher]
+----
+MATCH (episode:Episode)<-[:HAPPENED_IN]-(reference)<-[:REFERENCES]-(otherEpisode)
+RETURN episode, reference, otherEpisode
+LIMIT 10
+----
+
 ==== Exercises
 
 * Which episode is referenced most often?
@@ -265,7 +296,8 @@ MERGE (referencing)-[:REFERENCES]->(reference)
 
 == Topics graph
 
-I ran the transcript for each of the episodes through Prismatic's Topic Graph and stored the results into a CSV file. We can add this to the graph as well:
+I ran the transcript for each of the episodes through Prismatic's Topic Graph and stored the results into a CSV file.
+We can add this to the graph as well:
 
 [source, cypher]
 ----
@@ -275,7 +307,6 @@ I ran the transcript for each of the episodes through Prismatic's Topic Graph an
 Can we do some sort of episode similarity here?
 Jaccard similarity?
 Cosine similarity?
-
 
 == Building the query for an episode's page
 
@@ -289,5 +320,3 @@ These are the bits of data we want to return:
 * Next & previous episodes
 
 Multi query vs All in one
-
-WITH & COLLECT
