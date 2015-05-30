@@ -188,4 +188,4 @@ WITH p, numberOfDocumentsWithTerm,  log10(numberOfDocuments/ numberOfDocumentsWi
 WITH p, CASE WHEN numberOfDocumentsWithTerm > 104 THEN numberOfDocumentsWithTerm - 104 ELSE 104 - numberOfDocumentsWithTerm END AS documentScore, numberOfDocumentsWithTerm, numberOfDocuments, termFrequency, inverseDocumentFrequency
 RETURN p.value, termFrequency, numberOfDocumentsWithTerm, inverseDocumentFrequency, termFrequency * inverseDocumentFrequency AS score, 104 - documentScore AS score2, documentScore
 ORDER BY score2 DESC
-LIMIT 20 
+LIMIT 20
