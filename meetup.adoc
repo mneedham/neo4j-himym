@@ -158,31 +158,56 @@ MERGE (season:Season {number: episode.season})
 MERGE (episode)-[:IN_SEASON]->(season)
 ----
 
-[source, cypher]
-----
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/episodes_full.csv" AS row
-MERGE (season:Season {number: row.Season})
-----
+This query has three steps:
 
-=== Seasons -> Episodes
+* Look up all the episodes
+* Create `season` nodes using the `MERGE` command so we don't get duplicates
+* Create a relationship from the episode to its season
 
-[source, cypher]
-----
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/episodes_full.csv" AS row
-MATCH (season:Season {number: row.Season})
-MATCH (episode:Episode {id: TOINT(row.NumberOverall)})
-MERGE (episode)-[:IN_SEASON]->(season)
-----
-
-
-=== Aggregation
+==== Exercises
 
 * How many episodes were there in each season?
 
+=== References
 
-Connecting the episodes together
+The wiki also contains information about the references that episodes make to each other.
 
-What sort of queries can we do with a linked list of episodes?
+[source, cypher]
+----
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/references.csv" AS row
+RETURN row
+LIMIT 1
+----
+
+We'll load this data in 3 steps:
+
+[source, cypher]
+----
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/references.csv" AS row
+MERGE (:Reference {text: row.ReferenceText})
+----
+
+[source, cypher]
+----
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/references.csv" AS row
+MATCH (reference:Reference {text: row.ReferenceText})
+MATCH (referenced:Episode {id: TOINT(row.ReferencedEpisodeId)})
+MERGE (referenced)<-[:HAPPENED_IN]-(reference)
+----
+
+[source, cypher]
+----
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-himym/master/data/import/references.csv" AS row
+MATCH (reference:Reference {text: row.ReferenceText})
+MATCH (referencing:Episode {id: TOINT(row.ReferencingEpisodeId)})
+MERGE (referencing)-[:REFERENCES]->(reference)
+----
+
+* Which episode is referenced most often?
+* For episode 'z' which ones should I have seen to understand all the references made?
+
+-> Connecting the episodes together
+-> What sort of queries can we do with a linked list of episodes?
 
 == Topics graph
 
@@ -192,6 +217,9 @@ I ran the transcript for each of the episodes through Prismatic's Topic Graph an
 ----
 
 ----
+
+Can we do some sort of episode similarity here?
+Jaccard similarity?
 
 
 == Building the query for an episode's page
