@@ -89,10 +89,15 @@ MATCH (:Episode)
 RETURN COUNT(*) AS numberOfEpisodes
 ----
 
+[table]
+
+The `COUNT` function does an implicit group by using any non aggregate fields as its key.
+In this case there are no other fields so it just counts all the rows returned by the `MATCH` clause.
+
 === Finding specific episodes
 
 By now you should have all the episodes loaded so let's try and find some individual episodes.
-We'll start by finding an episode by it's `id` which in this case is its overall position in the series:
+We'll start by finding an episode by its `id` which in this case is its overall position in the series:
 
 [source, cypher]
 ----
@@ -117,7 +122,7 @@ RETURN episode
 * Only return the `title` and `dateAired` properties rather than all the properties
 * Which episode had the highest viewership?
 
-=== What's the query doing under the covers?
+=== What's happening under the covers?
 
 We have two ways of exploring what Neo4j is doing when we execute a query.
 
@@ -168,9 +173,56 @@ This query has three steps:
 
 * How many episodes were there in each season?
 
+Finding next/previous episodes
+
+Let's say we've looked up an episode and we want to get the next episode.
+How would we do that?
+
+[source, cypher]
+----
+MATCH (episode:Episode {id: 6})
+WITH episode
+MATCH (nextEpisode:Episode {id: episode.id + 1})
+RETURN episode, nextEpisode
+----
+
+or we can feed in the episode numbers from outside
+
+[source, cypher]
+----
+MATCH (episode:Episode)
+WHERE episode.id IN [6,7]
+RETURN episode
+----
+
+Alternatively we can introduce an explicit relationship between the episodes to make this type of query easier.
+The idea is to connect every pair of adjacent nodes with a `NEXT_EPISODE` relationship
+
+[source, query]
+----
+MATCH (episode:Episode)
+WITH episode
+ORDER BY episode.id
+WITH COLLECT(episode) AS episodes
+
+FOREACH(i in RANGE(0, length(episodes)-2) |
+FOREACH(n1 in [episodes[i]] | FOREACH(n2 in [episodes[i+1]] |
+    MERGE (n1)-[:NEXT_EPISODE]->(n2))))
+----
+
+First we get all the episodes sorted in `id` order and collect them into an (ordered) array using the `COLLECT` function.
+We use the outer `FOREACH` function to iterate over all the events and ideally we'd just connect `episodes[i]` and `episodes[i+1]` directly.
+Unfortunately this isn't valid Cypher so instead we create two arrays of length 1 and `FOREACH` over those and execute the `MERGE` command.
+
+==== Exercises
+
+* Create a linked list of the seasons
+
+
 === References
 
 The wiki also contains information about the references that episodes make to each other.
+Let's explore that data set:
 
 [source, cypher]
 ----
@@ -179,7 +231,7 @@ RETURN row
 LIMIT 1
 ----
 
-We'll load this data in 3 steps:
+We'll load this into the graph in 3 steps:
 
 [source, cypher]
 ----
@@ -203,6 +255,8 @@ MATCH (referencing:Episode {id: TOINT(row.ReferencingEpisodeId)})
 MERGE (referencing)-[:REFERENCES]->(reference)
 ----
 
+==== Exercises
+
 * Which episode is referenced most often?
 * For episode 'z' which ones should I have seen to understand all the references made?
 
@@ -220,13 +274,19 @@ I ran the transcript for each of the episodes through Prismatic's Topic Graph an
 
 Can we do some sort of episode similarity here?
 Jaccard similarity?
+Cosine similarity?
 
 
 == Building the query for an episode's page
 
+Now we'll put together everything we've learned and build a query for an episode's profile page.
+These are the bits of data we want to return:
+
 * Episode title
 * Characters
 * Writers
+* Similar episodes
+* Next & previous episodes
 
 Multi query vs All in one
 
