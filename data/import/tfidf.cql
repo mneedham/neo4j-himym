@@ -1,6 +1,6 @@
 // words
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/words.csv" AS row
-MERGE (word:Word {value: row.Word})
+MERGE (word:Word {value: row.Word});
 
 // words to episodes
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/words.csv" AS row
