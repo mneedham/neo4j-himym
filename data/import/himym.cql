@@ -1,13 +1,13 @@
 // episodes
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/episodes_full.csv" AS row
-MERGE (episode:Episode {id: TOINT(row.NumberOverall)})
+MERGE (episode:Episode {id: toInteger(row.NumberOverall)})
 SET episode.title = row.Title,
     episode.viewers = toFloat(row.Viewers),
     episode.dateAired = row.DateAired,
-    episode.timestamp = TOINT(row.Timestamp),
-    episode.number = TOINT(row.NumberInSeason),
-    episode.season = TOINT(row.Season),
-    episode.ranking = TOINT(row.Rating);
+    episode.timestamp = toInteger(row.Timestamp),
+    episode.number = toInteger(row.NumberInSeason),
+    episode.season = toInteger(row.Season),
+    episode.ranking = toInteger(row.Rating);
 
 // directors
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/episodes_full.csv" AS row
@@ -27,12 +27,12 @@ MERGE (season:Season {number: row.Season});
 // directors -> episodes
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/episodes_full.csv" AS row
 MATCH (person:Person {name: row.Director})
-MATCH (episode:Episode {id: TOINT(row.NumberOverall)})
+MATCH (episode:Episode {id: toInteger(row.NumberOverall)})
 MERGE (person)-[:DIRECTED_EPISODE]->(episode);
 
 // writers -> episodes
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/episodes_full.csv" AS row
-MATCH (episode:Episode {id: TOINT(row.NumberOverall)})
+MATCH (episode:Episode {id: toInteger(row.NumberOverall)})
 WITH split(row.Writers, ",") AS writers, episode
 UNWIND writers AS writer
 MATCH (person:Person {name: writer})
@@ -41,7 +41,7 @@ MERGE (person)-[:WROTE_EPISODE]->(episode);
 // seasons -> episodes
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/episodes_full.csv" AS row
 MATCH (season:Season {number: row.Season})
-MATCH (episode:Episode {id: TOINT(row.NumberOverall)})
+MATCH (episode:Episode {id: toInteger(row.NumberOverall)})
 MERGE (episode)-[:IN_SEASON]->(season);
 
 // link episodes
@@ -80,18 +80,18 @@ MERGE (person)-[:PLAYS_CHARACTER]->(character);
 
 // character -> episode
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/characters.csv" AS row
-MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
+MATCH (episode:Episode {id: toInteger(row.EpisodeId)})
 MATCH (character:Character {name: row.Character})
 MERGE (character)-[:APPEARED_IN_EPISODE]->(episode);
 
 
 // topics
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/topics.csv" AS row
-MERGE (topic:Topic {id: TOINT(row.TopicId)})
+MERGE (topic:Topic {id: toInteger(row.TopicId)})
 ON CREATE SET topic.value = row.Topic;
 
 // topic - episode
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/topics.csv" AS row
-MATCH (topic:Topic {id: TOINT(row.TopicId)})
-MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
+MATCH (topic:Topic {id: toInteger(row.TopicId)})
+MATCH (episode:Episode {id: toInteger(row.EpisodeId)})
 MERGE (episode)-[:TOPIC {score: TOFLOAT(row.Score)}]->(topic);
