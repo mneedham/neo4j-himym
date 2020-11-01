@@ -7,5 +7,5 @@ MERGE (phrase:Phrase {value: row.Phrase});
 USING PERIODIC COMMIT 1000
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-himym/data/import/words_scikit.csv" AS row
 MATCH (phrase:Phrase {value: row.Phrase})
-MATCH (episode:Episode {id: TOINT(row.EpisodeId)})
-MERGE (episode)-[:CONTAINED_PHRASE {times:TOINT(row.Count)}]->(phrase);
+MATCH (episode:Episode {id: toInteger(row.EpisodeId)})
+MERGE (episode)-[:CONTAINED_PHRASE {times:toInteger(row.Count)}]->(phrase);
